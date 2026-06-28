@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Managing 21-Day Interval Mosquito Programs | SprayBossPro',
+  title: 'Managing 21-Day Interval Mosquito Programs | LandscapeBossPro',
   description: 'How automatic interval scheduling eliminates the rebooking burden for 21-day mosquito spray programs — and what happens to the waiting list at each treatment completion.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>How to Manage 21-Day Interval Mosquito Programs Without Manually Rebooking Every Visit</h1>
 
         <p>The 21-day interval is the operational backbone of the mosquito spray model. Every 21 days — from the completion date of the last treatment, not from the start of the program — each customer is due again. For a company with 200 customers running 6 treatments per season, the interval cycle generates 1,200 treatment events that each need to be scheduled, dispatched, completed, and rescheduled for the next cycle. In a system without automatic interval scheduling, each completion creates an immediate task: open the calendar, find the 21-day window, create the next appointment. Multiply that by every completion across a full season and manual rebooking becomes its own part-time job. <a href="/mosquito-spray-software">Mosquito spray software</a> replaces the rebooking workflow with automatic interval calculation — each completion creates the next due date with no action required.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Treatment complete. Next due date calculated. Account back in the waiting list 21 days later. No rebooking. No calendar entry. Zero action required.</h3>
-          <p>SprayBossPro auto-advances the next treatment date from each completion — so the 21-day cycle runs itself across your entire customer base without manual rebooking.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro auto-advances the next treatment date from each completion — so the 21-day cycle runs itself across your entire customer base without manual rebooking.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

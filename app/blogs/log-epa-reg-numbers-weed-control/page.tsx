@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Log EPA Reg Numbers for Weed Control Products | SprayBossPro',
+  title: 'Log EPA Reg Numbers for Weed Control Products | LandscapeBossPro',
   description: 'The in-field logging workflow for capturing EPA registration numbers, application rates, and conditions on every weed control application.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Compliance &amp; Field Logging</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Compliance &amp; Field Logging</p>
         <h1>How to Log EPA Reg Numbers for Weed Control Products in the Field</h1>
 
         <p>EPA registration numbers are required in every pesticide application record for licensed weed control operators. The EPA reg number identifies the specific registered pesticide product — it&apos;s the link between your compliance record and the federal registration that authorizes you to apply that product. Getting this data into your compliance log accurately, at the time of application, at every property, without relying on a technician&apos;s memory or manual entry, is the core challenge of compliant field logging.</p>
@@ -45,8 +45,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>EPA reg numbers in every compliance record — without technicians memorizing or typing them.</h3>
-          <p>SprayBossPro&apos;s product library pre-fills EPA reg numbers, application rates, and re-entry intervals when a technician selects a product in the field — eliminating manual entry and the errors that come with it.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s product library pre-fills EPA reg numbers, application rates, and re-entry intervals when a technician selects a product in the field — eliminating manual entry and the errors that come with it.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

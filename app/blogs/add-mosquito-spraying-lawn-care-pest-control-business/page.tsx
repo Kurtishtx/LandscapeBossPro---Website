@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Add Mosquito Spraying to Your Existing Business | SprayBossPro',
+  title: 'Add Mosquito Spraying to Your Existing Business | LandscapeBossPro',
   description: 'How lawn care and pest control companies can add mosquito barrier spray as a recurring revenue service — without a separate scheduling system or communication workflow.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>How to Add Mosquito Spraying to an Existing Lawn Care or Pest Control Business</h1>
 
         <p>Mosquito barrier spray is one of the most natural service additions for an existing lawn care or pest control company. The customer base is already established, the properties are already measured, the technicians are already on-site, and the recurring visit model is already built into the business. Adding mosquito spray means adding a new service type to existing properties — with its own measurement unit (sq ft or linear ft of vegetation edge), its own treatment interval (typically 21 days), its own product, and its own automated customer communication sequence. <a href="/mosquito-spray-software">Mosquito spray software</a> handles the new service as an additional service type within the same platform, so adding mosquito spray to an existing operation doesn&apos;t require a separate scheduling system.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Add mosquito spray as a new service type on existing properties — same platform, same waiting list, no separate system.</h3>
-          <p>SprayBossPro supports mosquito control sq ft, mosquito control linear ft, lawn care, pest control, and more on the same property — so adding mosquito spray to an existing book is a service type addition, not a software overhaul.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro supports mosquito control sq ft, mosquito control linear ft, lawn care, pest control, and more on the same property — so adding mosquito spray to an existing book is a service type addition, not a software overhaul.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

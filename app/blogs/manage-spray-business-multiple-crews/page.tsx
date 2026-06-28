@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Manage a Spray Business Across Multiple Crews | SprayBossPro',
+  title: 'Manage a Spray Business Across Multiple Crews | LandscapeBossPro',
   description: 'How to split waiting lists by crew, build non-overlapping routes, and dispatch multiple teams simultaneously from one platform.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Multi-Crew Operations</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Multi-Crew Operations</p>
         <h1>How to Manage a Spray Business Across Multiple Crews and Service Areas</h1>
 
         <p>A spray business with two trucks is fundamentally different to operate than a spray business with one. Every coordination function — dispatch, progress tracking, route management, customer communication — now needs to run in parallel for two independent crews without the dispatcher losing track of either. A spray business with four or five trucks has that coordination complexity multiplied by four or five. The systems that handle multi-crew spray operations well aren&apos;t complicated — they&apos;re just different from the single-crew workflow, and they need to be built into the platform from the start rather than bolted on as the crew count grows.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Multiple circles. Multiple crews. Both routes dispatched in under 30 minutes from one map view.</h3>
-          <p>SprayBossPro handles multi-crew spray dispatch, real-time progress tracking for all trucks, and compliance log visibility across all field technicians — from the same platform the dispatcher uses for single-crew routes.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro handles multi-crew spray dispatch, real-time progress tracking for all trucks, and compliance log visibility across all field technicians — from the same platform the dispatcher uses for single-crew routes.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

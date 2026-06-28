@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Build a Weekly Lawn Care Schedule That Works | SprayBossPro',
+  title: 'Build a Weekly Lawn Care Schedule That Works | LandscapeBossPro',
   description: 'A step-by-step look at how a well-structured weekly schedule keeps crews productive and customers on program all season.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Scheduling &amp; Operations</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Scheduling &amp; Operations</p>
         <h1>How to Build a Weekly Lawn Care Schedule That Actually Works</h1>
 
         <p>A weekly lawn care schedule that works is not just a list of who gets treated this week. It&apos;s a structured plan that matches your crew capacity to the volume of pending work, keeps customers on program, accounts for weather windows, and doesn&apos;t require the owner or dispatcher to rebuild everything from scratch every Monday morning.</p>
@@ -44,8 +44,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Build your whole week&apos;s schedule in under an hour Monday morning.</h3>
-          <p>SprayBossPro gives you a live waiting list, map-based route building, and automatic drive order optimization to turn weekly scheduling into a 45-minute process instead of an all-day headache.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro gives you a live waiting list, map-based route building, and automatic drive order optimization to turn weekly scheduling into a 45-minute process instead of an all-day headache.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

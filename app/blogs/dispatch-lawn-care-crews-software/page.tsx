@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Dispatch Lawn Care Crews With Software | SprayBossPro',
+  title: 'Dispatch Lawn Care Crews With Software | LandscapeBossPro',
   description: 'How digital dispatch in lawn care software sends routes, property notes, and field log forms to technicians without a single phone call from the office.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>How to Dispatch Lawn Care Crews With Software Instead of Phone Calls</h1>
 
         <p>The morning dispatch call — or the group text with the day&apos;s route — is one of the most reliable sources of office-to-field friction in a lawn care operation. The message goes out, the technician has questions, the dispatcher answers, the technician has more questions, the dispatcher answers those, the technician misses a gate code note and calls from the property, the dispatcher handles the call while trying to build the next crew&apos;s route. Multiply this by three crews and the first 90 minutes of every morning is coordination overhead that does nothing to service a single lawn. Digital dispatch eliminates this friction not by improving the phone call but by replacing it entirely.</p>
@@ -39,8 +39,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Route. Property notes. Field log. All sent from one dispatch action — no phone calls, no group texts, no missed gate codes.</h3>
-          <p>SprayBossPro sends complete routes to field technicians with all property details, product information, and field log forms dispatched from a single office action — so three crews can leave the parking lot without a single coordination call.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro sends complete routes to field technicians with all property details, product information, and field log forms dispatched from a single office action — so three crews can leave the parking lot without a single coordination call.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

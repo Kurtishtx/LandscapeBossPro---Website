@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Pull a Pest Control Compliance Report in Seconds | SprayBossPro',
+  title: 'Pull a Pest Control Compliance Report in Seconds | LandscapeBossPro',
   description: 'How pest control software generates a print-ready chemical application compliance report for any property, product, date range, or technician in seconds when a state inspector arrives.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>How to Pull a Pest Control Compliance Report for a State Inspection in Under 30 Seconds</h1>
 
         <p>State pesticide inspectors can arrive unannounced. The request is always some version of: &quot;I need to see your application records for the last 12 months.&quot; What happens next depends entirely on how those records are stored. In a paper-based operation, the response is 45 minutes of searching through binders, folders, or filing cabinets for records that may or may not all be in the same location. In a spreadsheet operation, the response is exporting and filtering a sheet that may or may not have complete data. In purpose-built <a href="/pest-control-software">pest control software</a>, the response is: open the chemical tracking report, enter the date range, click Generate, and print. The entire process takes under 30 seconds.</p>
@@ -43,8 +43,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Inspector at the door. Date range entered. Report generated. Printed. Under 30 seconds.</h3>
-          <p>SprayBossPro&apos;s chemical compliance report filters by date, product, property, or technician — and produces a print-ready structured report in seconds for any state inspection request.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s chemical compliance report filters by date, product, property, or technician — and produces a print-ready structured report in seconds for any state inspection request.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Pricing | SprayBossPro',
+  title: 'Pricing | LandscapeBossPro',
   description: '$129/month for everything. No per-user fees, no add-ons, no setup costs. Full access to every feature including routes, SMS alerts, and compliance logs.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Know Your Route Revenue Before You Leave the Lot | SprayBossPro',
+  title: 'Know Your Route Revenue Before You Leave the Lot | LandscapeBossPro',
   description: 'How lawn care software makes route revenue visible before dispatch so the team can plan production targets, adjust for short days, and catch low-revenue routes before trucks leave.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>How to Know Your Route Revenue Before You Leave the Parking Lot</h1>
 
         <p>One of the most consistent operational improvements that lawn care business owners report after switching to purpose-built software is this: they know exactly how much revenue each day&apos;s routes will generate before a single truck leaves the parking lot. This seems obvious in retrospect — the information is all there, in the service amounts and the waiting list totals — but it&apos;s something most manual operations never achieve. In a spreadsheet-based system, you know the schedule. You don&apos;t know what it&apos;s worth until you invoice it at the end of the day or the end of the week. Software closes that gap every morning.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>$4,200 in due accounts. Single crew or two? You decide before 7:30 AM with actual numbers.</h3>
-          <p>SprayBossPro shows total waiting list revenue, selected-route revenue, and per-service-type breakdowns before dispatch — so every daily production decision is made from data, not from a headcount of stops.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro shows total waiting list revenue, selected-route revenue, and per-service-type breakdowns before dispatch — so every daily production decision is made from data, not from a headcount of stops.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

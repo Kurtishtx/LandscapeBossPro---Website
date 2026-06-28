@@ -5,14 +5,14 @@ export default function Footer() {
         <div className="site-footer-top">
           <a href="/" className="site-footer-brand">
             <span>🌿</span>
-            <span>SprayBossPro</span>
+            <span>LandscapeBossPro</span>
           </a>
           <div className="site-footer-cols">
             <div className="site-footer-col">
               <h4>Product</h4>
               <a href="/features">Features</a>
               <a href="/pricing">Pricing</a>
-              <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer">Log In</a>
+              <a href="https://my.landscapebosspro.com" target="_blank" rel="noreferrer">Log In</a>
             </div>
             <div className="site-footer-col">
               <h4>Solutions</h4>
@@ -51,7 +51,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="site-footer-bottom">
-          © {new Date().getFullYear()} SprayBossPro. All rights reserved.
+          © {new Date().getFullYear()} LandscapeBossPro. All rights reserved.
         </div>
       </div>
     </footer>

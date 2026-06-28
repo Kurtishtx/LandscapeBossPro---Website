@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Card-on-File Payments for Recurring Spray Programs | SprayBossPro',
+  title: 'Card-on-File Payments for Recurring Spray Programs | LandscapeBossPro',
   description: 'How automatic card-on-file charging after each completed visit eliminates invoicing, collections, and end-of-month billing cycles.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Payments</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Payments</p>
         <h1>How to Collect Card-on-File Payments for Recurring Spray Programs</h1>
 
         <p>Invoicing recurring spray customers at the end of the month, waiting for checks, following up on unpaid invoices, and processing late payments is a billing workflow that consumes 2 to 4 hours per month in a business with 200 accounts — and grows proportionally as the account base grows. Card-on-file charging after each completed visit eliminates this entire cycle. The card is charged when the service is complete and confirmed. The customer receives a receipt. The business receives payment that day. There is no invoice to send, no check to deposit, and no collections process for late-paying customers because there is no billing cycle to be late on.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Card charged on service completion. Receipt sent automatically. No invoicing cycle. No accounts receivable.</h3>
-          <p>SprayBossPro integrates card-on-file payment processing so spray businesses collect payment the day of each service — automatically, after every completed compliance log submission.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro integrates card-on-file payment processing so spray businesses collect payment the day of each service — automatically, after every completed compliance log submission.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

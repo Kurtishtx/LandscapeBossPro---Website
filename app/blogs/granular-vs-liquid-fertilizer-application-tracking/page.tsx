@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Granular vs Liquid Fertilizer Application Tracking | SprayBossPro',
+  title: 'Granular vs Liquid Fertilizer Application Tracking | LandscapeBossPro',
   description: "How logging differs between granular (lbs per 1,000 sq ft) and liquid (oz per gallon per 1,000 sq ft) fertilizer applications.",
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Compliance &amp; Application Logging</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Compliance &amp; Application Logging</p>
         <h1>Granular vs. Liquid Fertilizer Application Tracking: What&apos;s Different for Compliance</h1>
 
         <p>Granular and liquid fertilizer applications both require compliance records, but the specific data you need to log differs significantly between them. Companies that apply both — granular for fertilizer rounds and liquid for weed control or herbicide applications — need a logging system that handles both correctly. Here&apos;s what&apos;s different and why it matters for your compliance records.</p>
@@ -54,8 +54,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Log granular and liquid applications correctly — from the field.</h3>
-          <p>SprayBossPro&apos;s mobile compliance log adapts to granular or liquid application types and pre-fills calculations from stored sq ft data so every record is complete before the tech leaves the property.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s mobile compliance log adapts to granular or liquid application types and pre-fills calculations from stored sq ft data so every record is complete before the tech leaves the property.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

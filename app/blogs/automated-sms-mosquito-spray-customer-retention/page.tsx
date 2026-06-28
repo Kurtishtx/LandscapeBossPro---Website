@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Automated SMS Retains Mosquito Spray Customers | SprayBossPro',
+  title: 'How Automated SMS Retains Mosquito Spray Customers | LandscapeBossPro',
   description: 'How pre-service and post-service SMS automation reduces cancellations and keeps mosquito spray customers engaged throughout the season — without manual texting from the office.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>How Automated SMS Makes Mosquito Spray Customers Stay on Their Programs</h1>
 
         <p>Mosquito spray customer retention is fundamentally an expectation management problem. Customers cancel when a treatment happens without their knowledge (no heads-up), when the re-entry interval isn&apos;t communicated and the product smell triggers concern, when they feel their yard isn&apos;t getting enough attention, or when a competitor offers a discount at the start of the following season. The common thread in most non-price cancellations is communication failure — the customer felt uninformed or ignored. Automated SMS from <a href="/mosquito-spray-software">mosquito spray software</a> addresses this directly by making professional, timely communication the default behavior on every route day — not the exception that happens when office staff have time to text.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Pre-service alert on dispatch. Re-entry interval on completion. End-of-season message on final treatment. Retention-focused communication — automated.</h3>
-          <p>SprayBossPro fires pre-service and post-service SMS from dispatch and completion events automatically — so professional customer communication happens on every route day without any manual effort from the office.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro fires pre-service and post-service SMS from dispatch and completion events automatically — so professional customer communication happens on every route day without any manual effort from the office.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

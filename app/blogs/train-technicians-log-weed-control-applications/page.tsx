@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Train Technicians to Log Weed Control Applications | SprayBossPro',
+  title: 'Train Technicians to Log Weed Control Applications | LandscapeBossPro',
   description: 'The field logging workflow that captures product, EPA reg number, re-entry interval, and conditions at the door on every visit.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Team &amp; Training</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Team &amp; Training</p>
         <h1>How to Train Technicians to Log Weed Control Applications Before Leaving the Property</h1>
 
         <p>The most reliable compliance logging happens at the property before the technician gets back in the truck. Once they drive away, the details of that specific application — wind speed, exact sq ft treated, product mix adjustments, conditions — start to blur with the 8 other stops from the day. Training technicians to submit the compliance log before leaving the property isn&apos;t just a good habit. It&apos;s the only workflow that produces consistently complete and accurate weed control application records.</p>
@@ -39,8 +39,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>A field logging workflow technicians complete in 90 seconds before leaving the property.</h3>
-          <p>SprayBossPro&apos;s mobile logging form pre-fills product data, EPA reg numbers, and re-entry intervals from the product library so technicians confirm rather than enter — making at-property compliance logging fast enough to be a habit on every stop.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s mobile logging form pre-fills product data, EPA reg numbers, and re-entry intervals from the product library so technicians confirm rather than enter — making at-property compliance logging fast enough to be a habit on every stop.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

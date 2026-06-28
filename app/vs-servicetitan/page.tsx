@@ -13,7 +13,7 @@ function closeSignupModal(n: number) { document.getElementById('sbp-form-' + n)!
 function closeAllModals() { [1,2,3].forEach(i => { const el = document.getElementById('sbp-form-' + i); if (el) el.style.display = 'none'; }); const bd = document.getElementById('sbp-backdrop'); if (bd) bd.style.display = 'none'; document.body.style.overflow = ''; sbpOpenForm = 0; }
 function sbpStep2(n: number) { const err = document.getElementById('sbp' + n + '-err1')!; err.style.display = 'none'; const first = (document.getElementById('sbp' + n + '-first') as HTMLInputElement).value.trim(); const last = (document.getElementById('sbp' + n + '-last') as HTMLInputElement).value.trim(); const comp = (document.getElementById('sbp' + n + '-company') as HTMLInputElement).value.trim(); const email = (document.getElementById('sbp' + n + '-email') as HTMLInputElement).value.trim(); if (!first || !last) return sbpShowErr(err as HTMLElement, 'Please enter your first and last name.'); if (!comp) return sbpShowErr(err as HTMLElement, 'Please enter your company name.'); if (!email || !email.includes('@')) return sbpShowErr(err as HTMLElement, 'Please enter a valid email address.'); (document.getElementById('sbp' + n + '-login-email') as HTMLInputElement).value = email; document.getElementById('sbp' + n + '-step1')!.style.display = 'none'; document.getElementById('sbp' + n + '-step2')!.style.display = 'block'; (document.getElementById('sbp' + n + '-password') as HTMLInputElement).focus(); }
 function sbpBackToStep1(n: number) { document.getElementById('sbp' + n + '-step2')!.style.display = 'none'; document.getElementById('sbp' + n + '-step1')!.style.display = 'block'; document.getElementById('sbp' + n + '-err2')!.style.display = 'none'; }
-async function sbpCreateAccount(n: number) { const err = document.getElementById('sbp' + n + '-err2')!; const btn = document.getElementById('sbp' + n + '-create-btn') as HTMLButtonElement; err.style.display = 'none'; const email = (document.getElementById('sbp' + n + '-login-email') as HTMLInputElement).value.trim(); const password = (document.getElementById('sbp' + n + '-password') as HTMLInputElement).value; const confirm = (document.getElementById('sbp' + n + '-confirm') as HTMLInputElement).value; if (password.length < 8) return sbpShowErr(err as HTMLElement, 'Password must be at least 8 characters.'); if (password !== confirm) return sbpShowErr(err as HTMLElement, 'Passwords do not match.'); if (!(document.getElementById('sbp' + n + '-agree') as HTMLInputElement).checked) return sbpShowErr(err as HTMLElement, 'Please agree to the Terms of Service and Privacy Policy.'); btn.disabled = true; btn.textContent = 'Creating your account…'; try { const res = await fetch(SBP_URL + '/functions/v1/manage-users', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + SBP_ANON, 'apikey': SBP_ANON }, body: JSON.stringify({ action: 'create', email, password }) }); const result = await res.json(); if (result.error) throw new Error(result.error); const sb = getSbpClient(); const { data: signInData, error: signInErr } = await sb.auth.signInWithPassword({ email, password }); if (signInErr) throw new Error(signInErr.message); const uid = signInData.user.id; const first = (document.getElementById('sbp' + n + '-first') as HTMLInputElement).value.trim(); const last = (document.getElementById('sbp' + n + '-last') as HTMLInputElement).value.trim(); const comp = (document.getElementById('sbp' + n + '-company') as HTMLInputElement).value.trim(); await sb.auth.updateUser({ data: { full_name: first + ' ' + last } }); const trialEnd = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString(); await sb.from('user_profiles').upsert({ id: uid, email, role: 'full_access', is_primary_owner: true, tenant_id: null, trial_ends_at: trialEnd }, { onConflict: 'id' }); await sb.from('company_info').insert({ user_id: uid, company_name: comp, display_name: comp }); const reasons = ['Cancel Maintaining Self', 'Cancel Sold House', 'Cancel Too Expensive', 'Cancel Unknown', 'Dropping Customer', 'Sold House'].map(nm => ({ name: nm, active: true, user_id: uid })); await sb.from('cancellation_reasons').insert(reasons); document.getElementById('sbp' + n + '-step2')!.style.display = 'none'; document.getElementById('sbp' + n + '-success')!.style.display = 'block'; let secs = 4; const cd = document.getElementById('sbp' + n + '-countdown')!; cd.textContent = 'Redirecting in ' + secs + ' seconds…'; const iv = setInterval(() => { secs--; if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.spraybosspro.com/dashboard.html'; } else cd.textContent = 'Redirecting in ' + secs + ' second' + (secs === 1 ? '' : 's') + '…'; }, 1000); } catch (e: any) { sbpShowErr(err as HTMLElement, e.message || 'Something went wrong. Please try again.'); btn.disabled = false; btn.textContent = 'Create My Account'; } }
+async function sbpCreateAccount(n: number) { const err = document.getElementById('sbp' + n + '-err2')!; const btn = document.getElementById('sbp' + n + '-create-btn') as HTMLButtonElement; err.style.display = 'none'; const email = (document.getElementById('sbp' + n + '-login-email') as HTMLInputElement).value.trim(); const password = (document.getElementById('sbp' + n + '-password') as HTMLInputElement).value; const confirm = (document.getElementById('sbp' + n + '-confirm') as HTMLInputElement).value; if (password.length < 8) return sbpShowErr(err as HTMLElement, 'Password must be at least 8 characters.'); if (password !== confirm) return sbpShowErr(err as HTMLElement, 'Passwords do not match.'); if (!(document.getElementById('sbp' + n + '-agree') as HTMLInputElement).checked) return sbpShowErr(err as HTMLElement, 'Please agree to the Terms of Service and Privacy Policy.'); btn.disabled = true; btn.textContent = 'Creating your account…'; try { const res = await fetch(SBP_URL + '/functions/v1/manage-users', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + SBP_ANON, 'apikey': SBP_ANON }, body: JSON.stringify({ action: 'create', email, password }) }); const result = await res.json(); if (result.error) throw new Error(result.error); const sb = getSbpClient(); const { data: signInData, error: signInErr } = await sb.auth.signInWithPassword({ email, password }); if (signInErr) throw new Error(signInErr.message); const uid = signInData.user.id; const first = (document.getElementById('sbp' + n + '-first') as HTMLInputElement).value.trim(); const last = (document.getElementById('sbp' + n + '-last') as HTMLInputElement).value.trim(); const comp = (document.getElementById('sbp' + n + '-company') as HTMLInputElement).value.trim(); await sb.auth.updateUser({ data: { full_name: first + ' ' + last } }); const trialEnd = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString(); await sb.from('user_profiles').upsert({ id: uid, email, role: 'full_access', is_primary_owner: true, tenant_id: null, trial_ends_at: trialEnd }, { onConflict: 'id' }); await sb.from('company_info').insert({ user_id: uid, company_name: comp, display_name: comp }); const reasons = ['Cancel Maintaining Self', 'Cancel Sold House', 'Cancel Too Expensive', 'Cancel Unknown', 'Dropping Customer', 'Sold House'].map(nm => ({ name: nm, active: true, user_id: uid })); await sb.from('cancellation_reasons').insert(reasons); document.getElementById('sbp' + n + '-step2')!.style.display = 'none'; document.getElementById('sbp' + n + '-success')!.style.display = 'block'; let secs = 4; const cd = document.getElementById('sbp' + n + '-countdown')!; cd.textContent = 'Redirecting in ' + secs + ' seconds…'; const iv = setInterval(() => { secs--; if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.landscapebosspro.com/dashboard.html'; } else cd.textContent = 'Redirecting in ' + secs + ' second' + (secs === 1 ? '' : 's') + '…'; }, 1000); } catch (e: any) { sbpShowErr(err as HTMLElement, e.message || 'Something went wrong. Please try again.'); btn.disabled = false; btn.textContent = 'Create My Account'; } }
 function sbpShowErr(el: HTMLElement, msg: string) { el.textContent = msg; el.style.display = 'block'; }
 
 export default function VsServiceTitan() {
@@ -34,12 +34,12 @@ export default function VsServiceTitan() {
     <>
       <style>{`
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        :root { --purple-dark:#080010; --purple-mid:#0d0318; --purple-deep:#130520; --orange:#e07820; --orange-dark:#c96a10; --blue:#5bbfff; --text:#1a1a2e; --muted:#555; --light-bg:#f8f7fc; --border:#e4e0f0; }
+        :root { --purple-dark:#08140d; --purple-mid:#0a1510; --purple-deep:#0f2417; --orange:#1b6e3b; --orange-dark:#14542d; --blue:#d4a017; --text:#1a1a2e; --muted:#555; --light-bg:#f8f7fc; --border:#e4e0f0; }
         html { scroll-behavior: smooth; }
         body { font-family: 'Segoe UI', Arial, sans-serif; color: var(--text); background: #fff; line-height: 1.6; }
-        .hero { background: linear-gradient(135deg, #080010 0%, #130520 60%, #1e0a35 100%); padding: 100px 40px 80px; text-align: center; position: relative; overflow: hidden; }
-        .hero::before { content: ''; position: absolute; top: -120px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(224,120,32,.15) 0%, transparent 70%); pointer-events: none; }
-        .hero-badge { display: inline-block; background: rgba(224,120,32,.15); border: 1px solid rgba(224,120,32,.4); color: var(--orange); font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 16px; border-radius: 20px; margin-bottom: 24px; }
+        .hero { background: linear-gradient(135deg, #08140d 0%, #0f2417 60%, #15321f 100%); padding: 100px 40px 80px; text-align: center; position: relative; overflow: hidden; }
+        .hero::before { content: ''; position: absolute; top: -120px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(27,110,59,.15) 0%, transparent 70%); pointer-events: none; }
+        .hero-badge { display: inline-block; background: rgba(27,110,59,.15); border: 1px solid rgba(27,110,59,.4); color: var(--orange); font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 16px; border-radius: 20px; margin-bottom: 24px; }
         .hero h1 { color: #fff; font-size: clamp(32px, 5vw, 56px); font-weight: 800; line-height: 1.15; max-width: 860px; margin: 0 auto 20px; }
         .hero h1 span { color: var(--orange); }
         .hero p { color: rgba(255,255,255,.75); font-size: clamp(16px, 2vw, 19px); max-width: 660px; margin: 0 auto 40px; }
@@ -58,20 +58,20 @@ export default function VsServiceTitan() {
         .compare-wrap { max-width: 900px; margin: 0 auto; overflow-x: auto; }
         .compare-table { width: 100%; border-collapse: collapse; }
         .compare-table th { padding: 16px 20px; text-align: left; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; background: var(--light-bg); border-bottom: 2px solid var(--border); }
-        .compare-table th.sbp-col { background: rgba(224,120,32,.08); color: var(--orange); }
+        .compare-table th.sbp-col { background: rgba(27,110,59,.08); color: var(--orange); }
         .compare-table td { padding: 13px 20px; font-size: 14px; border-bottom: 1px solid var(--border); color: var(--text); vertical-align: middle; }
-        .compare-table td.sbp-col { background: rgba(224,120,32,.04); }
+        .compare-table td.sbp-col { background: rgba(27,110,59,.04); }
         .compare-table tr:last-child td { border-bottom: none; }
         .feature-name { font-weight: 600; }
         .chk { color: #16a34a; font-size: 17px; font-weight: 700; }
         .crs { color: #dc2626; font-size: 17px; font-weight: 700; }
-        .prt { color: #d97706; font-size: 13px; font-weight: 600; }
+        .prt { color: #18682c; font-size: 13px; font-weight: 600; }
         .highlight-row { display: flex; align-items: center; gap: 60px; max-width: 1100px; margin: 0 auto; flex-wrap: wrap; }
         .highlight-row.reverse { flex-direction: row-reverse; }
         .highlight-text { flex: 1; min-width: 280px; }
         .highlight-text h2 { font-size: clamp(24px, 3vw, 36px); font-weight: 800; line-height: 1.2; margin-bottom: 16px; }
         .highlight-text p { font-size: 16px; color: var(--muted); margin-bottom: 20px; }
-        .highlight-visual { flex: 1; min-width: 280px; background: linear-gradient(135deg, var(--purple-deep) 0%, #1e0a35 100%); border-radius: 14px; padding: 36px 32px; border: 2px solid rgba(224,120,32,.3); }
+        .highlight-visual { flex: 1; min-width: 280px; background: linear-gradient(135deg, var(--purple-deep) 0%, #15321f 100%); border-radius: 14px; padding: 36px 32px; border: 2px solid rgba(27,110,59,.3); }
         .check-list { list-style: none; margin-top: 16px; }
         .check-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 15px; color: var(--muted); margin-bottom: 12px; }
         .check-list li::before { content: '✓'; background: var(--orange); color: #fff; border-radius: 50%; width: 20px; height: 20px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; margin-top: 2px; }
@@ -83,8 +83,8 @@ export default function VsServiceTitan() {
         .mock-sub { color: rgba(255,255,255,.45); font-size: 11px; margin-top: 1px; }
         .mock-badge { margin-left: auto; background: var(--orange); color: #fff; font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 10px; flex-shrink: 0; }
         .mock-badge.red-badge { background: #dc2626; }
-        .premium-band { background: linear-gradient(135deg, var(--purple-dark) 0%, #1a0530 100%); padding: 90px 40px; text-align: center; position: relative; overflow: hidden; }
-        .premium-band::before { content: ''; position: absolute; top: -80px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(224,120,32,.1) 0%, transparent 65%); pointer-events: none; }
+        .premium-band { background: linear-gradient(135deg, var(--purple-dark) 0%, #11281a 100%); padding: 90px 40px; text-align: center; position: relative; overflow: hidden; }
+        .premium-band::before { content: ''; position: absolute; top: -80px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(27,110,59,.1) 0%, transparent 65%); pointer-events: none; }
         .premium-band h2 { color: #fff; font-size: clamp(26px, 4vw, 44px); font-weight: 800; line-height: 1.2; max-width: 860px; margin: 0 auto 18px; }
         .premium-band h2 span { color: var(--orange); }
         .premium-band > p { color: rgba(255,255,255,.65); font-size: 17px; max-width: 700px; margin: 0 auto 52px; line-height: 1.8; }
@@ -99,7 +99,7 @@ export default function VsServiceTitan() {
         .lasso-ring { position: absolute; top: 14px; left: 18px; right: 18px; bottom: 14px; border: 2.5px dashed var(--orange); border-radius: 50%; opacity: .7; }
         .lasso-pins { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; position: relative; z-index: 1; }
         .lpin { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; }
-        .lpin.s { background: var(--orange); box-shadow: 0 0 0 3px rgba(224,120,32,.3); }
+        .lpin.s { background: var(--orange); box-shadow: 0 0 0 3px rgba(27,110,59,.3); }
         .lpin.u { background: rgba(255,255,255,.2); }
         .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
         .stat-cell { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.1); border-radius: 8px; padding: 12px 14px; }
@@ -109,7 +109,7 @@ export default function VsServiceTitan() {
         .stat-cell.full .stat-val { color: #fff; font-size: 13px; font-weight: 600; }
         .simple-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; max-width: 1100px; margin: 0 auto; }
         .simple-card { background: #fff; border: 1.5px solid var(--border); border-radius: 12px; padding: 30px 26px; transition: border-color .2s, box-shadow .2s, transform .15s; }
-        .simple-card:hover { border-color: var(--orange); box-shadow: 0 6px 24px rgba(224,120,32,.1); transform: translateY(-2px); }
+        .simple-card:hover { border-color: var(--orange); box-shadow: 0 6px 24px rgba(27,110,59,.1); transform: translateY(-2px); }
         .simple-num { font-size: 40px; font-weight: 800; color: var(--orange); opacity: .25; line-height: 1; margin-bottom: 12px; }
         .simple-card h3 { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
         .simple-card p { color: var(--muted); font-size: 14px; line-height: 1.6; }
@@ -127,8 +127,8 @@ export default function VsServiceTitan() {
         .price-btn { display: block; text-align: center; padding: 13px; border-radius: 6px; font-weight: 700; font-size: 15px; text-decoration: none; transition: background .2s; cursor: pointer; border: none; }
         .price-btn-primary { background: var(--orange); color: #fff !important; }
         .price-btn-primary:hover { background: var(--orange-dark); }
-        .cta-band { background: linear-gradient(135deg, var(--purple-dark) 0%, #1e0a35 100%); text-align: center; padding: 100px 40px; position: relative; overflow: hidden; }
-        .cta-band::before { content: ''; position: absolute; bottom: -100px; left: 50%; transform: translateX(-50%); width: 600px; height: 600px; border-radius: 50%; background: radial-gradient(circle, rgba(224,120,32,.12) 0%, transparent 70%); pointer-events: none; }
+        .cta-band { background: linear-gradient(135deg, var(--purple-dark) 0%, #15321f 100%); text-align: center; padding: 100px 40px; position: relative; overflow: hidden; }
+        .cta-band::before { content: ''; position: absolute; bottom: -100px; left: 50%; transform: translateX(-50%); width: 600px; height: 600px; border-radius: 50%; background: radial-gradient(circle, rgba(27,110,59,.12) 0%, transparent 70%); pointer-events: none; }
         .cta-band h2 { color: #fff; font-size: clamp(28px, 4vw, 46px); font-weight: 800; margin-bottom: 16px; }
         .cta-band p { color: rgba(255,255,255,.7); font-size: 18px; margin-bottom: 40px; max-width: 560px; margin-left: auto; margin-right: auto; }
         @media (max-width: 700px) { section { padding: 60px 20px; } .hero { padding: 70px 20px 60px; } .hero-stats { gap: 30px; } .highlight-row, .highlight-row.reverse { flex-direction: column; } }
@@ -138,7 +138,7 @@ export default function VsServiceTitan() {
 
       <div className="hero">
         <div className="hero-badge">ServiceTitan Alternative</div>
-        <h1>ServiceTitan Is Built for HVAC and Plumbing.<br /><span>SprayBossPro Is Built for Lawn Care.</span></h1>
+        <h1>ServiceTitan Is Built for HVAC and Plumbing.<br /><span>LandscapeBossPro Is Built for Lawn Care.</span></h1>
         <p>ServiceTitan is an enterprise platform designed for large HVAC, plumbing, and electrical companies. It&apos;s powerful — and it&apos;s priced and scoped for that world. If you run a lawn care or pest control operation, you don&apos;t need ServiceTitan. You need software that was built around the way spray businesses actually work.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
@@ -154,15 +154,15 @@ export default function VsServiceTitan() {
       <section>
         <div className="centered" style={{maxWidth:'900px', margin:'0 auto'}}>
           <span className="section-label">Side by Side</span>
-          <h2 className="section-title">SprayBossPro vs ServiceTitan</h2>
-          <p className="section-sub">ServiceTitan is built for enterprise HVAC. SprayBossPro is built for lawn care and pest control.</p>
+          <h2 className="section-title">LandscapeBossPro vs ServiceTitan</h2>
+          <p className="section-sub">ServiceTitan is built for enterprise HVAC. LandscapeBossPro is built for lawn care and pest control.</p>
         </div>
         <div className="compare-wrap">
           <table className="compare-table">
             <thead>
               <tr>
                 <th style={{width:'50%'}}>Feature</th>
-                <th className="sbp-col" style={{width:'25%'}}>SprayBossPro</th>
+                <th className="sbp-col" style={{width:'25%'}}>LandscapeBossPro</th>
                 <th style={{width:'25%'}}>ServiceTitan</th>
               </tr>
             </thead>
@@ -188,12 +188,12 @@ export default function VsServiceTitan() {
       </section>
 
       <div className="premium-band">
-        <h2>ServiceTitan Was Built for $5M+ HVAC Companies.<br /><span>SprayBossPro Was Built for Spray Routes.</span></h2>
-        <p>ServiceTitan is one of the most powerful field service platforms in the world. It&apos;s also one of the most expensive, most complex, and most overkill tools you could choose for a lawn care or pest control business. You&apos;d spend 90 days implementing it, pay $300–$500+/month, and still be missing features built specifically for spray businesses. SprayBossPro is $129, set up in an afternoon, and built around how your routes actually work.</p>
+        <h2>ServiceTitan Was Built for $5M+ HVAC Companies.<br /><span>LandscapeBossPro Was Built for Spray Routes.</span></h2>
+        <p>ServiceTitan is one of the most powerful field service platforms in the world. It&apos;s also one of the most expensive, most complex, and most overkill tools you could choose for a lawn care or pest control business. You&apos;d spend 90 days implementing it, pay $300–$500+/month, and still be missing features built specifically for spray businesses. LandscapeBossPro is $129, set up in an afternoon, and built around how your routes actually work.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Spray-Specific Features</h4><p>Sq ft waiting lists, chemical compliance logs, lasso route selector, recurring treatment tracking — features built around how lawn care and pest control actually runs. ServiceTitan doesn&apos;t have any of these.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">⚡</div><h4>Up in a Day, Not 90</h4><p>ServiceTitan implementations take months. You&apos;ll need an onboarding team, configuration calls, and a lot of patience. SprayBossPro is designed for owners who want to be operational today — not next quarter.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💰</div><h4>$129 vs $300–500+</h4><p>ServiceTitan pricing is custom, but independent estimates consistently put it at $300–$500+ per month for small operations — before add-ons. SprayBossPro is $129/month. No negotiation, no annual contract, no surprise invoices.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">⚡</div><h4>Up in a Day, Not 90</h4><p>ServiceTitan implementations take months. You&apos;ll need an onboarding team, configuration calls, and a lot of patience. LandscapeBossPro is designed for owners who want to be operational today — not next quarter.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💰</div><h4>$129 vs $300–500+</h4><p>ServiceTitan pricing is custom, but independent estimates consistently put it at $300–$500+ per month for small operations — before add-ons. LandscapeBossPro is $129/month. No negotiation, no annual contract, no surprise invoices.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Route Selector</h4><p>Draw a circle on the map, instantly see every stop inside with a service due — sq ft, service type, all calculated. ServiceTitan has route optimization but nothing like the Lasso geographic selector built for spray route density.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Chemical Compliance</h4><p>Log every application with product, mix rate, weather, and tech license. Pull compliance reports any time. ServiceTitan tracks jobs. That&apos;s not the same as a pesticide compliance log built for lawn and pest operations.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💬</div><h4>SMS Included</h4><p>Two-way SMS inbox, automated appointment alerts, estimate follow-ups, review requests — all built in at $129/month. ServiceTitan charges extra for messaging features and requires separate configuration for automation.</p></div>
@@ -220,7 +220,7 @@ export default function VsServiceTitan() {
             <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>What You Actually Pay</div>
             <div className="mock-item">
               <div className="mock-dot orange"></div>
-              <div><div className="mock-label">SprayBossPro</div><div className="mock-sub">Every feature — built for spray routes</div></div>
+              <div><div className="mock-label">LandscapeBossPro</div><div className="mock-sub">Every feature — built for spray routes</div></div>
               <div className="mock-badge">$129/mo</div>
             </div>
             <div className="mock-item">
@@ -229,7 +229,7 @@ export default function VsServiceTitan() {
               <div className="mock-badge red-badge">$300–500+/mo</div>
             </div>
             <div style={{marginTop:'16px', background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px'}}>
-              <div style={{color:'var(--orange)', fontSize:'13px', fontWeight:700, marginBottom:'8px'}}>SprayBossPro also includes things ST doesn&apos;t:</div>
+              <div style={{color:'var(--orange)', fontSize:'13px', fontWeight:700, marginBottom:'8px'}}>LandscapeBossPro also includes things ST doesn&apos;t:</div>
               <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', lineHeight:2}}>✓ Sq Ft Waiting List by Service Type<br />✓ Lasso Circle Map Route Selector<br />✓ Chemical Compliance Logs &amp; Reports<br />✓ Package Plan Renewal Tracking<br />✓ Set up in one afternoon — no consultants</div>
             </div>
           </div>
@@ -241,7 +241,7 @@ export default function VsServiceTitan() {
           <div className="highlight-text">
             <span className="section-label">Lasso — Circle Map Scheduling</span>
             <h2 style={{color:'#fff'}}>A Feature Class ServiceTitan Doesn&apos;t Have.</h2>
-            <p style={{color:'rgba(255,255,255,.65)'}}>Draw a circle on your map and SprayBossPro shows you every property inside with a service due — total stops, sq ft, service types — before you schedule a single stop. No comparable feature exists in ServiceTitan. It&apos;s not route optimization. It&apos;s a geographic spray route builder built specifically for recurring treatment schedules.</p>
+            <p style={{color:'rgba(255,255,255,.65)'}}>Draw a circle on your map and LandscapeBossPro shows you every property inside with a service due — total stops, sq ft, service types — before you schedule a single stop. No comparable feature exists in ServiceTitan. It&apos;s not route optimization. It&apos;s a geographic spray route builder built specifically for recurring treatment schedules.</p>
             <ul className="check-list" style={{marginTop:'20px'}}>
               <li style={{color:'rgba(255,255,255,.75)'}}>Draw any size circle — instantly see all properties with services due inside</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Breaks down stops, sq ft, and service types in real time</li>
@@ -277,13 +277,13 @@ export default function VsServiceTitan() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Simplicity</span>
           <h2 className="section-title">Set Up in an Afternoon. Not 90 Days.</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>ServiceTitan implementations take months, require training, and need ongoing support. SprayBossPro is designed for spray business owners who want to be running today — not next quarter after a paid onboarding engagement.</p>
+          <p className="section-sub" style={{maxWidth:'720px'}}>ServiceTitan implementations take months, require training, and need ongoing support. LandscapeBossPro is designed for spray business owners who want to be running today — not next quarter after a paid onboarding engagement.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>No Onboarding Team Required</h3><p>SprayBossPro is designed to be self-serve from day one. Add your services, import your clients and properties, connect your payment processor, and you&apos;re scheduling. No implementation consultant, no 90-day setup timeline.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>Pricing You Can Plan Around</h3><p>$129/month. No custom quotes, no sales calls, no contract negotiations. ServiceTitan won&apos;t even give you pricing without a demo — because their pricing is based on your revenue. SprayBossPro is $129. Always.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>No Onboarding Team Required</h3><p>LandscapeBossPro is designed to be self-serve from day one. Add your services, import your clients and properties, connect your payment processor, and you&apos;re scheduling. No implementation consultant, no 90-day setup timeline.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>Pricing You Can Plan Around</h3><p>$129/month. No custom quotes, no sales calls, no contract negotiations. ServiceTitan won&apos;t even give you pricing without a demo — because their pricing is based on your revenue. LandscapeBossPro is $129. Always.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Techs Learn It Fast</h3><p>Your crew picks up the mobile app in minutes. No training program, no certification, no thick manual. The tech app shows today&apos;s stops, property notes, and a complete button. That&apos;s it.</p></div>
-          <div className="simple-card"><div className="simple-num">04</div><h3>Cancel Anytime — No Lock-In</h3><p>No annual contract required. Month to month from day one. ServiceTitan requires annual agreements that lock you in regardless of how the software performs. SprayBossPro earns your business every month.</p></div>
+          <div className="simple-card"><div className="simple-num">04</div><h3>Cancel Anytime — No Lock-In</h3><p>No annual contract required. Month to month from day one. ServiceTitan requires annual agreements that lock you in regardless of how the software performs. LandscapeBossPro earns your business every month.</p></div>
         </div>
       </section>
 
@@ -291,7 +291,7 @@ export default function VsServiceTitan() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
           <h2 className="section-title">$129/Month. No Surprises. No Sales Call Required.</h2>
-          <p className="section-sub">ServiceTitan won&apos;t tell you their price until you sit through a demo. SprayBossPro is $129. Right here, right now.</p>
+          <p className="section-sub">ServiceTitan won&apos;t tell you their price until you sit through a demo. LandscapeBossPro is $129. Right here, right now.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
@@ -320,7 +320,7 @@ export default function VsServiceTitan() {
 
       <div className="cta-band">
         <h2>You Don&apos;t Need an Enterprise Platform.<br />You Need Software Built for Spray Routes.</h2>
-        <p>Try SprayBossPro free for 14 days. Set up in an afternoon. $129/month — no sales call required.</p>
+        <p>Try LandscapeBossPro free for 14 days. Set up in an afternoon. $129/month — no sales call required.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -328,8 +328,8 @@ export default function VsServiceTitan() {
 
       <div id="sbp-backdrop" onClick={() => closeAllModals()} style={{display:'none', position:'fixed', top:0, left:0, width:'100%', height:'100%', background:'rgba(0,0,0,.55)', zIndex:99997}}></div>
       {[1,2,3].map(n => (
-        <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #e07820', boxShadow:'0 0 0 4px rgba(224,120,32,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
-          <div style={{background:'linear-gradient(135deg,#080010,#1e0a35)', padding:'28px 28px 22px', position:'relative'}}>
+        <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #1b6e3b', boxShadow:'0 0 0 4px rgba(27,110,59,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
+          <div style={{background:'linear-gradient(135deg,#08140d,#15321f)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
             <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required. Full access. Cancel anytime.</div>
             <button onClick={() => closeSignupModal(n)} style={{position:'absolute', top:'16px', right:'16px', background:'rgba(255,255,255,.12)', border:'none', color:'#fff', width:'32px', height:'32px', borderRadius:'50%', cursor:'pointer', fontSize:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>×</button>
@@ -342,7 +342,7 @@ export default function VsServiceTitan() {
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Lawn Care" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Email Address</label><input id={`sbp${n}-email`} type="email" placeholder="you@yourcompany.com" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
-            <button onClick={() => sbpStep2(n)} style={{width:'100%', background:'#e07820', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Next: Create Password →</button>
+            <button onClick={() => sbpStep2(n)} style={{width:'100%', background:'#1b6e3b', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Next: Create Password →</button>
           </div>
           <div id={`sbp${n}-step2`} style={{padding:'24px 28px', display:'none'}}>
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
@@ -353,8 +353,8 @@ export default function VsServiceTitan() {
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Confirm Password</label><input id={`sbp${n}-confirm`} type="password" placeholder="Repeat password" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
-            <div style={{marginBottom:'18px', display:'flex', alignItems:'flex-start', gap:'10px'}}><input type="checkbox" id={`sbp${n}-agree`} style={{width:'16px', height:'16px', accentColor:'#e07820', cursor:'pointer', flexShrink:0, marginTop:'3px'}} /><label htmlFor={`sbp${n}-agree`} style={{fontSize:'13px', color:'#555', cursor:'pointer', lineHeight:1.5}}>I agree to the <a href="https://spraybosspro.com/terms" target="_blank" style={{color:'#e07820'}}>Terms of Service</a> and <a href="https://spraybosspro.com/privacy-policy" target="_blank" style={{color:'#e07820'}}>Privacy Policy</a></label></div>
-            <button id={`sbp${n}-create-btn`} onClick={() => sbpCreateAccount(n)} style={{width:'100%', background:'#e07820', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Create My Account</button>
+            <div style={{marginBottom:'18px', display:'flex', alignItems:'flex-start', gap:'10px'}}><input type="checkbox" id={`sbp${n}-agree`} style={{width:'16px', height:'16px', accentColor:'#1b6e3b', cursor:'pointer', flexShrink:0, marginTop:'3px'}} /><label htmlFor={`sbp${n}-agree`} style={{fontSize:'13px', color:'#555', cursor:'pointer', lineHeight:1.5}}>I agree to the <a href="https://landscapebosspro.com/terms" target="_blank" style={{color:'#1b6e3b'}}>Terms of Service</a> and <a href="https://landscapebosspro.com/privacy-policy" target="_blank" style={{color:'#1b6e3b'}}>Privacy Policy</a></label></div>
+            <button id={`sbp${n}-create-btn`} onClick={() => sbpCreateAccount(n)} style={{width:'100%', background:'#1b6e3b', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Create My Account</button>
             <button onClick={() => sbpBackToStep1(n)} style={{width:'100%', background:'none', border:'none', color:'#888', fontSize:'13px', cursor:'pointer', marginTop:'10px', padding:'6px', fontFamily:'inherit', textDecoration:'underline'}}>← Back</button>
           </div>
           <div id={`sbp${n}-success`} style={{padding:'48px 28px', textAlign:'center', display:'none'}}>

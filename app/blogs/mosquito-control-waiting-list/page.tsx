@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Build a Mosquito Control Treatment Waiting List | SprayBossPro',
+  title: 'Build a Mosquito Control Treatment Waiting List | LandscapeBossPro',
   description: 'How a mosquito-specific waiting list shows every treatment due with stop count and route revenue before you open the map.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Waiting List Management</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Waiting List Management</p>
         <h1>How to Build a Waiting List for Mosquito Control Treatments Due This Week</h1>
 
         <p>In a mosquito control company running 150 to 200 active accounts through peak season, knowing which customers are due for treatment on any given day is not something a dispatcher should be calculating manually. The 21-day interval means accounts are continuously rolling through their due dates at a steady rate — approximately 10 to 14 accounts due per business day for a 150-account program at 21-day intervals. The waiting list that automatically surfaces each account when it&apos;s due is the operational foundation that keeps those 10 to 14 treatments scheduled, routed, and dispatched without anyone reviewing individual account records to determine who&apos;s next.</p>
@@ -41,8 +41,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Every mosquito treatment due today — with stop count, revenue, and overdue priority — before you open the map.</h3>
-          <p>SprayBossPro&apos;s mosquito waiting list calculates due dates from every completion automatically, surfaces overdue accounts first, and shows expected route revenue for any date range or geographic filter.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s mosquito waiting list calculates due dates from every completion automatically, surfaces overdue accounts first, and shows expected route revenue for any date range or geographic filter.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

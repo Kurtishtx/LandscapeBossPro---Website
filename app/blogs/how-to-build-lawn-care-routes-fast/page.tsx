@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Build Lawn Care Routes in 30 Minutes | SprayBossPro',
+  title: 'Build Lawn Care Routes in 30 Minutes | LandscapeBossPro',
   description: 'How top lawn care companies use map-based routing to build and dispatch a full day of routes before the first truck leaves the lot.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Scheduling &amp; Routing</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Scheduling &amp; Routing</p>
         <h1>How to Build Lawn Care Routes in Under 30 Minutes Every Morning</h1>
 
         <p>Most lawn care companies spend more time building routes than they should. If it takes 45 minutes to an hour every morning to figure out who goes where, you&apos;re losing money before the first truck leaves the driveway. This is a scheduling problem, not a people problem — and the right system fixes it completely.</p>
@@ -42,16 +42,16 @@ export default function Page() {
         </ul>
         <p>Fix all four and 90 minutes becomes 30. Not because you&apos;re rushing — because the system is doing the heavy lifting instead of your brain.</p>
 
-        <h2>How SprayBossPro Handles Morning Routing</h2>
-        <p>SprayBossPro&apos;s dispatch board is built specifically for lawn care routing. Your waiting list is always visible, organized by service type with running square footage totals so you know exactly how much capacity you&apos;re filling. A map view pins all pending stops so you can build routes visually. Drive order is optimized automatically once stops are assigned. When the route is ready, it pushes to technician phones in one click.</p>
+        <h2>How LandscapeBossPro Handles Morning Routing</h2>
+        <p>LandscapeBossPro&apos;s dispatch board is built specifically for lawn care routing. Your waiting list is always visible, organized by service type with running square footage totals so you know exactly how much capacity you&apos;re filling. A map view pins all pending stops so you can build routes visually. Drive order is optimized automatically once stops are assigned. When the route is ready, it pushes to technician phones in one click.</p>
         <p>The platform is built for companies running recurring chemical programs — fertilizer rounds, weed control, mosquito spray — where you have 200 or 300 customers who need multiple visits per season and your schedule needs to manage itself between rounds, not require manual rebooking every time.</p>
 
         <p>Before buying any scheduling tool, make sure it&apos;s built for this kind of operation. Our guide on <a href="/blogs/what-to-look-for-lawn-care-scheduling-software">What to Look for in Lawn Care Scheduling Software Before You Buy</a> covers exactly what to look for and what to skip.</p>
 
         <div className="blog-cta-box">
           <h3>Stop spending an hour building routes every morning.</h3>
-          <p>SprayBossPro gives you a map-based waiting list, one-click dispatch, and automatic drive order optimization — built for lawn care companies running recurring programs.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro gives you a map-based waiting list, one-click dispatch, and automatic drive order optimization — built for lawn care companies running recurring programs.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Schedule Mosquito Control at the Right Intervals | SprayBossPro',
+  title: 'Schedule Mosquito Control at the Right Intervals | LandscapeBossPro',
   description: 'How to set up mosquito barrier spray programs that auto-reschedule at 21-day intervals so every customer stays protected all season.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Control Scheduling</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Control Scheduling</p>
         <h1>How to Schedule Mosquito Control Treatments at the Right Seasonal Intervals</h1>
 
         <p>Mosquito barrier spray programs live and die on interval precision. The typical residual window for a pyrethroid barrier spray is 21 days — which is also the standard treatment interval for most residential mosquito programs. Miss that window by a week and the customer has had 7 unprotected days during peak mosquito season. Miss it by two weeks and you have a customer calling to ask why they&apos;re getting bitten again. The scheduling challenge in mosquito control isn&apos;t knowing when to treat — it&apos;s making sure the system surfaces every customer at exactly the right time, across a full season of 5 to 7 treatments per customer, without anyone manually tracking individual due dates.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>21-day intervals tracked automatically. Every customer surfaces when they&apos;re due. No manual date calculation.</h3>
-          <p>SprayBossPro auto-schedules mosquito treatments at configured intervals from every completion date — so your waiting list is always accurate through peak season without anyone tracking individual due dates.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro auto-schedules mosquito treatments at configured intervals from every completion date — so your waiting list is always accurate through peak season without anyone tracking individual due dates.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

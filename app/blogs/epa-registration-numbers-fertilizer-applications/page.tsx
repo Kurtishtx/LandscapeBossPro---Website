@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'EPA Reg Numbers on Fertilizer Applications | SprayBossPro',
+  title: 'EPA Reg Numbers on Fertilizer Applications | LandscapeBossPro',
   description: 'A plain-language breakdown of what the EPA reg number requirement means for lawn care companies and how to capture it in the field.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Compliance &amp; Regulations</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Compliance &amp; Regulations</p>
         <h1>What EPA Registration Numbers Do You Need to Log on Fertilizer Applications?</h1>
 
         <p>EPA registration number requirements trip up a lot of lawn care and fertilizer companies — not because the requirement is complicated, but because it&apos;s easy to conflate what&apos;s required for pesticide applications with what applies to straight fertilizers. Here&apos;s a plain-language breakdown of what the law actually requires and how to make sure your application records are compliant.</p>
@@ -64,8 +64,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Log EPA reg numbers correctly on every application — from the field.</h3>
-          <p>SprayBossPro stores EPA registration numbers on your product records and auto-populates them on every compliance log your technicians submit in the field.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro stores EPA registration numbers on your product records and auto-populates them on every compliance log your technicians submit in the field.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

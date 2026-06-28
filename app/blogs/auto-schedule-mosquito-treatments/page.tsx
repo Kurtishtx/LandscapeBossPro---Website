@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Auto-Schedule Mosquito Treatments After Each Visit | SprayBossPro',
+  title: 'Auto-Schedule Mosquito Treatments After Each Visit | LandscapeBossPro',
   description: 'How auto-rescheduling at your set interval keeps every customer\'s program running all season without manually booking follow-up visits.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Scheduling Automation</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Scheduling Automation</p>
         <h1>How to Auto-Schedule the Next Mosquito Treatment When the Previous One Is Complete</h1>
 
         <p>A mosquito control company with 150 active accounts runs 5 to 7 treatments per customer during the season — 750 to 1,050 total treatment events over a 5-month season. If every one of those treatment events requires a manual scheduling action after the previous treatment is complete, that&apos;s 750 to 1,050 scheduling tasks per season — roughly 5 to 7 manual rebooking actions per account from start to finish. Automated scheduling at a configured interval eliminates all of them. The next treatment schedules itself at the moment the previous one is completed, and the cycle runs uninterrupted for the full season without any office action between treatments.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Completion logged. Next treatment auto-scheduled 21 days out. Waiting list updated. No office action required.</h3>
-          <p>SprayBossPro auto-schedules the next mosquito treatment from every completion date at your configured interval — keeping every customer&apos;s program running all season without manual rebooking between visits.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro auto-schedules the next mosquito treatment from every completion date at your configured interval — keeping every customer&apos;s program running all season without manual rebooking between visits.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

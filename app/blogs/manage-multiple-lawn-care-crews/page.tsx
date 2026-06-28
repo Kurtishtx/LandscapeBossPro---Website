@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Manage Multiple Lawn Care Crews From One Tool | SprayBossPro',
+  title: 'Manage Multiple Lawn Care Crews From One Tool | LandscapeBossPro',
   description: 'How to split waiting lists, assign routes, and dispatch multiple crews simultaneously without a separate tool for each truck.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Operations &amp; Growth</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Operations &amp; Growth</p>
         <h1>How to Manage Multiple Lawn Care Crews From One Scheduling Tool</h1>
 
         <p>Going from one crew to two is one of the biggest operational jumps in a lawn care business. Suddenly you need to split territory, coordinate two dispatch chains, and track twice the work from a single office. Most operations that struggle at this stage aren&apos;t understaffed — they&apos;re using a system designed for one crew to run two.</p>
@@ -46,8 +46,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Run two crews as easily as you run one.</h3>
-          <p>SprayBossPro lets you split waiting lists by territory, dispatch multiple crews from one screen, and track every stop across all routes in real time.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro lets you split waiting lists by territory, dispatch multiple crews from one screen, and track every stop across all routes in real time.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

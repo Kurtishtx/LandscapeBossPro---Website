@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Mosquito Treatments as a Pest Control Add-On | SprayBossPro',
+  title: 'Mosquito Treatments as a Pest Control Add-On | LandscapeBossPro',
   description: 'How to structure mosquito add-on programs for existing recurring customers and schedule them alongside quarterly and bi-monthly pest control without confusion.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Program Development</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Program Development</p>
         <h1>How to Add Mosquito Treatments as an Add-On for Existing Pest Control Customers</h1>
 
         <p>Mosquito control is one of the highest-margin add-on services a pest control company can offer to its existing customer base. Customers already trust you, already have an active account, and have already demonstrated willingness to pay for recurring pest control. Converting even 15 to 20 percent of a quarterly account base to add a monthly mosquito treatment during the season produces a significant revenue increase with no new customer acquisition cost. The scheduling challenge is managing mosquito add-ons — typically monthly from April through October — alongside the customer&apos;s existing quarterly or bi-monthly program without those two schedules interfering with each other.</p>
@@ -34,8 +34,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Add mosquito service to existing accounts — tracked independently, scheduled automatically, billed separately.</h3>
-          <p>SprayBossPro supports multiple simultaneous programs per customer account, so mosquito add-ons schedule independently from quarterly or bi-monthly base programs without any scheduling interference.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro supports multiple simultaneous programs per customer account, so mosquito add-ons schedule independently from quarterly or bi-monthly base programs without any scheduling interference.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

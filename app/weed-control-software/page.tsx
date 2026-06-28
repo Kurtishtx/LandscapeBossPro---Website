@@ -116,7 +116,7 @@ async function sbpCreateAccount(n: number) {
     cd.textContent = 'Redirecting in ' + secs + ' seconds…';
     const iv = setInterval(() => {
       secs--;
-      if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.spraybosspro.com/dashboard.html'; }
+      if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.landscapebosspro.com/dashboard.html'; }
       else cd.textContent = 'Redirecting in ' + secs + ' second' + (secs === 1 ? '' : 's') + '…';
     }, 1000);
   } catch (e: any) {
@@ -182,9 +182,9 @@ function SignupForm({ n }: { n: number }) {
           <input type="checkbox" id={`sbp${n}-agree`} className="sbp-agree-check" />
           <label htmlFor={`sbp${n}-agree`} className="sbp-agree-label">
             I agree to the{' '}
-            <a href="https://spraybosspro.com/terms" target="_blank" rel="noreferrer" className="sbp-link">Terms of Service</a>
+            <a href="https://landscapebosspro.com/terms" target="_blank" rel="noreferrer" className="sbp-link">Terms of Service</a>
             {' '}and{' '}
-            <a href="https://spraybosspro.com/privacy-policy" target="_blank" rel="noreferrer" className="sbp-link">Privacy Policy</a>
+            <a href="https://landscapebosspro.com/privacy-policy" target="_blank" rel="noreferrer" className="sbp-link">Privacy Policy</a>
           </label>
         </div>
         <button id={`sbp${n}-create-btn`} onClick={() => sbpCreateAccount(n)} className="btn-primary" style={{width:'100%', fontSize:'15px', padding:'13px'}}>
@@ -222,7 +222,7 @@ export default function WeedControlSoftware() {
       <div className="hero">
         <div className="hero-badge">Weed Control Software for Lawn Care Companies</div>
         <h1>Weed Control Software with Pre-Emergent Programs,<br /><span>Compliance Logs, and Auto Re-Entry SMS.</span></h1>
-        <p>SprayBossPro manages pre-emergent and post-emergent weed control programs for lawn care companies. Set up your timing windows once — pre-emergent rounds schedule at the right seasonal dates, post-emergent rounds reschedule at your interval after completion. Log EPA reg numbers and re-entry intervals on every application. Re-entry SMS fires automatically to every customer. $129/month, everything included.</p>
+        <p>LandscapeBossPro manages pre-emergent and post-emergent weed control programs for lawn care companies. Set up your timing windows once — pre-emergent rounds schedule at the right seasonal dates, post-emergent rounds reschedule at your interval after completion. Log EPA reg numbers and re-entry intervals on every application. Re-entry SMS fires automatically to every customer. $129/month, everything included.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial — $129/Month</a>
         </div>
@@ -242,7 +242,7 @@ export default function WeedControlSoftware() {
           height={800}
           fetchPriority="high"
           decoding="async"
-          alt="SprayBossPro weed control software showing pre-emergent and post-emergent scheduling, circle-map routing, and mobile app for technicians"
+          alt="LandscapeBossPro weed control software showing pre-emergent and post-emergent scheduling, circle-map routing, and mobile app for technicians"
           style={{maxWidth:'1100px', width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block', margin:'0 auto'}}
         />
       </div>
@@ -252,18 +252,18 @@ export default function WeedControlSoftware() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">Built for Every Weed Control Program Type</span>
           <h2 className="section-title">Pre-Emergent, Post-Emergent, Broadleaf, and Multi-Service Combo — All in One Platform.</h2>
-          <p className="section-sub">SprayBossPro handles the scheduling, routing, compliance logging, and re-entry SMS for every weed control program your lawn care company runs — alongside fertilizer, insect, and any other service you offer. One platform. One price.</p>
+          <p className="section-sub">LandscapeBossPro handles the scheduling, routing, compliance logging, and re-entry SMS for every weed control program your lawn care company runs — alongside fertilizer, insect, and any other service you offer. One platform. One price.</p>
         </div>
         <div className="audience-grid">
           <div className="audience-card">
             <div className="audience-tag">Pre-Emergent Programs</div>
             <h3>Seasonal Pre-Emergent Scheduling with Timing Windows</h3>
-            <p>Pre-emergent rounds need to hit the right soil temperature window — SprayBossPro lets you schedule them at your target seasonal date and shows them on the waiting list when they&apos;re due. Early spring and fall pre-emergent rounds tracked separately with their own compliance logs and re-entry SMS.</p>
+            <p>Pre-emergent rounds need to hit the right soil temperature window — LandscapeBossPro lets you schedule them at your target seasonal date and shows them on the waiting list when they&apos;re due. Early spring and fall pre-emergent rounds tracked separately with their own compliance logs and re-entry SMS.</p>
           </div>
           <div className="audience-card">
             <div className="audience-tag">Post-Emergent Programs</div>
             <h3>Post-Emergent Weed Control on Auto-Reschedule</h3>
-            <p>Post-emergent rounds reschedule automatically at your set interval when the previous round is completed. 4-week, 6-week, or 8-week cycles — SprayBossPro manages the timing between rounds so your team never manually reschedules a weed control visit between applications.</p>
+            <p>Post-emergent rounds reschedule automatically at your set interval when the previous round is completed. 4-week, 6-week, or 8-week cycles — LandscapeBossPro manages the timing between rounds so your team never manually reschedules a weed control visit between applications.</p>
           </div>
           <div className="audience-card">
             <div className="audience-tag">Broadleaf Control</div>
@@ -273,7 +273,7 @@ export default function WeedControlSoftware() {
           <div className="audience-card">
             <div className="audience-tag">Multi-Service Combo</div>
             <h3>Weed Control + Fertilizer Combo Programs</h3>
-            <p>Run weed control and fertilizer on the same route? SprayBossPro lets you mix service types on any Lasso route or keep them on separate routes. All services share one waiting list, one map, and one dispatch flow — your tech sees all services for each stop in one place on their phone.</p>
+            <p>Run weed control and fertilizer on the same route? LandscapeBossPro lets you mix service types on any Lasso route or keep them on separate routes. All services share one waiting list, one map, and one dispatch flow — your tech sees all services for each stop in one place on their phone.</p>
           </div>
         </div>
       </section>
@@ -284,7 +284,7 @@ export default function WeedControlSoftware() {
           <div className="highlight-text">
             <span className="section-label">Pre-Emergent &amp; Post-Emergent Program Scheduling</span>
             <h2>Pre-Emergent Hits the Right Timing Window. Post-Emergent Reschedules Itself. You Manage Neither.</h2>
-            <p>SprayBossPro handles the timing differences between pre-emergent and post-emergent weed control automatically. Pre-emergent rounds appear on the waiting list when they hit your set seasonal date — spring pre-emergent at the right soil temp window, fall pre-emergent before the window closes.</p>
+            <p>LandscapeBossPro handles the timing differences between pre-emergent and post-emergent weed control automatically. Pre-emergent rounds appear on the waiting list when they hit your set seasonal date — spring pre-emergent at the right soil temp window, fall pre-emergent before the window closes.</p>
             <p>Post-emergent rounds reschedule at your set interval — 4 weeks, 6 weeks, 8 weeks — whenever the previous round is completed. No manual scheduling between rounds.</p>
             <ul className="check-list">
               <li>Pre-emergent rounds schedule at your seasonal timing window — set once per program</li>
@@ -304,7 +304,7 @@ export default function WeedControlSoftware() {
               {name:'Nutsedge / Sedge Control 2', sub:'8 properties waiting', ft:'71,400 ft²', active:false},
               {name:'Pre-Emergent Round 2 — Overdue', sub:'5 properties — past window', ft:'44,600 ft²', overdue:true},
             ].map(({name, sub, ft, active, overdue}) => (
-              <div key={name} className="svc-row" style={{marginBottom:'6px', ...(active ? {borderColor:'rgba(224,120,32,.35)', background:'rgba(224,120,32,.07)'} : {})}}>
+              <div key={name} className="svc-row" style={{marginBottom:'6px', ...(active ? {borderColor:'rgba(27,110,59,.35)', background:'rgba(27,110,59,.07)'} : {})}}>
                 <div>
                   <div className="svc-name">{name}</div>
                   <div className="svc-sub">{sub}</div>
@@ -312,7 +312,7 @@ export default function WeedControlSoftware() {
                 <div className="svc-ft" style={overdue ? {color:'#f87171'} : active ? {} : {color:'rgba(255,255,255,.4)'}}>{ft}</div>
               </div>
             ))}
-            <div style={{marginTop:'12px', background:'rgba(224,120,32,.08)', border:'1px solid rgba(224,120,32,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+            <div style={{marginTop:'12px', background:'rgba(27,110,59,.08)', border:'1px solid rgba(27,110,59,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
               <div style={{color:'rgba(255,255,255,.4)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Total Due Today</div>
               <div style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>74 stops across 5 weed control programs</div>
             </div>
@@ -327,7 +327,7 @@ export default function WeedControlSoftware() {
             <span className="section-label">Chemical Compliance Logs — EPA Reg Numbers on Every Weed Control Application</span>
             <h2>Product, EPA Reg Number, Re-Entry Interval, and Sq Ft Treated — Logged at the Property on Every Visit.</h2>
             <p>Your technician logs the full weed control application record on their phone before leaving the property — product name, EPA registration number, application rate per 1,000 sq ft or per linear ft, total area treated, re-entry interval, wind speed, temperature, and applicator license.</p>
-            <p>Weed control products often have specific re-entry interval requirements that vary by product formulation. SprayBossPro captures the re-entry interval from the application log and uses it to trigger the right re-entry SMS to the customer automatically.</p>
+            <p>Weed control products often have specific re-entry interval requirements that vary by product formulation. LandscapeBossPro captures the re-entry interval from the application log and uses it to trigger the right re-entry SMS to the customer automatically.</p>
             <ul className="check-list">
               <li>Product name and EPA reg number required on every weed control application</li>
               <li>Re-entry interval captured from the log and used to trigger the SMS automatically</li>
@@ -348,7 +348,7 @@ export default function WeedControlSoftware() {
               {lbl:'Re-Entry Interval', val:'4 hours — SMS queued to customer'},
               {lbl:'Conditions', val:'Wind: 5 mph · Temp: 61°F · Partly Cloudy'},
             ].map(({lbl, val, highlight}) => (
-              <div key={lbl} className="log-row" style={{marginBottom:'6px', ...(highlight ? {borderColor:'rgba(224,120,32,.35)', background:'rgba(224,120,32,.07)'} : {})}}>
+              <div key={lbl} className="log-row" style={{marginBottom:'6px', ...(highlight ? {borderColor:'rgba(27,110,59,.35)', background:'rgba(27,110,59,.07)'} : {})}}>
                 <div className="log-label">{lbl}</div>
                 <div className="log-value">{val}</div>
               </div>
@@ -367,8 +367,8 @@ export default function WeedControlSoftware() {
           <div className="highlight-text">
             <span className="section-label">Automated Re-Entry Interval SMS on Every Weed Control Visit</span>
             <h2>Re-Entry Interval Texts Fire Automatically After Every Weed Control Application. Specific to the Product. Sent Without Your Team.</h2>
-            <p>When the compliance log is saved after a weed control application, SprayBossPro uses the re-entry interval from the log to build the right customer SMS — &quot;please stay off the lawn for 4 hours&quot; or &quot;24 hours&quot; depending on what your tech actually applied. The text goes out automatically.</p>
-            <p>Pre-emergent and post-emergent applications often have different re-entry intervals. SprayBossPro captures the correct interval from the application log and sends the matching SMS — not a generic template that&apos;s wrong for half your products.</p>
+            <p>When the compliance log is saved after a weed control application, LandscapeBossPro uses the re-entry interval from the log to build the right customer SMS — &quot;please stay off the lawn for 4 hours&quot; or &quot;24 hours&quot; depending on what your tech actually applied. The text goes out automatically.</p>
+            <p>Pre-emergent and post-emergent applications often have different re-entry intervals. LandscapeBossPro captures the correct interval from the application log and sends the matching SMS — not a generic template that&apos;s wrong for half your products.</p>
             <ul className="check-list">
               <li>Re-entry interval pulled from the compliance log — sends the right interval, not a generic one</li>
               <li>Service complete SMS fires automatically when the application log is saved</li>
@@ -379,7 +379,7 @@ export default function WeedControlSoftware() {
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px', marginBottom:'14px'}}>Weed Control SMS Thread — Sent Automatically by SprayBossPro</div>
+            <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px', marginBottom:'14px'}}>Weed Control SMS Thread — Sent Automatically by LandscapeBossPro</div>
             <div className="sms-bubble sms-out">Hi Karen! Your fall pre-emergent weed control service is scheduled for tomorrow between 9am–12pm. No watering needed for 24 hours after. We&apos;ll text when the tech is on the way. — Green Valley Lawn</div>
             <div className="sms-label right">Day before · Sent automatically · 6:00 PM</div>
             <div className="sms-bubble sms-in">Perfect, thank you! Gate will be unlocked.</div>
@@ -397,7 +397,7 @@ export default function WeedControlSoftware() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 64px'}}>
           <span className="section-label">How It Works</span>
           <h2 className="section-title">From Waiting List to Re-Entry SMS — Every Weed Control Round, Every Customer</h2>
-          <p className="section-sub">SprayBossPro manages pre-emergent and post-emergent weed control programs from first application to compliance log to automatic re-entry SMS — with no manual scheduling between rounds ever. For a closer look at how the two program types are scheduled differently, read <a href="/blogs/pre-emergent-vs-post-emergent-weed-control-scheduling" style={{color:'var(--orange)', fontWeight:600}}>Pre-Emergent vs. Post-Emergent Weed Control: How to Schedule Both Correctly</a>.</p>
+          <p className="section-sub">LandscapeBossPro manages pre-emergent and post-emergent weed control programs from first application to compliance log to automatic re-entry SMS — with no manual scheduling between rounds ever. For a closer look at how the two program types are scheduled differently, read <a href="/blogs/pre-emergent-vs-post-emergent-weed-control-scheduling" style={{color:'var(--orange)', fontWeight:600}}>Pre-Emergent vs. Post-Emergent Weed Control: How to Schedule Both Correctly</a>.</p>
         </div>
         <div className="steps-grid">
           <div className="step-box"><div className="step-circle">1</div><h3>Check the Waiting List</h3><p>See every weed control treatment due today — pre-emergent, post-emergent, broadleaf — organized by program type with sq ft totals and stop count. Know the day&apos;s scope before you build any routes.</p></div>
@@ -410,7 +410,7 @@ export default function WeedControlSoftware() {
       {/* PREMIUM BAND */}
       <div className="premium-band">
         <h2>Weed Control Software Built for Lawn Care Companies.<br /><span>$129/Month. Everything Included.</span></h2>
-        <p>SprayBossPro isn&apos;t a generic scheduling app with a weed control tag. Pre-emergent timing windows, post-emergent auto-rescheduling, EPA compliance logs, re-entry interval SMS, and Lasso routing are built specifically for companies running recurring weed control programs on residential and commercial lawns.</p>
+        <p>LandscapeBossPro isn&apos;t a generic scheduling app with a weed control tag. Pre-emergent timing windows, post-emergent auto-rescheduling, EPA compliance logs, re-entry interval SMS, and Lasso routing are built specifically for companies running recurring weed control programs on residential and commercial lawns.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">🌱</div><h4>Pre-Emergent Timing Windows</h4><p>Pre-emergent rounds schedule at your seasonal target date and appear on the waiting list when due. Spring and fall rounds tracked separately per property, each with its own compliance log.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🔄</div><h4>Post-Emergent Auto-Rescheduling</h4><p>Post-emergent rounds auto-reschedule at your interval when completed. 4, 6, or 8-week cycles — the waiting list handles them automatically all season without your team touching anything.</p></div>
@@ -466,19 +466,19 @@ export default function WeedControlSoftware() {
           <span className="section-label">FAQ</span>
           <h2 className="section-title" style={{marginBottom:'48px'}}>Weed Control Software — Common Questions</h2>
           {[
-            {q:'Does SprayBossPro work for weed control businesses?', a:'Yes. SprayBossPro manages pre-emergent and post-emergent scheduling, sq ft-based routing, chemical compliance logs, and automated SMS — including re-entry interval messages. It handles recurring weed control programs across a full season with automatic rescheduling after each treatment.'},
-            {q:'Can I schedule pre-emergent and post-emergent treatments separately?', a:'Yes. SprayBossPro manages multiple service types simultaneously. Pre-emergent and post-emergent appear as separate entries on the waiting list, with independent intervals, pricing, and chemical product assignments. You can route one without affecting the other.'},
+            {q:'Does LandscapeBossPro work for weed control businesses?', a:'Yes. LandscapeBossPro manages pre-emergent and post-emergent scheduling, sq ft-based routing, chemical compliance logs, and automated SMS — including re-entry interval messages. It handles recurring weed control programs across a full season with automatic rescheduling after each treatment.'},
+            {q:'Can I schedule pre-emergent and post-emergent treatments separately?', a:'Yes. LandscapeBossPro manages multiple service types simultaneously. Pre-emergent and post-emergent appear as separate entries on the waiting list, with independent intervals, pricing, and chemical product assignments. You can route one without affecting the other.'},
             {q:'Does it handle chemical compliance logs for weed control?', a:'Yes. Every weed control treatment logs the product, EPA registration number, application rate, target weed, area treated, and applicator license. The compliance report generates a formatted log for state inspection — no paper records needed.'},
-            {q:'Can SprayBossPro manage weed control alongside lawn care or fertilizer?', a:'Yes. SprayBossPro handles lawn care, fertilizer, pest control, and weed control from one account. The waiting list filters by service type, and SMS alerts are configured independently per service — so weed control customers get weed control-specific messaging.'},
+            {q:'Can LandscapeBossPro manage weed control alongside lawn care or fertilizer?', a:'Yes. LandscapeBossPro handles lawn care, fertilizer, pest control, and weed control from one account. The waiting list filters by service type, and SMS alerts are configured independently per service — so weed control customers get weed control-specific messaging.'},
             {q:'Does it send re-entry interval messages after weed control applications?', a:'Yes. Post-service SMS alerts can include re-entry timing — "Please keep people and pets off treated areas for [X time] while the product dries." Alerts fire automatically at treatment completion, specific to the weed control service type.'},
-            {q:'How much does SprayBossPro cost for a weed control business?', a:'$129/month, flat. All features included. No per-user fees, no SMS add-ons, no extra charge for compliance logs. 14-day free trial, no credit card required.'},
+            {q:'How much does LandscapeBossPro cost for a weed control business?', a:'$129/month, flat. All features included. No per-user fees, no SMS add-ons, no extra charge for compliance logs. 14-day free trial, no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
               <p style={{color:'var(--muted)', lineHeight:1.7, margin:0, fontSize:'15px'}}>{a}</p>
             </div>
           ))}
-          <p style={{marginTop:'40px', color:'var(--muted)', fontSize:'15px', lineHeight:1.7}}>SprayBossPro handles weed control alongside lawn care, fertilizer, pest control, and mosquito spray — all from one platform — <a href="/" style={{color:'var(--orange)', fontWeight:600}}>see the full platform overview</a>.</p>
+          <p style={{marginTop:'40px', color:'var(--muted)', fontSize:'15px', lineHeight:1.7}}>LandscapeBossPro handles weed control alongside lawn care, fertilizer, pest control, and mosquito spray — all from one platform — <a href="/" style={{color:'var(--orange)', fontWeight:600}}>see the full platform overview</a>.</p>
         </div>
       </section>
 

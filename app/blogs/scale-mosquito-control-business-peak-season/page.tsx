@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Scale a Mosquito Control Business at Peak Season | SprayBossPro',
+  title: 'Scale a Mosquito Control Business at Peak Season | LandscapeBossPro',
   description: 'The routing, dispatch, and scheduling systems that keep a mosquito company on schedule when demand peaks in June and July.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Scaling</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Scaling</p>
         <h1>How to Scale a Mosquito Control Business During Peak Season Without Losing Stops</h1>
 
         <p>Peak mosquito season in June and July is when a growing mosquito control company either demonstrates that it can handle volume at scale or reveals the cracks in its scheduling and dispatch systems. All enrolled customers are simultaneously active on 21-day cycles. The waiting list is fully loaded. Weather delays can back up multiple days of due accounts simultaneously. A technician calling out sick creates an immediate overdue problem for 12 to 15 customers. The systems that handle peak season well — waiting list accuracy, rapid route building, overdue prioritization, and capacity flex — are the same systems that allow the business to scale its account base season over season without hitting a production ceiling.</p>
@@ -31,8 +31,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Waiting list accurate. Routes built in 20 minutes. Overdue accounts prioritized. Peak season handled.</h3>
-          <p>SprayBossPro gives mosquito companies the scheduling accuracy and routing efficiency to handle peak season volume, weather delays, and account growth without losing stops or falling behind on 21-day intervals.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro gives mosquito companies the scheduling accuracy and routing efficiency to handle peak season volume, weather delays, and account growth without losing stops or falling behind on 21-day intervals.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

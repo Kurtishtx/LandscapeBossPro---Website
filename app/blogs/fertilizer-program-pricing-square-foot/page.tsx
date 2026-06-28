@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Fertilizer Program Pricing by Square Foot | SprayBossPro',
+  title: 'Fertilizer Program Pricing by Square Foot | LandscapeBossPro',
   description: 'How to set per-sq-ft pricing for each fertilizer round and track program revenue per customer and per route.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pricing &amp; Revenue</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pricing &amp; Revenue</p>
         <h1>Fertilizer Program Pricing: How to Charge by Square Foot and Track Revenue Per Round</h1>
 
         <p>Fertilizer program pricing by square foot is the most defensible and scalable pricing model for multi-round programs. It eliminates guesswork, keeps margins consistent across all property sizes, and makes quoting new customers fast and accurate. Here&apos;s how to set your per-sq-ft pricing for each round type and how to track the revenue that pricing generates across your entire customer base.</p>
@@ -47,8 +47,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Know your revenue per round before the truck leaves every morning.</h3>
-          <p>SprayBossPro calculates expected revenue per stop from stored sq ft data and assigned rates — visible on every route summary so you know the financial profile of every day&apos;s fertilizer schedule.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro calculates expected revenue per stop from stored sq ft data and assigned rates — visible on every route summary so you know the financial profile of every day&apos;s fertilizer schedule.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

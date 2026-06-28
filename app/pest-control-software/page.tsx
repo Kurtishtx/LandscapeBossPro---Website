@@ -116,7 +116,7 @@ async function sbpCreateAccount(n: number) {
     cd.textContent = 'Redirecting in ' + secs + ' seconds…';
     const iv = setInterval(() => {
       secs--;
-      if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.spraybosspro.com/dashboard.html'; }
+      if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.landscapebosspro.com/dashboard.html'; }
       else cd.textContent = 'Redirecting in ' + secs + ' second' + (secs === 1 ? '' : 's') + '…';
     }, 1000);
   } catch (e: any) {
@@ -182,9 +182,9 @@ function SignupForm({ n }: { n: number }) {
           <input type="checkbox" id={`sbp${n}-agree`} className="sbp-agree-check" />
           <label htmlFor={`sbp${n}-agree`} className="sbp-agree-label">
             I agree to the{' '}
-            <a href="https://spraybosspro.com/terms" target="_blank" rel="noreferrer" className="sbp-link">Terms of Service</a>
+            <a href="https://landscapebosspro.com/terms" target="_blank" rel="noreferrer" className="sbp-link">Terms of Service</a>
             {' '}and{' '}
-            <a href="https://spraybosspro.com/privacy-policy" target="_blank" rel="noreferrer" className="sbp-link">Privacy Policy</a>
+            <a href="https://landscapebosspro.com/privacy-policy" target="_blank" rel="noreferrer" className="sbp-link">Privacy Policy</a>
           </label>
         </div>
         <button id={`sbp${n}-create-btn`} onClick={() => sbpCreateAccount(n)} className="btn-primary" style={{width:'100%', fontSize:'15px', padding:'13px'}}>
@@ -222,7 +222,7 @@ export default function PestControlSoftware() {
       <div className="hero">
         <div className="hero-badge">Built for Pest Control Businesses</div>
         <h1>Pest Control Software<br /><span>That Actually Fits How You Run Routes</span></h1>
-        <p>Generic field service software wasn&apos;t built for pest control. SprayBossPro is — recurring treatment plans, chemical application logs, compliance reports, automated customer alerts, and route scheduling built around the way spray businesses actually operate.</p>
+        <p>Generic field service software wasn&apos;t built for pest control. LandscapeBossPro is — recurring treatment plans, chemical application logs, compliance reports, automated customer alerts, and route scheduling built around the way spray businesses actually operate.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
         </div>
@@ -242,7 +242,7 @@ export default function PestControlSoftware() {
           height={800}
           fetchPriority="high"
           decoding="async"
-          alt="SprayBossPro pest control software showing recurring program scheduling, compliance logs, and mobile dispatch on laptop and phone"
+          alt="LandscapeBossPro pest control software showing recurring program scheduling, compliance logs, and mobile dispatch on laptop and phone"
           style={{maxWidth:'1100px', width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block', margin:'0 auto'}}
         />
       </div>
@@ -250,7 +250,7 @@ export default function PestControlSoftware() {
       {/* PREMIUM BAND */}
       <div className="premium-band">
         <h2>Affordable Doesn&apos;t Mean Cheap.<br /><span>This Is Enterprise-Level Pest Control Software.</span></h2>
-        <p>$129/month sounds like a bargain. It is — but not because we cut corners. SprayBossPro is built to the same standard as software that costs 10 times more. The difference is we built it ourselves, for ourselves, with no sales team overhead, no investor timeline, and no $200/month module you have to buy just to print a compliance report.</p>
+        <p>$129/month sounds like a bargain. It is — but not because we cut corners. LandscapeBossPro is built to the same standard as software that costs 10 times more. The difference is we built it ourselves, for ourselves, with no sales team overhead, no investor timeline, and no $200/month module you have to buy just to print a compliance report.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Chemical Compliance Built In</h4><p>Every application auto-logged with product name, EPA reg number, mix rate, gallons used, target pest, area treated, weather, and tech license. Print a state-ready compliance report in under 30 seconds — no spreadsheet, no extra module.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Recurring Treatment Engine</h4><p>Quarterly, bi-monthly, annual, or custom — every property&apos;s treatment schedule is tracked automatically. A waiting list shows you exactly what&apos;s due by service type before you schedule a single stop. No other pest control software has this.</p></div>
@@ -267,7 +267,7 @@ export default function PestControlSoftware() {
           <div className="highlight-text">
             <span className="section-label">Lasso — Circle Map Scheduling</span>
             <h2 style={{color:'#fff'}}>Draw a Circle on the Map. Instantly See Every Property Inside It.</h2>
-            <p style={{color:'rgba(255,255,255,.65)'}}>Lasso is the fastest way to build a pest control route we&apos;ve ever seen. Draw a circle on your service area map and SprayBossPro instantly pulls every property inside that radius that has a treatment due — with total stops, service types, and counts all calculated in real time before you commit to a single schedule. What used to take an hour now takes under five minutes.</p>
+            <p style={{color:'rgba(255,255,255,.65)'}}>Lasso is the fastest way to build a pest control route we&apos;ve ever seen. Draw a circle on your service area map and LandscapeBossPro instantly pulls every property inside that radius that has a treatment due — with total stops, service types, and counts all calculated in real time before you commit to a single schedule. What used to take an hour now takes under five minutes.</p>
             <ul className="check-list" style={{marginTop:'20px'}}>
               <li style={{color:'rgba(255,255,255,.75)'}}>Draw any size circle on the map — instantly see all properties inside</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Breaks out stops and counts by treatment type automatically</li>
@@ -282,18 +282,18 @@ export default function PestControlSoftware() {
           <div className="highlight-visual">
             <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Lasso — Route Selector</div>
             <div style={{background:'rgba(255,255,255,.04)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'10px', padding:'20px', marginBottom:'14px', position:'relative', minHeight:'130px', display:'flex', alignItems:'center', justifyContent:'center', overflow:'hidden'}}>
-              <div style={{position:'absolute', top:'14px', left:'18px', right:'18px', bottom:'14px', border:'2.5px dashed #e07820', borderRadius:'50%', opacity:.7}}></div>
+              <div style={{position:'absolute', top:'14px', left:'18px', right:'18px', bottom:'14px', border:'2.5px dashed #1b6e3b', borderRadius:'50%', opacity:.7}}></div>
               <div style={{display:'flex', gap:'12px', flexWrap:'wrap', justifyContent:'center', position:'relative', zIndex:1}}>
                 {['s','s','u','s','s','s','u','s','s','u','s','s','s','u','s','s','s','u','s'].map((t,i) => (
-                  <div key={i} style={{width:'11px', height:'11px', borderRadius:'50%', flexShrink:0, background: t==='s' ? '#e07820' : 'rgba(255,255,255,.2)', boxShadow: t==='s' ? '0 0 0 3px rgba(224,120,32,.3)' : 'none'}}></div>
+                  <div key={i} style={{width:'11px', height:'11px', borderRadius:'50%', flexShrink:0, background: t==='s' ? '#1b6e3b' : 'rgba(255,255,255,.2)', boxShadow: t==='s' ? '0 0 0 3px rgba(27,110,59,.3)' : 'none'}}></div>
                 ))}
               </div>
             </div>
             <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'8px'}}>
-              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}><div style={{color:'#e07820', fontSize:'18px', fontWeight:800}}>14</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Stops Selected</div></div>
-              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}><div style={{color:'#e07820', fontSize:'18px', fontWeight:800}}>19</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Total Treatments</div></div>
-              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}><div style={{color:'#e07820', fontSize:'18px', fontWeight:800}}>8</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>General Pest</div></div>
-              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}><div style={{color:'#e07820', fontSize:'18px', fontWeight:800}}>6</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Mosquito Barrier</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}><div style={{color:'#1b6e3b', fontSize:'18px', fontWeight:800}}>14</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Stops Selected</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}><div style={{color:'#1b6e3b', fontSize:'18px', fontWeight:800}}>19</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Total Treatments</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}><div style={{color:'#1b6e3b', fontSize:'18px', fontWeight:800}}>8</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>General Pest</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}><div style={{color:'#1b6e3b', fontSize:'18px', fontWeight:800}}>6</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Mosquito Barrier</div></div>
               <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', gridColumn:'span 2'}}><div style={{color:'#fff', fontSize:'13px', fontWeight:600}}>Quarterly · 8 &nbsp;|&nbsp; Mosquito · 6 &nbsp;|&nbsp; Rodent · 5</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Breakdown by Treatment Type</div></div>
             </div>
           </div>
@@ -305,14 +305,14 @@ export default function PestControlSoftware() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Simplicity</span>
           <h2 className="section-title">The Most Capable Pest Control Software Is Also the Easiest to Learn</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>Most powerful software is complicated. SprayBossPro is the exception. Every screen was designed by people who ran spray routes — not UX designers who&apos;ve never been near a service truck. Your team will be using it confidently on day one.</p>
+          <p className="section-sub" style={{maxWidth:'720px'}}>Most powerful software is complicated. LandscapeBossPro is the exception. Every screen was designed by people who ran spray routes — not UX designers who&apos;ve never been near a service truck. Your team will be using it confidently on day one.</p>
         </div>
         <div style={{display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(240px, 1fr))', gap:'24px', maxWidth:'1100px', margin:'0 auto'}}>
           {[
             {n:'01', title:'Set Up in One Afternoon', body:'Add your treatment types, import your clients and properties, set up automated alerts, and connect Stripe — most owners are fully operational the same day they sign up. No onboarding consultant, no 90-day implementation, no help desk ticket required.'},
             {n:'02', title:'One Screen Does Everything', body:'Scheduling, dispatch, waiting list, map, and chemical log are all connected. You\'re not bouncing between five different modules. Pull up the dispatch board and everything you need for the day is right there in a single view — no tab-switching, no hunting.'},
             {n:'03', title:'Your Techs Learn It in Minutes', body:'The mobile app shows technicians exactly what they need and nothing they don\'t. Their stops for the day, the property notes, the treatment history, and the complete button. No training videos, no IT setup, no frustrated crew calling the office for help.'},
-            {n:'04', title:'Automation Runs Without You', body:'Set up your SMS alerts, estimate follow-ups, and payment reminders once. After that, SprayBossPro handles every notification, every follow-up text, and every review request automatically — whether you\'re on a route, at the office, or on a day off.'},
+            {n:'04', title:'Automation Runs Without You', body:'Set up your SMS alerts, estimate follow-ups, and payment reminders once. After that, LandscapeBossPro handles every notification, every follow-up text, and every review request automatically — whether you\'re on a route, at the office, or on a day off.'},
           ].map(({n, title, body}) => (
             <div key={n} style={{background:'#fff', border:'1.5px solid var(--border)', borderRadius:'12px', padding:'30px 26px'}}>
               <div style={{fontSize:'40px', fontWeight:800, color:'var(--orange)', opacity:.25, lineHeight:1, marginBottom:'12px'}}>{n}</div>
@@ -332,9 +332,9 @@ export default function PestControlSoftware() {
         </div>
         <div style={{maxWidth:'900px', margin:'0 auto'}}>
           <div style={{background:'#fff', border:'1.5px solid var(--border)', borderRadius:'14px', padding:'36px 40px', borderLeft:'5px solid var(--orange)'}}>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:1.8, marginBottom:'16px'}}>We ran our own routes for years before building SprayBossPro. We used every piece of software on the market — the big names, the field service apps, the ones that promised they &quot;work for any industry.&quot; None of them tracked chemicals the way regulators actually require. None of them had a waiting list that showed us how much work was ready before we built a route. None of them understood that a pest control business runs on recurring service, not one-off jobs.</p>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:1.8, marginBottom:'16px'}}>We built SprayBossPro because we needed it. <strong>Every feature exists because someone on a real pest control route needed it.</strong> Not because a software company thought it sounded good.</p>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:1.8}}>If you run mosquito treatments, general pest, rodent control, termite inspections, or any combination — SprayBossPro was built for the way you work.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:1.8, marginBottom:'16px'}}>We ran our own routes for years before building LandscapeBossPro. We used every piece of software on the market — the big names, the field service apps, the ones that promised they &quot;work for any industry.&quot; None of them tracked chemicals the way regulators actually require. None of them had a waiting list that showed us how much work was ready before we built a route. None of them understood that a pest control business runs on recurring service, not one-off jobs.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:1.8, marginBottom:'16px'}}>We built LandscapeBossPro because we needed it. <strong>Every feature exists because someone on a real pest control route needed it.</strong> Not because a software company thought it sounded good.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:1.8}}>If you run mosquito treatments, general pest, rodent control, termite inspections, or any combination — LandscapeBossPro was built for the way you work.</p>
           </div>
         </div>
       </section>
@@ -344,21 +344,21 @@ export default function PestControlSoftware() {
         <div className="centered" style={{maxWidth:'1200px', margin:'0 auto'}}>
           <span className="section-label">Built for Pest Control</span>
           <h2 className="section-title">Every Feature Your Operation Needs</h2>
-          <p className="section-sub">From your first estimate to your compliance report at the end of the year — SprayBossPro covers the full lifecycle of a pest control business.</p>
+          <p className="section-sub">From your first estimate to your compliance report at the end of the year — LandscapeBossPro covers the full lifecycle of a pest control business.</p>
         </div>
         <div className="feature-grid">
           {[
             {icon:'📋', title:'Service Waiting List', body:'See exactly which properties are due for each treatment type — General Pest, Mosquito, Rodent, Termite Inspection — before you build a single route. Know what\'s waiting and how much of it before you make a call.'},
-            {icon:'🔁', title:'Recurring Treatment Plans', body:'Set up quarterly, bi-monthly, or custom recurring schedules for any property. SprayBossPro tracks when each stop is due and flags it automatically — no spreadsheet, no calendar reminders.'},
+            {icon:'🔁', title:'Recurring Treatment Plans', body:'Set up quarterly, bi-monthly, or custom recurring schedules for any property. LandscapeBossPro tracks when each stop is due and flags it automatically — no spreadsheet, no calendar reminders.'},
             {icon:'🧪', title:'Chemical Application Log', body:'Every application is logged with product name, mix rate, area treated, gallons used, weather conditions, and technician license. Compliance reports print in under 30 seconds.'},
             {icon:'🗺️', title:'Live Route Map', body:'Every scheduled stop pinned on a map. Drag to reorder, build tight geographic clusters, and cut drive time before your tech ever leaves the shop.'},
             {icon:'💬', title:'Automated Customer Alerts', body:'Texts go out automatically when a service is scheduled, when your tech is en route, and when the job is done. Customers always know what\'s happening — you never have to make a call.'},
-            {icon:'💰', title:'Estimates & Proposals', body:'Build a pest control estimate in minutes, email it with one click, and let the client accept online. 3 automated follow-ups go out if they don\'t respond — SprayBossPro chases the deal for you.'},
-            {icon:'💳', title:'Card-on-File Billing', body:'Store cards via Stripe. Charge after each treatment, send invoices, and let SprayBossPro send 3 automated payment reminders if an invoice goes unpaid. Stop chasing checks.'},
+            {icon:'💰', title:'Estimates & Proposals', body:'Build a pest control estimate in minutes, email it with one click, and let the client accept online. 3 automated follow-ups go out if they don\'t respond — LandscapeBossPro chases the deal for you.'},
+            {icon:'💳', title:'Card-on-File Billing', body:'Store cards via Stripe. Charge after each treatment, send invoices, and let LandscapeBossPro send 3 automated payment reminders if an invoice goes unpaid. Stop chasing checks.'},
             {icon:'📱', title:'Mobile App for Technicians', body:'Techs see their stops for the day on their phone. Mark complete, log chemicals, skip, or reschedule — without calling the office. Everything syncs in real time.'},
             {icon:'🏠', title:'Property Profiles', body:'Every property has its own record — service history, full chemical log, notes, photos, square footage, and GPS coordinates. Everything tied to the address, not just the customer name.'},
-            {icon:'💬', title:'Two-Way SMS Inbox', body:'Customers text you, you text them — all inside SprayBossPro. Full conversation history by contact. No more mixing business texts with your personal phone.'},
-            {icon:'📦', title:'Service Package Plans', body:'Create annual or multi-treatment packages, assign clients to them, and track how many treatments remain. SprayBossPro alerts you when a package is coming up for renewal.'},
+            {icon:'💬', title:'Two-Way SMS Inbox', body:'Customers text you, you text them — all inside LandscapeBossPro. Full conversation history by contact. No more mixing business texts with your personal phone.'},
+            {icon:'📦', title:'Service Package Plans', body:'Create annual or multi-treatment packages, assign clients to them, and track how many treatments remain. LandscapeBossPro alerts you when a package is coming up for renewal.'},
             {icon:'⭐', title:'Automated Review Requests', body:'After every completed service, a Google review request goes out automatically. More reviews, zero effort.'},
             {icon:'👥', title:'Client & Lead Management', body:'Manage active customers and open prospects in the same place. Full search, contact history, estimate records, and service logs — all tied together.'},
             {icon:'📄', title:'Invoice Management', body:'Filter invoices by unpaid, partial, paid, or overdue. Full payment history with method, date, and amount. Convert accepted estimates to invoices with one click.'},
@@ -369,7 +369,7 @@ export default function PestControlSoftware() {
             {icon:'🔔', title:'10+ Alert Types', body:'Service scheduled, completed, skipped, rescheduled — plus estimate sent, estimate accepted, payment reminder, review request, and more. All automated and fully customizable.'},
             {icon:'👥', title:'Unlimited Users', body:'Add every tech, office staff member, and manager at no extra cost. No per-seat pricing. Unlimited users included in the flat monthly rate.'},
             {icon:'🏢', title:'Unlimited Clients & Properties', body:'50 accounts or 5,000 — no caps, no upgrade tiers. One flat price covers everything no matter how big you grow.'},
-            {icon:'🏷️', title:'Discounts & Sales Tax', body:'Apply percentage or flat discounts to any estimate. Set tax rates and SprayBossPro calculates and tracks tax on every invoice automatically.'},
+            {icon:'🏷️', title:'Discounts & Sales Tax', body:'Apply percentage or flat discounts to any estimate. Set tax rates and LandscapeBossPro calculates and tracks tax on every invoice automatically.'},
           ].map(({icon, title, body}) => (
             <div key={title} className="feature-card">
               <span className="feature-icon">{icon}</span>
@@ -386,7 +386,7 @@ export default function PestControlSoftware() {
           <div className="highlight-text">
             <span className="section-label">Compliance</span>
             <h2>Chemical Logs That Hold Up to Any Inspector</h2>
-            <p>Every state requires pesticide application records. SprayBossPro logs every application automatically when your tech marks a job complete — and you can pull a print-ready compliance report for any date range, product, technician, or property in under 30 seconds.</p>
+            <p>Every state requires pesticide application records. LandscapeBossPro logs every application automatically when your tech marks a job complete — and you can pull a print-ready compliance report for any date range, product, technician, or property in under 30 seconds.</p>
             <ul className="check-list">
               <li>Product name, EPA registration, mix rate, and gallons per stop</li>
               <li>Target pest and treatment area logged per job</li>
@@ -408,8 +408,8 @@ export default function PestControlSoftware() {
             </div>
             {[
               {color:'#22c55e', label:'Temprid SC · General Pest', sub:'J. Smith · Sunny · 82°F · 0.4 oz/gal', badge:'3 gal', badgeBg:'#16a34a'},
-              {color:'#e07820', label:'Bifen IT · Mosquito Barrier', sub:'M. Torres · Partly Cloudy', badge:'5 gal', badgeBg:'#e07820'},
-              {color:'#5bbfff', label:'Talstar P · Perimeter', sub:'R. Davis · Clear · 78°F', badge:'2 gal', badgeBg:'#2272c3'},
+              {color:'#1b6e3b', label:'Bifen IT · Mosquito Barrier', sub:'M. Torres · Partly Cloudy', badge:'5 gal', badgeBg:'#1b6e3b'},
+              {color:'#d4a017', label:'Talstar P · Perimeter', sub:'R. Davis · Clear · 78°F', badge:'2 gal', badgeBg:'#2272c3'},
             ].map(({color, label, sub, badge, badgeBg}) => (
               <div key={label} style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', marginBottom:'10px', display:'flex', alignItems:'center', gap:'12px'}}>
                 <div style={{width:'10px', height:'10px', borderRadius:'50%', background:color, flexShrink:0}}></div>
@@ -431,7 +431,7 @@ export default function PestControlSoftware() {
           <div className="highlight-text">
             <span className="section-label">Recurring Treatments</span>
             <h2>Never Miss a Treatment. Never Chase a Renewal.</h2>
-            <p>Pest control runs on recurring revenue — and SprayBossPro is built around it. Set a schedule for any property, track how many treatments remain in a package, and let SprayBossPro alert you and the customer when it&apos;s time for the next visit. For a closer look at how package plan tracking drives renewal timing across a full book of recurring accounts, read <a href="/blogs/why-pest-control-software-recurring-treatments" style={{color:'var(--orange)', fontWeight:600}}>Why Pest Control Businesses Need Software Built for Recurring Treatments</a>.</p>
+            <p>Pest control runs on recurring revenue — and LandscapeBossPro is built around it. Set a schedule for any property, track how many treatments remain in a package, and let LandscapeBossPro alert you and the customer when it&apos;s time for the next visit. For a closer look at how package plan tracking drives renewal timing across a full book of recurring accounts, read <a href="/blogs/why-pest-control-software-recurring-treatments" style={{color:'var(--orange)', fontWeight:600}}>Why Pest Control Businesses Need Software Built for Recurring Treatments</a>.</p>
             <ul className="check-list">
               <li>Set recurring schedules by service type per property</li>
               <li>Waiting list shows all properties due for each treatment</li>
@@ -446,9 +446,9 @@ export default function PestControlSoftware() {
             <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Waiting List — By Service Type</div>
             {[
               {color:'#22c55e', label:'General Pest — Quarterly', sub:'38 properties due', badgeBg:'#16a34a'},
-              {color:'#e07820', label:'Mosquito Barrier', sub:'24 properties due', badgeBg:'#e07820'},
-              {color:'#5bbfff', label:'Rodent Control — Monthly', sub:'11 properties due', badgeBg:'#2272c3'},
-              {color:'#e07820', label:'Termite Inspection', sub:'6 properties due', badgeBg:'#e07820'},
+              {color:'#1b6e3b', label:'Mosquito Barrier', sub:'24 properties due', badgeBg:'#1b6e3b'},
+              {color:'#d4a017', label:'Rodent Control — Monthly', sub:'11 properties due', badgeBg:'#2272c3'},
+              {color:'#1b6e3b', label:'Termite Inspection', sub:'6 properties due', badgeBg:'#1b6e3b'},
             ].map(({color, label, sub, badgeBg}) => (
               <div key={label} style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', marginBottom:'10px', display:'flex', alignItems:'center', gap:'12px'}}>
                 <div style={{width:'10px', height:'10px', borderRadius:'50%', background:color, flexShrink:0}}></div>
@@ -502,26 +502,26 @@ export default function PestControlSoftware() {
           <span className="section-label">FAQ</span>
           <h2 className="section-title" style={{marginBottom:'48px'}}>Pest Control Software — Common Questions</h2>
           {[
-            {q:'Does SprayBossPro work for pest control businesses?', a:'Yes. SprayBossPro is built for recurring pest control programs — quarterly, bi-monthly, monthly, and custom intervals. It handles route scheduling, chemical compliance logs, automated SMS alerts, estimate-to-program conversion, and card-on-file payments for recurring treatments.'},
-            {q:'Can I manage quarterly, bi-monthly, and monthly programs at the same time?', a:'Yes. SprayBossPro supports multiple program intervals simultaneously. Each customer can be on a different schedule, and the waiting list tracks every account across all program types. When a treatment is completed, the next one is automatically placed back at the correct interval — no manual rebooking.'},
+            {q:'Does LandscapeBossPro work for pest control businesses?', a:'Yes. LandscapeBossPro is built for recurring pest control programs — quarterly, bi-monthly, monthly, and custom intervals. It handles route scheduling, chemical compliance logs, automated SMS alerts, estimate-to-program conversion, and card-on-file payments for recurring treatments.'},
+            {q:'Can I manage quarterly, bi-monthly, and monthly programs at the same time?', a:'Yes. LandscapeBossPro supports multiple program intervals simultaneously. Each customer can be on a different schedule, and the waiting list tracks every account across all program types. When a treatment is completed, the next one is automatically placed back at the correct interval — no manual rebooking.'},
             {q:'Does it handle chemical compliance logs for pest control?', a:'Yes. Every pest control treatment logs the product, EPA registration number, application rate, target pest, treatment areas (interior/exterior), and applicator license. The compliance report generates a formatted log suitable for state inspection — no paper records needed.'},
-            {q:'Does SprayBossPro send automated SMS for pest control visits?', a:'Yes. Pre-built SMS alerts include appointment reminders, on-the-way notifications, service completion messages, and re-entry interval instructions. Alerts fire automatically from dispatch and completion events — configured once, sent on every job.'},
-            {q:'Can I manage multiple pest control technicians?', a:'Yes. SprayBossPro supports unlimited technicians. The dispatch board assigns routes to specific technicians, and each uses the mobile app to see their stops, property notes, and chemical log form. No per-user fees regardless of crew size.'},
-            {q:'How much does SprayBossPro cost for pest control?', a:'$129/month, flat. Every feature — route scheduling, compliance logs, SMS alerts, card payments — is included at one price. No per-user fees, no add-ons. 14-day free trial, no credit card required.'},
+            {q:'Does LandscapeBossPro send automated SMS for pest control visits?', a:'Yes. Pre-built SMS alerts include appointment reminders, on-the-way notifications, service completion messages, and re-entry interval instructions. Alerts fire automatically from dispatch and completion events — configured once, sent on every job.'},
+            {q:'Can I manage multiple pest control technicians?', a:'Yes. LandscapeBossPro supports unlimited technicians. The dispatch board assigns routes to specific technicians, and each uses the mobile app to see their stops, property notes, and chemical log form. No per-user fees regardless of crew size.'},
+            {q:'How much does LandscapeBossPro cost for pest control?', a:'$129/month, flat. Every feature — route scheduling, compliance logs, SMS alerts, card payments — is included at one price. No per-user fees, no add-ons. 14-day free trial, no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
               <p style={{color:'var(--muted)', lineHeight:1.7, margin:0, fontSize:'15px'}}>{a}</p>
             </div>
           ))}
-          <p style={{marginTop:'40px', color:'var(--muted)', fontSize:'15px', lineHeight:1.7}}>SprayBossPro handles pest control alongside lawn care, mosquito spray, and every other spray service from one platform — <a href="/" style={{color:'var(--orange)', fontWeight:600}}>see the full platform overview</a>.</p>
+          <p style={{marginTop:'40px', color:'var(--muted)', fontSize:'15px', lineHeight:1.7}}>LandscapeBossPro handles pest control alongside lawn care, mosquito spray, and every other spray service from one platform — <a href="/" style={{color:'var(--orange)', fontWeight:600}}>see the full platform overview</a>.</p>
         </div>
       </section>
 
       {/* CTA */}
       <div className="cta-band">
         <h2>Stop Running Your Pest Control Business<br />on Software Built for Someone Else.</h2>
-        <p>SprayBossPro is built by people who&apos;ve run real spray routes. Try it free for 14 days — no credit card required.</p>
+        <p>LandscapeBossPro is built by people who&apos;ve run real spray routes. Try it free for 14 days — no credit card required.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
         </div>

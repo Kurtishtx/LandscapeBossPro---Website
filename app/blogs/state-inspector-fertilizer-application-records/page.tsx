@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'State Inspector Fertilizer Application Records | SprayBossPro',
+  title: 'State Inspector Fertilizer Application Records | LandscapeBossPro',
   description: 'A realistic look at what a state compliance audit involves and how to pull every record you need in seconds.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Compliance &amp; Inspections</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Compliance &amp; Inspections</p>
         <h1>What Happens When a State Inspector Asks for Your Fertilizer Application Records?</h1>
 
         <p>State pesticide compliance inspections are not pleasant surprises, but they&apos;re also not catastrophes — if your records are complete and accessible. The companies that struggle during inspections aren&apos;t usually ones that did anything wrong in the field. They&apos;re the ones that can&apos;t produce records fast enough, have incomplete fields, or discover gaps in their documentation when it&apos;s too late to fix them. Here&apos;s a realistic look at how an inspection unfolds and what you need to have ready.</p>
@@ -58,8 +58,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Pass your next state inspection in the first 30 seconds.</h3>
-          <p>SprayBossPro&apos;s compliance records are searchable by property, product, applicator, or date — and exportable as a complete compliance report in seconds. Never scramble through binders again.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s compliance records are searchable by property, product, applicator, or date — and exportable as a complete compliance report in seconds. Never scramble through binders again.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Reduce Spray Business Cancellations With SMS | SprayBossPro',
+  title: 'Reduce Spray Business Cancellations With SMS | LandscapeBossPro',
   description: 'Why automated pre-service communication reduces cancellations, no-access stops, and "I didn\'t know you were coming" calls.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Retention</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Retention</p>
         <h1>How to Reduce Customer Cancellations in a Spray Business With SMS Automation</h1>
 
         <p>Customer cancellations in a spray business cluster around two types of failure: the customer stops perceiving value in the service, and the customer has a frustrating experience that makes canceling feel easier than continuing. SMS automation directly addresses both. Regular, professional communication before and after every service visit maintains the customer&apos;s awareness of what they&apos;re receiving and why. Proactive re-entry interval notifications and next-visit estimates maintain the customer&apos;s sense that the service is well-managed and worth continuing. Companies that implement consistent three-message-per-visit automation consistently report lower early-program cancellation rates and fewer sudden &quot;please cancel my service&quot; calls.</p>
@@ -31,8 +31,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Pre-service, on-the-way, post-service — three automatic messages per stop that keep customers from canceling.</h3>
-          <p>SprayBossPro fires service-specific SMS alerts at every touchpoint automatically — reducing no-access stops, no-show complaints, and early-program cancellations without anyone on your team sending a single manual message.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro fires service-specific SMS alerts at every touchpoint automatically — reducing no-access stops, no-show complaints, and early-program cancellations without anyone on your team sending a single manual message.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

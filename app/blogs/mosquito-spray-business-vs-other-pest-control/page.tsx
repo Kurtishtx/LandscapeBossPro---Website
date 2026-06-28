@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Mosquito Spray vs Other Pest Control Businesses | SprayBossPro',
+  title: 'Mosquito Spray vs Other Pest Control Businesses | LandscapeBossPro',
   description: 'How mosquito spray businesses differ from general pest control in service model, measurement, interval scheduling, product chemistry, seasonal structure, and the software requirements that follow.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>What Makes a Mosquito Spray Business Different from Other Pest Control Companies</h1>
 
         <p>A mosquito spray business and a general pest control company both apply licensed pesticides for compensation. Beyond that, the service model, measurement structure, interval schedule, product chemistry, seasonal footprint, and customer communication requirements diverge significantly. Understanding what makes mosquito spray a distinct business type — not just a different service category under a general pest control umbrella — explains why general pest control software fits a mosquito spray operation poorly and why <a href="/mosquito-spray-software">mosquito spray software</a> built around the specific model produces better operational outcomes.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Exterior service. 21-day intervals. Sq ft and linear ft pricing. 6-month season. Compliance communication. Software built for exactly this model.</h3>
-          <p>SprayBossPro is purpose-built for mosquito spray businesses — with the interval scheduling, measurement fields, seasonal structure, and compliance communication that distinguish barrier spray from general pest control.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro is purpose-built for mosquito spray businesses — with the interval scheduling, measurement fields, seasonal structure, and compliance communication that distinguish barrier spray from general pest control.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

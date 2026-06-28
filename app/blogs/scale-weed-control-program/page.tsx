@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Scale a Weed Control Program Without Adding Staff | SprayBossPro',
+  title: 'Scale a Weed Control Program Without Adding Staff | LandscapeBossPro',
   description: 'The systems that let a weed control company grow to hundreds of program customers without adding scheduling labor between visits.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Growth &amp; Scaling</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Growth &amp; Scaling</p>
         <h1>How to Scale a Weed Control Program Without Manually Scheduling Every Round</h1>
 
         <p>The biggest constraint on weed control program growth isn&apos;t field capacity — it&apos;s scheduling capacity. A company with one office person managing scheduling can typically handle 150 to 200 weed control program customers on manual scheduling workflows before the scheduling work consumes the majority of their day. Beyond that, scheduling becomes the bottleneck that prevents growth: adding more customers creates more scheduling work faster than you can hire to keep up. The companies that scale past 400 program customers with lean office teams do it by removing the scheduling labor, not by adding more of it.</p>
@@ -37,8 +37,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Scale your weed control program without scaling your office labor.</h3>
-          <p>SprayBossPro auto-schedules rounds, auto-populates the waiting list, auto-sends customer SMS, and captures field-submitted compliance logs — so adding customers doesn&apos;t add scheduling, logging, or communication overhead to your office.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro auto-schedules rounds, auto-populates the waiting list, auto-sends customer SMS, and captures field-submitted compliance logs — so adding customers doesn&apos;t add scheduling, logging, or communication overhead to your office.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

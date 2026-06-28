@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Handle Overdue Fertilizer Rounds | SprayBossPro',
+  title: 'How to Handle Overdue Fertilizer Rounds | LandscapeBossPro',
   description: 'How to find, prioritize, and route overdue fertilizer treatments before customers cancel their program over a missed round.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Retention &amp; Scheduling</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Retention &amp; Scheduling</p>
         <h1>How to Handle Overdue Fertilizer Rounds Without Losing Program Customers</h1>
 
         <p>An overdue fertilizer round is the most common trigger for program cancellations. A customer who paid for a 6-round fertilizer program and notices their lawn isn&apos;t looking right in week nine — when they should have received round four weeks ago — doesn&apos;t always call to complain. They may just decide not to renew next year, and you&apos;ll never know it was because of a missed round. Here&apos;s how to find overdue treatments fast, route them immediately, and communicate with customers in a way that preserves the relationship.</p>
@@ -44,8 +44,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Catch overdue fertilizer rounds before your customers do.</h3>
-          <p>SprayBossPro flags overdue accounts in your waiting list the day after they become past due — so you can route them immediately and contact customers proactively before the relationship is at risk.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro flags overdue accounts in your waiting list the day after they become past due — so you can route them immediately and contact customers proactively before the relationship is at risk.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

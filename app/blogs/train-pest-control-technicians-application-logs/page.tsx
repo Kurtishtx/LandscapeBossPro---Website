@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Train Pest Control Technicians to Log Applications | SprayBossPro',
+  title: 'Train Pest Control Technicians to Log Applications | LandscapeBossPro',
   description: 'The training approach and software structure that produces consistently complete compliance logs from every technician on every stop.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Team Training</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Team Training</p>
         <h1>How to Train Pest Control Technicians to Submit Complete Application Logs Every Time</h1>
 
         <p>The most common pest control compliance failure isn&apos;t dishonest application records — it&apos;s incomplete ones. Technicians skip fields when they&apos;re busy, when the form is cumbersome, or when they don&apos;t understand why certain fields matter. Training that addresses only the &quot;you must log everything&quot; message without addressing the form design and workflow friction produces temporary improvement that degrades over time. The most durable approach combines training on why complete logging matters with a form structure that makes it nearly impossible to submit an incomplete log.</p>
@@ -42,8 +42,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Required fields enforce complete logs. Product library eliminates memory errors. Mobile forms eliminate friction.</h3>
-          <p>SprayBossPro&apos;s compliance log form can&apos;t be submitted with missing required fields, pre-fills hard data from the product library, and uses mobile-native checklists that submit in under 90 seconds per stop.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s compliance log form can&apos;t be submitted with missing required fields, pre-fills hard data from the product library, and uses mobile-native checklists that submit in under 90 seconds per stop.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Mosquito Spray Software | SprayBossPro',
+  title: 'Mosquito Spray Software | LandscapeBossPro',
   description: 'Manage 21-day barrier spray intervals, build circle-map routes by sq ft, dispatch technicians, and automate re-entry SMS. Purpose-built for mosquito spray.',
 };
 

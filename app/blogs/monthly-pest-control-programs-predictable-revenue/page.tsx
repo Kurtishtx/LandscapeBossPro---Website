@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Monthly Pest Control Programs: Predictable Revenue | SprayBossPro',
+  title: 'Monthly Pest Control Programs: Predictable Revenue | LandscapeBossPro',
   description: 'Why monthly pest control programs are the highest-revenue-per-customer model and how to manage 12 visits per year per account without adding scheduling staff.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Revenue Planning</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Revenue Planning</p>
         <h1>How Monthly Pest Control Programs Create Predictable Revenue for Your Business</h1>
 
         <p>Monthly pest control programs — 12 visits per year per customer — generate three times the annual revenue per customer that a quarterly program does at the same per-visit price. For a company with 150 monthly accounts at $90 per visit, that&apos;s $162,000 per year in predictable, recurring revenue from a single program type. The challenge is that monthly accounts also require three times the scheduling events per customer per year — and without automated scheduling, that scheduling load grows proportionally with account volume until it becomes unmanageable.</p>
@@ -31,8 +31,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Monthly programs, 12x the visits, 3x the annual revenue — auto-scheduled after every single completion.</h3>
-          <p>SprayBossPro auto-schedules monthly accounts 30 days from every completion, so 200 monthly accounts generate 2,400 scheduling events per year with zero manual rebooking.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro auto-schedules monthly accounts 30 days from every completion, so 200 monthly accounts generate 2,400 scheduling events per year with zero manual rebooking.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Grow a Lawn Care Business From 50 to 300 Customers | SprayBossPro',
+  title: 'Grow a Lawn Care Business From 50 to 300 Customers | LandscapeBossPro',
   description: 'The operational changes that software makes possible as a lawn care business scales from 50 recurring accounts to 300 — and why manual systems fail before you get there.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>How to Grow a Lawn Care Business From 50 to 300 Customers Using Software</h1>
 
         <p>At 50 recurring customers, a lawn care business can operate on the owner&apos;s knowledge, a simple spreadsheet, and a lot of personal attention to detail. Routes are short enough that the owner knows every stop. Due dates are sparse enough that a weekly spreadsheet review catches most accounts before they fall through. Customer communication is informal but adequate. At 150 customers, the cracks appear. At 200, the cracks become failures. At 300, a manual system is not in the game — it has already been replaced by something that works or it has already shed the customers it couldn&apos;t retain. Software doesn&apos;t just make growth possible. It&apos;s the foundation that growth is built on.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>50 accounts runs on spreadsheets. 300 accounts runs on software. The time to install it is before you need it.</h3>
-          <p>SprayBossPro supports lawn care businesses from their first 50 accounts through 300 and beyond — with a flat $129/month price that doesn&apos;t scale with account count, so growth is always profitable.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro supports lawn care businesses from their first 50 accounts through 300 and beyond — with a flat $129/month price that doesn&apos;t scale with account count, so growth is always profitable.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

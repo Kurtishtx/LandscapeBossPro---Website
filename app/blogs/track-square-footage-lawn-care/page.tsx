@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Track Square Footage for Every Property | SprayBossPro',
+  title: 'Track Square Footage for Every Property | LandscapeBossPro',
   description: 'Why sq ft tracking is the foundation of accurate lawn care scheduling, pricing, and compliance logging.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Operations &amp; Compliance</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Operations &amp; Compliance</p>
         <h1>How to Track Square Footage for Every Property in Your Lawn Care Business</h1>
 
         <p>Square footage is the unit of measurement that drives nearly every critical decision in a lawn care business — pricing, scheduling, chemical application rates, route capacity, and compliance reporting. Companies that track it accurately at the property level operate with a precision advantage that compounds as they grow. Companies that estimate or ignore it are consistently overworked, underpriced, or both.</p>
@@ -52,8 +52,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Make square footage work for your schedule, your pricing, and your compliance.</h3>
-          <p>SprayBossPro stores sq ft on every property and uses it to drive waiting list totals, route capacity, chemical logs, and invoicing automatically.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro stores sq ft on every property and uses it to drive waiting list totals, route capacity, chemical logs, and invoicing automatically.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

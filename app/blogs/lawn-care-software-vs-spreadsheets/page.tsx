@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Lawn Care Software vs. Spreadsheets | SprayBossPro',
+  title: 'Lawn Care Software vs. Spreadsheets | LandscapeBossPro',
   description: "The exact point where spreadsheet scheduling falls apart and what a purpose-built tool handles that spreadsheets can't.",
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Software &amp; Tools</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Software &amp; Tools</p>
         <h1>Lawn Care Software vs. Spreadsheets: Why Spreadsheets Break After 100 Customers</h1>
 
         <p>Spreadsheets are not wrong for lawn care businesses. At 30 or 40 customers, a well-structured spreadsheet can handle scheduling, customer records, and basic invoicing competently. The problem is the ceiling. Somewhere between 80 and 120 customers, the spreadsheet stops being a tool and starts being a liability.</p>
@@ -57,8 +57,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Your spreadsheet got you here. Software will get you further.</h3>
-          <p>SprayBossPro replaces the manual work behind your spreadsheet with automated scheduling, dispatch, alerts, and billing — built specifically for lawn care programs.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro replaces the manual work behind your spreadsheet with automated scheduling, dispatch, alerts, and billing — built specifically for lawn care programs.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

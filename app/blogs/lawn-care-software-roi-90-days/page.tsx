@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Lawn Care Software Pays for Itself in 90 Days | SprayBossPro',
+  title: 'How Lawn Care Software Pays for Itself in 90 Days | LandscapeBossPro',
   description: 'The specific time savings, missed-service recovery, and route efficiency gains that add up to a positive ROI on lawn care software within the first season.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>How Lawn Care Software Pays for Itself in the First 90 Days</h1>
 
         <p>The ROI conversation on lawn care software is almost always underestimated because the savings are distributed across multiple workflows rather than concentrated in one obvious place. A business owner evaluating a $129/month software subscription isn&apos;t thinking about the combined value of: 45 minutes of daily scheduling time saved, the 3 to 5 accounts per month that stop falling through without the waiting list, the route efficiency gain from circle map routing, and the cash flow improvement from automated card-on-file billing. But when you add those values up across 90 days, the software cost is recovered multiple times over — usually within the first 4 to 6 weeks of active use.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Time savings in week 1. Missed-service recovery in month 1. Route efficiency all season. Cash flow from day one.</h3>
-          <p>SprayBossPro generates positive ROI in the first month through time savings, service recovery, route efficiency, and faster billing — at $129/month flat with every feature included.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro generates positive ROI in the first month through time savings, service recovery, route efficiency, and faster billing — at $129/month flat with every feature included.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

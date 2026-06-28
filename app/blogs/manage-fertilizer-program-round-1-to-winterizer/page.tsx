@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Manage a Fertilizer Program: Round 1 to Winterizer | SprayBossPro',
+  title: 'Manage a Fertilizer Program: Round 1 to Winterizer | LandscapeBossPro',
   description: 'How a purpose-built tool tracks every round of a seasonal fertilizer program without manual tracking between visits.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Program Management</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Program Management</p>
         <h1>How to Manage a Fertilizer Program from Round 1 to Winterizer Without Spreadsheets</h1>
 
         <p>Managing a seasonal fertilizer program from the first pre-emergent in March to the winterizer in October is a months-long operational challenge. Customers move through the program at different rates. Weather delays some rounds. New customers join mid-season. Some customers skip a round. By August, a spreadsheet that started clean in March is a maze of manual updates, formula errors, and guesswork. Here&apos;s how a purpose-built tool handles every stage without any of that.</p>
@@ -41,8 +41,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Run the full season without a single spreadsheet.</h3>
-          <p>SprayBossPro manages every round of every customer&apos;s fertilizer program from spring pre-emergent through fall winterizer — auto-scheduling, compliance logging, and SMS alerts all handled automatically.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro manages every round of every customer&apos;s fertilizer program from spring pre-emergent through fall winterizer — auto-scheduling, compliance logging, and SMS alerts all handled automatically.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

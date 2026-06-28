@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Lawn Care Software Reduces Scheduling Time | SprayBossPro',
+  title: 'How Lawn Care Software Reduces Scheduling Time | LandscapeBossPro',
   description: 'The scheduling time that lawn care software eliminates across the weekly workflow — from morning dispatch to customer rebooking to end-of-day auto-scheduling.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>How Lawn Care Software Reduces the Time You Spend on Scheduling Every Week</h1>
 
         <p>Scheduling overhead is one of the most consistent time drains in a lawn care operation — and one of the least visible, because it&apos;s spread across multiple workflows throughout the day and week rather than happening in one concentrated block. The 45-minute morning review to figure out who&apos;s due, the 20-minute route-building session that produces a suboptimal sequence, the 10 minutes of customer calls to confirm or reschedule, the end-of-week spreadsheet update to track what was completed and what still needs service — these accumulate to several hours per week that purpose-built scheduling software eliminates entirely.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>45 minutes of morning review. 35 minutes of route building. 90 minutes of post-completion updates. All eliminated.</h3>
-          <p>SprayBossPro replaces the scheduling overhead of a manual lawn care operation with automated waiting list, circle map routing, completion-date auto-scheduling, and automated SMS — saving 3+ hours of scheduling work per day.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro replaces the scheduling overhead of a manual lawn care operation with automated waiting list, circle map routing, completion-date auto-scheduling, and automated SMS — saving 3+ hours of scheduling work per day.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

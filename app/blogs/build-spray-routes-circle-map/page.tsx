@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Build Spray Routes With Circle Map Route Building | SprayBossPro',
+  title: 'Build Spray Routes With Circle Map Route Building | LandscapeBossPro',
   description: 'How circle-based route building on a live map replaces manual stop-by-stop scheduling and cuts route build time from hours to minutes.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Routing</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Routing</p>
         <h1>How to Build Spray Routes Using Circle Map Route Building</h1>
 
         <p>Building spray routes from a list of addresses has a fundamental problem: you&apos;re trying to construct a geographic sequence from text. Every address is a label, not a location. You&apos;re mentally mapping the stop sequence, grouping by ZIP code or neighborhood name, and hoping the sequence makes geographic sense when the tech actually drives it. Circle map routing solves this by making geography the starting point — you see where every due account is, draw a boundary around the area you want to work, and the route assembles from what&apos;s inside the circle. The geographic logic is built in from the first step.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Draw a circle. See the stops, revenue, and scope. Build a full spray route in minutes.</h3>
-          <p>SprayBossPro&apos;s circle map routing shows every spray stop due in any area you select — with total stops, expected revenue, service type breakdown, and optimized drive order — before you dispatch a single truck.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s circle map routing shows every spray stop due in any area you select — with total stops, expected revenue, service type breakdown, and optimized drive order — before you dispatch a single truck.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

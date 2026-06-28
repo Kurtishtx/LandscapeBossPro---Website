@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Reduce Mosquito Control Cancellations With SMS | SprayBossPro',
+  title: 'Reduce Mosquito Control Cancellations With SMS | LandscapeBossPro',
   description: 'Why pre-service reminders and post-service follow-up texts reduce no-access stops and mid-season cancellations on mosquito programs.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Retention</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Retention</p>
         <h1>How to Reduce Mosquito Control Customer Cancellations With Automated Communication</h1>
 
         <p>Mosquito control cancellations are almost never about product efficacy — they&apos;re almost always about the customer experience around the service. A customer who cancels mid-season is rarely doing it because the barrier spray stopped working. They&apos;re doing it because: they felt surprised when a technician showed up unannounced, they couldn&apos;t get the yard access issue resolved, they had an unexplained protection gap and assumed the program wasn&apos;t working, or they simply stopped feeling engaged with the service between 21-day visits. Every one of these cancellation drivers is a communication problem, and automated SMS communication at the right touchpoints addresses all four.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Day-before, post-service, next-visit estimate. Three messages that keep mosquito customers from canceling.</h3>
-          <p>SprayBossPro fires pre-service reminders, post-service confirmations with REI, and next-visit estimates automatically on every mosquito visit — reducing no-access stops and mid-season cancellations without your team sending a single message.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro fires pre-service reminders, post-service confirmations with REI, and next-visit estimates automatically on every mosquito visit — reducing no-access stops and mid-season cancellations without your team sending a single message.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

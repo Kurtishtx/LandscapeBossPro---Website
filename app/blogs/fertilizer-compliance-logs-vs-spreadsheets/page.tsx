@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Fertilizer Compliance Logs vs. Spreadsheets | SprayBossPro',
+  title: 'Fertilizer Compliance Logs vs. Spreadsheets | LandscapeBossPro',
   description: 'The compliance gaps that show up when fertilizer companies track application records in spreadsheets instead of structured field logs.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Compliance &amp; Operations</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Compliance &amp; Operations</p>
         <h1>Why Fertilizer Companies Need More Than a Spreadsheet for Compliance Logs</h1>
 
         <p>Spreadsheets are flexible and familiar, and many fertilizer companies use them for compliance logging long past the point where they stop working well. The problems don&apos;t announce themselves until an inspector arrives or a customer dispute requires producing specific records. By then, the gaps in a spreadsheet-based compliance system are expensive to discover. Here&apos;s where spreadsheet compliance logging breaks down and what replaces it.</p>
@@ -40,8 +40,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Replace your compliance spreadsheet with records that are complete, searchable, and producible in seconds.</h3>
-          <p>SprayBossPro captures field-submitted compliance logs per property per visit — structured, timestamped at the time of application, and exportable as an inspection-ready report on demand.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro captures field-submitted compliance logs per property per visit — structured, timestamped at the time of application, and exportable as an inspection-ready report on demand.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

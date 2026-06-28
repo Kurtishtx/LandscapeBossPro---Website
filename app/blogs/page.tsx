@@ -1,7 +1,7 @@
 import BlogShell from './blog-shell';
 
 export const metadata = {
-  title: 'Lawn Care & Fertilizer Business Blog | SprayBossPro',
+  title: 'Lawn Care & Fertilizer Business Blog | LandscapeBossPro',
   description: 'Guides on lawn care scheduling, fertilizer program management, routing, dispatching, and growing your lawn care or pest control business.',
 };
 

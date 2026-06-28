@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Compliance Records for Weed Control Applications | SprayBossPro',
+  title: 'Compliance Records for Weed Control Applications | LandscapeBossPro',
   description: 'A breakdown of what state regulators require for weed control application logs and how to have every record audit-ready on demand.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Compliance</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Compliance</p>
         <h1>What Compliance Records Do You Need for Weed Control Applications?</h1>
 
         <p>Weed control applications involve restricted-use and general-use pesticides applied under state pesticide applicator licenses. State pesticide regulations require that licensed applicators maintain detailed records of every application — records that must be available for inspection and retained for a defined period (typically 2 to 5 years depending on the state). Here&apos;s what those records must contain and how to ensure every visit produces a complete, inspection-ready record without extra office work.</p>
@@ -47,8 +47,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Every weed control application record complete, structured, and exportable on demand.</h3>
-          <p>SprayBossPro captures all required compliance fields at the time of application via mobile field logging — and produces inspection-ready reports in seconds for any date range, property, or product.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro captures all required compliance fields at the time of application via mobile field logging — and produces inspection-ready reports in seconds for any date range, property, or product.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

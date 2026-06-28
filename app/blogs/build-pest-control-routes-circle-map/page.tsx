@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Build Pest Control Routes With Circle Map Routing | SprayBossPro',
+  title: 'Build Pest Control Routes With Circle Map Routing | LandscapeBossPro',
   description: 'How drawing a circle on any neighborhood pulls every pest control stop due inside into an optimized, dispatchable route in minutes.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Routing</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Routing</p>
         <h1>How to Build Pest Control Routes Using Circle Map Route Building</h1>
 
         <p>Pest control route building from a list of addresses is slow and produces inefficient drive paths. You&apos;re sorting addresses mentally by ZIP code or neighborhood, trying to construct a geographic sequence from text. Circle map routing inverts this entirely: you start on the map, draw a circle around the area you want to work today, and every pest control stop due inside populates automatically. The route is geographic from the first step. Morning routing time drops from 30 to 45 minutes to 10 to 15.</p>
@@ -34,8 +34,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Draw a circle. See the stops, the revenue, and the scope. Build the route in minutes.</h3>
-          <p>SprayBossPro&apos;s circle map routing shows every pest control stop due in any area you select — with total stops, expected revenue, program type breakdown, and optimized drive order — before you dispatch a single truck.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s circle map routing shows every pest control stop due in any area you select — with total stops, expected revenue, program type breakdown, and optimized drive order — before you dispatch a single truck.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

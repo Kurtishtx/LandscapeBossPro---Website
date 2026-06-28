@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Pest Control Interior and Exterior Treatment Logs | SprayBossPro',
+  title: 'Pest Control Interior and Exterior Treatment Logs | LandscapeBossPro',
   description: 'Why interior and exterior pest control treatments require separate compliance log entries and how to structure logs when both are completed in the same visit.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>How Pest Control Software Logs Interior and Exterior Treatments as Separate Records</h1>
 
         <p>A full-service pest control visit typically includes both interior and exterior treatments — perimeter spray on the foundation and entry points outside, crack-and-crevice treatment or bait placement inside. In many cases, different products are applied inside vs. outside: a residual insecticide on the exterior perimeter, a less-toxic bait or gel inside where food contact is a concern, or a different active ingredient for interior use due to label restrictions. State pesticide records must accurately reflect what product was applied in what area. A single log entry that lists both interior and exterior treatment with a single product is technically inaccurate if different products were used in different areas — which is a compliance exposure in an inspection.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Interior. Exterior. Different products. Different areas. One visit — two complete, accurate compliance records.</h3>
-          <p>SprayBossPro&apos;s field log captures treatment areas by checkbox and supports multiple products per visit — so interior and exterior treatments are recorded accurately and separately within the same service event.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s field log captures treatment areas by checkbox and supports multiple products per visit — so interior and exterior treatments are recorded accurately and separately within the same service event.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

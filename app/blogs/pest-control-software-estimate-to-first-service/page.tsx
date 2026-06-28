@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Pest Control Software: Estimate to First Service | SprayBossPro',
+  title: 'Pest Control Software: Estimate to First Service | LandscapeBossPro',
   description: 'How fast estimate-to-service conversion in pest control software improves customer acquisition rates and why a long setup gap is the most common point of customer loss.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>How Pest Control Software Reduces the Gap Between Estimate and First Service</h1>
 
         <p>The gap between estimate acceptance and first service scheduled is one of the most revealing metrics in a pest control business — not because it&apos;s tracked as a KPI, but because the companies that close it fastest retain the highest percentage of newly accepted estimates. A prospect who accepts an estimate at 2 PM and receives a text by 5 PM confirming their first quarterly treatment is scheduled for next Wednesday has made a real commitment. The transaction is complete in their mind. A prospect who accepts an estimate and hears nothing for four days is reconsidering. Pest control is not a unique purchase — it&apos;s available from multiple providers, often at similar prices. Speed of follow-through is the differentiation that keeps a new customer from changing their mind before the first visit.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Estimate accepted at 2 PM. Account created. First service in the waiting list. Confirmation sent. All before 2:01 PM.</h3>
-          <p>SprayBossPro converts pest control estimate acceptances to active customer accounts instantly — with automatic setup, waiting list entry, and customer confirmation in a single system action.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro converts pest control estimate acceptances to active customer accounts instantly — with automatic setup, waiting list entry, and customer confirmation in a single system action.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

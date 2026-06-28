@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Mosquito Control Software vs Pest Control Tools | SprayBossPro',
+  title: 'Mosquito Control Software vs Pest Control Tools | LandscapeBossPro',
   description: 'Why mosquito barrier spray programs — with their specific intervals, re-entry SMS, and compliance logs — need more than a generic job board.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Software Selection</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Software Selection</p>
         <h1>The Difference Between Mosquito Control Software and Generic Pest Control Scheduling Tools</h1>
 
         <p>Generic pest control scheduling tools are designed around a work order model — a customer calls, a job is created, a technician is dispatched, the job is closed. This model works adequately for reactive or one-time pest control services. It works poorly for mosquito barrier spray programs, which are proactive, interval-driven, and require a set of specific operational features — 21-day auto-scheduling from completion dates, seasonal program boundaries, product-specific re-entry interval SMS, and field compliance logging with a pre-loaded product library — that generic tools either don&apos;t have or implement through workarounds that fail at production volume.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Interval scheduling from completion. Product library REI. Automatic post-service SMS. Seasonal boundaries. All built in.</h3>
-          <p>SprayBossPro is built for mosquito control programs — with 21-day auto-scheduling from completion dates, product library compliance logging, and automatic REI SMS — not adapted from a generic pest control job board.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro is built for mosquito control programs — with 21-day auto-scheduling from completion dates, product library compliance logging, and automatic REI SMS — not adapted from a generic pest control job board.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

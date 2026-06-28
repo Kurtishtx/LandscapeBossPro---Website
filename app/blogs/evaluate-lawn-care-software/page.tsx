@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Evaluate Lawn Care Software | SprayBossPro',
+  title: 'How to Evaluate Lawn Care Software | LandscapeBossPro',
   description: 'A practical evaluation process for lawn care software — what to demo, what to test in a trial, and the questions that reveal whether a platform is actually built for lawn care.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>How to Evaluate Lawn Care Software Before You Sign Up</h1>
 
         <p>Most lawn care software evaluations go wrong in the same way: the business owner watches a demo, sees a well-designed interface, and makes a decision based on how the software looks rather than how it works. The vendor demo is designed to show the best-case flow — a customer being added, a route being built, an invoice being sent. It almost never shows the waiting list in a 200-account database, the route map with 40 overdue pins, the compliance log on a mobile device with the product library pre-filling the EPA reg number. The demo shows the architecture. A trial period shows whether it works for your operation. Evaluating lawn care software correctly requires both.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Test the waiting list. Try the compliance log on a phone. Build a route on the map. Price all the features you actually need.</h3>
-          <p>SprayBossPro offers a full free trial with every feature unlocked — no demo-only access, no limits on accounts or routes while evaluating. Try the waiting list, the circle map, the compliance log, and the SMS all on real data.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro offers a full free trial with every feature unlocked — no demo-only access, no limits on accounts or routes while evaluating. Try the waiting list, the circle map, the compliance log, and the SMS all on real data.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

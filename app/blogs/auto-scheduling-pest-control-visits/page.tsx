@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Pest Control Auto-Scheduling Looks Like | SprayBossPro',
+  title: 'What Pest Control Auto-Scheduling Looks Like | LandscapeBossPro',
   description: 'A step-by-step look at what happens after a quarterly treatment is completed and how the next visit schedules itself without anyone touching it.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Scheduling Automation</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Scheduling Automation</p>
         <h1>What Auto-Scheduling After Every Pest Control Visit Actually Looks Like</h1>
 
         <p>Auto-scheduling is one of those features that sounds simple in a product demo and turns out to be the most operationally significant thing a pest control software does. The difference between manually rebooking every quarterly account after each completion and having the system do it isn&apos;t just time savings — it&apos;s the elimination of an entire failure mode. Here&apos;s exactly what happens in the system after a quarterly pest control visit is completed, step by step.</p>
@@ -37,8 +37,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Every completion triggers the next visit — automatically, for every customer, every program type.</h3>
-          <p>SprayBossPro auto-schedules the next pest control visit the moment a tech submits the completion log, so your waiting list is always current without anyone in the office doing anything between visits.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro auto-schedules the next pest control visit the moment a tech submits the completion log, so your waiting list is always current without anyone in the office doing anything between visits.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

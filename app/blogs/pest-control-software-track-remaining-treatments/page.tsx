@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Pest Control Software: Track Remaining Treatments | SprayBossPro',
+  title: 'Pest Control Software: Track Remaining Treatments | LandscapeBossPro',
   description: 'How package plan tracking in pest control software shows how many treatments each customer has used and how many remain — and how this drives renewal timing.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>How Pest Control Software Tracks Remaining Treatments in a Package Plan</h1>
 
         <p>A quarterly pest control customer who signed up for a 4-treatment annual plan has used 3 treatments by the time their Q3 service is completed in October. The remaining treatment — their Q4 visit — needs to happen before the year closes. The dispatcher needs to know this account is in the final treatment of its contracted plan. The salesperson needs to know this customer should be contacted about renewal before Q4 is dispatched. The billing team needs to know whether the final treatment triggers a renewal invoice or simply closes the current contract. In a spreadsheet system, none of this happens automatically. In purpose-built <a href="/pest-control-software">pest control software</a>, all three needs are met through the package plan tracking structure.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Q1: 1/4. Q2: 2/4. Q3: 3/4. Q4 coming — time to renew. Software that counts so you don&apos;t have to.</h3>
-          <p>SprayBossPro&apos;s package plan tracking shows remaining treatments per account across every active program — so renewal timing is a system output, not a manual follow-up task.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s package plan tracking shows remaining treatments per account across every active program — so renewal timing is a system output, not a manual follow-up task.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

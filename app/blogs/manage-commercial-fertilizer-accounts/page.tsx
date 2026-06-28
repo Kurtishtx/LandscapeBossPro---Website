@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Manage Commercial Fertilizer Alongside Residential | SprayBossPro',
+  title: 'Manage Commercial Fertilizer Alongside Residential | LandscapeBossPro',
   description: 'How to handle commercial clients with multiple properties, each on its own sq ft measurement and fertilizer program under one account.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Commercial Accounts</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Commercial Accounts</p>
         <h1>How to Manage Multi-Property Commercial Fertilizer Accounts</h1>
 
         <p>Commercial fertilizer accounts — HOA communities, property management companies, commercial real estate portfolios — often involve a single client with multiple service addresses, each with its own square footage, program type, and scheduling needs. Managing these accounts requires a system that can hold multiple properties under one client record without conflating their individual service histories, programs, or compliance logs. Here&apos;s how to structure and manage them efficiently.</p>
@@ -40,8 +40,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Manage 20 commercial properties under one client like they&apos;re all 20 of them individually.</h3>
-          <p>SprayBossPro holds multiple properties per client, each with their own program, compliance logs, sq ft, and service history — with combined invoicing and a single communication channel per client.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro holds multiple properties per client, each with their own program, compliance logs, sq ft, and service history — with combined invoicing and a single communication channel per client.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

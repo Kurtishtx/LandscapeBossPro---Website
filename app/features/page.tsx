@@ -110,7 +110,7 @@ async function sbpCreateAccount(n: number) {
     cd.textContent = `Redirecting in ${secs} seconds…`;
     const iv = setInterval(() => {
       secs--;
-      if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.spraybosspro.com/dashboard.html'; }
+      if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.landscapebosspro.com/dashboard.html'; }
       else cd.textContent = `Redirecting in ${secs} second${secs === 1 ? '' : 's'}…`;
     }, 1000);
   } catch(e: any) {
@@ -144,7 +144,7 @@ export default function Features() {
       <div className="hero">
         <div className="hero-badge">Full Feature List</div>
         <h1>Everything You Need to Run<br /><span>Your Spray Business</span></h1>
-        <p>SprayBossPro is built specifically for lawn care and pest control. Every feature listed here is included in your $129/month — nothing locked, nothing extra.</p>
+        <p>LandscapeBossPro is built specifically for lawn care and pest control. Every feature listed here is included in your $129/month — nothing locked, nothing extra.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => openSignupModal(1, e.currentTarget as HTMLElement)}>Start Your 14-Day Free Trial</button>
         </div>
@@ -154,9 +154,9 @@ export default function Features() {
       <div className="spotlight">
         <div className="spotlight-inner">
           <div className="spotlight-text">
-            <div className="spotlight-label">Only in SprayBossPro</div>
+            <div className="spotlight-label">Only in LandscapeBossPro</div>
             <div className="spotlight-title">Circle an Area on the Map.<br /><span>Instantly Know Everything Inside It.</span></div>
-            <div className="spotlight-desc">On the waiting list map, draw a circle around any geographic area. SprayBossPro instantly shows you the total sq ft, linear ft, stop count, number of services, and a breakdown of every service type inside that circle — before you schedule a single stop.</div>
+            <div className="spotlight-desc">On the waiting list map, draw a circle around any geographic area. LandscapeBossPro instantly shows you the total sq ft, linear ft, stop count, number of services, and a breakdown of every service type inside that circle — before you schedule a single stop.</div>
             <ul className="spotlight-checks">
               <li>Draw a lasso around any area on the map</li>
               <li>See total sq ft and linear ft for everything inside</li>
@@ -261,15 +261,15 @@ export default function Features() {
         <div className="cat-block">
           <div className="cat-header">
             <span className="cat-icon">💰</span>
-            <div><div className="cat-title">Estimates</div><div className="cat-desc">Build, send, and close estimates without leaving SprayBossPro</div></div>
+            <div><div className="cat-title">Estimates</div><div className="cat-desc">Build, send, and close estimates without leaving LandscapeBossPro</div></div>
           </div>
           <div className="feat-grid">
             {[
               {t:'Service Catalog for Line Items',d:'Build your service catalog once. Add line items to any estimate by selecting from your list — no retyping prices.'},
               {t:'Email Estimate Directly',d:'Send a branded estimate to the client in one click. No downloading, no copy-paste into Gmail.'},
               {t:'Online Accept Link',d:'Clients click a link to view and accept. Accepted status updates in your dashboard immediately.'},
-              {t:'3-Step Automated Follow-Up',d:"3 follow-up texts go out automatically if a client doesn't respond. SprayBossPro chases the deal so you don't have to."},
-              {t:'Discount Codes & Sales Tax',d:'Apply percentage or flat discounts. Set tax rates and SprayBossPro calculates tax on every estimate automatically.'},
+              {t:'3-Step Automated Follow-Up',d:"3 follow-up texts go out automatically if a client doesn't respond. LandscapeBossPro chases the deal so you don't have to."},
+              {t:'Discount Codes & Sales Tax',d:'Apply percentage or flat discounts. Set tax rates and LandscapeBossPro calculates tax on every estimate automatically.'},
               {t:'Estimate Status Tracking',d:'Track every estimate as Draft, Sent, Accepted, or Declined with full history and timestamps.'},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
@@ -309,7 +309,7 @@ export default function Features() {
           </div>
           <div className="feat-grid">
             {[
-              {t:'Two-Way SMS Inbox',d:'Send and receive texts with customers inside SprayBossPro. Full conversation history organized by contact.'},
+              {t:'Two-Way SMS Inbox',d:'Send and receive texts with customers inside LandscapeBossPro. Full conversation history organized by contact.'},
               {t:'Service Scheduled Alert',d:'Customer gets a text the moment a service is added to the schedule. Fully customizable message.'},
               {t:'Tech On the Way Alert',d:'Notify customers automatically when your technician is heading to their property.'},
               {t:'Service Completed Alert',d:'Text the customer when the job is marked done — what was done, no phone call needed.'},
@@ -360,7 +360,7 @@ export default function Features() {
               {t:'Custom Package Plans',d:'Create any package — 6-app lawn care, quarterly pest, annual mosquito. Fully custom service types and counts.'},
               {t:'Assign Clients to Packages',d:'Link any client to any package. Track start date, treatments used, and treatments remaining automatically.'},
               {t:'Renewal Alerts',d:'Get alerted before a package expires so you can reach out before the client looks elsewhere.'},
-              {t:'Treatment Count Tracking',d:'SprayBossPro counts down remaining applications automatically each time a service is marked complete.'},
+              {t:'Treatment Count Tracking',d:'LandscapeBossPro counts down remaining applications automatically each time a service is marked complete.'},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
             ))}
@@ -402,7 +402,7 @@ export default function Features() {
               {t:'Mark Complete from the Field',d:'Tap to mark complete, skip, or reschedule — all without calling the office. Syncs in real time.'},
               {t:'Chemical Log Entry',d:'Techs log the product, rate, gallons, and weather at each stop from their phone. Records are automatic.'},
               {t:'Property Notes & Photos',d:'Techs can add field notes and photos to any property from their device. Office sees them instantly.'},
-              {t:'No App Download Required',d:"SprayBossPro's mobile experience runs in any browser. No app store, no install, no update prompts."},
+              {t:'No App Download Required',d:"LandscapeBossPro's mobile experience runs in any browser. No app store, no install, no update prompts."},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
             ))}
@@ -444,8 +444,8 @@ export default function Features() {
       <div id="sbp-backdrop" onClick={closeAllModals} style={{display:'none',position:'fixed',top:0,left:0,width:'100%',height:'100%',background:'rgba(0,0,0,.55)',zIndex:99997}}></div>
 
       {/* FORM 1 */}
-      <div id="sbp-form-1" style={{display:'none',position:'fixed',zIndex:99999,width:'420px',maxWidth:'calc(100vw - 24px)',background:'#fff',borderRadius:'14px',border:'3px solid #e07820',boxShadow:'0 0 0 4px rgba(224,120,32,.35), 0 16px 60px rgba(0,0,0,.45)',maxHeight:'calc(100vh - 40px)',overflowY:'auto'}}>
-        <div style={{background:'linear-gradient(135deg,#080010,#1e0a35)',padding:'28px 28px 22px',position:'relative'}}>
+      <div id="sbp-form-1" style={{display:'none',position:'fixed',zIndex:99999,width:'420px',maxWidth:'calc(100vw - 24px)',background:'#fff',borderRadius:'14px',border:'3px solid #1b6e3b',boxShadow:'0 0 0 4px rgba(27,110,59,.35), 0 16px 60px rgba(0,0,0,.45)',maxHeight:'calc(100vh - 40px)',overflowY:'auto'}}>
+        <div style={{background:'linear-gradient(135deg,#08140d,#15321f)',padding:'28px 28px 22px',position:'relative'}}>
           <div style={{color:'#fff',fontSize:'20px',fontWeight:800,paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
           <div style={{color:'rgba(255,255,255,.6)',fontSize:'13px',marginTop:'5px'}}>No credit card required. Full access. Cancel anytime.</div>
           <button onClick={() => closeSignupModal(1)} style={{position:'absolute',top:'16px',right:'16px',background:'rgba(255,255,255,.12)',border:'none',color:'#fff',width:'32px',height:'32px',borderRadius:'50%',cursor:'pointer',fontSize:'20px',display:'flex',alignItems:'center',justifyContent:'center'}}>×</button>
@@ -458,7 +458,7 @@ export default function Features() {
           </div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Company Name</label><input id="sbp1-company" type="text" placeholder="Smith Lawn & Spray Co." style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Email Address</label><input id="sbp1-email" type="email" placeholder="you@yourcompany.com" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
-          <button onClick={() => sbpStep2(1)} style={{width:'100%',background:'#e07820',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Next: Create Password →</button>
+          <button onClick={() => sbpStep2(1)} style={{width:'100%',background:'#1b6e3b',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Next: Create Password →</button>
         </div>
         <div id="sbp1-step2" style={{padding:'24px 28px',display:'none'}}>
           <div id="sbp1-err2" style={{background:'#fff0f0',border:'1px solid #f5c6c6',color:'#c0392b',borderRadius:'6px',padding:'10px 12px',fontSize:'13px',marginBottom:'14px',display:'none'}}></div>
@@ -467,10 +467,10 @@ export default function Features() {
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Password</label><input id="sbp1-password" type="password" placeholder="At least 8 characters" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Confirm Password</label><input id="sbp1-confirm" type="password" placeholder="Repeat password" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'18px',display:'flex',alignItems:'flex-start',gap:'10px'}}>
-            <input type="checkbox" id="sbp1-agree" style={{width:'16px',height:'16px',accentColor:'#e07820',cursor:'pointer',flexShrink:0,marginTop:'3px'}} />
-            <label htmlFor="sbp1-agree" style={{fontSize:'13px',color:'#555',cursor:'pointer',lineHeight:1.5}}>I agree to the <a href="https://spraybosspro.com/terms" target="_blank" rel="noreferrer" style={{color:'#e07820'}}>Terms of Service</a> and <a href="https://spraybosspro.com/privacy-policy" target="_blank" rel="noreferrer" style={{color:'#e07820'}}>Privacy Policy</a></label>
+            <input type="checkbox" id="sbp1-agree" style={{width:'16px',height:'16px',accentColor:'#1b6e3b',cursor:'pointer',flexShrink:0,marginTop:'3px'}} />
+            <label htmlFor="sbp1-agree" style={{fontSize:'13px',color:'#555',cursor:'pointer',lineHeight:1.5}}>I agree to the <a href="https://landscapebosspro.com/terms" target="_blank" rel="noreferrer" style={{color:'#1b6e3b'}}>Terms of Service</a> and <a href="https://landscapebosspro.com/privacy-policy" target="_blank" rel="noreferrer" style={{color:'#1b6e3b'}}>Privacy Policy</a></label>
           </div>
-          <button id="sbp1-create-btn" onClick={() => sbpCreateAccount(1)} style={{width:'100%',background:'#e07820',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Create My Account</button>
+          <button id="sbp1-create-btn" onClick={() => sbpCreateAccount(1)} style={{width:'100%',background:'#1b6e3b',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Create My Account</button>
           <button onClick={() => sbpBackToStep1(1)} style={{width:'100%',background:'none',border:'none',color:'#888',fontSize:'13px',cursor:'pointer',marginTop:'10px',padding:'6px',fontFamily:'inherit',textDecoration:'underline'}}>← Back</button>
         </div>
         <div id="sbp1-success" style={{padding:'48px 28px',textAlign:'center',display:'none'}}>
@@ -482,8 +482,8 @@ export default function Features() {
       </div>
 
       {/* FORM 2 */}
-      <div id="sbp-form-2" style={{display:'none',position:'fixed',zIndex:99999,width:'420px',maxWidth:'calc(100vw - 24px)',background:'#fff',borderRadius:'14px',border:'3px solid #e07820',boxShadow:'0 0 0 4px rgba(224,120,32,.35), 0 16px 60px rgba(0,0,0,.45)',maxHeight:'calc(100vh - 40px)',overflowY:'auto'}}>
-        <div style={{background:'linear-gradient(135deg,#080010,#1e0a35)',padding:'28px 28px 22px',position:'relative'}}>
+      <div id="sbp-form-2" style={{display:'none',position:'fixed',zIndex:99999,width:'420px',maxWidth:'calc(100vw - 24px)',background:'#fff',borderRadius:'14px',border:'3px solid #1b6e3b',boxShadow:'0 0 0 4px rgba(27,110,59,.35), 0 16px 60px rgba(0,0,0,.45)',maxHeight:'calc(100vh - 40px)',overflowY:'auto'}}>
+        <div style={{background:'linear-gradient(135deg,#08140d,#15321f)',padding:'28px 28px 22px',position:'relative'}}>
           <div style={{color:'#fff',fontSize:'20px',fontWeight:800,paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
           <div style={{color:'rgba(255,255,255,.6)',fontSize:'13px',marginTop:'5px'}}>No credit card required. Full access. Cancel anytime.</div>
           <button onClick={() => closeSignupModal(2)} style={{position:'absolute',top:'16px',right:'16px',background:'rgba(255,255,255,.12)',border:'none',color:'#fff',width:'32px',height:'32px',borderRadius:'50%',cursor:'pointer',fontSize:'20px',display:'flex',alignItems:'center',justifyContent:'center'}}>×</button>
@@ -496,7 +496,7 @@ export default function Features() {
           </div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Company Name</label><input id="sbp2-company" type="text" placeholder="Smith Lawn & Spray Co." style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Email Address</label><input id="sbp2-email" type="email" placeholder="you@yourcompany.com" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
-          <button onClick={() => sbpStep2(2)} style={{width:'100%',background:'#e07820',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Next: Create Password →</button>
+          <button onClick={() => sbpStep2(2)} style={{width:'100%',background:'#1b6e3b',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Next: Create Password →</button>
         </div>
         <div id="sbp2-step2" style={{padding:'24px 28px',display:'none'}}>
           <div id="sbp2-err2" style={{background:'#fff0f0',border:'1px solid #f5c6c6',color:'#c0392b',borderRadius:'6px',padding:'10px 12px',fontSize:'13px',marginBottom:'14px',display:'none'}}></div>
@@ -505,10 +505,10 @@ export default function Features() {
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Password</label><input id="sbp2-password" type="password" placeholder="At least 8 characters" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Confirm Password</label><input id="sbp2-confirm" type="password" placeholder="Repeat password" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'18px',display:'flex',alignItems:'flex-start',gap:'10px'}}>
-            <input type="checkbox" id="sbp2-agree" style={{width:'16px',height:'16px',accentColor:'#e07820',cursor:'pointer',flexShrink:0,marginTop:'3px'}} />
-            <label htmlFor="sbp2-agree" style={{fontSize:'13px',color:'#555',cursor:'pointer',lineHeight:1.5}}>I agree to the <a href="https://spraybosspro.com/terms" target="_blank" rel="noreferrer" style={{color:'#e07820'}}>Terms of Service</a> and <a href="https://spraybosspro.com/privacy-policy" target="_blank" rel="noreferrer" style={{color:'#e07820'}}>Privacy Policy</a></label>
+            <input type="checkbox" id="sbp2-agree" style={{width:'16px',height:'16px',accentColor:'#1b6e3b',cursor:'pointer',flexShrink:0,marginTop:'3px'}} />
+            <label htmlFor="sbp2-agree" style={{fontSize:'13px',color:'#555',cursor:'pointer',lineHeight:1.5}}>I agree to the <a href="https://landscapebosspro.com/terms" target="_blank" rel="noreferrer" style={{color:'#1b6e3b'}}>Terms of Service</a> and <a href="https://landscapebosspro.com/privacy-policy" target="_blank" rel="noreferrer" style={{color:'#1b6e3b'}}>Privacy Policy</a></label>
           </div>
-          <button id="sbp2-create-btn" onClick={() => sbpCreateAccount(2)} style={{width:'100%',background:'#e07820',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Create My Account</button>
+          <button id="sbp2-create-btn" onClick={() => sbpCreateAccount(2)} style={{width:'100%',background:'#1b6e3b',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Create My Account</button>
           <button onClick={() => sbpBackToStep1(2)} style={{width:'100%',background:'none',border:'none',color:'#888',fontSize:'13px',cursor:'pointer',marginTop:'10px',padding:'6px',fontFamily:'inherit',textDecoration:'underline'}}>← Back</button>
         </div>
         <div id="sbp2-success" style={{padding:'48px 28px',textAlign:'center',display:'none'}}>
@@ -520,7 +520,7 @@ export default function Features() {
       </div>
 
       <style>{`
-        .spotlight { background: linear-gradient(135deg, #080010 0%, #130520 100%); padding: 90px 40px; }
+        .spotlight { background: linear-gradient(135deg, #08140d 0%, #0f2417 100%); padding: 90px 40px; }
         .spotlight-inner { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; gap: 60px; flex-wrap: wrap; }
         .spotlight-text { flex: 1; min-width: 280px; }
         .spotlight-label { display: inline-block; color: var(--orange); font-size: 12px; font-weight: 700; letter-spacing: 1.8px; text-transform: uppercase; margin-bottom: 12px; }
@@ -530,12 +530,12 @@ export default function Features() {
         .spotlight-checks { list-style: none; }
         .spotlight-checks li { display: flex; align-items: flex-start; gap: 10px; color: rgba(255,255,255,.75); font-size: 15px; margin-bottom: 12px; }
         .spotlight-checks li::before { content: '✓'; background: var(--orange); color: #fff; border-radius: 50%; width: 20px; height: 20px; display: inline-flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; margin-top: 2px; }
-        .spotlight-visual { flex: 1; min-width: 280px; background: rgba(255,255,255,.05); border: 2px solid rgba(224,120,32,.35); border-radius: 16px; padding: 32px 28px; }
+        .spotlight-visual { flex: 1; min-width: 280px; background: rgba(255,255,255,.05); border: 2px solid rgba(27,110,59,.35); border-radius: 16px; padding: 32px 28px; }
         .mock-map { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.1); border-radius: 10px; padding: 20px; margin-bottom: 16px; position: relative; min-height: 140px; display: flex; align-items: center; justify-content: center; }
         .mock-lasso { position: absolute; top: 18px; left: 22px; right: 22px; bottom: 18px; border: 2.5px dashed var(--orange); border-radius: 50%; opacity: .7; }
         .mock-pins { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; position: relative; z-index: 1; }
         .mock-pin { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
-        .mock-pin.sel { background: var(--orange); box-shadow: 0 0 0 3px rgba(224,120,32,.3); }
+        .mock-pin.sel { background: var(--orange); box-shadow: 0 0 0 3px rgba(27,110,59,.3); }
         .mock-pin.unsel { background: rgba(255,255,255,.25); }
         .stat-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
         .stat-box { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.1); border-radius: 8px; padding: 12px 14px; }
@@ -551,11 +551,11 @@ export default function Features() {
         .cat-desc { color: var(--muted); font-size: 14px; margin-top: 2px; }
         .feat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
         .feat-item { background: #fff; border: 1.5px solid var(--border); border-radius: 10px; padding: 22px 20px; transition: border-color .2s, box-shadow .2s, transform .15s; }
-        .feat-item:hover { border-color: var(--orange); box-shadow: 0 4px 20px rgba(224,120,32,.1); transform: translateY(-2px); }
+        .feat-item:hover { border-color: var(--orange); box-shadow: 0 4px 20px rgba(27,110,59,.1); transform: translateY(-2px); }
         .feat-item-title { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
         .feat-item-title::before { content: '✓'; background: var(--orange); color: #fff; border-radius: 50%; width: 18px; height: 18px; display: inline-flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; flex-shrink: 0; }
         .feat-item p { color: var(--muted); font-size: 13px; line-height: 1.6; }
-        .dark-cat { background: linear-gradient(135deg, #080010 0%, #130520 100%); padding: 80px 40px; }
+        .dark-cat { background: linear-gradient(135deg, #08140d 0%, #0f2417 100%); padding: 80px 40px; }
         .dark-cat .cat-title { color: #fff; }
         .dark-cat .cat-desc { color: rgba(255,255,255,.55); }
         .dark-cat .cat-header { border-bottom-color: rgba(255,255,255,.1); }

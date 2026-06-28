@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Track Mosquito Control Revenue by Route and Type | SprayBossPro',
+  title: 'Track Mosquito Control Revenue by Route and Type | LandscapeBossPro',
   description: 'How to see daily and weekly mosquito program revenue by route and service type so you can make staffing and routing decisions based on real numbers.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Revenue Tracking</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Revenue Tracking</p>
         <h1>How to Track Mosquito Control Revenue by Route and Program Type</h1>
 
         <p>Mosquito control revenue has a distinct seasonal shape that requires active management during peak months. Revenue ramps in April and May as the season opens, peaks in June and July when all enrolled customers are simultaneously active, then tapers in August and September as the season closes and some customers reach their last treatment. Understanding where in that curve your business actually is — and whether your routing and enrollment decisions are tracking against plan — requires revenue visibility at the route level, not just as an end-of-month total.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Pre-route revenue. Per-technician daily output. Weekly program-type breakdown. Seasonal forecast from the waiting list.</h3>
-          <p>SprayBossPro tracks mosquito control revenue at the route, technician, and program level — with pre-route revenue visible in the waiting list before a single stop is dispatched.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro tracks mosquito control revenue at the route, technician, and program level — with pre-route revenue visible in the waiting list before a single stop is dispatched.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

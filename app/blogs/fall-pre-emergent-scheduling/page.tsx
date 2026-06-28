@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Fall Pre-Emergent Scheduling: Hitting the Window | SprayBossPro',
+  title: 'Fall Pre-Emergent Scheduling: Hitting the Window | LandscapeBossPro',
   description: 'The logistics of routing and completing fall pre-emergent applications before the window closes across hundreds of properties.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Seasonal Scheduling</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Seasonal Scheduling</p>
         <h1>Fall Pre-Emergent Scheduling: How to Hit the Right Window Across Your Entire Customer Base</h1>
 
         <p>Fall pre-emergent is one of the most time-compressed service windows in a lawn care season. You need to apply before winter annual weeds germinate — when soil temperatures are falling through 70 degrees — but not so early that the product degrades before the germination period. In many markets, that window is 3 to 5 weeks wide between late August and mid-October. For a company with 200 or more accounts enrolled in a fall pre-emergent program, routing and completing all of them within that window is a logistics challenge that rewards preparation and punishes ad hoc scheduling.</p>
@@ -35,8 +35,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>See your full fall pre-emergent account scope before the window opens — not after.</h3>
-          <p>SprayBossPro filters your waiting list to fall pre-emergent accounts with total sq ft so you can capacity-plan the season, build density-optimized routes, and complete every account before the window closes.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro filters your waiting list to fall pre-emergent accounts with total sq ft so you can capacity-plan the season, build density-optimized routes, and complete every account before the window closes.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

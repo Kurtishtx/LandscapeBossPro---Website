@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Add Mosquito Control to Lawn Care or Pest Control | SprayBossPro',
+  title: 'Add Mosquito Control to Lawn Care or Pest Control | LandscapeBossPro',
   description: 'How to layer a mosquito add-on onto your existing customer base, schedule it alongside other services, and track it separately for compliance.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Program Expansion</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Program Expansion</p>
         <h1>How to Add Mosquito Control Programs to an Existing Lawn Care or Pest Control Business</h1>
 
         <p>Mosquito control is one of the highest-margin add-on services available to lawn care and pest control companies with an existing recurring customer base. The customer acquisition cost is essentially zero — the customer already trusts you, already has an active account, and is already accustomed to having your technicians on their property. Converting 15 to 25 percent of a 300-account lawn care base to a seasonal mosquito program at $75 to $100 per treatment generates $60,000 to $105,000 in additional annual revenue without a single new customer acquisition. The operational challenge is scheduling the mosquito program independently from the base service without creating routing conflicts or compliance log confusion.</p>
@@ -31,8 +31,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Mosquito add-on on the same account as lawn care or pest control — scheduled independently, tracked separately.</h3>
-          <p>SprayBossPro supports multiple simultaneous programs per customer account so mosquito service schedules on its own 21-day cycle without interfering with base lawn care or pest control programs.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro supports multiple simultaneous programs per customer account so mosquito service schedules on its own 21-day cycle without interfering with base lawn care or pest control programs.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

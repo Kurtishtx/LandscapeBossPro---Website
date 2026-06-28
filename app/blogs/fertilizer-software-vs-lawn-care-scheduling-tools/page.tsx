@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Fertilizer Software vs Lawn Care Scheduling Tools | SprayBossPro',
+  title: 'Fertilizer Software vs Lawn Care Scheduling Tools | LandscapeBossPro',
   description: 'Why EPA reg number logging, round tracking, and re-entry SMS require features that generic scheduling tools don\'t have.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Software &amp; Tools</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Software &amp; Tools</p>
         <h1>The Difference Between Fertilizer Software and General Lawn Care Scheduling Tools</h1>
 
         <p>Not every lawn care scheduling tool is built for fertilizer companies. General-purpose scheduling tools handle jobs, customers, routes, and invoicing — and for a lot of service businesses, that&apos;s enough. For a company running multi-round fertilizer programs with compliance logging requirements, re-entry interval communications, and round-specific waiting lists, a general tool is missing the features that matter most. Here&apos;s where the gap shows up.</p>
@@ -41,8 +41,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Fertilizer programs need fertilizer software. Not a general scheduling tool with a notes field.</h3>
-          <p>SprayBossPro tracks rounds, logs EPA reg numbers, sends re-entry interval SMS, and organizes your waiting list by round — built specifically for companies running multi-round fertilizer programs.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro tracks rounds, logs EPA reg numbers, sends re-entry interval SMS, and organizes your waiting list by round — built specifically for companies running multi-round fertilizer programs.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

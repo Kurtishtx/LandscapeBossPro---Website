@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Customers Expect After Weed Control | SprayBossPro',
+  title: 'What Customers Expect After Weed Control | LandscapeBossPro',
   description: 'The three automated messages that tell customers the re-entry interval, when to water, and when their next visit is scheduled — sent without your team doing anything.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Customer Experience</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Customer Experience</p>
         <h1>What Customers Expect After a Weed Control Application</h1>
 
         <p>A weed control visit is invisible to most customers. The technician shows up while they&apos;re at work, treats the lawn, and leaves. If no one tells the customer what was done, when they can re-enter the lawn, and when the next visit will be — they&apos;re left wondering whether the service happened, whether it&apos;s safe to let the dog out, and whether they need to call to schedule a follow-up. Three automated messages, triggered at the right moments, answer all of these questions without your team doing anything.</p>
@@ -39,8 +39,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Three messages. Every visit. Zero manual sends.</h3>
-          <p>SprayBossPro fires scheduled confirmation, service complete with product-specific REI, and next-visit estimate texts automatically for every weed control stop — so your customers always know what happened and what&apos;s next without your team doing anything.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro fires scheduled confirmation, service complete with product-specific REI, and next-visit estimate texts automatically for every weed control stop — so your customers always know what happened and what&apos;s next without your team doing anything.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

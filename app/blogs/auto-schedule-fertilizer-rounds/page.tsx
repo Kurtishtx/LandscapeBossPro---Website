@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Auto-Schedule Fertilizer Rounds After Each Visit | SprayBossPro',
+  title: 'Auto-Schedule Fertilizer Rounds After Each Visit | LandscapeBossPro',
   description: 'How round auto-rescheduling works so the next fertilizer visit appears on the waiting list at the right interval without your team touching anything.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Scheduling &amp; Automation</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Scheduling &amp; Automation</p>
         <h1>How to Auto-Schedule Fertilizer Rounds So You Never Miss a Treatment</h1>
 
         <p>Every fertilizer company running multi-round programs has the same operational challenge: after each completed round, every customer needs to be rebooked for their next visit at the right interval. At 50 customers across 5 rounds, that&apos;s 250 manual scheduling actions per season. At 300 customers it&apos;s 1,500. Auto-rescheduling eliminates every one of those actions.</p>
@@ -43,8 +43,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Stop manually rebooking every round for every customer.</h3>
-          <p>SprayBossPro auto-schedules the next fertilizer round the moment a technician marks the current one complete — no office action required, all season long.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro auto-schedules the next fertilizer round the moment a technician marks the current one complete — no office action required, all season long.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

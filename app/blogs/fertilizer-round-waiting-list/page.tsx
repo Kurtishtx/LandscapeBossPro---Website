@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Is a Fertilizer Round Waiting List? | SprayBossPro',
+  title: 'What Is a Fertilizer Round Waiting List? | LandscapeBossPro',
   description: 'How a round-organized waiting list with sq ft totals tells you the full scope of the day\'s fertilizer work before you open the map.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Scheduling &amp; Routing</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Scheduling &amp; Routing</p>
         <h1>What Is a Fertilizer Round Waiting List and How Does It Help You Route Faster?</h1>
 
         <p>A fertilizer round waiting list is the daily starting point for every routing decision in a fertilizer business. It shows every customer currently due for a service visit — organized by round number and service type, with sq ft totals that tell you exactly how much work is in queue before you build a single route. It&apos;s the difference between starting your morning knowing what the day looks like and starting your morning trying to figure it out.</p>
@@ -45,8 +45,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Know the full scope of your fertilizer day before you build a single route.</h3>
-          <p>SprayBossPro&apos;s round-organized waiting list shows pending customers by round number, service type, and total sq ft — so every morning starts with complete visibility, not a guessing game.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s round-organized waiting list shows pending customers by round number, service type, and total sq ft — so every morning starts with complete visibility, not a guessing game.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Dispatch Lawn Care Technicians Without Calls | SprayBossPro',
+  title: 'Dispatch Lawn Care Technicians Without Calls | LandscapeBossPro',
   description: 'How mobile dispatch works so technicians see their route, stops, property notes, and service details on their phone.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Dispatch &amp; Field Operations</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Dispatch &amp; Field Operations</p>
         <h1>How to Dispatch Lawn Care Technicians Without Calling or Texting Them Every Morning</h1>
 
         <p>If your morning dispatch process involves calling each crew lead, texting stop lists, or having technicians show up to the shop to get their assignments, you have a system problem — not a communication problem. Modern lawn care dispatch is a push, not a phone call. Your techs open their phones and their route is already there.</p>
@@ -50,8 +50,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Push routes to your techs with one click. No calls. No texts.</h3>
-          <p>SprayBossPro dispatches routes directly to technician phones with property notes, sq ft, service details, and chemical logs built in.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro dispatches routes directly to technician phones with property notes, sq ft, service details, and chemical logs built in.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

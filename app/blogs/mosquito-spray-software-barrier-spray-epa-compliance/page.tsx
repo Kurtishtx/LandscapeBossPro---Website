@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Mosquito Spray Software: EPA Compliance Tracking | SprayBossPro',
+  title: 'Mosquito Spray Software: EPA Compliance Tracking | LandscapeBossPro',
   description: 'How purpose-built mosquito spray software captures EPA registration numbers, application rates, and product details at each treatment — and generates the chemical tracking report for state inspection.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>How Mosquito Spray Software Tracks Barrier Spray Applications for EPA Compliance</h1>
 
         <p>A licensed mosquito spray operator applies a regulated pesticide at every stop on every route. Each application creates a compliance record requirement: the product applied, the EPA registration number, the application rate, the target pest, the treatment area, the date, the property, and the technician. Across a 150-account customer base with 6 treatments per season, that&apos;s 900 individual application records per season that need to be organized, accessible, and printable for a state inspector visit. Paper logs managed well are achievable. Paper logs managed under production pressure during peak season are not — and the gap shows up in inspection findings. <a href="/mosquito-spray-software">Mosquito spray software</a> captures these records automatically as each treatment is logged in the field.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Every barrier spray application logged. EPA registration numbers stored in product mix records. Chemical tracking report prints in 2 minutes.</h3>
-          <p>SprayBossPro captures full EPA compliance data at every mosquito treatment completion and generates a printable chemical tracking report for state inspection — no separate log required.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro captures full EPA compliance data at every mosquito treatment completion and generates a printable chemical tracking report for state inspection — no separate log required.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

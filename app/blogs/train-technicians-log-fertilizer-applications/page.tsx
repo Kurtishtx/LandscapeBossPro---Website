@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Train Technicians to Log Fertilizer Applications | SprayBossPro',
+  title: 'Train Technicians to Log Fertilizer Applications | LandscapeBossPro',
   description: 'The in-field compliance log workflow that gets accurate records submitted at the property before the tech leaves.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Field Operations &amp; Training</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Field Operations &amp; Training</p>
         <h1>How to Train Technicians to Log Fertilizer Applications in the Field</h1>
 
         <p>The biggest compliance gap in most fertilizer companies isn&apos;t the software — it&apos;s the behavior. Technicians who understand why the log matters and have a clear, fast workflow for completing it will do it consistently. Technicians who see it as extra paperwork with no purpose will skip fields, delay logging until end of day, or fill it out from memory. Here&apos;s how to build the training and the workflow that make accurate field logging the path of least resistance.</p>
@@ -50,8 +50,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Give your technicians a logging workflow that takes 60 seconds and produces complete records.</h3>
-          <p>SprayBossPro&apos;s mobile compliance log pre-fills property data, EPA reg numbers, and application rates so your techs spend less than a minute on compliance logging at every stop.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s mobile compliance log pre-fills property data, EPA reg numbers, and application rates so your techs spend less than a minute on compliance logging at every stop.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

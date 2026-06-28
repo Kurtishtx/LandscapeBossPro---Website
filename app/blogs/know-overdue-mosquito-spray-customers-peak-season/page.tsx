@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Overdue Mosquito Spray Customers During Peak Season | SprayBossPro',
+  title: 'Overdue Mosquito Spray Customers During Peak Season | LandscapeBossPro',
   description: 'How the waiting list surfaces overdue mosquito spray accounts automatically — sorted by days past due — so nothing gets dropped during the busiest weeks of peak season.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>How to Know Which Mosquito Spray Customers Are Overdue During Peak Season</h1>
 
         <p>At peak season in a 200-account mosquito spray operation, accounts fall behind their 21-day interval for predictable reasons: a rainy week when applications aren&apos;t possible, a technician absence that cuts route capacity, back-to-back holiday weekends that compress the schedule. When this happens, the business is running with some accounts 24, 26, or 28 days past their last treatment while still servicing new due accounts on schedule. In a manual system — a calendar with individual appointments — identifying which accounts are specifically overdue requires scanning through past-due appointments one by one. In <a href="/mosquito-spray-software">mosquito spray software</a>, the waiting list is the overdue detection system by design: every account that has passed its interval is visible, sorted by how far past due it is, before the dispatcher builds the first route of the day.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Longest overdue at the top of the waiting list. No filter needed. No cross-referencing. The list is the alert system.</h3>
-          <p>SprayBossPro&apos;s waiting list sorts by due date automatically — so overdue mosquito spray accounts surface at the top of the dispatcher&apos;s list every morning without any manual tracking or reporting.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s waiting list sorts by due date automatically — so overdue mosquito spray accounts surface at the top of the dispatcher&apos;s list every morning without any manual tracking or reporting.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

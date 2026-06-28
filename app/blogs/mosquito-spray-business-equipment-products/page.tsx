@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Mosquito Spray Business: Equipment and Products | SprayBossPro',
+  title: 'Mosquito Spray Business: Equipment and Products | LandscapeBossPro',
   description: 'A practical guide to barrier spray equipment and products for a mosquito spray business — backpack sprayers, ride-ons, bifenthrin, and natural alternatives — and how software tracks chemical usage across all of it.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>What Equipment and Products Does a Mosquito Spray Business Actually Need?</h1>
 
         <p>A mosquito spray business can start with surprisingly minimal equipment — a commercial backpack sprayer, a reliable vehicle, and a properly mixed bifenthrin concentrate is enough to start building a customer base. The equipment requirements scale with customer volume and property type, but the core of a barrier spray operation is the same whether you have 30 customers or 300: a sprayer that delivers the right particle size to vegetation surfaces at the right application rate, and a product that provides 21-day residual control after the material dries. Tracking what product was applied at what rate at which properties is the compliance function that <a href="/mosquito-spray-software">mosquito spray software</a> handles automatically when the technician logs each treatment in the field.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Log every product, rate, and application in the field. Pull the chemical tracking report for state inspection. No paper logs needed.</h3>
-          <p>SprayBossPro&apos;s chemical tracking report records every product application with the product mix, rate, and EPA registration number — giving you a compliant application log from each technician&apos;s mobile field entries.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s chemical tracking report records every product application with the product mix, rate, and EPA registration number — giving you a compliant application log from each technician&apos;s mobile field entries.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

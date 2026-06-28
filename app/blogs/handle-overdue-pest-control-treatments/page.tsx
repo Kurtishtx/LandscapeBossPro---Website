@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Handle Overdue Pest Control Treatments | SprayBossPro',
+  title: 'Handle Overdue Pest Control Treatments | LandscapeBossPro',
   description: 'How to identify overdue pest control accounts, prioritize them in routing, and communicate with customers before the gap creates a problem.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Account Management</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Account Management</p>
         <h1>What to Do When a Pest Control Customer Is Overdue for Their Treatment</h1>
 
         <p>Overdue pest control accounts are a known risk in any recurring program. A quarterly customer who was last serviced 115 days ago isn&apos;t just past due on an administrative level — the product residual has almost certainly worn off, pest pressure has had time to build back up, and the customer may have already noticed. How you handle overdue accounts determines whether they stay with you and whether the treatment at the overdue visit is as effective as it should be.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Overdue accounts surface in the waiting list as high-priority — so they get on the next route in their area.</h3>
-          <p>SprayBossPro flags overdue pest control accounts by days past due in both the waiting list and map view, so dispatchers route them first without manually reviewing every account for gap status.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro flags overdue pest control accounts by days past due in both the waiting list and map view, so dispatchers route them first without manually reviewing every account for gap status.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

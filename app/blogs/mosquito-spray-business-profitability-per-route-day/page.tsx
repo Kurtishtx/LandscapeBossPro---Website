@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Mosquito Spray Business Profitability Per Route Day | SprayBossPro',
+  title: 'Mosquito Spray Business Profitability Per Route Day | LandscapeBossPro',
   description: 'How to calculate per-route-day revenue and margin for a mosquito spray business — and how software shows you revenue totals before dispatch so you know what each day generates.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>Mosquito Spray Business Profitability: How Much Can You Make Per Route Day?</h1>
 
         <p>The per-route-day economics of a mosquito spray business are straightforward once the pricing model is set correctly. A single technician with a backpack sprayer in a well-routed residential market can service 14 to 18 stops per day. At $85 to $130 per treatment depending on property size, a 15-stop route day generates $1,275 to $1,950 in gross revenue. Against product cost of $4 to $8 per stop and labor of $150 to $180 per technician day (at $18 to $22/hour for 8 hours), direct gross margin per route day runs $1,000 to $1,700 before overhead allocation. <a href="/mosquito-spray-software">Mosquito spray software</a> shows you the revenue total for a set of selected stops before you dispatch the route — so you know what the day generates before the truck leaves the shop.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>See the revenue total for a set of selected stops before you dispatch. Know your route day before the truck leaves.</h3>
-          <p>SprayBossPro shows revenue totals for selected stops in the circle map tool before the route is built — so every dispatch decision is informed by what the route day will actually generate.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro shows revenue totals for selected stops in the circle map tool before the route is built — so every dispatch decision is informed by what the route day will actually generate.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

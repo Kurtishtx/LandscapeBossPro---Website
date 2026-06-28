@@ -44,7 +44,7 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
           <div className="navbar-brand">
             <a href="/" style={{textDecoration:'none', display:'flex', alignItems:'center', gap:'8px'}}>
               <span className="navbar-icon">🌿</span>
-              <span className="navbar-name">SprayBossPro</span>
+              <span className="navbar-name">LandscapeBossPro</span>
             </a>
           </div>
           <div className="navbar-links">
@@ -70,7 +70,7 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
             </div>
             <a href="/features">Features</a>
             <a href="/pricing">Pricing</a>
-            <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer">Log In</a>
+            <a href="https://my.landscapebosspro.com" target="_blank" rel="noreferrer">Log In</a>
             <button
               className="navbar-cta"
               onClick={(e) => onTrialClick(e.currentTarget as HTMLElement)}
@@ -109,7 +109,7 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
           </div>
           <a href="/features" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Features</a>
           <a href="/pricing" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Pricing</a>
-          <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Log In</a>
+          <a href="https://my.landscapebosspro.com" target="_blank" rel="noreferrer" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Log In</a>
           <button
             className="nav-mobile-cta"
             onClick={(e) => { toggleMenu(false); onTrialClick(e.currentTarget as HTMLElement); }}

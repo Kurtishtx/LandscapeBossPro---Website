@@ -13,7 +13,7 @@ function closeSignupModal(n: number) { document.getElementById('sbp-form-' + n)!
 function closeAllModals() { [1,2,3].forEach(i => { const el = document.getElementById('sbp-form-' + i); if (el) el.style.display = 'none'; }); const bd = document.getElementById('sbp-backdrop'); if (bd) bd.style.display = 'none'; document.body.style.overflow = ''; sbpOpenForm = 0; }
 function sbpStep2(n: number) { const err = document.getElementById('sbp' + n + '-err1')!; err.style.display = 'none'; const first = (document.getElementById('sbp' + n + '-first') as HTMLInputElement).value.trim(); const last = (document.getElementById('sbp' + n + '-last') as HTMLInputElement).value.trim(); const comp = (document.getElementById('sbp' + n + '-company') as HTMLInputElement).value.trim(); const email = (document.getElementById('sbp' + n + '-email') as HTMLInputElement).value.trim(); if (!first || !last) return sbpShowErr(err as HTMLElement, 'Please enter your first and last name.'); if (!comp) return sbpShowErr(err as HTMLElement, 'Please enter your company name.'); if (!email || !email.includes('@')) return sbpShowErr(err as HTMLElement, 'Please enter a valid email address.'); (document.getElementById('sbp' + n + '-login-email') as HTMLInputElement).value = email; document.getElementById('sbp' + n + '-step1')!.style.display = 'none'; document.getElementById('sbp' + n + '-step2')!.style.display = 'block'; (document.getElementById('sbp' + n + '-password') as HTMLInputElement).focus(); }
 function sbpBackToStep1(n: number) { document.getElementById('sbp' + n + '-step2')!.style.display = 'none'; document.getElementById('sbp' + n + '-step1')!.style.display = 'block'; document.getElementById('sbp' + n + '-err2')!.style.display = 'none'; }
-async function sbpCreateAccount(n: number) { const err = document.getElementById('sbp' + n + '-err2')!; const btn = document.getElementById('sbp' + n + '-create-btn') as HTMLButtonElement; err.style.display = 'none'; const email = (document.getElementById('sbp' + n + '-login-email') as HTMLInputElement).value.trim(); const password = (document.getElementById('sbp' + n + '-password') as HTMLInputElement).value; const confirm = (document.getElementById('sbp' + n + '-confirm') as HTMLInputElement).value; if (password.length < 8) return sbpShowErr(err as HTMLElement, 'Password must be at least 8 characters.'); if (password !== confirm) return sbpShowErr(err as HTMLElement, 'Passwords do not match.'); if (!(document.getElementById('sbp' + n + '-agree') as HTMLInputElement).checked) return sbpShowErr(err as HTMLElement, 'Please agree to the Terms of Service and Privacy Policy.'); btn.disabled = true; btn.textContent = 'Creating your account…'; try { const res = await fetch(SBP_URL + '/functions/v1/manage-users', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + SBP_ANON, 'apikey': SBP_ANON }, body: JSON.stringify({ action: 'create', email, password }) }); const result = await res.json(); if (result.error) throw new Error(result.error); const sb = getSbpClient(); const { data: signInData, error: signInErr } = await sb.auth.signInWithPassword({ email, password }); if (signInErr) throw new Error(signInErr.message); const uid = signInData.user.id; const first = (document.getElementById('sbp' + n + '-first') as HTMLInputElement).value.trim(); const last = (document.getElementById('sbp' + n + '-last') as HTMLInputElement).value.trim(); const comp = (document.getElementById('sbp' + n + '-company') as HTMLInputElement).value.trim(); await sb.auth.updateUser({ data: { full_name: first + ' ' + last } }); const trialEnd = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString(); await sb.from('user_profiles').upsert({ id: uid, email, role: 'full_access', is_primary_owner: true, tenant_id: null, trial_ends_at: trialEnd }, { onConflict: 'id' }); await sb.from('company_info').insert({ user_id: uid, company_name: comp, display_name: comp }); const reasons = ['Cancel Maintaining Self', 'Cancel Sold House', 'Cancel Too Expensive', 'Cancel Unknown', 'Dropping Customer', 'Sold House'].map(nm => ({ name: nm, active: true, user_id: uid })); await sb.from('cancellation_reasons').insert(reasons); document.getElementById('sbp' + n + '-step2')!.style.display = 'none'; document.getElementById('sbp' + n + '-success')!.style.display = 'block'; let secs = 4; const cd = document.getElementById('sbp' + n + '-countdown')!; cd.textContent = 'Redirecting in ' + secs + ' seconds…'; const iv = setInterval(() => { secs--; if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.spraybosspro.com/dashboard.html'; } else cd.textContent = 'Redirecting in ' + secs + ' second' + (secs === 1 ? '' : 's') + '…'; }, 1000); } catch (e: any) { sbpShowErr(err as HTMLElement, e.message || 'Something went wrong. Please try again.'); btn.disabled = false; btn.textContent = 'Create My Account'; } }
+async function sbpCreateAccount(n: number) { const err = document.getElementById('sbp' + n + '-err2')!; const btn = document.getElementById('sbp' + n + '-create-btn') as HTMLButtonElement; err.style.display = 'none'; const email = (document.getElementById('sbp' + n + '-login-email') as HTMLInputElement).value.trim(); const password = (document.getElementById('sbp' + n + '-password') as HTMLInputElement).value; const confirm = (document.getElementById('sbp' + n + '-confirm') as HTMLInputElement).value; if (password.length < 8) return sbpShowErr(err as HTMLElement, 'Password must be at least 8 characters.'); if (password !== confirm) return sbpShowErr(err as HTMLElement, 'Passwords do not match.'); if (!(document.getElementById('sbp' + n + '-agree') as HTMLInputElement).checked) return sbpShowErr(err as HTMLElement, 'Please agree to the Terms of Service and Privacy Policy.'); btn.disabled = true; btn.textContent = 'Creating your account…'; try { const res = await fetch(SBP_URL + '/functions/v1/manage-users', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + SBP_ANON, 'apikey': SBP_ANON }, body: JSON.stringify({ action: 'create', email, password }) }); const result = await res.json(); if (result.error) throw new Error(result.error); const sb = getSbpClient(); const { data: signInData, error: signInErr } = await sb.auth.signInWithPassword({ email, password }); if (signInErr) throw new Error(signInErr.message); const uid = signInData.user.id; const first = (document.getElementById('sbp' + n + '-first') as HTMLInputElement).value.trim(); const last = (document.getElementById('sbp' + n + '-last') as HTMLInputElement).value.trim(); const comp = (document.getElementById('sbp' + n + '-company') as HTMLInputElement).value.trim(); await sb.auth.updateUser({ data: { full_name: first + ' ' + last } }); const trialEnd = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString(); await sb.from('user_profiles').upsert({ id: uid, email, role: 'full_access', is_primary_owner: true, tenant_id: null, trial_ends_at: trialEnd }, { onConflict: 'id' }); await sb.from('company_info').insert({ user_id: uid, company_name: comp, display_name: comp }); const reasons = ['Cancel Maintaining Self', 'Cancel Sold House', 'Cancel Too Expensive', 'Cancel Unknown', 'Dropping Customer', 'Sold House'].map(nm => ({ name: nm, active: true, user_id: uid })); await sb.from('cancellation_reasons').insert(reasons); document.getElementById('sbp' + n + '-step2')!.style.display = 'none'; document.getElementById('sbp' + n + '-success')!.style.display = 'block'; let secs = 4; const cd = document.getElementById('sbp' + n + '-countdown')!; cd.textContent = 'Redirecting in ' + secs + ' seconds…'; const iv = setInterval(() => { secs--; if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.landscapebosspro.com/dashboard.html'; } else cd.textContent = 'Redirecting in ' + secs + ' second' + (secs === 1 ? '' : 's') + '…'; }, 1000); } catch (e: any) { sbpShowErr(err as HTMLElement, e.message || 'Something went wrong. Please try again.'); btn.disabled = false; btn.textContent = 'Create My Account'; } }
 function sbpShowErr(el: HTMLElement, msg: string) { el.textContent = msg; el.style.display = 'block'; }
 
 export default function VsFieldRoutes() {
@@ -34,12 +34,12 @@ export default function VsFieldRoutes() {
     <>
       <style>{`
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        :root { --purple-dark:#080010; --purple-mid:#0d0318; --purple-deep:#130520; --orange:#e07820; --orange-dark:#c96a10; --text:#1a1a2e; --muted:#555; --light-bg:#f8f7fc; --border:#e4e0f0; }
+        :root { --purple-dark:#08140d; --purple-mid:#0a1510; --purple-deep:#0f2417; --orange:#1b6e3b; --orange-dark:#14542d; --text:#1a1a2e; --muted:#555; --light-bg:#f8f7fc; --border:#e4e0f0; }
         html { scroll-behavior: smooth; }
         body { font-family: 'Segoe UI', Arial, sans-serif; color: var(--text); background: #fff; line-height: 1.6; }
-        .hero { background: linear-gradient(135deg, #080010 0%, #130520 60%, #1e0a35 100%); padding: 100px 40px 80px; text-align: center; position: relative; overflow: hidden; }
-        .hero::before { content: ''; position: absolute; top: -120px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(224,120,32,.15) 0%, transparent 70%); pointer-events: none; }
-        .hero-badge { display: inline-block; background: rgba(224,120,32,.15); border: 1px solid rgba(224,120,32,.4); color: var(--orange); font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 16px; border-radius: 20px; margin-bottom: 24px; }
+        .hero { background: linear-gradient(135deg, #08140d 0%, #0f2417 60%, #15321f 100%); padding: 100px 40px 80px; text-align: center; position: relative; overflow: hidden; }
+        .hero::before { content: ''; position: absolute; top: -120px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(27,110,59,.15) 0%, transparent 70%); pointer-events: none; }
+        .hero-badge { display: inline-block; background: rgba(27,110,59,.15); border: 1px solid rgba(27,110,59,.4); color: var(--orange); font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 16px; border-radius: 20px; margin-bottom: 24px; }
         .hero h1 { color: #fff; font-size: clamp(28px, 4vw, 50px); font-weight: 800; line-height: 1.15; max-width: 900px; margin: 0 auto 20px; }
         .hero h1 span { color: var(--orange); }
         .hero p { color: rgba(255,255,255,.75); font-size: clamp(16px, 2vw, 19px); max-width: 660px; margin: 0 auto 40px; }
@@ -58,14 +58,14 @@ export default function VsFieldRoutes() {
         .compare-wrap { max-width: 960px; margin: 0 auto; overflow-x: auto; }
         .compare-table { width: 100%; border-collapse: collapse; }
         .compare-table th { padding: 16px 20px; text-align: left; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; background: var(--light-bg); border-bottom: 2px solid var(--border); }
-        .compare-table th.sbp-col { background: rgba(224,120,32,.08); color: var(--orange); }
+        .compare-table th.sbp-col { background: rgba(27,110,59,.08); color: var(--orange); }
         .compare-table td { padding: 13px 20px; font-size: 14px; border-bottom: 1px solid var(--border); color: var(--text); vertical-align: middle; }
-        .compare-table td.sbp-col { background: rgba(224,120,32,.04); }
+        .compare-table td.sbp-col { background: rgba(27,110,59,.04); }
         .compare-table tr:last-child td { border-bottom: none; }
         .feature-name { font-weight: 600; }
         .chk { color: #16a34a; font-size: 17px; font-weight: 700; }
         .crs { color: #dc2626; font-size: 17px; font-weight: 700; }
-        .prt { color: #d97706; font-size: 13px; font-weight: 600; }
+        .prt { color: #18682c; font-size: 13px; font-weight: 600; }
         .highlight-row { display: flex; align-items: center; gap: 60px; max-width: 1100px; margin: 0 auto; flex-wrap: wrap; }
         .highlight-row.reverse { flex-direction: row-reverse; }
         .highlight-text { flex: 1; min-width: 280px; }
@@ -94,7 +94,7 @@ export default function VsFieldRoutes() {
         .lasso-ring { position: absolute; top: 14px; left: 18px; right: 18px; bottom: 14px; border: 2.5px dashed var(--orange); border-radius: 50%; opacity: .7; }
         .lasso-pins { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; position: relative; z-index: 1; }
         .lpin { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; }
-        .lpin.s { background: var(--orange); box-shadow: 0 0 0 3px rgba(224,120,32,.3); }
+        .lpin.s { background: var(--orange); box-shadow: 0 0 0 3px rgba(27,110,59,.3); }
         .lpin.u { background: rgba(255,255,255,.2); }
         .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
         .stat-cell { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.1); border-radius: 8px; padding: 12px 14px; }
@@ -102,9 +102,9 @@ export default function VsFieldRoutes() {
         .stat-lbl { color: rgba(255,255,255,.42); font-size: 11px; margin-top: 1px; }
         .stat-cell.full { grid-column: span 2; }
         .stat-cell.full .stat-val { color: #fff; font-size: 13px; font-weight: 600; }
-        .highlight-visual-dark { flex: 1; min-width: 280px; background: linear-gradient(135deg, var(--purple-deep) 0%, #1e0a35 100%); border-radius: 14px; padding: 36px 32px; border: 2px solid rgba(224,120,32,.3); }
-        .premium-band { background: linear-gradient(135deg, var(--purple-dark) 0%, #1a0530 100%); padding: 90px 40px; text-align: center; position: relative; overflow: hidden; }
-        .premium-band::before { content: ''; position: absolute; top: -80px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(224,120,32,.1) 0%, transparent 65%); pointer-events: none; }
+        .highlight-visual-dark { flex: 1; min-width: 280px; background: linear-gradient(135deg, var(--purple-deep) 0%, #15321f 100%); border-radius: 14px; padding: 36px 32px; border: 2px solid rgba(27,110,59,.3); }
+        .premium-band { background: linear-gradient(135deg, var(--purple-dark) 0%, #11281a 100%); padding: 90px 40px; text-align: center; position: relative; overflow: hidden; }
+        .premium-band::before { content: ''; position: absolute; top: -80px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(27,110,59,.1) 0%, transparent 65%); pointer-events: none; }
         .premium-band h2 { color: #fff; font-size: clamp(26px, 4vw, 44px); font-weight: 800; line-height: 1.2; max-width: 860px; margin: 0 auto 18px; }
         .premium-band h2 span { color: var(--orange); }
         .premium-band > p { color: rgba(255,255,255,.65); font-size: 17px; max-width: 700px; margin: 0 auto 52px; line-height: 1.8; }
@@ -116,7 +116,7 @@ export default function VsFieldRoutes() {
         .premium-card p { color: rgba(255,255,255,.52); font-size: 13px; line-height: 1.6; }
         .simple-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; max-width: 1100px; margin: 0 auto; }
         .simple-card { background: #fff; border: 1.5px solid var(--border); border-radius: 12px; padding: 30px 26px; transition: border-color .2s, box-shadow .2s, transform .15s; }
-        .simple-card:hover { border-color: var(--orange); box-shadow: 0 6px 24px rgba(224,120,32,.1); transform: translateY(-2px); }
+        .simple-card:hover { border-color: var(--orange); box-shadow: 0 6px 24px rgba(27,110,59,.1); transform: translateY(-2px); }
         .simple-num { font-size: 40px; font-weight: 800; color: var(--orange); opacity: .25; line-height: 1; margin-bottom: 12px; }
         .simple-card h3 { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
         .simple-card p { color: var(--muted); font-size: 14px; line-height: 1.6; }
@@ -134,8 +134,8 @@ export default function VsFieldRoutes() {
         .price-btn { display: block; text-align: center; padding: 13px; border-radius: 6px; font-weight: 700; font-size: 15px; text-decoration: none; transition: background .2s; cursor: pointer; border: none; }
         .price-btn-primary { background: var(--orange); color: #fff !important; }
         .price-btn-primary:hover { background: var(--orange-dark); }
-        .cta-band { background: linear-gradient(135deg, var(--purple-dark) 0%, #1e0a35 100%); text-align: center; padding: 100px 40px; position: relative; overflow: hidden; }
-        .cta-band::before { content: ''; position: absolute; bottom: -100px; left: 50%; transform: translateX(-50%); width: 600px; height: 600px; border-radius: 50%; background: radial-gradient(circle, rgba(224,120,32,.12) 0%, transparent 70%); pointer-events: none; }
+        .cta-band { background: linear-gradient(135deg, var(--purple-dark) 0%, #15321f 100%); text-align: center; padding: 100px 40px; position: relative; overflow: hidden; }
+        .cta-band::before { content: ''; position: absolute; bottom: -100px; left: 50%; transform: translateX(-50%); width: 600px; height: 600px; border-radius: 50%; background: radial-gradient(circle, rgba(27,110,59,.12) 0%, transparent 70%); pointer-events: none; }
         .cta-band h2 { color: #fff; font-size: clamp(28px, 4vw, 46px); font-weight: 800; margin-bottom: 16px; }
         .cta-band h2 span { color: var(--orange); display: block; }
         .cta-band p { color: rgba(255,255,255,.7); font-size: 18px; margin-bottom: 40px; max-width: 560px; margin-left: auto; margin-right: auto; }
@@ -146,13 +146,13 @@ export default function VsFieldRoutes() {
 
       <div className="hero">
         <div className="hero-badge">FieldRoutes Alternative</div>
-        <h1>FieldRoutes Won&apos;t Tell You What It Costs Until You&apos;ve Sat Through a Demo.<br /><span>SprayBossPro Is $129. Start Today.</span></h1>
-        <p>FieldRoutes requires a demo before you can even see pricing. Then an implementation timeline before you can use the software. SprayBossPro is $129/month, published right here, with a 14-day free trial you can start in the next 5 minutes — no sales call, no demo, no waiting.</p>
+        <h1>FieldRoutes Won&apos;t Tell You What It Costs Until You&apos;ve Sat Through a Demo.<br /><span>LandscapeBossPro Is $129. Start Today.</span></h1>
+        <p>FieldRoutes requires a demo before you can even see pricing. Then an implementation timeline before you can use the software. LandscapeBossPro is $129/month, published right here, with a 14-day free trial you can start in the next 5 minutes — no sales call, no demo, no waiting.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">SprayBossPro — Published Price</div></div>
+          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">LandscapeBossPro — Published Price</div></div>
           <div><div className="hero-stat-val">???</div><div className="hero-stat-lbl">FieldRoutes — Must Request Demo</div></div>
           <div><div className="hero-stat-val">Today</div><div className="hero-stat-lbl">When You Can Start with SBP</div></div>
           <div><div className="hero-stat-val">Weeks</div><div className="hero-stat-lbl">FieldRoutes Implementation Timeline</div></div>
@@ -162,7 +162,7 @@ export default function VsFieldRoutes() {
       <section>
         <div className="centered" style={{maxWidth:'960px', margin:'0 auto'}}>
           <span className="section-label">Side by Side</span>
-          <h2 className="section-title">SprayBossPro vs FieldRoutes</h2>
+          <h2 className="section-title">LandscapeBossPro vs FieldRoutes</h2>
           <p className="section-sub">A direct comparison — including the features FieldRoutes doesn&apos;t have and the pricing they won&apos;t show you.</p>
         </div>
         <div className="compare-wrap">
@@ -170,7 +170,7 @@ export default function VsFieldRoutes() {
             <thead>
               <tr>
                 <th style={{width:'50%'}}>Feature</th>
-                <th className="sbp-col" style={{width:'25%'}}>SprayBossPro</th>
+                <th className="sbp-col" style={{width:'25%'}}>LandscapeBossPro</th>
                 <th style={{width:'25%'}}>FieldRoutes</th>
               </tr>
             </thead>
@@ -199,7 +199,7 @@ export default function VsFieldRoutes() {
         <div className="highlight-row">
           <div className="highlight-text">
             <span className="section-label">Lasso — Circle Map Scheduling</span>
-            <h2 style={{color:'#fff'}}>FieldRoutes Has Route Optimization.<br />SprayBossPro Has Lasso.</h2>
+            <h2 style={{color:'#fff'}}>FieldRoutes Has Route Optimization.<br />LandscapeBossPro Has Lasso.</h2>
             <p style={{color:'rgba(255,255,255,.65)'}}>FieldRoutes can optimize the order of a route you already built. Lasso lets you draw a circle on the map and instantly see every property inside with a service due — stops, sq ft, service types — before you schedule anything. It&apos;s a completely different tool. One tells you what order to run stops. The other shows you which stops to select in the first place.</p>
             <ul className="check-list" style={{marginTop:'20px'}}>
               <li style={{color:'rgba(255,255,255,.75)'}}>Draw any size circle — see all properties with services due inside</li>
@@ -234,8 +234,8 @@ export default function VsFieldRoutes() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">Getting Started</span>
-          <h2 className="section-title">FieldRoutes Takes Weeks to Start. SprayBossPro Takes an Afternoon.</h2>
-          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>FieldRoutes requires a demo, a sales conversation, a pricing negotiation, and a weeks-long implementation before you can schedule your first stop. SprayBossPro has a published price and a 14-day free trial you can start right now.</p>
+          <h2 className="section-title">FieldRoutes Takes Weeks to Start. LandscapeBossPro Takes an Afternoon.</h2>
+          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>FieldRoutes requires a demo, a sales conversation, a pricing negotiation, and a weeks-long implementation before you can schedule your first stop. LandscapeBossPro has a published price and a 14-day free trial you can start right now.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="highlight-row">
@@ -257,7 +257,7 @@ export default function VsFieldRoutes() {
                   </div>
                 </div>
                 <div className="step-row">
-                  <div className="step-row-title">SprayBossPro</div>
+                  <div className="step-row-title">LandscapeBossPro</div>
                   <div className="step-item">
                     <div className="step-num orange">1</div>
                     <div className="step-body"><div className="step-label">Sign Up Online</div><div className="step-sub">$129/mo — price is right here, right now</div><div className="step-badge green">5 minutes</div></div>
@@ -276,7 +276,7 @@ export default function VsFieldRoutes() {
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">No Demo Required</span>
               <h2>You Shouldn&apos;t Need a Sales Call to Find Out What Software Costs.</h2>
-              <p>FieldRoutes hides their pricing behind a required demo. That means a sales presentation, a callback from a rep, a negotiation, and an implementation timeline before you can run a single route. SprayBossPro costs $129/month. You can see it. You can start it. Right now.</p>
+              <p>FieldRoutes hides their pricing behind a required demo. That means a sales presentation, a callback from a rep, a negotiation, and an implementation timeline before you can run a single route. LandscapeBossPro costs $129/month. You can see it. You can start it. Right now.</p>
               <ul className="check-list">
                 <li>Published pricing — $129/month, no negotiation</li>
                 <li>14-day free trial with no credit card required</li>
@@ -292,14 +292,14 @@ export default function VsFieldRoutes() {
       <section>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Right Size</span>
-          <h2 className="section-title">FieldRoutes Is Built for Large Pest Control Operations. SprayBossPro Fits Your Business Right Now.</h2>
+          <h2 className="section-title">FieldRoutes Is Built for Large Pest Control Operations. LandscapeBossPro Fits Your Business Right Now.</h2>
           <p className="section-sub" style={{maxWidth:'720px'}}>FieldRoutes is powerful software built for large-scale pest control companies with hundreds of routes. If you&apos;re a growing lawn care or spray business, you&apos;d be paying for complexity you don&apos;t need — and waiting weeks before you can do anything with it.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>Start Today — Not After a Demo</h3><p>SprayBossPro has a 14-day free trial you can start right now without talking to anyone. FieldRoutes requires a demo before you can even see a price. If you want to be operational this week, you need software that lets you start this week.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>$129. Always. No Custom Quotes.</h3><p>FieldRoutes pricing varies based on your operation size — you negotiate it during the sales process. SprayBossPro is $129/month. There&apos;s no call to make, no rep to wait for, no pricing package to compare. Just $129.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>Start Today — Not After a Demo</h3><p>LandscapeBossPro has a 14-day free trial you can start right now without talking to anyone. FieldRoutes requires a demo before you can even see a price. If you want to be operational this week, you need software that lets you start this week.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>$129. Always. No Custom Quotes.</h3><p>FieldRoutes pricing varies based on your operation size — you negotiate it during the sales process. LandscapeBossPro is $129/month. There&apos;s no call to make, no rep to wait for, no pricing package to compare. Just $129.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Features Built for Spray Routes</h3><p>Sq ft waiting list by service type, lasso circle route selector, chemical compliance logs, recurring treatment tracking — features built around how spray businesses actually run routes. FieldRoutes doesn&apos;t have these at any tier.</p></div>
-          <div className="simple-card"><div className="simple-num">04</div><h3>Month-to-Month — No Lock-In</h3><p>SprayBossPro is month-to-month. No annual contract required. FieldRoutes uses annual agreements. If the software doesn&apos;t work for your business, you shouldn&apos;t be stuck in it for a year. SprayBossPro earns your business every month.</p></div>
+          <div className="simple-card"><div className="simple-num">04</div><h3>Month-to-Month — No Lock-In</h3><p>LandscapeBossPro is month-to-month. No annual contract required. FieldRoutes uses annual agreements. If the software doesn&apos;t work for your business, you shouldn&apos;t be stuck in it for a year. LandscapeBossPro earns your business every month.</p></div>
         </div>
       </section>
 
@@ -307,7 +307,7 @@ export default function VsFieldRoutes() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
           <h2 className="section-title">$129/Month. Published. No Demo Required.</h2>
-          <p className="section-sub">FieldRoutes won&apos;t tell you their price until you talk to sales. SprayBossPro is $129. Start today.</p>
+          <p className="section-sub">FieldRoutes won&apos;t tell you their price until you talk to sales. LandscapeBossPro is $129. Start today.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
@@ -336,8 +336,8 @@ export default function VsFieldRoutes() {
       </section>
 
       <div className="cta-band">
-        <h2>Done Waiting for a Sales Rep to Tell You What Software Costs?<span>SprayBossPro Is $129. Start Right Now.</span></h2>
-        <p>Try SprayBossPro free for 14 days. No credit card required. No demo required.</p>
+        <h2>Done Waiting for a Sales Rep to Tell You What Software Costs?<span>LandscapeBossPro Is $129. Start Right Now.</span></h2>
+        <p>Try LandscapeBossPro free for 14 days. No credit card required. No demo required.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -345,8 +345,8 @@ export default function VsFieldRoutes() {
 
       <div id="sbp-backdrop" onClick={() => closeAllModals()} style={{display:'none', position:'fixed', top:0, left:0, width:'100%', height:'100%', background:'rgba(0,0,0,.55)', zIndex:99997}}></div>
       {[1,2,3].map(n => (
-        <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #e07820', boxShadow:'0 0 0 4px rgba(224,120,32,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
-          <div style={{background:'linear-gradient(135deg,#080010,#1e0a35)', padding:'28px 28px 22px', position:'relative'}}>
+        <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #1b6e3b', boxShadow:'0 0 0 4px rgba(27,110,59,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
+          <div style={{background:'linear-gradient(135deg,#08140d,#15321f)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
             <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required. Full access. Cancel anytime.</div>
             <button onClick={() => closeSignupModal(n)} style={{position:'absolute', top:'16px', right:'16px', background:'rgba(255,255,255,.12)', border:'none', color:'#fff', width:'32px', height:'32px', borderRadius:'50%', cursor:'pointer', fontSize:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>×</button>
@@ -359,7 +359,7 @@ export default function VsFieldRoutes() {
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Lawn Care" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Email Address</label><input id={`sbp${n}-email`} type="email" placeholder="you@yourcompany.com" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
-            <button onClick={() => sbpStep2(n)} style={{width:'100%', background:'#e07820', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Next: Create Password →</button>
+            <button onClick={() => sbpStep2(n)} style={{width:'100%', background:'#1b6e3b', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Next: Create Password →</button>
           </div>
           <div id={`sbp${n}-step2`} style={{padding:'24px 28px', display:'none'}}>
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
@@ -370,8 +370,8 @@ export default function VsFieldRoutes() {
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Confirm Password</label><input id={`sbp${n}-confirm`} type="password" placeholder="Repeat password" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
-            <div style={{marginBottom:'18px', display:'flex', alignItems:'flex-start', gap:'10px'}}><input type="checkbox" id={`sbp${n}-agree`} style={{width:'16px', height:'16px', accentColor:'#e07820', cursor:'pointer', flexShrink:0, marginTop:'3px'}} /><label htmlFor={`sbp${n}-agree`} style={{fontSize:'13px', color:'#555', cursor:'pointer', lineHeight:1.5}}>I agree to the <a href="https://spraybosspro.com/terms" target="_blank" style={{color:'#e07820'}}>Terms of Service</a> and <a href="https://spraybosspro.com/privacy-policy" target="_blank" style={{color:'#e07820'}}>Privacy Policy</a></label></div>
-            <button id={`sbp${n}-create-btn`} onClick={() => sbpCreateAccount(n)} style={{width:'100%', background:'#e07820', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Create My Account</button>
+            <div style={{marginBottom:'18px', display:'flex', alignItems:'flex-start', gap:'10px'}}><input type="checkbox" id={`sbp${n}-agree`} style={{width:'16px', height:'16px', accentColor:'#1b6e3b', cursor:'pointer', flexShrink:0, marginTop:'3px'}} /><label htmlFor={`sbp${n}-agree`} style={{fontSize:'13px', color:'#555', cursor:'pointer', lineHeight:1.5}}>I agree to the <a href="https://landscapebosspro.com/terms" target="_blank" style={{color:'#1b6e3b'}}>Terms of Service</a> and <a href="https://landscapebosspro.com/privacy-policy" target="_blank" style={{color:'#1b6e3b'}}>Privacy Policy</a></label></div>
+            <button id={`sbp${n}-create-btn`} onClick={() => sbpCreateAccount(n)} style={{width:'100%', background:'#1b6e3b', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Create My Account</button>
             <button onClick={() => sbpBackToStep1(n)} style={{width:'100%', background:'none', border:'none', color:'#888', fontSize:'13px', cursor:'pointer', marginTop:'10px', padding:'6px', fontFamily:'inherit', textDecoration:'underline'}}>← Back</button>
           </div>
           <div id={`sbp${n}-success`} style={{padding:'48px 28px', textAlign:'center', display:'none'}}>

@@ -116,7 +116,7 @@ async function sbpCreateAccount(n: number) {
     cd.textContent = 'Redirecting in ' + secs + ' seconds…';
     const iv = setInterval(() => {
       secs--;
-      if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.spraybosspro.com/dashboard.html'; }
+      if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.landscapebosspro.com/dashboard.html'; }
       else cd.textContent = 'Redirecting in ' + secs + ' second' + (secs === 1 ? '' : 's') + '…';
     }, 1000);
   } catch (e: any) {
@@ -182,9 +182,9 @@ function SignupForm({ n }: { n: number }) {
           <input type="checkbox" id={`sbp${n}-agree`} className="sbp-agree-check" />
           <label htmlFor={`sbp${n}-agree`} className="sbp-agree-label">
             I agree to the{' '}
-            <a href="https://spraybosspro.com/terms" target="_blank" rel="noreferrer" className="sbp-link">Terms of Service</a>
+            <a href="https://landscapebosspro.com/terms" target="_blank" rel="noreferrer" className="sbp-link">Terms of Service</a>
             {' '}and{' '}
-            <a href="https://spraybosspro.com/privacy-policy" target="_blank" rel="noreferrer" className="sbp-link">Privacy Policy</a>
+            <a href="https://landscapebosspro.com/privacy-policy" target="_blank" rel="noreferrer" className="sbp-link">Privacy Policy</a>
           </label>
         </div>
         <button id={`sbp${n}-create-btn`} onClick={() => sbpCreateAccount(n)} className="btn-primary" style={{width:'100%', fontSize:'15px', padding:'13px'}}>
@@ -242,7 +242,7 @@ export default function MosquitoSpraySoftware() {
           height={800}
           fetchPriority="high"
           decoding="async"
-          alt="SprayBossPro mosquito spray software showing the waiting list, circle-map route builder, and mobile dispatch on laptop and phone"
+          alt="LandscapeBossPro mosquito spray software showing the waiting list, circle-map route builder, and mobile dispatch on laptop and phone"
           style={{maxWidth:'1100px', width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block', margin:'0 auto'}}
         />
       </div>
@@ -252,7 +252,7 @@ export default function MosquitoSpraySoftware() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Mosquito Treatment Software</span>
           <h2 className="section-title">Everything a Mosquito Spray Business Needs to Schedule, Route, and Manage Treatments</h2>
-          <p className="section-sub" style={{maxWidth:'800px'}}>SprayBossPro is field service software built specifically for lawn care and pest control businesses that apply spray treatments. Every feature is designed around how a mosquito spray company actually operates — recurring program management, sq ft or linear ft-based route planning, chemical application logs, and automated customer communication.</p>
+          <p className="section-sub" style={{maxWidth:'800px'}}>LandscapeBossPro is field service software built specifically for lawn care and pest control businesses that apply spray treatments. Every feature is designed around how a mosquito spray company actually operates — recurring program management, sq ft or linear ft-based route planning, chemical application logs, and automated customer communication.</p>
         </div>
         <div className="feature-grid">
           <div className="feature-card">
@@ -263,12 +263,12 @@ export default function MosquitoSpraySoftware() {
           <div className="feature-card">
             <div className="feature-icon">📋</div>
             <h3>Mosquito Sq Ft or Linear Ft Waiting List</h3>
-            <p>Before you build a route, see exactly how many sq ft or linear ft of mosquito service are waiting to be scheduled. SprayBossPro organizes your waiting list by service type — Mosquito 3, Mosquito 4, any program name you use — so you know exactly what&apos;s pending.</p>
+            <p>Before you build a route, see exactly how many sq ft or linear ft of mosquito service are waiting to be scheduled. LandscapeBossPro organizes your waiting list by service type — Mosquito 3, Mosquito 4, any program name you use — so you know exactly what&apos;s pending.</p>
           </div>
           <div className="feature-card">
             <div className="feature-icon">🔄</div>
             <h3>Recurring Mosquito Program Management</h3>
-            <p>Mosquito spray businesses run recurring treatment programs — monthly, every 21 days, seasonal. When a mosquito treatment is marked complete, SprayBossPro automatically puts the next scheduled treatment back on the waiting list. Programs manage themselves.</p>
+            <p>Mosquito spray businesses run recurring treatment programs — monthly, every 21 days, seasonal. When a mosquito treatment is marked complete, LandscapeBossPro automatically puts the next scheduled treatment back on the waiting list. Programs manage themselves.</p>
           </div>
           <div className="feature-card">
             <div className="feature-icon">💬</div>
@@ -283,7 +283,7 @@ export default function MosquitoSpraySoftware() {
           <div className="feature-card">
             <div className="feature-icon">📦</div>
             <h3>Mosquito Package Plans &amp; Renewals</h3>
-            <p>Sell seasonal mosquito packages — 6-treatment programs, monthly plans, or custom service packages. SprayBossPro tracks treatments remaining, notifies you when packages expire, and makes renewing a customer&apos;s mosquito program a two-click process.</p>
+            <p>Sell seasonal mosquito packages — 6-treatment programs, monthly plans, or custom service packages. LandscapeBossPro tracks treatments remaining, notifies you when packages expire, and makes renewing a customer&apos;s mosquito program a two-click process.</p>
           </div>
         </div>
       </section>
@@ -295,7 +295,7 @@ export default function MosquitoSpraySoftware() {
             <span className="section-label">Lasso — Route Building for Mosquito Spray</span>
             <h2>Draw a Circle. See Every Mosquito Treatment Due Inside. Build the Route.</h2>
             <p>Most mosquito spray businesses build routes the slow way — searching the schedule, pulling up addresses one by one, trying to remember which neighborhoods are clustered together. Lasso changes that.</p>
-            <p>Open your map, draw a circle around any area — a neighborhood, a subdivision, a zip code — and SprayBossPro instantly shows you every property with a mosquito treatment due inside that boundary: how many stops, how many sq ft or linear ft, and how much revenue.</p>
+            <p>Open your map, draw a circle around any area — a neighborhood, a subdivision, a zip code — and LandscapeBossPro instantly shows you every property with a mosquito treatment due inside that boundary: how many stops, how many sq ft or linear ft, and how much revenue.</p>
             <ul className="check-list">
               <li>Draw any shape on the map — no fixed zones</li>
               <li>Instantly see stops, sq ft or linear ft, and revenue inside the boundary</li>
@@ -318,7 +318,7 @@ export default function MosquitoSpraySoftware() {
                 {n:4, addr:'91 Willow Creek Rd', detail:'Mosquito 3 · Due today', sqft:'11,200 ft²'},
               ].map(({n, addr, detail, sqft}) => (
                 <div key={n} style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'11px 14px', display:'flex', alignItems:'center', gap:'12px'}}>
-                  <div style={{background:'rgba(224,120,32,.2)', border:'1px solid rgba(224,120,32,.4)', color:'var(--orange)', fontSize:'11px', fontWeight:700, width:'24px', height:'24px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>{n}</div>
+                  <div style={{background:'rgba(27,110,59,.2)', border:'1px solid rgba(27,110,59,.4)', color:'var(--orange)', fontSize:'11px', fontWeight:700, width:'24px', height:'24px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>{n}</div>
                   <div style={{flex:1}}>
                     <div style={{color:'rgba(255,255,255,.8)', fontSize:'12px', fontWeight:600}}>{addr}</div>
                     <div style={{color:'rgba(255,255,255,.35)', fontSize:'10px', marginTop:'1px'}}>{detail}</div>
@@ -332,7 +332,7 @@ export default function MosquitoSpraySoftware() {
                 <div style={{color:'rgba(255,255,255,.3)', fontSize:'11px', fontWeight:600}}>31,400 ft²</div>
               </div>
             </div>
-            <div style={{background:'rgba(224,120,32,.1)', border:'1px solid rgba(224,120,32,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center', marginTop:'4px'}}>
+            <div style={{background:'rgba(27,110,59,.1)', border:'1px solid rgba(27,110,59,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center', marginTop:'4px'}}>
               <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Total Selected</div>
               <div style={{color:'var(--orange)', fontSize:'14px', fontWeight:700}}>8 stops · 63,050 ft² · $1,120</div>
             </div>
@@ -346,7 +346,7 @@ export default function MosquitoSpraySoftware() {
           <div className="highlight-text">
             <span className="section-label">Mosquito Sq Ft or Linear Ft Waiting List</span>
             <h2>Know Exactly How Much Mosquito Treatment Is Waiting — Before You Build a Single Route.</h2>
-            <p>Before you open the map and start building a mosquito spray route, SprayBossPro shows you a waiting list organized by service type and total square footage. You can see at a glance how much Mosquito 3 is due, how much Mosquito 4 is waiting, and how many properties of each type are in the queue.</p>
+            <p>Before you open the map and start building a mosquito spray route, LandscapeBossPro shows you a waiting list organized by service type and total square footage. You can see at a glance how much Mosquito 3 is due, how much Mosquito 4 is waiting, and how many properties of each type are in the queue.</p>
             <p>That number tells you what your day needs to look like — how many routes to build, how many technicians to send out, and which service type to prioritize. No more guessing. No more counting addresses manually.</p>
             <ul className="check-list">
               <li>Waiting list organized by service type — Mosquito 3, Mosquito 4, any name you use</li>
@@ -366,7 +366,7 @@ export default function MosquitoSpraySoftware() {
                 {svc:'Lawn Insect 3', count:'6 properties waiting', sqft:'53,200 ft²', active:false},
                 {svc:'Flower Beds 4', count:'4 properties waiting', sqft:'18,900 ft²', active:false},
               ].map(({svc, count, sqft, active}) => (
-                <div key={svc} style={{background: active ? 'rgba(224,120,32,.07)' : 'rgba(255,255,255,.06)', border:`1px solid ${active ? 'rgba(224,120,32,.35)' : 'rgba(255,255,255,.09)'}`, borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+                <div key={svc} style={{background: active ? 'rgba(27,110,59,.07)' : 'rgba(255,255,255,.06)', border:`1px solid ${active ? 'rgba(27,110,59,.35)' : 'rgba(255,255,255,.09)'}`, borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
                   <div>
                     <div style={{color:'rgba(255,255,255,.75)', fontSize:'13px', fontWeight:600}}>{svc}</div>
                     <div style={{color:'rgba(255,255,255,.4)', fontSize:'11px', marginTop:'2px'}}>{count}</div>
@@ -375,7 +375,7 @@ export default function MosquitoSpraySoftware() {
                 </div>
               ))}
             </div>
-            <div style={{marginTop:'14px', background:'rgba(224,120,32,.08)', border:'1px solid rgba(224,120,32,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+            <div style={{marginTop:'14px', background:'rgba(27,110,59,.08)', border:'1px solid rgba(27,110,59,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
               <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Mosquito Total</div>
               <div style={{color:'var(--orange)', fontSize:'13px', fontWeight:700}}>22 stops · 202,200 ft²</div>
             </div>
@@ -388,30 +388,30 @@ export default function MosquitoSpraySoftware() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 64px'}}>
           <span className="section-label">How It Works</span>
           <h2 className="section-title">From Waiting List to Completed Mosquito Routes — Same Day</h2>
-          <p className="section-sub">SprayBossPro is designed so that building and completing a full day of mosquito spray routes takes minutes, not hours. For a closer look at how one platform handles the waiting list, circle routing, mobile dispatch, compliance logs, and automated SMS end to end, read <a href="/blogs/run-mosquito-spray-business-single-platform" style={{color:'var(--orange)', fontWeight:600}}>How to Run a Mosquito Spray Business From a Single Platform</a>.</p>
+          <p className="section-sub">LandscapeBossPro is designed so that building and completing a full day of mosquito spray routes takes minutes, not hours. For a closer look at how one platform handles the waiting list, circle routing, mobile dispatch, compliance logs, and automated SMS end to end, read <a href="/blogs/run-mosquito-spray-business-single-platform" style={{color:'var(--orange)', fontWeight:600}}>How to Run a Mosquito Spray Business From a Single Platform</a>.</p>
         </div>
         <div className="steps-grid">
-          <div className="step-box"><div className="step-circle">1</div><h3>Check the Waiting List</h3><p>Open SprayBossPro and see exactly how many sq ft or linear ft of mosquito treatment is waiting — organized by service type. Know your day before you build anything.</p></div>
+          <div className="step-box"><div className="step-circle">1</div><h3>Check the Waiting List</h3><p>Open LandscapeBossPro and see exactly how many sq ft or linear ft of mosquito treatment is waiting — organized by service type. Know your day before you build anything.</p></div>
           <div className="step-box"><div className="step-circle">2</div><h3>Lasso a Neighborhood</h3><p>Open the map and draw a circle around any area. See all properties with mosquito treatment due inside — stops, sq ft or linear ft, revenue — and add them to a route.</p></div>
           <div className="step-box"><div className="step-circle">3</div><h3>Send to Your Technician</h3><p>Push the route to your technician&apos;s mobile app. They see the stops in order, property details, access notes, and the chemical application log for each address.</p></div>
-          <div className="step-box"><div className="step-circle">4</div><h3>Treatment Complete — Next One Scheduled</h3><p>When the technician marks a mosquito treatment complete, SprayBossPro automatically schedules the next treatment and puts it back on the waiting list.</p></div>
+          <div className="step-box"><div className="step-circle">4</div><h3>Treatment Complete — Next One Scheduled</h3><p>When the technician marks a mosquito treatment complete, LandscapeBossPro automatically schedules the next treatment and puts it back on the waiting list.</p></div>
         </div>
       </section>
 
       {/* PREMIUM BAND */}
       <div className="premium-band">
         <h2>Every Feature a Mosquito Spray Business Needs.<br /><span>$129/Month. Nothing Locked Behind Upgrades.</span></h2>
-        <p>SprayBossPro isn&apos;t a general field service platform that happens to work for mosquito spray. It&apos;s built specifically for businesses that apply chemical treatments — with the route planning, compliance logging, and program management that mosquito spray companies actually use.</p>
+        <p>LandscapeBossPro isn&apos;t a general field service platform that happens to work for mosquito spray. It&apos;s built specifically for businesses that apply chemical treatments — with the route planning, compliance logging, and program management that mosquito spray companies actually use.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Circle Map Route Builder</h4><p>Draw a circle on your map and see every mosquito treatment due inside — stops, sq ft or linear ft, revenue. Build a full day of mosquito routes in minutes instead of hours.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Sq Ft or Linear Ft Waiting List by Service</h4><p>See how many sq ft or linear ft of Mosquito 3, Mosquito 4, and every other service type is waiting to be scheduled. Know your workload before you build a single route.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🔄</div><h4>Auto-Rescheduling Mosquito Programs</h4><p>When a mosquito treatment is complete, the next one automatically goes back on the waiting list. Recurring programs manage themselves — no manual rescheduling.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Automated SMS Alerts</h4><p>Appointment reminders, on-the-way alerts, and completion notifications sent automatically on every mosquito spray job. 10+ pre-built alert types included.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Chemical Application Logs</h4><p>Log product, rate, gallons, area treated, weather, and applicator license on every mosquito application. Print-ready compliance reports on demand.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">📦</div><h4>Mosquito Package Programs</h4><p>Sell seasonal mosquito programs and track treatments remaining. SprayBossPro notifies you before packages expire and makes renewals fast.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📦</div><h4>Mosquito Package Programs</h4><p>Sell seasonal mosquito programs and track treatments remaining. LandscapeBossPro notifies you before packages expire and makes renewals fast.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Mobile App for Technicians</h4><p>Your technicians see their mosquito route, property details, application notes, and chemical log form on their phone. No paper, no clipboard.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Card-on-File Payments</h4><p>Collect payment automatically after each mosquito treatment. Card-on-file payments included at $129/month — no payment add-on required.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Technicians</h4><p>Add as many technicians as you run mosquito routes. SprayBossPro doesn&apos;t cap users. Run 1 truck or 10 — the price stays the same.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Technicians</h4><p>Add as many technicians as you run mosquito routes. LandscapeBossPro doesn&apos;t cap users. Run 1 truck or 10 — the price stays the same.</p></div>
         </div>
       </div>
 
@@ -421,7 +421,7 @@ export default function MosquitoSpraySoftware() {
           <div className="highlight-text">
             <span className="section-label">Automated Customer Communication</span>
             <h2>Automated SMS Alerts for Every Mosquito Treatment — Set Up Once, Send Forever.</h2>
-            <p>Mosquito spray customers want to know when their treatment is coming and what to do after the technician leaves. SprayBossPro includes pre-built SMS alert templates for every touchpoint in the mosquito treatment process — appointment reminders the day before, on-the-way notifications when your technician is 30 minutes out, and completion messages with any re-entry instructions.</p>
+            <p>Mosquito spray customers want to know when their treatment is coming and what to do after the technician leaves. LandscapeBossPro includes pre-built SMS alert templates for every touchpoint in the mosquito treatment process — appointment reminders the day before, on-the-way notifications when your technician is 30 minutes out, and completion messages with any re-entry instructions.</p>
             <ul className="check-list">
               <li>Day-before appointment reminder — &quot;Your mosquito treatment is tomorrow&quot;</li>
               <li>On-the-way alert — &quot;Your technician is 30 minutes away&quot;</li>
@@ -489,26 +489,26 @@ export default function MosquitoSpraySoftware() {
           <span className="section-label">FAQ</span>
           <h2 className="section-title" style={{marginBottom:'48px'}}>Mosquito Spray Software — Common Questions</h2>
           {[
-            {q:'Does SprayBossPro work specifically for mosquito spray businesses?', a:'Yes. SprayBossPro is purpose-built for spray businesses including mosquito barrier spray. It has 21-day auto-interval scheduling, sq ft and linear ft measurement fields per property, a waiting list sorted by treatment due date, circle-map route building, and chemical application logs with EPA registration numbers — built around the mosquito spray model, not adapted from a generic tool.'},
-            {q:'How does SprayBossPro handle the 21-day treatment interval?', a:'When a technician logs a completion, SprayBossPro automatically calculates the next due date (21 days from completion) and places the account back on the waiting list. No manual rebooking required. The account appears ready to schedule when it\'s due, with all property details and pricing pre-populated.'},
-            {q:'Can I track chemical application compliance for mosquito spray?', a:'Yes. SprayBossPro logs the product, application rate, EPA registration number, area treated, weather conditions, and applicator license for every treatment. The chemical tracking report generates a print-ready compliance document on demand — no separate paper logs needed.'},
-            {q:'Does SprayBossPro send automated SMS to mosquito spray customers?', a:'Yes. Pre-built SMS alert types include day-before appointment reminders, on-the-way notifications, and post-service completion messages with re-entry interval instructions. Alerts fire automatically when the technician dispatches or logs completion. 500 outbound SMS messages per month are included at no extra charge.'},
-            {q:'Can I manage multiple trucks from one account?', a:'Yes. SprayBossPro supports unlimited technicians and multiple trucks — the price stays at $129/month regardless of crew size. The waiting list and dispatch board show all accounts across all trucks and can be assigned to specific technicians per route day.'},
-            {q:'How much does SprayBossPro cost for a mosquito spray business?', a:'$129/month, flat. No per-user fees, no SMS add-ons, no extra charge for chemical logs or route building. Every feature is included. There\'s a 14-day free trial with no credit card required.'},
+            {q:'Does LandscapeBossPro work specifically for mosquito spray businesses?', a:'Yes. LandscapeBossPro is purpose-built for spray businesses including mosquito barrier spray. It has 21-day auto-interval scheduling, sq ft and linear ft measurement fields per property, a waiting list sorted by treatment due date, circle-map route building, and chemical application logs with EPA registration numbers — built around the mosquito spray model, not adapted from a generic tool.'},
+            {q:'How does LandscapeBossPro handle the 21-day treatment interval?', a:'When a technician logs a completion, LandscapeBossPro automatically calculates the next due date (21 days from completion) and places the account back on the waiting list. No manual rebooking required. The account appears ready to schedule when it\'s due, with all property details and pricing pre-populated.'},
+            {q:'Can I track chemical application compliance for mosquito spray?', a:'Yes. LandscapeBossPro logs the product, application rate, EPA registration number, area treated, weather conditions, and applicator license for every treatment. The chemical tracking report generates a print-ready compliance document on demand — no separate paper logs needed.'},
+            {q:'Does LandscapeBossPro send automated SMS to mosquito spray customers?', a:'Yes. Pre-built SMS alert types include day-before appointment reminders, on-the-way notifications, and post-service completion messages with re-entry interval instructions. Alerts fire automatically when the technician dispatches or logs completion. 500 outbound SMS messages per month are included at no extra charge.'},
+            {q:'Can I manage multiple trucks from one account?', a:'Yes. LandscapeBossPro supports unlimited technicians and multiple trucks — the price stays at $129/month regardless of crew size. The waiting list and dispatch board show all accounts across all trucks and can be assigned to specific technicians per route day.'},
+            {q:'How much does LandscapeBossPro cost for a mosquito spray business?', a:'$129/month, flat. No per-user fees, no SMS add-ons, no extra charge for chemical logs or route building. Every feature is included. There\'s a 14-day free trial with no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
               <p style={{color:'var(--muted)', lineHeight:1.7, margin:0, fontSize:'15px'}}>{a}</p>
             </div>
           ))}
-          <p style={{marginTop:'40px', color:'var(--muted)', fontSize:'15px', lineHeight:1.7}}>SprayBossPro is purpose-built mosquito spray software — <a href="/" style={{color:'var(--orange)', fontWeight:600}}>see the full platform overview</a> to learn everything that's included.</p>
+          <p style={{marginTop:'40px', color:'var(--muted)', fontSize:'15px', lineHeight:1.7}}>LandscapeBossPro is purpose-built mosquito spray software — <a href="/" style={{color:'var(--orange)', fontWeight:600}}>see the full platform overview</a> to learn everything that's included.</p>
         </div>
       </section>
 
       {/* CTA */}
       <div className="cta-band">
         <h2>Ready to Run Mosquito Spray Routes<br /><span style={{color:'var(--orange)'}}>The Way They Should Be Run?</span></h2>
-        <p>SprayBossPro is $129/month — schedule mosquito treatments, build routes with Lasso, log every application, and send automated SMS alerts from day one. No add-ons required.</p>
+        <p>LandscapeBossPro is $129/month — schedule mosquito treatments, build routes with Lasso, log every application, and send automated SMS alerts from day one. No add-ons required.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
         </div>

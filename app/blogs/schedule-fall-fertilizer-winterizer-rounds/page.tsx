@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Schedule Fall Fertilizer and Winterizer Rounds | SprayBossPro',
+  title: 'Schedule Fall Fertilizer and Winterizer Rounds | LandscapeBossPro',
   description: 'The logistics of managing fall round scheduling at scale — timing, routing, and making sure every customer gets their winterizer before the window closes.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Seasonal Scheduling</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Seasonal Scheduling</p>
         <h1>How to Schedule Fall Fertilizer and Winterizer Rounds Across Hundreds of Properties</h1>
 
         <p>Fall scheduling is the most time-pressured period of the fertilizer season. The window for effective fall fertilizer application is limited by temperature and growth cycles. Winterizer timing is constrained by the last active growth period before dormancy. Miss either window and efficacy drops significantly — and customers who paid for a 6-round program notice when round five or six looks different from what was promised. Here&apos;s how to manage fall scheduling at scale without missing anyone.</p>
@@ -40,8 +40,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Never miss a winterizer window again.</h3>
-          <p>SprayBossPro auto-queues fall rounds from summer completion dates and shows you real-time waiting list visibility so you can track every pending fall treatment and route them before the window closes.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro auto-queues fall rounds from summer completion dates and shows you real-time waiting list visibility so you can track every pending fall treatment and route them before the window closes.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

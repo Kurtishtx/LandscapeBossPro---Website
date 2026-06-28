@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Weed Control and Fertilizer for the Same Customers | SprayBossPro',
+  title: 'Weed Control and Fertilizer for the Same Customers | LandscapeBossPro',
   description: 'How to schedule, route, and log weed control and fertilizer visits for the same customers without creating scheduling conflicts.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Multi-Program Management</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Multi-Program Management</p>
         <h1>How to Manage Weed Control Programs for Customers Who Also Have Fertilizer Rounds</h1>
 
         <p>In most lawn care businesses, the majority of customers who enroll in a fertilizer program also enroll in a weed control program — and vice versa. Managing both programs for the same customers creates a scheduling situation where two independent service cycles — running at different intervals — converge and diverge unpredictably through the season. Some weeks, a customer is due for both. Most weeks, they&apos;re due for only one. Routing, logging, and communicating correctly for both programs requires a system that tracks each service independently while displaying them together at the account level.</p>
@@ -35,8 +35,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Weed control and fertilizer tracked separately — displayed together at the account level.</h3>
-          <p>SprayBossPro shows all active service programs under each customer account so the dispatcher always knows what&apos;s due for each customer, whether it&apos;s one service or two, without cross-referencing separate lists.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro shows all active service programs under each customer account so the dispatcher always knows what&apos;s due for each customer, whether it&apos;s one service or two, without cross-referencing separate lists.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

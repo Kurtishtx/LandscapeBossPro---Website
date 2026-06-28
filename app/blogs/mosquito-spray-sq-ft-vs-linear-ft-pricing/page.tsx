@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Mosquito Spray: Sq Ft vs Linear Ft Pricing | SprayBossPro',
+  title: 'Mosquito Spray: Sq Ft vs Linear Ft Pricing | LandscapeBossPro',
   description: 'How to choose between sq ft and linear ft pricing for mosquito barrier spray programs — and how software tracks both measurement types across your customer base.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>Sq Ft vs. Linear Ft Pricing for Mosquito Barrier Spray — Which Works Better?</h1>
 
         <p>Mosquito barrier spray pricing divides the industry into two camps: sq ft pricing and linear ft pricing. Both are legitimate approaches that work for different property types and different service models. The debate usually comes down to one practical question: which measurement more accurately captures the actual treatment area and product cost for your typical customer? For a mosquito spray business with diverse property types, the answer may be &quot;both&quot; — sq ft for open lawn treatment, linear ft for perimeter and vegetation-edge barrier sprays. Understanding which model fits your operation, and having software that tracks both, is the foundation of profitable mosquito spray pricing.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Sq ft pricing. Linear ft pricing. Both stored per property. Both totaled on the waiting list. Software built for the way mosquito spray actually works.</h3>
-          <p>SprayBossPro tracks mosquito control sq ft and linear ft separately per property, totals both on the waiting list, and supports per-unit pricing for each — so your pricing model fits your service model exactly.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro tracks mosquito control sq ft and linear ft separately per property, totals both on the waiting list, and supports per-unit pricing for each — so your pricing model fits your service model exactly.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

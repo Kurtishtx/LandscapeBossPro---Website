@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Lawn Care Customers Expect on Every Visit | SprayBossPro',
+  title: 'What Lawn Care Customers Expect on Every Visit | LandscapeBossPro',
   description: 'The three SMS touchpoints that reduce callbacks, cancellations, and "when are you coming?" calls from customers.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Customer Experience</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Customer Experience</p>
         <h1>What Lawn Care Customers Expect Before, During, and After Every Visit</h1>
 
         <p>Lawn care customers don&apos;t expect perfection. They expect to know what&apos;s happening. When you&apos;re coming, when you arrived, what was done. The companies with the highest retention rates aren&apos;t necessarily the ones with the best application results — they&apos;re the ones who communicate consistently at every visit. Here&apos;s what that looks like in practice.</p>
@@ -42,8 +42,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Give every customer a professional communication experience at every visit.</h3>
-          <p>SprayBossPro fires before, during, and after alerts automatically for every stop — so your customers always know what&apos;s happening without your office sending a single text.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro fires before, during, and after alerts automatically for every stop — so your customers always know what&apos;s happening without your office sending a single text.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

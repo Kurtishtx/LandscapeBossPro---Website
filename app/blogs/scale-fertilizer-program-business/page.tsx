@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Scale a Fertilizer Program Without Office Staff | SprayBossPro',
+  title: 'Scale a Fertilizer Program Without Office Staff | LandscapeBossPro',
   description: 'The automation and scheduling systems that let a fertilizer company grow its customer base without adding office headcount.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Growth &amp; Scaling</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Growth &amp; Scaling</p>
         <h1>How to Scale a Fertilizer Program Business Without Hiring More Office Staff</h1>
 
         <p>The most expensive way to grow a fertilizer program business is to add office staff every time you add customers. The economics break quickly: a new office employee at $40,000 to $50,000 per year covers the admin overhead for roughly 150 to 200 additional customers — but only if the work doesn&apos;t get more efficient as you scale. The companies that scale past 500 customers with lean office teams do it by automating the work that grows with customer count, so adding customers doesn&apos;t add proportional admin hours.</p>
@@ -42,8 +42,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Double your customer base. Don&apos;t double your office work.</h3>
-          <p>SprayBossPro automates round scheduling, customer SMS, compliance logging, and billing so your operation scales without proportional growth in admin overhead.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro automates round scheduling, customer SMS, compliance logging, and billing so your operation scales without proportional growth in admin overhead.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

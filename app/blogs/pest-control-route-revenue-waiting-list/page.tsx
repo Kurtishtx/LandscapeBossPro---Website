@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'See Pest Control Route Revenue Before Dispatch | SprayBossPro',
+  title: 'See Pest Control Route Revenue Before Dispatch | LandscapeBossPro',
   description: 'Why seeing expected revenue by area before committing to a route makes pest control scheduling a financial decision, not just a logistical one.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Revenue Management</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Revenue Management</p>
         <h1>How to See Route Revenue Before You Build the Route — Pest Control Waiting List</h1>
 
         <p>Most pest control dispatchers build routes based on geography and stop count. A circle in the north zone, 14 stops — build it, optimize it, dispatch it. The route revenue is only known after the day is done. In a system where route revenue is visible before the route is committed, routing becomes a financial decision, not just a logistical one. You&apos;re not just filling a truck — you&apos;re allocating a truck to $1,400 of revenue or $1,900 of revenue, and you can see that number before you build the route.</p>
@@ -38,8 +38,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>See route revenue before you build the route — not after the trucks are back.</h3>
-          <p>SprayBossPro shows expected revenue, total sq ft, program type breakdown, and overdue count for any area you circle on the waiting list map before a single stop is added to a route.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro shows expected revenue, total sq ft, program type breakdown, and overdue count for any area you circle on the waiting list map before a single stop is added to a route.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Lawn Care Software Replaces Spreadsheets | SprayBossPro',
+  title: 'How Lawn Care Software Replaces Spreadsheets | LandscapeBossPro',
   description: 'A function-by-function comparison of what spreadsheets and paper systems do vs. what purpose-built lawn care software replaces them with.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>How Lawn Care Software Replaces Spreadsheets, Paper Routes, and Phone Calls</h1>
 
         <p>Most lawn care companies start with some combination of spreadsheets, paper route sheets, and phone calls to coordinate the business. These systems work — up to a point. At 40 to 60 accounts, a spreadsheet tracking customers and due dates is manageable. At 120 accounts across multiple service types, the same spreadsheet is a maintenance burden, a source of errors, and a constant source of operational friction. Purpose-built lawn care software doesn&apos;t just replace spreadsheets — it replaces every manual process spreadsheets support and eliminates the friction points that make spreadsheet-based operations increasingly unsustainable as account volume grows.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Waiting list replaces the spreadsheet. Circle routing replaces the paper route. Digital dispatch replaces the morning phone calls.</h3>
-          <p>SprayBossPro replaces every manual process in a lawn care operation with purpose-built automation — for one flat monthly price with no per-feature add-ons.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro replaces every manual process in a lawn care operation with purpose-built automation — for one flat monthly price with no per-feature add-ons.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Scale Pest Control on Recurring Customers | SprayBossPro',
+  title: 'Scale Pest Control on Recurring Customers | LandscapeBossPro',
   description: 'Why recurring program retention and upsells generate more sustainable revenue growth than constant new customer acquisition in pest control.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Business Growth</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Business Growth</p>
         <h1>How to Scale a Pest Control Business on Recurring Customers, Not New Leads</h1>
 
         <p>The most efficient path to growing a pest control company&apos;s revenue is not finding more new customers — it&apos;s serving more total program visits per day from the customers you already have, retaining them year over year, and converting a portion of them to higher-frequency programs or add-on services. A company that generates $800K per year from 600 quarterly customers spending an average of $1,333 annually grows faster by retaining those 600 customers and converting 120 of them to bi-monthly than it does by replacing 80 who churn while adding 80 new ones. The math strongly favors retention and upsell over acquisition as the primary growth lever.</p>
@@ -35,8 +35,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Scale on retention and recurring revenue — not on burning through new leads to replace churn.</h3>
-          <p>SprayBossPro gives pest control companies the scheduling automation, service consistency, and customer communication tools that reduce churn and enable upsell — so growth comes from customers you already have.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro gives pest control companies the scheduling automation, service consistency, and customer communication tools that reduce churn and enable upsell — so growth comes from customers you already have.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

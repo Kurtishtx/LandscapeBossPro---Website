@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Run a Mosquito Spray Business From One Platform | SprayBossPro',
+  title: 'Run a Mosquito Spray Business From One Platform | LandscapeBossPro',
   description: 'How purpose-built mosquito spray software handles scheduling, routing, compliance logging, automated customer alerts, and billing from one platform — without stitching tools together.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>How to Run a Mosquito Spray Business From a Single Platform</h1>
 
         <p>A mosquito spray business at 150 recurring customers has a deceptively complex daily operation: a waiting list of properties due for their next 21-day barrier spray, a map showing where those properties are concentrated, sq ft and linear ft measurements determining how much product each property needs, routes to build and dispatch to technicians in the field, pre-service SMS alerts firing to every customer the evening before, post-service completion messages with the re-entry interval firing when each stop is logged, and compliance records capturing the EPA registration number and application rate for every product applied. Managing this with a general calendar, a texting app, a spreadsheet, and paper compliance logs is operationally possible — it just costs 2 to 3 hours of daily overhead that purpose-built software eliminates entirely.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Waiting list. Circle routing. Mobile dispatch. Compliance logs. Automated SMS. Card billing. One platform — no stitching.</h3>
-          <p>SprayBossPro runs a complete mosquito spray operation from one platform — scheduling, routing, compliance, customer communication, and billing all connected at $129/month flat.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro runs a complete mosquito spray operation from one platform — scheduling, routing, compliance, customer communication, and billing all connected at $129/month flat.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

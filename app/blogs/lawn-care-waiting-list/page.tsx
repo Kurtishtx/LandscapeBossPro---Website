@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Is a Lawn Care Waiting List? | SprayBossPro',
+  title: 'What Is a Lawn Care Waiting List? | LandscapeBossPro',
   description: 'How a sq ft or linear ft waiting list organized by service type tells you the full scope of your day before you build a single route.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Scheduling &amp; Operations</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Scheduling &amp; Operations</p>
         <h1>What Is a Lawn Care Waiting List and Why Your Schedule Depends on One</h1>
 
         <p>A lawn care waiting list is not a list of customers waiting to sign up. It&apos;s a real-time view of every customer who is currently due for service — organized by service type, with square footage or linear footage totals so you know exactly how much work is ready to be routed before you build a single route.</p>
@@ -49,8 +49,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Know exactly what&apos;s on deck before you build a single route.</h3>
-          <p>SprayBossPro&apos;s waiting list shows every pending customer organized by service type with square footage totals — so your mornings start with clarity, not guesswork.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s waiting list shows every pending customer organized by service type with square footage totals — so your mornings start with clarity, not guesswork.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

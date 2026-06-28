@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Lawn Care Software and Chemical Compliance | SprayBossPro',
+  title: 'Lawn Care Software and Chemical Compliance | LandscapeBossPro',
   description: 'How purpose-built lawn care software captures every required compliance field at the property and makes records available for inspection in seconds.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>How Lawn Care Software Handles Chemical Application Compliance Automatically</h1>
 
         <p>Pesticide application compliance is a non-negotiable operational requirement for any licensed lawn care company making chemical applications. State law requires that application records be created and retained for every pesticide use — records that contain specific data elements and must be producible within a defined timeframe when a state pesticide inspector requests them. The word &quot;automatically&quot; in the context of compliance means that the system captures compliant records as a byproduct of the technician completing the normal field workflow, without any additional data entry steps, without relying on technician memory, and without any office transcription between field completion and searchable record.</p>
@@ -42,8 +42,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Compliance logging is the completion step. Product library pre-fills the hard fields. Records searchable in seconds.</h3>
-          <p>SprayBossPro makes compliance automatic — every chemical application is logged via the field form as the completion action, with EPA reg numbers pre-filled and records available for any inspection in under 5 minutes.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro makes compliance automatic — every chemical application is logged via the field form as the completion action, with EPA reg numbers pre-filled and records available for any inspection in under 5 minutes.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

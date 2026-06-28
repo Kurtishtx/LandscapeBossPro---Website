@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Log Mosquito Control Applications: EPA Compliance | SprayBossPro',
+  title: 'Log Mosquito Control Applications: EPA Compliance | LandscapeBossPro',
   description: 'The in-field compliance log workflow for mosquito barrier spray — product, EPA reg number, rate, area treated, re-entry interval, and applicator license.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Compliance</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Compliance</p>
         <h1>How to Log Mosquito Control Applications for EPA Compliance</h1>
 
         <p>Mosquito barrier spray applications are pesticide applications subject to the same state licensing and record-keeping requirements as any other commercial pesticide use. A licensed mosquito control operator is required to maintain application records for every treatment — records that must contain specific data elements and be available for inspection upon request. At the volume of a mosquito season — 5 to 7 treatments per customer per year, across dozens or hundreds of customers — maintaining compliant records requires a field logging system that captures all required fields at the property without depending on technician memory or manual office transcription.</p>
@@ -46,8 +46,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Every required compliance field captured at the property. EPA reg number pre-filled. State-ready on demand.</h3>
-          <p>SprayBossPro&apos;s mobile compliance log captures all required mosquito application fields — with product library pre-fill for EPA reg numbers, rates, and re-entry intervals — submitted in the field and searchable in the office immediately.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s mobile compliance log captures all required mosquito application fields — with product library pre-fill for EPA reg numbers, rates, and re-entry intervals — submitted in the field and searchable in the office immediately.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

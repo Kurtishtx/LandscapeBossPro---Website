@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Manage Multiple Pest Control Program Intervals | SprayBossPro',
+  title: 'Manage Multiple Pest Control Program Intervals | LandscapeBossPro',
   description: 'How a single platform handles different recurrence intervals, compliance logs, and SMS alerts for every program type your company runs.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Scheduling</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Scheduling</p>
         <h1>How to Manage Quarterly, Bi-Monthly, and Monthly Pest Control Programs in One System</h1>
 
         <p>Most pest control companies run multiple program types simultaneously — quarterly (4x/year), bi-monthly (6x/year), and monthly (12x/year) — often for different customer segments with different pest pressures and price points. Managing all three out of one scheduling system without mixing due dates, compliance logs, or SMS templates is the core operational challenge that separates companies running smoothly at 300+ recurring accounts from those still struggling at 80.</p>
@@ -34,8 +34,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Quarterly, bi-monthly, and monthly programs — all tracked automatically in one waiting list.</h3>
-          <p>SprayBossPro manages every recurrence interval independently, auto-schedules the next visit on completion, and surfaces each program type in a filterable waiting list with sq ft totals and revenue visibility.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro manages every recurrence interval independently, auto-schedules the next visit on completion, and surfaces each program type in a filterable waiting list with sq ft totals and revenue visibility.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

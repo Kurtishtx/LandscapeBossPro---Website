@@ -116,7 +116,7 @@ async function sbpCreateAccount(n: number) {
     cd.textContent = 'Redirecting in ' + secs + ' seconds…';
     const iv = setInterval(() => {
       secs--;
-      if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.spraybosspro.com/dashboard.html'; }
+      if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.landscapebosspro.com/dashboard.html'; }
       else cd.textContent = 'Redirecting in ' + secs + ' second' + (secs === 1 ? '' : 's') + '…';
     }, 1000);
   } catch (e: any) {
@@ -182,9 +182,9 @@ function SignupForm({ n }: { n: number }) {
           <input type="checkbox" id={`sbp${n}-agree`} className="sbp-agree-check" />
           <label htmlFor={`sbp${n}-agree`} className="sbp-agree-label">
             I agree to the{' '}
-            <a href="https://spraybosspro.com/terms" target="_blank" rel="noreferrer" className="sbp-link">Terms of Service</a>
+            <a href="https://landscapebosspro.com/terms" target="_blank" rel="noreferrer" className="sbp-link">Terms of Service</a>
             {' '}and{' '}
-            <a href="https://spraybosspro.com/privacy-policy" target="_blank" rel="noreferrer" className="sbp-link">Privacy Policy</a>
+            <a href="https://landscapebosspro.com/privacy-policy" target="_blank" rel="noreferrer" className="sbp-link">Privacy Policy</a>
           </label>
         </div>
         <button id={`sbp${n}-create-btn`} onClick={() => sbpCreateAccount(n)} className="btn-primary" style={{width:'100%', fontSize:'15px', padding:'13px'}}>
@@ -222,7 +222,7 @@ export default function FertilizerSoftware() {
       <div className="hero">
         <div className="hero-badge">Fertilizer Software for Lawn Care Companies</div>
         <h1>Fertilizer Software That Tracks Every Round,<br /><span>Logs Every Application, and Schedules the Next.</span></h1>
-        <p>SprayBossPro tracks 5-round and 6-round fertilizer programs from start to finish. Log product name, EPA reg number, application rate per 1,000 sq ft, and applicator license on every visit. When a round is completed, the next round reschedules itself on the waiting list automatically. $129/month, everything included.</p>
+        <p>LandscapeBossPro tracks 5-round and 6-round fertilizer programs from start to finish. Log product name, EPA reg number, application rate per 1,000 sq ft, and applicator license on every visit. When a round is completed, the next round reschedules itself on the waiting list automatically. $129/month, everything included.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial — $129/Month</a>
         </div>
@@ -242,7 +242,7 @@ export default function FertilizerSoftware() {
           height={800}
           fetchPriority="high"
           decoding="async"
-          alt="SprayBossPro fertilizer software showing round scheduling, sq ft route building, and EPA compliance log on laptop and mobile"
+          alt="LandscapeBossPro fertilizer software showing round scheduling, sq ft route building, and EPA compliance log on laptop and mobile"
           style={{maxWidth:'1100px', width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block', margin:'0 auto'}}
         />
       </div>
@@ -251,19 +251,19 @@ export default function FertilizerSoftware() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">Built for Every Type of Fertilizer Program</span>
-          <h2 className="section-title">Whether You Run 5 Rounds or 6, Granular or Liquid — SprayBossPro Has You Covered.</h2>
-          <p className="section-sub">SprayBossPro tracks every fertilizer program type your lawn care company runs — round-by-round scheduling, compliance logging, auto-rescheduling, and automated re-entry SMS — all in one platform at one flat price.</p>
+          <h2 className="section-title">Whether You Run 5 Rounds or 6, Granular or Liquid — LandscapeBossPro Has You Covered.</h2>
+          <p className="section-sub">LandscapeBossPro tracks every fertilizer program type your lawn care company runs — round-by-round scheduling, compliance logging, auto-rescheduling, and automated re-entry SMS — all in one platform at one flat price.</p>
         </div>
         <div className="audience-grid">
           <div className="audience-card">
             <div className="audience-tag">5-Round Programs</div>
             <h3>Classic 5-Round Lawn Fertilizer Program</h3>
-            <p>Early spring, late spring, summer, fall, and winterizer — SprayBossPro tracks each round, auto-schedules the next when the previous is complete, and logs EPA reg numbers and rates on every application from the technician&apos;s phone.</p>
+            <p>Early spring, late spring, summer, fall, and winterizer — LandscapeBossPro tracks each round, auto-schedules the next when the previous is complete, and logs EPA reg numbers and rates on every application from the technician&apos;s phone.</p>
           </div>
           <div className="audience-card">
             <div className="audience-tag">6-Round Programs</div>
             <h3>6-Round Programs with Pre-Emergent Combo</h3>
-            <p>Run a 6-round fertilizer program that includes pre-emergent in rounds 1 and 2? SprayBossPro tracks each round individually — different products, different rates, same compliance log format — all under one customer account and one sq ft measurement.</p>
+            <p>Run a 6-round fertilizer program that includes pre-emergent in rounds 1 and 2? LandscapeBossPro tracks each round individually — different products, different rates, same compliance log format — all under one customer account and one sq ft measurement.</p>
           </div>
           <div className="audience-card">
             <div className="audience-tag">Granular vs. Liquid</div>
@@ -306,7 +306,7 @@ export default function FertilizerSoftware() {
               {lbl:'Conditions at Application', val:'Wind: 4 mph · Temp: 52°F · Clear'},
               {lbl:'Applicator License', val:'TX-LAW-20419'},
             ].map(({lbl, val, highlight}) => (
-              <div key={lbl} className="log-row" style={{marginBottom:'6px', ...(highlight ? {borderColor:'rgba(224,120,32,.35)', background:'rgba(224,120,32,.07)'} : {})}}>
+              <div key={lbl} className="log-row" style={{marginBottom:'6px', ...(highlight ? {borderColor:'rgba(27,110,59,.35)', background:'rgba(27,110,59,.07)'} : {})}}>
                 <div className="log-label">{lbl}</div>
                 <div className="log-value">{val}</div>
               </div>
@@ -325,7 +325,7 @@ export default function FertilizerSoftware() {
           <div className="highlight-text">
             <span className="section-label">Lasso — Circle Map Route Builder for Fertilizer Routes</span>
             <h2>Draw a Circle Around Any Neighborhood. See Every Fertilizer Round Due Inside. Build the Route.</h2>
-            <p>Open Lasso on the map, draw a circle around any neighborhood or service zone, and SprayBossPro shows you every property with a fertilizer treatment due inside that boundary — round number, sq ft, and route revenue all visible before you commit to the route.</p>
+            <p>Open Lasso on the map, draw a circle around any neighborhood or service zone, and LandscapeBossPro shows you every property with a fertilizer treatment due inside that boundary — round number, sq ft, and route revenue all visible before you commit to the route.</p>
             <p>Filter by round — pull only Round 4 stops, only Round 5 winterizer stops, or any round combination. Select all stops, drive order gets optimized automatically, and the route is pushed to your technician&apos;s phone.</p>
             <ul className="check-list">
               <li>Draw a circle on any neighborhood, subdivision, or commercial zone</li>
@@ -345,7 +345,7 @@ export default function FertilizerSoftware() {
                 {n:'3', addr:'301 Elmwood Blvd', sub:'Fertilizer Round 5 · 11,200 ft² · Winterizer', rev:'$88'},
               ].map(({n, addr, sub, rev}) => (
                 <div key={n} style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'10px 12px', display:'flex', alignItems:'center', gap:'10px'}}>
-                  <div style={{background:'rgba(224,120,32,.2)', border:'1px solid rgba(224,120,32,.4)', color:'var(--orange)', fontSize:'10px', fontWeight:700, width:'22px', height:'22px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>{n}</div>
+                  <div style={{background:'rgba(27,110,59,.2)', border:'1px solid rgba(27,110,59,.4)', color:'var(--orange)', fontSize:'10px', fontWeight:700, width:'22px', height:'22px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>{n}</div>
                   <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.8)', fontSize:'12px', fontWeight:600}}>{addr}</div><div style={{color:'rgba(255,255,255,.35)', fontSize:'10px'}}>{sub}</div></div>
                   <div style={{color:'var(--orange)', fontSize:'11px', fontWeight:700}}>{rev}</div>
                 </div>
@@ -356,7 +356,7 @@ export default function FertilizerSoftware() {
                 <div style={{color:'rgba(255,255,255,.3)', fontSize:'11px', fontWeight:600}}>$1,480</div>
               </div>
             </div>
-            <div style={{marginTop:'10px', background:'rgba(224,120,32,.1)', border:'1px solid rgba(224,120,32,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+            <div style={{marginTop:'10px', background:'rgba(27,110,59,.1)', border:'1px solid rgba(27,110,59,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
               <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Route Total</div>
               <div style={{color:'var(--orange)', fontSize:'13px', fontWeight:700}}>22 stops · 196,600 ft² · $1,715</div>
             </div>
@@ -370,7 +370,7 @@ export default function FertilizerSoftware() {
           <div className="highlight-text">
             <span className="section-label">Waiting List — Every Fertilizer Round Due, Organized Before You Route</span>
             <h2>See Every Fertilizer Treatment Due Today — By Round, By Sq Ft, Before You Open the Map.</h2>
-            <p>Before you build a single fertilizer route, SprayBossPro shows you a waiting list of every treatment due — organized by round number with total sq ft and total stops for each round. Round 3 summer fertilizer has 31 stops at 278,000 sq ft. Round 5 winterizer has 22 stops at 196,000 sq ft. You know the exact scope of your day before you ever open Lasso.</p>
+            <p>Before you build a single fertilizer route, LandscapeBossPro shows you a waiting list of every treatment due — organized by round number with total sq ft and total stops for each round. Round 3 summer fertilizer has 31 stops at 278,000 sq ft. Round 5 winterizer has 22 stops at 196,000 sq ft. You know the exact scope of your day before you ever open Lasso.</p>
             <p>When a round is completed, the next round schedules itself automatically at your set interval — 6 weeks, 8 weeks, whatever your program calls for. You don&apos;t touch anything between rounds.</p>
             <ul className="check-list">
               <li>Waiting list organized by fertilizer round — see all rounds due today at a glance</li>
@@ -390,7 +390,7 @@ export default function FertilizerSoftware() {
               {name:'Weed Control Round 3', sub:'19 properties waiting', ft:'168,800 ft²', active:false},
               {name:'Fertilizer Round 3 — Overdue', sub:'7 properties — past due date', ft:'62,400 ft²', overdue:true},
             ].map(({name, sub, ft, active, overdue}) => (
-              <div key={name} className="svc-row" style={{marginBottom:'6px', ...(active ? {borderColor:'rgba(224,120,32,.35)', background:'rgba(224,120,32,.07)'} : {})}}>
+              <div key={name} className="svc-row" style={{marginBottom:'6px', ...(active ? {borderColor:'rgba(27,110,59,.35)', background:'rgba(27,110,59,.07)'} : {})}}>
                 <div>
                   <div className="svc-name">{name}</div>
                   <div className="svc-sub">{sub}</div>
@@ -398,7 +398,7 @@ export default function FertilizerSoftware() {
                 <div className="svc-ft" style={overdue ? {color:'#f87171'} : active ? {} : {color:'rgba(255,255,255,.4)'}}>{ft}</div>
               </div>
             ))}
-            <div style={{marginTop:'12px', background:'rgba(224,120,32,.08)', border:'1px solid rgba(224,120,32,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+            <div style={{marginTop:'12px', background:'rgba(27,110,59,.08)', border:'1px solid rgba(27,110,59,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
               <div style={{color:'rgba(255,255,255,.4)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Total Due Today</div>
               <div style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>93 stops across 5 round types</div>
             </div>
@@ -412,8 +412,8 @@ export default function FertilizerSoftware() {
           <div className="highlight-text">
             <span className="section-label">Automated SMS Alerts on Every Fertilizer Visit</span>
             <h2>Re-Entry Interval Texts Fire Automatically After Every Fertilizer Application. Your Team Sends Zero.</h2>
-            <p>SprayBossPro sends a day-before service reminder the evening before every fertilizer visit, an on-the-way alert when the tech heads to the property, and a service complete notification with re-entry interval and lawn care instructions automatically when the application log is saved.</p>
-            <p>Re-entry interval SMS is especially important for fertilizer programs — customers need to know when it&apos;s safe to bring kids and pets back on the lawn. SprayBossPro handles that communication automatically on every visit.</p>
+            <p>LandscapeBossPro sends a day-before service reminder the evening before every fertilizer visit, an on-the-way alert when the tech heads to the property, and a service complete notification with re-entry interval and lawn care instructions automatically when the application log is saved.</p>
+            <p>Re-entry interval SMS is especially important for fertilizer programs — customers need to know when it&apos;s safe to bring kids and pets back on the lawn. LandscapeBossPro handles that communication automatically on every visit.</p>
             <ul className="check-list">
               <li>Day-before reminder fires the evening before every scheduled fertilizer visit</li>
               <li>On-the-way alert fires when the tech marks the stop started on their phone</li>
@@ -424,7 +424,7 @@ export default function FertilizerSoftware() {
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px', marginBottom:'14px'}}>Fertilizer SMS Thread — Sent Automatically by SprayBossPro</div>
+            <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px', marginBottom:'14px'}}>Fertilizer SMS Thread — Sent Automatically by LandscapeBossPro</div>
             <div className="sms-bubble sms-out">Hi Mike! Your lawn fertilizer service (Round 4 – Fall) is scheduled for tomorrow. Please mow first if needed. We&apos;ll let you know when the tech is on the way. — Green Valley Lawn</div>
             <div className="sms-label right">Day before · Sent automatically · 5:00 PM</div>
             <div className="sms-bubble sms-in">Great, thanks for the heads up!</div>
@@ -442,7 +442,7 @@ export default function FertilizerSoftware() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 64px'}}>
           <span className="section-label">How It Works</span>
           <h2 className="section-title">From Waiting List to Compliance Log — Every Fertilizer Round, Every Customer</h2>
-          <p className="section-sub">SprayBossPro manages your fertilizer programs from the first round of the season to the final winterizer — round tracking, routing, compliance logging, and auto-SMS all handled automatically. For a closer look at how round tracking works in practice, read <a href="/blogs/track-5-round-6-round-fertilizer-programs" style={{color:'var(--orange)', fontWeight:600}}>How to Track 5-Round and 6-Round Fertilizer Programs Without Losing Count</a>.</p>
+          <p className="section-sub">LandscapeBossPro manages your fertilizer programs from the first round of the season to the final winterizer — round tracking, routing, compliance logging, and auto-SMS all handled automatically. For a closer look at how round tracking works in practice, read <a href="/blogs/track-5-round-6-round-fertilizer-programs" style={{color:'var(--orange)', fontWeight:600}}>How to Track 5-Round and 6-Round Fertilizer Programs Without Losing Count</a>.</p>
         </div>
         <div className="steps-grid">
           <div className="step-box"><div className="step-circle">1</div><h3>Check the Waiting List</h3><p>See every fertilizer round due today — organized by round number with total sq ft and stop count. Know the full scope of the day&apos;s fertilizer work before you build any routes.</p></div>
@@ -455,7 +455,7 @@ export default function FertilizerSoftware() {
       {/* PREMIUM BAND */}
       <div className="premium-band">
         <h2>Fertilizer Software Built for Lawn Care Companies That Apply Chemicals.<br /><span>$129/Month. Everything Included.</span></h2>
-        <p>SprayBossPro isn&apos;t a generic scheduling tool with fertilizer tags added on. Round tracking, EPA compliance logs, auto-rescheduling, Lasso routing, and re-entry SMS are all built specifically for companies running recurring fertilizer programs.</p>
+        <p>LandscapeBossPro isn&apos;t a generic scheduling tool with fertilizer tags added on. Round tracking, EPA compliance logs, auto-rescheduling, Lasso routing, and re-entry SMS are all built specifically for companies running recurring fertilizer programs.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">📋</div><h4>EPA Compliance Logs</h4><p>Product name, EPA reg number, rate per 1,000 sq ft, applicator license — logged in-field on every application. Print compliance reports by date, product, or applicator on demand.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🔄</div><h4>Round Auto-Rescheduling</h4><p>The next round schedules itself when the previous one is completed. 5-round and 6-round programs manage themselves all season without your team manually scheduling a single treatment.</p></div>
@@ -511,19 +511,19 @@ export default function FertilizerSoftware() {
           <span className="section-label">FAQ</span>
           <h2 className="section-title" style={{marginBottom:'48px'}}>Fertilizer Software — Common Questions</h2>
           {[
-            {q:'Does SprayBossPro work for fertilizer businesses?', a:'Yes. SprayBossPro handles recurring fertilizer programs from Round 1 through Winterizer — tracking which round each customer is on, routing by sq ft, logging EPA registration numbers and application rates, and sending automated SMS alerts after each application.'},
-            {q:'Can I track multiple fertilizer rounds per customer?', a:'Yes. SprayBossPro tracks each customer\'s current round, treatments remaining, and next due date. When Round 3 is completed, Round 4 automatically goes back on the waiting list. You always know who is on which round without checking a spreadsheet.'},
-            {q:'Does it log EPA registration numbers and application rates for fertilizer compliance?', a:'Yes. SprayBossPro stores EPA registration numbers at the product level and captures them on every treatment log. Application rates, product, area treated, and applicator license are recorded per treatment and accessible in a print-ready compliance report.'},
+            {q:'Does LandscapeBossPro work for fertilizer businesses?', a:'Yes. LandscapeBossPro handles recurring fertilizer programs from Round 1 through Winterizer — tracking which round each customer is on, routing by sq ft, logging EPA registration numbers and application rates, and sending automated SMS alerts after each application.'},
+            {q:'Can I track multiple fertilizer rounds per customer?', a:'Yes. LandscapeBossPro tracks each customer\'s current round, treatments remaining, and next due date. When Round 3 is completed, Round 4 automatically goes back on the waiting list. You always know who is on which round without checking a spreadsheet.'},
+            {q:'Does it log EPA registration numbers and application rates for fertilizer compliance?', a:'Yes. LandscapeBossPro stores EPA registration numbers at the product level and captures them on every treatment log. Application rates, product, area treated, and applicator license are recorded per treatment and accessible in a print-ready compliance report.'},
             {q:'Can I build fertilizer routes by square footage?', a:'Yes. The circle-map lasso tool shows sq ft totals in real time as you select accounts for a route. You can filter by service type to show only the round you\'re scheduling and see total sq ft and revenue for the route before dispatching.'},
-            {q:'Does SprayBossPro send re-entry interval notifications after fertilizer applications?', a:'Yes. Post-service SMS alerts can include re-entry timing — "Please keep pets off treated areas for 2 hours." Alerts fire automatically when the technician logs completion — before the customer has a chance to wonder whether it\'s safe to go outside.'},
-            {q:'What does SprayBossPro cost for a fertilizer business?', a:'$129/month, flat. All features included — compliance logs, route tools, SMS alerts, card payments. No per-user fees, no add-ons. 14-day free trial, no credit card required.'},
+            {q:'Does LandscapeBossPro send re-entry interval notifications after fertilizer applications?', a:'Yes. Post-service SMS alerts can include re-entry timing — "Please keep pets off treated areas for 2 hours." Alerts fire automatically when the technician logs completion — before the customer has a chance to wonder whether it\'s safe to go outside.'},
+            {q:'What does LandscapeBossPro cost for a fertilizer business?', a:'$129/month, flat. All features included — compliance logs, route tools, SMS alerts, card payments. No per-user fees, no add-ons. 14-day free trial, no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
               <p style={{color:'var(--muted)', lineHeight:1.7, margin:0, fontSize:'15px'}}>{a}</p>
             </div>
           ))}
-          <p style={{marginTop:'40px', color:'var(--muted)', fontSize:'15px', lineHeight:1.7}}>SprayBossPro handles fertilizer programs alongside lawn care, weed control, pest control, and mosquito spray — all from one platform — <a href="/" style={{color:'var(--orange)', fontWeight:600}}>see the full platform overview</a>.</p>
+          <p style={{marginTop:'40px', color:'var(--muted)', fontSize:'15px', lineHeight:1.7}}>LandscapeBossPro handles fertilizer programs alongside lawn care, weed control, pest control, and mosquito spray — all from one platform — <a href="/" style={{color:'var(--orange)', fontWeight:600}}>see the full platform overview</a>.</p>
         </div>
       </section>
 

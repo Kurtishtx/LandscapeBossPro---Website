@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Know Which Pest Control Customers Are Due | SprayBossPro',
+  title: 'Know Which Pest Control Customers Are Due | LandscapeBossPro',
   description: 'How the waiting list in pest control scheduling software surfaces every due account automatically so dispatchers never need to manually review individual records.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Waiting List Management</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Waiting List Management</p>
         <h1>How to Know Which Pest Control Customers Are Due Without Checking Every Account</h1>
 
         <p>In a pest control company running 400+ recurring accounts across quarterly, bi-monthly, and monthly programs, knowing which customers are due on any given day is not a question you should be answering by scrolling through account records. A dispatcher who has to open individual customer profiles to check last service dates, calculate next due dates, and build a list of who to route today is spending an hour on a task that should take 60 seconds. The waiting list in purpose-built pest control software does this automatically — every due account surfaces at the right time, in the right place, ready to route.</p>
@@ -38,8 +38,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Every due account. Every program type. Every day. Waiting list surfaces them automatically.</h3>
-          <p>SprayBossPro calculates next due dates from every completion and surfaces all due pest control accounts in a filterable, map-view waiting list — so dispatchers build routes from geography, not from account-by-account manual review.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro calculates next due dates from every completion and surfaces all due pest control accounts in a filterable, map-view waiting list — so dispatchers build routes from geography, not from account-by-account manual review.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

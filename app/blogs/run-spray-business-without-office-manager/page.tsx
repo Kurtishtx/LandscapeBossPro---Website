@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Run a Spray Business Without an Office Manager | SprayBossPro',
+  title: 'Run a Spray Business Without an Office Manager | LandscapeBossPro',
   description: 'The scheduling, dispatch, and communication automation that let a spray company operate efficiently without a dedicated office person managing the day.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Operations</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Operations</p>
         <h1>How to Run a Spray Business Without an Office Manager</h1>
 
         <p>Most spray business owners hire an office manager as the company grows past the point where the owner can personally handle every call, every schedule, and every customer question. It feels necessary — and it is necessary, if the systems underneath are manual. But the systems themselves are what create the need for a full-time office person. Automated scheduling, digital dispatch, and SMS communication built into the platform eliminate the manual coordination that office managers spend most of their time doing. At 300 to 400 customers, a spray business with purpose-built software and without an office manager runs just as smoothly as one that pays $45,000 a year for someone to do manual scheduling and send reminder texts.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Auto-scheduling. Digital dispatch. Automated SMS. The office manager tasks that software handles.</h3>
-          <p>SprayBossPro automates the daily scheduling, dispatch, and customer communication that office managers spend most of their time on — so a spray business with 300 to 500 customers can run without a dedicated coordinator.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro automates the daily scheduling, dispatch, and customer communication that office managers spend most of their time on — so a spray business with 300 to 500 customers can run without a dedicated coordinator.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

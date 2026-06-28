@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Re-Entry Interval Texts After Pest Control Visits | SprayBossPro',
+  title: 'Re-Entry Interval Texts After Pest Control Visits | LandscapeBossPro',
   description: 'How re-entry interval SMS fires automatically based on the product and interval logged by the technician in the field.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Customer Communication</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Customer Communication</p>
         <h1>How to Send Re-Entry Interval Texts After Every Pest Control Application Automatically</h1>
 
         <p>Re-entry interval (REI) notification after pest control applications is both a regulatory requirement in most states and the most important customer communication your company sends. A customer who just had their home treated needs to know when it&apos;s safe to go back inside, when children and pets can re-enter, and how long to keep windows open. Getting this information wrong — or not sending it at all — creates liability exposure and customer dissatisfaction simultaneously. Automating it correctly eliminates both risks.</p>
@@ -34,8 +34,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>The right re-entry interval to the right customer the moment the log is submitted.</h3>
-          <p>SprayBossPro fires post-service SMS with the product-specific REI from the compliance log automatically on every stop — correct interval, correct customer, zero manual sends required.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro fires post-service SMS with the product-specific REI from the compliance log automatically on every stop — correct interval, correct customer, zero manual sends required.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

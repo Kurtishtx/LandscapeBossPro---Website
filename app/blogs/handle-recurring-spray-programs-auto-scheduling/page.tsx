@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Auto-Schedule Recurring Spray Programs | SprayBossPro',
+  title: 'Auto-Schedule Recurring Spray Programs | LandscapeBossPro',
   description: 'How auto-rescheduling after treatment completion keeps recurring programs running all season without your office touching anything between visits.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Automation</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Automation</p>
         <h1>How to Handle Recurring Spray Programs Without Manually Scheduling Every Round</h1>
 
         <p>The defining feature of a recurring spray program — from a scheduling perspective — is that the next service is already implied by the completion of the current one. A quarterly customer who just received their Round 2 fertilizer application is, by definition, due for Round 3 in approximately 90 days. No one needs to decide this. No one needs to look at a calendar, calculate a date, or enter a new appointment. The only information needed is the completion date and the program interval — and the system already has both. Auto-scheduling from those two data points eliminates every manual rebooking action for every completion in the business, permanently.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Every completion triggers the next visit. Every program type. Every customer. Zero manual rebooking.</h3>
-          <p>SprayBossPro auto-schedules the next spray visit from every completion across all service types and program intervals — so your waiting list is always current without your office touching anything between visits.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro auto-schedules the next spray visit from every completion across all service types and program intervals — so your waiting list is always current without your office touching anything between visits.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Grow a Spray Business From Zero to 500 Customers | SprayBossPro',
+  title: 'Grow a Spray Business From Zero to 500 Customers | LandscapeBossPro',
   description: 'The scheduling systems, pricing structure, and customer communication workflows that support growth from first truck to multi-crew operation.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Business Growth</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Business Growth</p>
         <h1>How to Grow a Spray Business from Startup to 500 Customers</h1>
 
         <p>The systems that work at 30 spray customers break at 150. The systems that work at 150 break at 400. Understanding which systems need to be in place at each growth stage — and which constraints become binding before you hit them — is what separates a spray business that grows smoothly from one that lurches from one operational crisis to the next as it adds customers.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>The systems that take a spray business from startup to 500 customers — built in from day one.</h3>
-          <p>SprayBossPro gives spray businesses the waiting list, circle routing, compliance logging, and automated SMS that scale smoothly from 50 customers to 500 without adding administrative staff proportionally.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro gives spray businesses the waiting list, circle routing, compliance logging, and automated SMS that scale smoothly from 50 customers to 500 without adding administrative staff proportionally.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

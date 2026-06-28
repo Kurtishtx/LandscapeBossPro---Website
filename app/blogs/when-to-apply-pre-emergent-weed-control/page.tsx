@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'When to Apply Pre-Emergent Weed Control | SprayBossPro',
+  title: 'When to Apply Pre-Emergent Weed Control | LandscapeBossPro',
   description: 'A practical guide to pre-emergent application timing, soil temperature targets, and how to manage the window across a large customer base.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Weed Control Timing</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Weed Control Timing</p>
         <h1>When Should You Apply Pre-Emergent Weed Control? Timing Windows Explained</h1>
 
         <p>Pre-emergent timing is one of the most operationally consequential decisions in a lawn care business. Apply too early and the product degrades before weed seeds germinate. Apply too late and seeds are already germinating — the barrier was never established. In a one-truck operation, managing this window is straightforward. With hundreds of accounts, it&apos;s a full logistics challenge that requires the right scheduling tools.</p>
@@ -37,8 +37,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Know your pre-emergent scope before the window opens, not after.</h3>
-          <p>SprayBossPro shows your full pre-emergent account list with total sq ft so you can capacity-plan the season and route every account before the soil temp window closes.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro shows your full pre-emergent account list with total sq ft so you can capacity-plan the season and route every account before the soil temp window closes.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

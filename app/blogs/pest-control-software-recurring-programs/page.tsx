@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Pest Control Software for Recurring Programs | SprayBossPro',
+  title: 'Pest Control Software for Recurring Programs | LandscapeBossPro',
   description: 'The fundamental difference between pest control operations and one-time service trades — and why software built for generic job dispatch fails recurring program management.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Software Strategy</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Software Strategy</p>
         <h1>Why Pest Control Companies Need Software Built for Recurring Programs, Not One-Time Jobs</h1>
 
         <p>Pest control is a recurring program business, not a one-time job business. A customer who calls for a one-time ant treatment isn&apos;t a pest control customer — they&apos;re a one-time retail transaction. The customers who define the financial model of a successful pest control company are quarterly, bi-monthly, and monthly recurring program customers who pay predictably, renew automatically, and build the reliable revenue base that makes the business scalable. Software built for one-time job dispatch — a work order when a customer calls, a tech dispatched, a job closed when complete — is structurally wrong for this model. The recurring program model requires a fundamentally different set of software behaviors.</p>
@@ -32,8 +32,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Built from the ground up for recurring programs — not adapted from generic job dispatch.</h3>
-          <p>SprayBossPro is purpose-built for pest control companies running quarterly, bi-monthly, and monthly recurring programs — with interval-based auto-scheduling, compliance log integration, and a waiting list that surfaces every due account automatically.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro is purpose-built for pest control companies running quarterly, bi-monthly, and monthly recurring programs — with interval-based auto-scheduling, compliance log integration, and a waiting list that surfaces every due account automatically.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

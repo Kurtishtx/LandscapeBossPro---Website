@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Track Pre- and Post-Emergent Programs Separately | SprayBossPro',
+  title: 'Track Pre- and Post-Emergent Programs Separately | LandscapeBossPro',
   description: 'Why pre-emergent and post-emergent rounds need separate tracking, separate compliance logs, and separate SMS templates.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Program Management</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Program Management</p>
         <h1>How to Track Pre-Emergent and Post-Emergent Programs Separately in One System</h1>
 
         <p>A customer enrolled in a full weed control program may receive both pre-emergent applications (spring and fall) and post-emergent treatments (multiple rounds across the growing season) under the same account. These are distinct service types with different products, different scheduling logic, different compliance fields, and different customer communication requirements. Tracking them under the same service type in a shared scheduling queue creates confusion in compliance logs, inaccurate round numbers, and incorrect SMS messages. They need to be tracked separately — even when they&apos;re serving the same customer.</p>
@@ -32,8 +32,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Pre-emergent and post-emergent tracked as separate programs — under the same customer account.</h3>
-          <p>SprayBossPro lets you configure pre-emergent and post-emergent as distinct service types with separate waiting lists, compliance log templates, and SMS alerts — no combined tracking, no mixed-up round numbers.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro lets you configure pre-emergent and post-emergent as distinct service types with separate waiting lists, compliance log templates, and SMS alerts — no combined tracking, no mixed-up round numbers.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

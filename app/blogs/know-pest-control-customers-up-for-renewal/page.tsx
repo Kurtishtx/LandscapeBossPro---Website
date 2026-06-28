@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Know Which Pest Control Customers Need Renewal | SprayBossPro',
+  title: 'Know Which Pest Control Customers Need Renewal | LandscapeBossPro',
   description: 'How pest control software surfaces accounts approaching the end of their contract so renewal outreach happens at the right time — before the customer lapses, not after.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>How to Know Which Pest Control Customers Are Up for Renewal</h1>
 
         <p>The renewal window in pest control is narrow — and most companies miss it. The customer receives their final contracted treatment. The company doesn&apos;t have a system that flags the account as renewal-ready. Nobody makes the renewal call. Six weeks later, the customer receives a pest problem and calls a competitor. By the time the original company realizes they&apos;ve lost a recurring account, the customer is two treatments into a new annual plan somewhere else. This scenario plays out constantly in pest control businesses that track renewals manually — not because the salespeople are negligent, but because a spreadsheet of 200 contracts doesn&apos;t automatically surface which 20 of them are approaching renewal in the next 30 days. Purpose-built <a href="/pest-control-software">pest control software</a> does.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>1 remaining treatment = call today. 2 remaining = next week. The list is always current and always prioritized.</h3>
-          <p>SprayBossPro&apos;s package tracking surfaces renewal-ready accounts automatically — so every pest control customer gets renewal outreach at exactly the right time, and none of them lapse from an oversight.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s package tracking surfaces renewal-ready accounts automatically — so every pest control customer gets renewal outreach at exactly the right time, and none of them lapse from an oversight.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

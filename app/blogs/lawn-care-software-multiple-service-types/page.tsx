@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Lawn Care Software for Multiple Service Types | SprayBossPro',
+  title: 'Lawn Care Software for Multiple Service Types | LandscapeBossPro',
   description: 'How lawn care software manages fertilizer, weed control, pest control, mosquito, and flower bed services for the same customer under a single account — and keeps each service type separately trackable.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>How Lawn Care Software Handles Multiple Service Types Under One Account</h1>
 
         <p>A customer who enrolled in a fertilizer and weed control program in April and added a mosquito control program in May and called about pest control in June is one customer with three simultaneous service programs, each with its own product, application interval, sq ft measurement, and pricing. Managing this customer in a manual or generic system requires tracking three separate schedules, three separate due dates, and three separate sq ft sets — and updating all three independently after each service. In purpose-built lawn care software, all three programs live under the same property record, each with its own waiting list entry and auto-scheduling behavior, visible as separate services in the same workflow without any manual tracking overhead.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Fertilizer. Mosquito control. Pest control. Flower beds. One customer. Four programs. Zero manual cross-tracking.</h3>
-          <p>SprayBossPro handles multiple simultaneous service programs per property under a single account — each with separate sq ft areas, separate waiting list entries, separate product mixes, and separate auto-scheduling intervals.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro handles multiple simultaneous service programs per property under a single account — each with separate sq ft areas, separate waiting list entries, separate product mixes, and separate auto-scheduling intervals.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

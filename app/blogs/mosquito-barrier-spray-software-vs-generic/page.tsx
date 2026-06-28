@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Mosquito Barrier Spray Software vs Generic Tools | SprayBossPro',
+  title: 'Mosquito Barrier Spray Software vs Generic Tools | LandscapeBossPro',
   description: 'Why generic field service software falls short for a mosquito spray business — and what purpose-built mosquito spray software does differently for interval scheduling, sq ft routing, and chemical compliance.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>The Difference Between Mosquito Barrier Spray Software and Generic Scheduling Tools</h1>
 
         <p>Generic field service scheduling software — tools built for HVAC, cleaning, handyman, or broad-purpose service businesses — can technically be made to work for a mosquito spray business. You can create a customer record, add an appointment, and mark it complete. What these tools don&apos;t have is any of the mosquito spray-specific structure that makes the business run efficiently at scale: sq ft and linear ft measurement fields per property, 21-day auto-interval scheduling, a waiting list sorted by days-since-last-treatment, circle map routing that shows treatment area and revenue per geographic cluster, chemical product tracking with EPA registration numbers, and automated pre-service and post-service SMS with re-entry interval content. Every one of those missing features is either a workaround (manual tracking in a spreadsheet) or an absent function (simply not done). <a href="/mosquito-spray-software">Mosquito spray software</a> is built around the model, not adapted to it.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Interval scheduling. Sq ft routing. Chemical compliance. Automated SMS. Built for mosquito spray — not adapted from something else.</h3>
-          <p>SprayBossPro is purpose-built for barrier spray operations — with the measurement fields, interval scheduling, circle routing, compliance logging, and SMS automation that generic scheduling tools can&apos;t replicate.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro is purpose-built for barrier spray operations — with the measurement fields, interval scheduling, circle routing, compliance logging, and SMS automation that generic scheduling tools can&apos;t replicate.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

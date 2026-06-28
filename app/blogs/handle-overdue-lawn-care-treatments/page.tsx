@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Handle Overdue Lawn Care Treatments | SprayBossPro',
+  title: 'Handle Overdue Lawn Care Treatments | LandscapeBossPro',
   description: "How to identify, prioritize, and route overdue treatments before customers notice they've been skipped.",
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Scheduling &amp; Retention</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Scheduling &amp; Retention</p>
         <h1>How to Handle Overdue Lawn Care Treatments Without Losing Customers</h1>
 
         <p>Overdue treatments are a silent retention killer. A customer who was supposed to get round three of their fertilizer program six weeks ago and still hasn&apos;t heard from you will not always call to complain. They&apos;ll just quietly not renew. By the time you notice, the account is gone and you never knew why.</p>
@@ -60,8 +60,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Catch overdue accounts before your customers do.</h3>
-          <p>SprayBossPro flags overdue treatments in your waiting list automatically so you can prioritize and route them before anyone notices they were missed.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro flags overdue treatments in your waiting list automatically so you can prioritize and route them before anyone notices they were missed.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

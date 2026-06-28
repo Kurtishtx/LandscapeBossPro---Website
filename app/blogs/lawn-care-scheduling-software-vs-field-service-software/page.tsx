@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Lawn Care vs Generic Field Service Software | SprayBossPro',
+  title: 'Lawn Care vs Generic Field Service Software | LandscapeBossPro',
   description: 'Why software built for recurring chemical programs handles routing, compliance, and SMS differently than job board tools.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Software &amp; Tools</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Software &amp; Tools</p>
         <h1>The Difference Between Lawn Care Scheduling Software and Generic Field Service Software</h1>
 
         <p>Generic field service software is built for a broad range of trades — HVAC, plumbing, electricians, appliance repair. It handles job tickets, customer records, invoicing, and basic scheduling. For a lot of businesses it works fine. For a lawn care company running recurring chemical treatment programs, it&apos;s the wrong tool.</p>
@@ -42,8 +42,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Built for recurring programs. Not generic jobs.</h3>
-          <p>SprayBossPro is purpose-built for lawn care, mosquito spray, fertilizer, and pest control companies running multi-round programs — not a generic field service tool repurposed for your industry.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro is purpose-built for lawn care, mosquito spray, fertilizer, and pest control companies running multi-round programs — not a generic field service tool repurposed for your industry.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

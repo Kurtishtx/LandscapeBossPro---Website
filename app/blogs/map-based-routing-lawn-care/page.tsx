@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Map-Based Routing for Lawn Care Route Growth | SprayBossPro',
+  title: 'Map-Based Routing for Lawn Care Route Growth | LandscapeBossPro',
   description: 'How drawing circles on a map to build routes reduces scheduling time and opens up geographic expansion.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Growth &amp; Routing</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Growth &amp; Routing</p>
         <h1>How to Use Map-Based Routing to Grow a Lawn Care Route Business</h1>
 
         <p>Map-based routing is not just an efficiency tool — it&apos;s a growth tool. When you can see all your customers and all your pending stops on a live map, two things happen: your routes become more efficient today, and you can see exactly where to add customers to maximize route density tomorrow. That combination — current efficiency plus strategic expansion — is what separates growing route businesses from ones that plateau.</p>
@@ -40,8 +40,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>See your entire operation on one map. Grow into the gaps.</h3>
-          <p>SprayBossPro puts every pending stop, every customer, and every route on an interactive map so you can build efficient routes today and identify expansion opportunities for tomorrow.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro puts every pending stop, every customer, and every route on an interactive map so you can build efficient routes today and identify expansion opportunities for tomorrow.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

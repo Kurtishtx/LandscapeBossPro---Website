@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Price Lawn Care Services by Square Footage | SprayBossPro',
+  title: 'Price Lawn Care Services by Square Footage | LandscapeBossPro',
   description: 'How to set per-sq-ft pricing for fertilizer, weed control, and insect programs and track revenue per stop and per route.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pricing &amp; Revenue</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pricing &amp; Revenue</p>
         <h1>How to Price Lawn Care Services by Square Footage</h1>
 
         <p>Pricing lawn care services by square footage is the most accurate and scalable method for fertilizer, weed control, pest control, and mosquito spray programs. It ensures large properties pay proportionally more, small properties stay profitable at lower prices, and your pricing is consistent across every customer without requiring custom estimates for every single account.</p>
@@ -51,8 +51,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Know your revenue per stop before the crew leaves the shop.</h3>
-          <p>SprayBossPro stores sq ft on every property and calculates expected revenue per stop and per route so you can see the profitability of your schedule before it runs.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro stores sq ft on every property and calculates expected revenue per stop and per route so you can see the profitability of your schedule before it runs.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

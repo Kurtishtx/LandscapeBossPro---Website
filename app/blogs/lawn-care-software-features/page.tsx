@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'The Features Every Lawn Care Software Needs | SprayBossPro',
+  title: 'The Features Every Lawn Care Software Needs | LandscapeBossPro',
   description: 'A checklist of the features that a lawn care business actually needs in software — and which ones commonly missing from platforms not built specifically for the industry.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>The Features Every Lawn Care Software Needs (And Most Are Missing)</h1>
 
         <p>When evaluating lawn care software, most business owners focus on what the vendor demonstrates — the customer database, the calendar view, the invoice module. These features exist in virtually every platform, regardless of whether the platform was built for lawn care or repurposed from a different service industry. The features that actually separate adequate lawn care software from software that works for a lawn care company are less visible in a demo and more visible in the first week of actual use. They&apos;re the features that either exist in your workflow or require a workaround — and in lawn care, the workarounds accumulate into the same operational overhead the software was supposed to eliminate.</p>
@@ -44,8 +44,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Waiting list. Sq ft by type. Circle routing. EPA pre-fill. Auto SMS. Card-on-file. Package plans. All present and purpose-built.</h3>
-          <p>SprayBossPro has every feature on this list — built for lawn care from the ground up, not adapted from a generic field service tool, at $129/month with no per-feature add-ons.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro has every feature on this list — built for lawn care from the ground up, not adapted from a generic field service tool, at $129/month with no per-feature add-ons.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Lawn Care Software Customer Notifications | SprayBossPro',
+  title: 'Lawn Care Software Customer Notifications | LandscapeBossPro',
   description: 'How automated SMS alerts in lawn care software fire at every customer touchpoint — dispatch, completion, payment declined — without any manual action from the office team.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>How Lawn Care Software Sends Customer Notifications Without Your Team Doing Anything</h1>
 
         <p>Customer communication is one of the most time-consuming parts of running a lawn care business at scale — and it&apos;s also one of the areas where consistency has the highest impact on customer retention. A customer who gets a pre-service SMS the evening before their appointment, a post-service confirmation with the re-entry interval when the technician completes the stop, and an invoice follow-up if their card has an issue is a customer with zero uncertainty about their service. They know when you&apos;re coming. They know when you&apos;ve been. They know what to do about their property after treatment. That certainty is a customer experience advantage that most lawn care companies can&apos;t deliver because they rely on someone manually sending each message.</p>
@@ -40,8 +40,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Pre-service. Post-service with REI. Payment issues. Estimate accepted. All sent automatically — zero manual effort.</h3>
-          <p>SprayBossPro&apos;s automated SMS alert system fires at every customer touchpoint in the service lifecycle — customizable templates, accurate REI from the product record, and two-way texting for customer responses.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s automated SMS alert system fires at every customer touchpoint in the service lifecycle — customizable templates, accurate REI from the product record, and two-way texting for customer responses.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

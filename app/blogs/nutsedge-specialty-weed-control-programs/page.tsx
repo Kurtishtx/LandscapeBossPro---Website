@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Nutsedge and Specialty Weed Control Programs | SprayBossPro',
+  title: 'Nutsedge and Specialty Weed Control Programs | LandscapeBossPro',
   description: 'How to schedule and track specialty weed treatments like nutsedge and sedge control alongside main program rounds in one waiting list.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Specialty Programs</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Specialty Programs</p>
         <h1>How to Handle Nutsedge and Specialty Weed Control Programs</h1>
 
         <p>Nutsedge and specialty sedge control are different from standard broadleaf weed control in three important ways: different products (sulfentrazone, halosulfuron, or imazosulfuron rather than standard broadleaf herbicides), tighter repeat application intervals (often 4 weeks rather than 6 to 8), and a more limited treatment window (nutsedge is most effectively treated when actively growing, typically June through August in most markets). Managing nutsedge programs alongside standard weed control and fertilizer programs requires tracking them as a separate service type with their own schedule, products, and compliance log fields.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Nutsedge programs on their own 4-week cycle — tracked separately from your main weed control program.</h3>
-          <p>SprayBossPro lets you configure nutsedge control as a separate service type with its own interval, products, compliance log template, and SMS — so specialty programs don&apos;t disrupt your standard program scheduling.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro lets you configure nutsedge control as a separate service type with its own interval, products, compliance log template, and SMS — so specialty programs don&apos;t disrupt your standard program scheduling.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

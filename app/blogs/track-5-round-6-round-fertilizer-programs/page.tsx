@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Track 5-Round and 6-Round Fertilizer Programs | SprayBossPro',
+  title: 'Track 5-Round and 6-Round Fertilizer Programs | LandscapeBossPro',
   description: 'How purpose-built fertilizer software tracks each round per property so no customer misses a treatment between seasons.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Fertilizer Programs</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Fertilizer Programs</p>
         <h1>How to Track 5-Round and 6-Round Fertilizer Programs Without Losing Count</h1>
 
         <p>Running a 5-round or 6-round fertilizer program across hundreds of customers is one of the most administratively demanding operations in the lawn care industry. Every customer is on their own round number. Some are on round two while others are finishing round five. Weather delays push some customers ahead of others. By midsummer, keeping accurate count for every account manually is nearly impossible — and when you lose count, customers miss treatments.</p>
@@ -42,8 +42,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Never lose count of where a customer is in their program.</h3>
-          <p>SprayBossPro tracks every round per property automatically — advancing the count after each completed visit so your waiting list always shows exactly who&apos;s due for what round and when.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro tracks every round per property automatically — advancing the count after each completed visit so your waiting list always shows exactly who&apos;s due for what round and when.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

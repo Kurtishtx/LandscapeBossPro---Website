@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Customers Want After Mosquito Barrier Spray | SprayBossPro',
+  title: 'What Customers Want After Mosquito Barrier Spray | LandscapeBossPro',
   description: 'The automated SMS that tells customers the re-entry interval, when it\'s safe for kids and pets, and when the next treatment is scheduled.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Customer Experience</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Customer Experience</p>
         <h1>What Customers Want to Know After Every Mosquito Barrier Spray Treatment</h1>
 
         <p>Mosquito control customers have a more specific set of post-service questions than customers receiving almost any other recurring service. They want to know: Was anyone here today? What was sprayed? When is it safe for my kids to play outside? When is it safe for my dog to go in the yard? When is the next treatment? These five questions are almost universal in mosquito customer service calls — and every one of them can be answered automatically in a single post-service SMS that fires within seconds of treatment completion. The call never needs to happen.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Was anyone here? What was sprayed? Safe for kids? Safe for dogs? Next visit? — answered in one automatic text.</h3>
-          <p>SprayBossPro fires a post-service mosquito confirmation with product-specific REI, explicit children and pet instructions, and next treatment date — automatically, within seconds of the compliance log submission.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro fires a post-service mosquito confirmation with product-specific REI, explicit children and pet instructions, and next treatment date — automatically, within seconds of the compliance log submission.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

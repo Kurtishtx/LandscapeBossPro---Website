@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Price Mosquito Barrier Spray Programs for Profit | SprayBossPro',
+  title: 'Price Mosquito Barrier Spray Programs for Profit | LandscapeBossPro',
   description: 'How to set per-treatment pricing for mosquito barrier spray programs — factoring product cost, sq ft and linear ft, labor, and drive time to build pricing that holds margin all season.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>How to Price Mosquito Barrier Spray Programs for Maximum Profitability</h1>
 
         <p>Pricing a mosquito barrier spray program correctly is the single most consequential business decision in the mosquito spray model. Unlike one-time pest control or lawn mowing, a mosquito spray program locks in a per-treatment price for 5 to 8 visits across a season — usually April through September. Underprice by $15 per treatment and a 150-account customer base loses $11,250 to $18,000 annually across the season. Price correctly and the same customer base produces clean, recurring, season-long revenue that grows through customer retention rather than constant acquisition. The math requires software that can show you what you&apos;re making per treatment before you dispatch a single truck.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>See per-treatment revenue per stop. See route revenue before dispatch. Know your margin before you load the truck.</h3>
-          <p>SprayBossPro stores sq ft and linear ft per property, calculates per-treatment revenue, and shows route revenue totals before dispatch — so you know what every route day generates before the technician leaves.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro stores sq ft and linear ft per property, calculates per-treatment revenue, and shows route revenue totals before dispatch — so you know what every route day generates before the technician leaves.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Mosquito Spray Software: Season Start and Shutdown | SprayBossPro',
+  title: 'Mosquito Spray Software: Season Start and Shutdown | LandscapeBossPro',
   description: 'How to manage the spring startup and fall close of a mosquito spray season in software — activating programs, communicating season start to customers, and closing programs cleanly at the end.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>How Mosquito Spray Software Handles Seasonal Program Start and Shutdown</h1>
 
         <p>Mosquito spray is a seasonal business in most markets — programs typically run April or May through September or October, with a spring startup and a fall close that are both operationally intensive. Spring startup means activating returning customer programs, communicating season start dates, building first-of-season routes, and dispatching first treatments across the full customer base within a compressed window. Fall close means completing last treatments, communicating season-end to customers, and setting programs to inactive until the following spring. Both transitions are points where accounts fall through the gaps in manual systems. Purpose-built <a href="/mosquito-spray-software">mosquito spray software</a> manages both transitions systematically.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Spring startup. 200 returning customer programs activated. First treatments in the waiting list. All in one batch action.</h3>
-          <p>SprayBossPro handles mosquito spray seasonal startup and shutdown through the package plan structure — activating and deactivating programs systematically with automated communication at every seasonal touchpoint.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro handles mosquito spray seasonal startup and shutdown through the package plan structure — activating and deactivating programs systematically with automated communication at every seasonal touchpoint.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Manage Annual Pest Control Contracts in Software | SprayBossPro',
+  title: 'Manage Annual Pest Control Contracts in Software | LandscapeBossPro',
   description: 'How pest control software tracks annual contract start and end dates, treatment counts, renewal timing, and billing cycles across a full book of recurring program customers.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>How to Manage Annual Pest Control Contracts in Software</h1>
 
         <p>Annual pest control contracts create operational complexity that increases with account volume: each contract has a start date, an end date, a treatment count, a renewal window, and a billing cycle — and all four of these data points need to be current and accessible at any point in the season. At 50 contracts, an owner can manage this with a spreadsheet and reasonable diligence. At 200 contracts, the same approach produces gaps — contracts that expire without renewal contact, customers who receive fewer treatments than contracted, and billing cycles that drift out of alignment with service delivery. Purpose-built <a href="/pest-control-software">pest control software</a> manages annual contracts as a structured data object, not as a row in a spreadsheet, and the difference in operational reliability at scale is not marginal — it&apos;s the difference between running the business and constantly trying to catch up with it.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Start date. Treatment count. Renewal window. Billing trigger. All tracked automatically from the package plan.</h3>
-          <p>SprayBossPro manages annual pest control contracts through the package plan structure — tracking treatments, surfacing renewal windows, and aligning billing with service delivery across every active account.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro manages annual pest control contracts through the package plan structure — tracking treatments, surfacing renewal windows, and aligning billing with service delivery across every active account.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

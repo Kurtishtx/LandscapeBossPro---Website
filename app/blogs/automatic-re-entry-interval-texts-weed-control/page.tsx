@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Automatic Re-Entry Interval Texts: Weed Control | SprayBossPro',
+  title: 'Automatic Re-Entry Interval Texts: Weed Control | LandscapeBossPro',
   description: 'How automated post-application SMS fires the correct re-entry interval based on the product logged by the technician in the field.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Customer Communication</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Customer Communication</p>
         <h1>How to Send Automatic Re-Entry Interval Texts After Every Weed Control Visit</h1>
 
         <p>Post-application re-entry interval texts serve two purposes: compliance and retention. On the compliance side, many states require that customers be notified of the re-entry interval before or at the time of application. On the retention side, a customer who receives a professional text after every service — telling them exactly when they can safely re-enter their lawn — perceives a much higher quality of service than one who gets no communication after a technician visits without interaction. Both outcomes happen automatically when re-entry SMS is set up correctly in your weed control software.</p>
@@ -34,8 +34,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>The right re-entry interval text, fired the moment your technician submits the compliance log.</h3>
-          <p>SprayBossPro pulls the REI from the completed field log and sends the post-service SMS automatically — correct interval, correct product, correct customer, zero office action required.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro pulls the REI from the completed field log and sends the post-service SMS automatically — correct interval, correct product, correct customer, zero office action required.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

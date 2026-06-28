@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Seasonal Lawn Care Scheduling: All Rounds | SprayBossPro',
+  title: 'Seasonal Lawn Care Scheduling: All Rounds | LandscapeBossPro',
   description: 'How to manage the full calendar of lawn care rounds across all seasons without manually scheduling anything between rounds.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Scheduling &amp; Seasonality</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Scheduling &amp; Seasonality</p>
         <h1>Seasonal Lawn Care Scheduling: Spring, Summer, Fall, and Winterizer Programs</h1>
 
         <p>A well-run lawn care company doesn&apos;t treat its schedule as a series of separate weeks. It treats the entire season — spring through winterizer — as a continuous program where each round flows from the last and customers stay on track automatically. Here&apos;s how to structure your seasonal schedule so it manages itself from first application to final winterizer.</p>
@@ -48,8 +48,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Run the full season without manually rebooking a single customer.</h3>
-          <p>SprayBossPro auto-reschedules every customer after each completed round so your waiting list builds itself all season and nothing falls through the cracks.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro auto-reschedules every customer after each completed round so your waiting list builds itself all season and nothing falls through the cracks.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

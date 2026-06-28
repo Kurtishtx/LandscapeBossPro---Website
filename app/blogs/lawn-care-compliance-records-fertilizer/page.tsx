@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Fertilizer Compliance Records That Pass Inspection | SprayBossPro',
+  title: 'Fertilizer Compliance Records That Pass Inspection | LandscapeBossPro',
   description: 'The complete list of what state inspectors look for on fertilizer application records and how to have all of it ready on demand.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Compliance &amp; Records</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Compliance &amp; Records</p>
         <h1>What Lawn Care Compliance Records Do You Need for Fertilizer Applications?</h1>
 
         <p>State compliance audits for lawn care and fertilizer companies are not random — inspectors know exactly what they&apos;re looking for, and the gaps they find are almost always the same: missing EPA registration numbers, incomplete area-treated data, no weather conditions logged, or records that can&apos;t be produced within a reasonable timeframe. Here&apos;s the complete list of what your records need to contain and how to have them ready on demand.</p>
@@ -58,8 +58,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Have every compliance record ready the moment an inspector asks.</h3>
-          <p>SprayBossPro captures complete field-submitted compliance logs per property per visit — searchable by date, product, applicator, or location, exportable as a compliance report in seconds.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro captures complete field-submitted compliance logs per property per visit — searchable by date, product, applicator, or location, exportable as a compliance report in seconds.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

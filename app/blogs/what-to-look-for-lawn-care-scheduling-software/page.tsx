@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What to Look for in Lawn Care Scheduling Software | SprayBossPro',
+  title: 'What to Look for in Lawn Care Scheduling Software | LandscapeBossPro',
   description: 'The features that actually matter for companies running recurring chemical programs — and what to skip.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Software &amp; Buying Guide</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Software &amp; Buying Guide</p>
         <h1>What to Look for in Lawn Care Scheduling Software Before You Buy</h1>
 
         <p>Most lawn care software buying decisions go wrong for the same reason: the buyer evaluates the wrong things. They focus on the interface, the price, and the brand name — and miss the features that actually determine whether the software will handle their operation. Here&apos;s what actually matters for a company running recurring chemical treatment programs, and what you can safely skip.</p>
@@ -50,8 +50,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Built for every must-have on this list.</h3>
-          <p>SprayBossPro has a waiting list with sq ft totals, auto-rescheduling, map-based routing, mobile dispatch, automated SMS alerts, and chemical compliance logging — all at $129/month, everything included.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro has a waiting list with sq ft totals, auto-rescheduling, map-based routing, mobile dispatch, automated SMS alerts, and chemical compliance logging — all at $129/month, everything included.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

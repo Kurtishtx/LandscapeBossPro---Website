@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Weed Control Software vs Generic Scheduling Tools | SprayBossPro',
+  title: 'Weed Control Software vs Generic Scheduling Tools | LandscapeBossPro',
   description: 'How seasonal timing windows, compliance logging, and re-entry SMS require features that generic field service tools don\'t provide.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Software Comparison</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Software Comparison</p>
         <h1>Why Weed Control Companies Need Dedicated Software, Not Generic Scheduling Tools</h1>
 
         <p>Generic field service software — job boards, general scheduling platforms, and dispatch tools built for any trade — are designed around a universal model: create a job, assign it to a tech, mark it complete. That model works for one-time or simple recurring services. It doesn&apos;t work for weed control programs with seasonal timing windows, multiple concurrent service types, chemical compliance logging requirements, and product-specific re-entry interval SMS. The gaps between what generic tools do and what weed control operations need aren&apos;t minor differences — they&apos;re fundamental architectural differences.</p>
@@ -36,8 +36,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Built for weed control programs — not adapted from a generic scheduling template.</h3>
-          <p>SprayBossPro handles seasonal timing windows, multi-program accounts, field-submitted compliance logs with product libraries, and product-specific re-entry SMS — features that don&apos;t exist in generic field service tools.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro handles seasonal timing windows, multi-program accounts, field-submitted compliance logs with product libraries, and product-specific re-entry SMS — features that don&apos;t exist in generic field service tools.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

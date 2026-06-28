@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Scale Lawn Care to 500 Without Office Staff | SprayBossPro',
+  title: 'Scale Lawn Care to 500 Without Office Staff | LandscapeBossPro',
   description: 'The scheduling systems and automation that let a lawn care company scale without adding admin headcount.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Growth &amp; Operations</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Growth &amp; Operations</p>
         <h1>How to Scale a Lawn Care Business from 50 to 500 Customers Without Hiring an Office Manager</h1>
 
         <p>Most lawn care businesses hit an administrative wall somewhere between 100 and 200 customers. The owner is doing routes, taking calls, sending invoices, handling complaints, and manually scheduling every visit. Growth feels like adding more weight to a system that&apos;s already straining. The instinct is to hire an office manager. The smarter move is to fix the system.</p>
@@ -46,8 +46,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Scale to 500 customers without adding admin overhead.</h3>
-          <p>SprayBossPro automates scheduling, billing, customer communication, and dispatch so your operation grows without proportional growth in office work.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro automates scheduling, billing, customer communication, and dispatch so your operation grows without proportional growth in office work.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

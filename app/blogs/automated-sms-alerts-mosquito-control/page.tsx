@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Automated SMS Alerts for Mosquito Control Visits | SprayBossPro',
+  title: 'Automated SMS Alerts for Mosquito Control Visits | LandscapeBossPro',
   description: 'How day-before, on-the-way, and post-application re-entry interval texts fire automatically on every mosquito visit without your team touching a phone.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Customer Communication</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Customer Communication</p>
         <h1>How to Send Automated SMS Alerts for Every Mosquito Control Visit</h1>
 
         <p>A mosquito control company making 200 treatments per week during peak season is generating 600 customer communication touchpoints per week if it sends three messages per visit — day-before, on-the-way, and post-service. No team has the bandwidth to send 600 messages per week manually. The entire customer communication system needs to run automatically, triggered by dispatch actions and field log submissions, with service-specific language that tells mosquito customers exactly what to expect before, during, and after every treatment.</p>
@@ -37,8 +37,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Day-before, on-the-way, post-service with product-specific REI. Three automatic messages per mosquito visit.</h3>
-          <p>SprayBossPro fires all three mosquito control customer alerts automatically — day-before from dispatch, on-the-way from route transit, and post-service with the actual REI from the compliance log — without your team sending a single message manually.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro fires all three mosquito control customer alerts automatically — day-before from dispatch, on-the-way from route transit, and post-service with the actual REI from the compliance log — without your team sending a single message manually.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

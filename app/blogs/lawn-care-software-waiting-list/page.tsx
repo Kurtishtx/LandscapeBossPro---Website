@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Managing the Lawn Care Waiting List Every Morning | SprayBossPro',
+  title: 'Managing the Lawn Care Waiting List Every Morning | LandscapeBossPro',
   description: 'How the waiting list in lawn care software works as the daily operational hub — showing every due account, sq ft, and revenue before you build a single route.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>How to Use Lawn Care Software to Manage Your Waiting List Every Morning</h1>
 
         <p>The waiting list is the most important screen in lawn care software — more important than the scheduling calendar, more important than the customer database, and more important than any reporting view. The waiting list is where each morning&apos;s production decisions begin: how many accounts are due, how much sq ft is waiting, what the expected revenue is, which accounts are overdue, and where they&apos;re located. Getting this right is what makes the rest of the day&apos;s work efficient. Getting it wrong — or not having it at all — means every morning starts with a manual process of figuring out who needs service, which is the most common source of missed accounts and inconsistent scheduling in lawn care businesses that haven&apos;t invested in purpose-built software.</p>
@@ -41,8 +41,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Every due account. Total sq ft. Expected revenue. Overdue flags. All before you draw the first circle.</h3>
-          <p>SprayBossPro&apos;s waiting list surfaces every due lawn care account automatically — with sq ft by service type, expected revenue, and a map view for circle routing — so every morning starts from a complete picture of the day&apos;s work.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s waiting list surfaces every due lawn care account automatically — with sq ft by service type, expected revenue, and a map view for circle routing — so every morning starts from a complete picture of the day&apos;s work.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

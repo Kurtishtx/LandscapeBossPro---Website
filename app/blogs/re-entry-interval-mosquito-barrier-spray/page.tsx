@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Re-Entry Interval After Mosquito Barrier Spray | SprayBossPro',
+  title: 'Re-Entry Interval After Mosquito Barrier Spray | LandscapeBossPro',
   description: 'How re-entry intervals vary by mosquito control product and how to automatically send the right interval based on what the tech actually applied.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Customer Communication</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Customer Communication</p>
         <h1>What Re-Entry Interval Should You Send Customers After Mosquito Barrier Spray?</h1>
 
         <p>After a mosquito barrier spray application, customers need to know when it&apos;s safe to go back into their yard. The answer is not a fixed &quot;30 minutes&quot; or &quot;1 hour&quot; — it depends on the specific product applied, the formulation, the application method, and in some cases the application site conditions. Sending a generic re-entry interval in your post-service text is both inaccurate for products that differ from your default and potentially a liability issue if a customer or pet re-enters before the actual safe interval. The re-entry interval in the customer notification must come from the product label for what was actually applied.</p>
@@ -40,8 +40,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Product-specific re-entry interval. Sent automatically. To the right customer. Within seconds of service completion.</h3>
-          <p>SprayBossPro fires post-service SMS with the REI pulled directly from the applied product in the compliance log — correct interval, specific to what was actually sprayed, delivered before the technician leaves the driveway.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro fires post-service SMS with the REI pulled directly from the applied product in the compliance log — correct interval, specific to what was actually sprayed, delivered before the technician leaves the driveway.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

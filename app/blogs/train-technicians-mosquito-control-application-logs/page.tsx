@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Train Techs to Log Mosquito Control Applications | SprayBossPro',
+  title: 'Train Techs to Log Mosquito Control Applications | LandscapeBossPro',
   description: 'The field logging workflow that captures EPA reg number, rate, re-entry interval, and conditions at every mosquito barrier spray property.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Team Training</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Team Training</p>
         <h1>How to Train Technicians to Complete Mosquito Control Application Logs in the Field</h1>
 
         <p>Mosquito control compliance logs are the legal record of every chemical application a licensed company makes. For a technician making 12 to 15 mosquito barrier spray applications per day during peak season, submitting a complete, accurate compliance log on every stop is both a professional standard and a license condition. Training technicians to do this correctly — and building a field logging system that makes correct completion fast and incorrect completion nearly impossible — is what keeps a mosquito company&apos;s compliance record clean through a high-volume season.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Product library fills the hard fields. Required fields enforce completeness. Training closes the gaps.</h3>
-          <p>SprayBossPro&apos;s compliance log pre-fills EPA reg numbers, rates, and re-entry intervals from the product library — so mosquito technicians submit complete, accurate logs in under 90 seconds per stop, every stop.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s compliance log pre-fills EPA reg numbers, rates, and re-entry intervals from the product library — so mosquito technicians submit complete, accurate logs in under 90 seconds per stop, every stop.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

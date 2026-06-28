@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Biggest Spray Business Scaling Mistakes | SprayBossPro',
+  title: 'Biggest Spray Business Scaling Mistakes | LandscapeBossPro',
   description: 'The scheduling, dispatch, and compliance gaps that become expensive problems as a spray business grows beyond the owner-operator stage.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Scaling</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Scaling</p>
         <h1>The Biggest Mistakes Spray Business Owners Make When Scaling Past 10 Trucks</h1>
 
         <p>Most spray businesses that grow from 3 trucks to 10 trucks do it without rebuilding their systems. The systems that worked at 3 trucks — manual dispatch calls, paper logs, owner-managed scheduling, personal customer relationships — are stretched past their limits by the time the 8th truck is on the road. The problems that show up at scale aren&apos;t new problems: they&apos;re the same problems that existed at 3 trucks, now compounded by volume. Understanding where the systems break before they break is what separates a controlled scaling process from one that produces compliance violations, customer churn, and operational chaos alongside the growth.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Circle routing, digital compliance logs, auto-scheduling, and SMS retention — the systems scaling spray businesses need.</h3>
-          <p>SprayBossPro gives spray businesses the operational infrastructure to scale past 5, 10, and 15 trucks without the manual system failures that create compliance risk, customer churn, and dispatch bottlenecks.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro gives spray businesses the operational infrastructure to scale past 5, 10, and 15 trucks without the manual system failures that create compliance risk, customer churn, and dispatch bottlenecks.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

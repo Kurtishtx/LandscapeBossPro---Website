@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Evaluate Pest Control Software | SprayBossPro',
+  title: 'How to Evaluate Pest Control Software | LandscapeBossPro',
   description: 'The specific evaluation questions that reveal whether a pest control software platform is purpose-built for recurring programs or a generic tool adapted for the industry.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>How to Evaluate Pest Control Software — The Questions That Reveal Whether It&apos;s Built for This Industry</h1>
 
         <p>Evaluating pest control software requires asking questions that generic field service tool vendors can&apos;t answer well — not because their platform is bad, but because the questions reveal requirements that their architecture wasn&apos;t designed to meet. A vendor who can give fluent, specific answers to the questions below is selling a platform that understands recurring pest control operations. A vendor who deflects to features like &quot;fully customizable workflows&quot; or &quot;powerful reporting dashboards&quot; is selling a platform that doesn&apos;t natively support what you actually need to ask about. The questions that reveal the difference are specific.</p>
@@ -35,9 +35,9 @@ export default function Page() {
         <p>For why these questions reveal the fundamental difference between purpose-built and generic tools, see <a href="/blogs/pest-control-business-200-to-500-accounts-software">What a Pest Control Business Looks Like at 200 Accounts vs. 500 — and the Software That Bridges the Gap</a>.</p>
 
         <div className="blog-cta-box">
-          <h3>Auto-scheduling. Product library EPA pre-fill. Automatic REI SMS. Package tracking. Flat pricing. Inspector-ready in 60 seconds. SprayBossPro says yes to all six.</h3>
-          <p>SprayBossPro is built specifically for recurring pest control operations — try it free for 14 days with every feature unlocked, no credit card required.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <h3>Auto-scheduling. Product library EPA pre-fill. Automatic REI SMS. Package tracking. Flat pricing. Inspector-ready in 60 seconds. LandscapeBossPro says yes to all six.</h3>
+          <p>LandscapeBossPro is built specifically for recurring pest control operations — try it free for 14 days with every feature unlocked, no credit card required.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

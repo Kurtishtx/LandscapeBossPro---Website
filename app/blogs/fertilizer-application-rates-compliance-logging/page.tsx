@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Fertilizer Application Rates: Compliance Logging | SprayBossPro',
+  title: 'Fertilizer Application Rates: Compliance Logging | LandscapeBossPro',
   description: 'How to log lbs per 1,000 sq ft, total product applied, and area treated for every fertilizer application in a state-ready format.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Compliance &amp; Logging</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Compliance &amp; Logging</p>
         <h1>Fertilizer Application Rates by Lawn Size: How to Log Them Correctly for Compliance</h1>
 
         <p>Application rate logging is one of the most commonly mishandled parts of fertilizer compliance records. Many companies log the product name and date but leave out the application rate, total product applied, or area treated — and those omissions are exactly what inspectors flag. Here&apos;s how to log fertilizer application rates correctly for every property in a format that holds up to a state audit.</p>
@@ -59,8 +59,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Log application rates correctly at every property. Every time.</h3>
-          <p>SprayBossPro pre-fills application rate calculations from stored sq ft data and standard rates so your technicians submit accurate, complete compliance logs from the field in under 60 seconds.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro pre-fills application rate calculations from stored sq ft data and standard rates so your technicians submit accurate, complete compliance logs from the field in under 60 seconds.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

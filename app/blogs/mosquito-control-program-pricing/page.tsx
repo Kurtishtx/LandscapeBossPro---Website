@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Mosquito Control Program Pricing for Retention | SprayBossPro',
+  title: 'Mosquito Control Program Pricing for Retention | LandscapeBossPro',
   description: 'How seasonal packages, per-visit pricing, and prepay discounts affect mosquito customer retention and average program revenue.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pricing Strategy</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pricing Strategy</p>
         <h1>Mosquito Control Program Pricing: How to Package and Price for Maximum Retention</h1>
 
         <p>Mosquito control pricing structure affects more than revenue per treatment — it directly affects customer retention, enrollment rates, and how customers perceive the value of the program through the season. A pricing structure that makes the per-visit cost highly visible (per-visit billing with a charge after each treatment) creates more frequent price-sensitivity moments than a seasonal package where the customer has already committed to the full season. Understanding how pricing structure interacts with customer psychology — and how to build a pricing model that maximizes both enrollment and retention — is one of the highest-ROI decisions a mosquito business makes.</p>
@@ -32,8 +32,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Seasonal packages. Per-visit billing. Prepay discounts. Tiered by property size. All tracked in the same system.</h3>
-          <p>SprayBossPro tracks mosquito program pricing and customer payment structure by account — with per-sq-ft revenue calculation in the waiting list so route revenue reflects actual program pricing before you build the route.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro tracks mosquito program pricing and customer payment structure by account — with per-sq-ft revenue calculation in the waiting list so route revenue reflects actual program pricing before you build the route.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

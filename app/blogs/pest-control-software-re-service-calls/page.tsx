@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Pest Control Software Handles Re-Service Calls | SprayBossPro',
+  title: 'How Pest Control Software Handles Re-Service Calls | LandscapeBossPro',
   description: 'How to manage pest control re-service calls — callback visits between scheduled treatments — in software without creating scheduling conflicts or missing regular program appointments.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>How Pest Control Software Handles Re-Service Calls Without Disrupting the Schedule</h1>
 
         <p>Re-service calls — callback visits between scheduled treatments when a customer reports active pest activity — are one of the operational realities of running a recurring pest control program. A quarterly customer treated in April calls in May reporting roaches. A bi-monthly customer treated in June calls three weeks later about ants. These re-service visits need to be handled quickly, tracked as separate service records, logged as compliance events, and dispatched to the field without bumping any scheduled regular treatments from the upcoming route. In a manual system, managing re-services requires careful calendar management to avoid conflicts. In purpose-built <a href="/pest-control-software">pest control software</a>, re-service calls are handled as a distinct service category that routes alongside regular treatments without interfering with the recurring program schedule.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Re-service scheduled. Dispatched. Logged. Compliance captured. Regular program untouched.</h3>
-          <p>SprayBossPro handles re-service calls as a distinct one-time service — tracked, logged, and dispatched without affecting the recurring package plan interval or treatment count.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro handles re-service calls as a distinct one-time service — tracked, logged, and dispatched without affecting the recurring package plan interval or treatment count.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

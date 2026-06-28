@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Interior and Exterior Pest Control Treatment Logs | SprayBossPro',
+  title: 'Interior and Exterior Pest Control Treatment Logs | LandscapeBossPro',
   description: 'Why interior and exterior pest control treatments need separate compliance log entries and how to structure logs when both are done in the same visit.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Compliance</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Compliance</p>
         <h1>How to Log Interior and Exterior Pest Control Treatments as Separate Records</h1>
 
         <p>Most pest control companies doing combined interior/exterior treatments are applying different products in each zone — a long-residual pyrethroid for the exterior perimeter, a targeted bait or short-residual indoor product for interior areas. These are two separate product applications with potentially different EPA registration numbers, different application rates, different target pests, and different re-entry intervals. Combining them in a single log entry is both a compliance shortcut and an accuracy failure. Logging them separately — same visit, same date, same customer — is the correct approach and the one that produces defensible compliance records.</p>
@@ -38,8 +38,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Interior and exterior applications logged as separate records — correct product, correct zones, correct re-entry for each.</h3>
-          <p>SprayBossPro supports multi-product visit logging with separate compliance entries per application zone, each with its own EPA reg number, treatment area checklist, and re-entry interval from the product library.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro supports multi-product visit logging with separate compliance entries per application zone, each with its own EPA reg number, treatment area checklist, and re-entry interval from the product library.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

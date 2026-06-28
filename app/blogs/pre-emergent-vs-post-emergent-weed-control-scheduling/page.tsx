@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Pre-Emergent vs Post-Emergent Weed Control | SprayBossPro',
+  title: 'Pre-Emergent vs Post-Emergent Weed Control | LandscapeBossPro',
   description: 'How pre-emergent seasonal timing windows and post-emergent auto-rescheduling work differently and why they need separate scheduling logic.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Weed Control Scheduling</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Weed Control Scheduling</p>
         <h1>Pre-Emergent vs. Post-Emergent Weed Control: How to Schedule Both Correctly</h1>
 
         <p>Pre-emergent and post-emergent weed control are fundamentally different service types that require fundamentally different scheduling logic. Pre-emergent is a seasonal, timing-driven application — miss the window and you&apos;ve missed the season. Post-emergent is an interval-based program that auto-reschedules on completion. Running both out of the same scheduling bucket leads to missed windows, overdue rounds, and customers who notice weeds that shouldn&apos;t be there. Here&apos;s how to structure the scheduling logic for each correctly.</p>
@@ -36,8 +36,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Separate scheduling logic for pre-emergent and post-emergent — built into your waiting list.</h3>
-          <p>SprayBossPro tracks pre-emergent and post-emergent rounds as separate service types with separate queues, compliance logs, and SMS templates so neither program interferes with the other.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro tracks pre-emergent and post-emergent rounds as separate service types with separate queues, compliance logs, and SMS templates so neither program interferes with the other.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

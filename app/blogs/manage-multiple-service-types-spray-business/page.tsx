@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Manage Multiple Services in a Spray Business | SprayBossPro',
+  title: 'Manage Multiple Services in a Spray Business | LandscapeBossPro',
   description: 'How to run fertilizer, weed control, pest control, and mosquito programs from one waiting list, one map, and one dispatch workflow.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Multi-Service Management</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Multi-Service Management</p>
         <h1>How to Manage Multiple Service Types From One Spray Business Platform</h1>
 
         <p>A spray business that offers fertilizer programs, weed control rounds, pest control recurring services, and mosquito add-ons is running four distinct scheduling cadences simultaneously — each with different program intervals, different product and compliance requirements, and different SMS templates. Managing all four from separate tools, separate spreadsheets, or a generic scheduling platform that treats all services the same creates a coordination overhead that grows faster than the account base. A single platform that handles all four service types as first-class programs — with independent scheduling intervals, service-type-specific compliance logs, and separate SMS configurations — is what makes multi-service operation viable at scale.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Fertilizer, weed control, pest control, mosquito — one waiting list, one map, one dispatch workflow.</h3>
-          <p>SprayBossPro manages every spray service type with independent scheduling intervals, service-specific compliance logs, and per-type SMS templates — all from the same platform your dispatcher uses every morning.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro manages every spray service type with independent scheduling intervals, service-specific compliance logs, and per-type SMS templates — all from the same platform your dispatcher uses every morning.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

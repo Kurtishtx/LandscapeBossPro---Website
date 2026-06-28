@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Software Does a Spray Business Actually Need? | SprayBossPro',
+  title: 'What Software Does a Spray Business Actually Need? | LandscapeBossPro',
   description: 'A practical breakdown of what features actually matter for companies applying chemical treatments on recurring programs — and what\'s just noise.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Software Selection</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Software Selection</p>
         <h1>What Software Does a Spray Business Actually Need?</h1>
 
         <p>Most spray business owners looking at software options get overwhelmed by feature lists. CRM modules, invoicing integrations, customer portals, marketing automation, review request tools, time tracking, payroll sync — the list goes on. In practice, a company applying chemical treatments on recurring programs needs a much smaller, more specific set of capabilities. The rest is either irrelevant, nice-to-have, or better handled by a separate dedicated tool. Here&apos;s what actually matters for a spray business, specifically.</p>
@@ -37,8 +37,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Waiting list. Circle routing. Compliance logs. Automated SMS. That&apos;s what a spray business actually needs.</h3>
-          <p>SprayBossPro is built specifically for spray companies applying chemical treatments on recurring programs — the five features above, done exceptionally well, at $129/month flat.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro is built specifically for spray companies applying chemical treatments on recurring programs — the five features above, done exceptionally well, at $129/month flat.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

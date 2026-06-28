@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Close a Mosquito Spray Season | SprayBossPro',
+  title: 'How to Close a Mosquito Spray Season | LandscapeBossPro',
   description: 'How to wrap up a mosquito spray season cleanly — completing last treatments, communicating season-end to customers, and setting up renewal before the off-season starts.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>How to Close the Season for a Mosquito Spray Business — Last Treatments and Customer Communication</h1>
 
         <p>Season close for a mosquito spray business is the highest-stakes operational week of the year — not for the treatments themselves, but for the retention impact. How a company handles the last treatment of the season and the communication around it determines what percentage of that customer base returns the following spring. A company that completes the last treatment, sends a well-crafted season-close message, and sets the expectation for renewal will convert returning customers at 80 to 90%. A company that simply stops showing up when the season ends — no final communication, no renewal setup — will spend the following spring cold-reacquiring customers who drifted to a competitor over the winter. <a href="/mosquito-spray-software">Mosquito spray software</a> supports season close as a systematic process, not an improvised wind-down.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Season-close message automated from the final treatment. Renewal confirmations before the off-season starts. Full-season compliance report in one export.</h3>
-          <p>SprayBossPro ties season close to treatment completion events — so the last-treatment message, renewal prompt, and annual compliance report all flow from the same operational workflow.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro ties season close to treatment completion events — so the last-treatment message, renewal prompt, and annual compliance report all flow from the same operational workflow.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

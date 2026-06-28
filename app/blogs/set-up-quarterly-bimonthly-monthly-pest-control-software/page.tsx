@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Set Up Recurring Pest Control Programs in Software | SprayBossPro',
+  title: 'Set Up Recurring Pest Control Programs in Software | LandscapeBossPro',
   description: 'The exact setup steps for configuring quarterly, bi-monthly, and monthly pest control programs in software so each interval auto-schedules correctly and tracks independently.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>How to Set Up Quarterly, Bi-Monthly, and Monthly Programs in Pest Control Software</h1>
 
         <p>Running quarterly, bi-monthly, and monthly pest control programs simultaneously — for different customers on different plans — is the operational normal for most pest control companies. What shouldn&apos;t be normal is the overhead that comes with managing three different scheduling intervals without structured software: a quarterly account treated April 1 needs to surface in the waiting list around July 1, a bi-monthly account treated April 1 surfaces around June 1, and a monthly account treated April 1 surfaces around May 1. In a spreadsheet, these three calculations happen manually after every completion. In purpose-built <a href="/pest-control-software">pest control software</a>, each program type has its own configured interval and the auto-scheduling happens from the completion date without any manual calculation.</p>
@@ -36,8 +36,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Quarterly. Bi-monthly. Monthly. Each interval configured once — auto-scheduling handles every visit forever.</h3>
-          <p>SprayBossPro configures each pest control program interval at the service level so quarterly, bi-monthly, and monthly accounts all auto-schedule from their actual completion dates without any manual calculation between visits.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro configures each pest control program interval at the service level so quarterly, bi-monthly, and monthly accounts all auto-schedule from their actual completion dates without any manual calculation between visits.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

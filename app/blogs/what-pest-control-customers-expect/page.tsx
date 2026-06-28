@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Pest Control Customers Expect From Programs | SprayBossPro',
+  title: 'What Pest Control Customers Expect From Programs | LandscapeBossPro',
   description: 'The five things recurring pest control customers consistently cite as reasons to stay or cancel — and how to deliver all five.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Customer Experience</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Customer Experience</p>
         <h1>What Pest Control Customers Actually Expect From a Recurring Program</h1>
 
         <p>Pest control customers who stay with a company for 5+ years and customers who cancel after 8 months share one common attribute: they both had expectations when they signed up. The difference is whether those expectations were met consistently. Customer expectations in recurring pest control aren&apos;t complex — they&apos;re actually quite predictable once you&apos;ve heard enough cancellation reasons — but meeting them consistently at scale requires systems that deliver the same experience on every visit, not just on good days.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Five consistent expectations. One system to deliver all of them on every visit.</h3>
-          <p>SprayBossPro handles timely scheduling, pre-visit SMS, post-service confirmation, property notes for every technician, and callback routing — the five things recurring pest control customers expect, delivered automatically.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro handles timely scheduling, pre-visit SMS, post-service confirmation, property notes for every technician, and callback routing — the five things recurring pest control customers expect, delivered automatically.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

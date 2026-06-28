@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Scaling Pest Control From 200 to 500 Accounts | SprayBossPro',
+  title: 'Scaling Pest Control From 200 to 500 Accounts | LandscapeBossPro',
   description: 'The operational changes that happen as a pest control business scales from 200 to 500 recurring accounts — and why the right software is the primary lever that makes the difference.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>What a Pest Control Business Looks Like at 200 Accounts vs. 500 — and the Software That Bridges the Gap</h1>
 
         <p>Two hundred recurring pest control accounts is a healthy small business. Five hundred is a stable mid-size operation with meaningfully different revenue, a clearer path to exit value, and a team that can execute without owner involvement in daily operations. The gap between 200 and 500 is where most pest control companies stall — not because they can&apos;t sell more accounts, but because the operational systems required to service 500 accounts consistently are more demanding than the systems that worked at 200. The companies that make it through this gap consistently do so with software that scales the operational capacity without scaling the headcount in proportion to the account growth.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>200 accounts with software. 500 accounts with software. The gap is growth, not a new system.</h3>
-          <p>SprayBossPro scales with a pest control business from 50 accounts to 500 without changing platforms or pricing — the $129/month flat cost stays constant as account volume doubles, triples, and grows.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro scales with a pest control business from 50 accounts to 500 without changing platforms or pricing — the $129/month flat cost stays constant as account volume doubles, triples, and grows.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

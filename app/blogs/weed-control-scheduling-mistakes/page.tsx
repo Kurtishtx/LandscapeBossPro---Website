@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'The Biggest Weed Control Scheduling Mistakes | SprayBossPro',
+  title: 'The Biggest Weed Control Scheduling Mistakes | LandscapeBossPro',
   description: 'The scheduling errors that cause missed pre-emergent windows, overdue post-emergent rounds, and lost weed control customers.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Scheduling Best Practices</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Scheduling Best Practices</p>
         <h1>The Biggest Weed Control Scheduling Mistakes Lawn Care Companies Make</h1>
 
         <p>Weed control scheduling errors cost money in two ways: directly, through missed windows that require expensive remediation; and indirectly, through lost customers who blame you for a weed problem that was caused by a scheduling failure rather than a product failure. Most of these mistakes are preventable with the right scheduling system. Here are the ones that recur most often and how to eliminate each of them.</p>
@@ -37,8 +37,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>The scheduling mistakes your competitors are still making — eliminated by design.</h3>
-          <p>SprayBossPro&apos;s separate service type queues, auto-rescheduling, and immediate skip re-queue prevent every one of these mistakes from happening in the first place.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s separate service type queues, auto-rescheduling, and immediate skip re-queue prevent every one of these mistakes from happening in the first place.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

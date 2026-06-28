@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Handle Overdue Mosquito Control Treatments | SprayBossPro',
+  title: 'Handle Overdue Mosquito Control Treatments | LandscapeBossPro',
   description: 'How to find customers past their treatment window, route them in with active stops, and recover the treatment before the protection gap gets noticed.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Account Management</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Account Management</p>
         <h1>How to Handle Overdue Mosquito Control Treatments During Peak Season</h1>
 
         <p>In mosquito control, overdue means unprotected. A customer who is 5 days past their 21-day treatment interval has been without barrier spray residual for 5 days. During June or July, that&apos;s 5 days when mosquito pressure is at its annual peak and the yard is accumulating new mosquito activity that the missing treatment would have prevented. Overdue accounts are a protection gap issue, not just an administrative one — and they require more urgency than overdue accounts in services where the consequence of a missed visit is less immediate.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Overdue accounts flagged by days past due. Routed first. Recovered before customers notice the protection gap.</h3>
-          <p>SprayBossPro surfaces mosquito overdue accounts with days-past-due indicators in both the waiting list and map view — so dispatchers route the most behind customers first and recover from weather delays before protection gaps become customer complaints.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro surfaces mosquito overdue accounts with days-past-due indicators in both the waiting list and map view — so dispatchers route the most behind customers first and recover from weather delays before protection gaps become customer complaints.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Chemical Application Tracking: Lawn Care Software | SprayBossPro',
+  title: 'Chemical Application Tracking: Lawn Care Software | LandscapeBossPro',
   description: 'How lawn care software records every pesticide and fertilizer application in a searchable database — and how to generate a chemical usage report for any date range.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>How to Track Every Chemical Application Your Business Makes With Lawn Care Software</h1>
 
         <p>Chemical tracking in a lawn care business serves two distinct purposes that both have real consequences. The compliance purpose: state pesticide regulations require that application records be created and retained, containing specific data elements, and be producible on demand for an inspector. The operational purpose: understanding which products you&apos;re using, in what volumes, across how many properties and service types, is business intelligence that informs purchasing, pricing, and technician training. Lawn care software that handles chemical tracking well serves both purposes simultaneously — creating compliant records as a field workflow output and making those same records searchable and reportable through a chemical tracking view that the office can use at any time.</p>
@@ -36,8 +36,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Every chemical application. Every property. Every product. Searchable by date range in under 60 seconds.</h3>
-          <p>SprayBossPro&apos;s chemical tracking captures every application through the field log completion workflow and makes all records available in a date-range report — printable for inspections in under 3 minutes.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s chemical tracking captures every application through the field log completion workflow and makes all records available in a date-range report — printable for inspections in under 3 minutes.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

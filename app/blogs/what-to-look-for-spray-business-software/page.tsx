@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What to Look for in Spray Business Software | SprayBossPro',
+  title: 'What to Look for in Spray Business Software | LandscapeBossPro',
   description: 'The specific features a spray company needs — waiting list, circle routing, compliance logs, SMS alerts — and how to evaluate tools against that list.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Buying Guide</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Buying Guide</p>
         <h1>What to Look for in Spray Business Software Before You Sign Up</h1>
 
         <p>Every spray business software vendor will tell you their platform handles scheduling, routing, customer communication, and compliance. The difference between platforms is in how — specifically how — each of these capabilities works, and whether the implementation fits the way a chemical application business actually operates. A demo that shows you a calendar with appointments doesn&apos;t tell you whether the platform supports interval-based auto-scheduling from completion. A compliance form shown in screenshots doesn&apos;t tell you whether the EPA reg number is typed manually or pre-filled from a product library. Asking specific questions about specific workflows separates platforms built for spray businesses from those adapted from generic field service tools.</p>
@@ -39,8 +39,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Five questions that separate purpose-built spray software from generic tools that technically work.</h3>
-          <p>SprayBossPro answers all five correctly — auto-scheduling from completion dates, product library compliance logs, automatic service-specific SMS alerts, and a waiting list map built for spray business dispatching.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro answers all five correctly — auto-scheduling from completion dates, product library compliance logs, automatic service-specific SMS alerts, and a waiting list map built for spray business dispatching.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

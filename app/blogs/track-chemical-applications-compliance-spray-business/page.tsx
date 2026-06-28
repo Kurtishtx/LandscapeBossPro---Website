@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Chemical Compliance Tracking for Spray Businesses | SprayBossPro',
+  title: 'Chemical Compliance Tracking for Spray Businesses | LandscapeBossPro',
   description: 'How structured in-field application logs capture EPA reg numbers, rates, and applicator license on every job in a state-ready format.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Compliance</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Compliance</p>
         <h1>How to Track Chemical Applications for Compliance Across a Spray Business</h1>
 
         <p>Every chemical application a spray business makes — fertilizer, herbicide, pesticide, insecticide — must be documented in a compliant application record. This isn&apos;t optional: it&apos;s a condition of the commercial pesticide applicator license that allows the business to legally apply restricted and general-use chemicals. State inspectors can request these records at any time, and the burden is on the applicator to produce them promptly and in complete form. A spray business with 300 recurring accounts making 1,200 to 2,400 applications per year needs a system that captures compliant records on every one of those applications without relying on technician memory or manual data entry.</p>
@@ -46,8 +46,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Every chemical application logged correctly at the property — state-ready on demand, across every service type.</h3>
-          <p>SprayBossPro captures all required compliance fields via required form fields and product library pre-fill — submitted in the field, immediately searchable in the office, exportable for any inspection request.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro captures all required compliance fields via required form fields and product library pre-fill — submitted in the field, immediately searchable in the office, exportable for any inspection request.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

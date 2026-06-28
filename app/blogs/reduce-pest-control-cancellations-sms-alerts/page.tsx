@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Reduce Pest Control Cancellations With SMS Alerts | SprayBossPro',
+  title: 'Reduce Pest Control Cancellations With SMS Alerts | LandscapeBossPro',
   description: 'The data on SMS communication and pest control cancellation rates — and how to configure pre-visit and post-visit alerts that make customers more likely to stay.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Customer Retention</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Customer Retention</p>
         <h1>How SMS Alerts Before and After Every Visit Reduce Pest Control Cancellations</h1>
 
         <p>Pest control cancellations cluster around specific moments in the customer lifecycle: after the first or second visit when the customer is still evaluating whether the service is worth continuing, after long gaps between visits when the customer has mentally moved on, and after service visits where the customer had no advance notice and couldn&apos;t prepare. SMS alerts at the right moments — pre-visit reminder, post-service confirmation, next-visit estimate — address all three of these moments directly. Companies that implement consistent two-alert communication per visit report measurably lower early cancellation rates than those relying on email or no proactive communication.</p>
@@ -32,8 +32,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Pre-visit reminder. Post-visit confirmation with REI and next-visit estimate. Two messages that retain customers.</h3>
-          <p>SprayBossPro fires pre-visit SMS reminders and post-service confirmations with product-specific re-entry intervals automatically — no manual sends, no missed alerts, consistent communication on every visit.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro fires pre-visit SMS reminders and post-service confirmations with product-specific re-entry intervals automatically — no manual sends, no missed alerts, consistent communication on every visit.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Weed Control Pricing by Square Foot | SprayBossPro',
+  title: 'Weed Control Pricing by Square Foot | LandscapeBossPro',
   description: 'How to set per-sq-ft pricing for pre-emergent and post-emergent rounds and track total program revenue per customer and per route.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pricing &amp; Revenue</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pricing &amp; Revenue</p>
         <h1>Weed Control Pricing by Square Foot: How to Track Revenue Per Round</h1>
 
         <p>Sq ft pricing for weed control produces more accurate margins than flat-rate or per-visit pricing because your primary cost driver — product — scales directly with sq ft. A flat rate that&apos;s profitable on a 6,000 sq ft property loses money on a 14,000 sq ft property treated at the same price. Sq ft pricing eliminates this problem and creates a consistent margin profile across all property sizes. Here&apos;s how to structure per-sq-ft pricing for pre-emergent and post-emergent programs and how to track the revenue that pricing generates.</p>
@@ -35,8 +35,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Know your revenue per weed control round before a single stop is dispatched.</h3>
-          <p>SprayBossPro calculates expected revenue per stop from stored sq ft and assigned rates — visible on every route summary, waiting list view, and customer account history.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro calculates expected revenue per stop from stored sq ft and assigned rates — visible on every route summary, waiting list view, and customer account history.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

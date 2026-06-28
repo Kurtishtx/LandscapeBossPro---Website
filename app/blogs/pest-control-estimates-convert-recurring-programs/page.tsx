@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Pest Control Estimates Into Recurring Programs | SprayBossPro',
+  title: 'Pest Control Estimates Into Recurring Programs | LandscapeBossPro',
   description: 'How to structure pest control estimates in software so accepted estimates convert directly to active recurring programs — without re-entering data or rebuilding the service schedule.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>How to Build Pest Control Estimates That Convert to Recurring Programs</h1>
 
         <p>The estimate is the first formal interaction between a pest control company and a potential customer, and the friction between estimate acceptance and first service is where more customers drop than at any other stage of the acquisition process. A prospect who accepted an estimate on Monday and still hasn&apos;t heard about scheduling by Friday is a prospect who may have already called two other companies. The conversion rate on pest control estimates isn&apos;t just about estimate quality — it&apos;s about the speed and completeness of what happens after acceptance. In purpose-built <a href="/pest-control-software">pest control software</a>, estimate acceptance triggers the customer setup, package assignment, and waiting list entry automatically — so the gap between &quot;we&apos;d like to sign up&quot; and &quot;your Q1 treatment is scheduled&quot; is hours, not days.</p>
@@ -38,8 +38,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Estimate accepted. Package assigned. First treatment in the waiting list. Customer confirmation sent. All in one action.</h3>
-          <p>SprayBossPro converts accepted pest control estimates directly to active recurring programs — no re-entry, no setup delay, no gap between &quot;yes&quot; and first service scheduling.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro converts accepted pest control estimates directly to active recurring programs — no re-entry, no setup delay, no gap between &quot;yes&quot; and first service scheduling.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

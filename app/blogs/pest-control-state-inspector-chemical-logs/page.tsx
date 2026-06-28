@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Pest Control Chemical Logs for State Inspectors | SprayBossPro',
+  title: 'Pest Control Chemical Logs for State Inspectors | LandscapeBossPro',
   description: 'The specific records, fields, and formats that state pesticide inspectors request from pest control companies — and how to have every record ready before they ask.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>What Chemical Logs Does a State Pest Control Inspector Actually Ask For?</h1>
 
         <p>Most pest control business owners who haven&apos;t been through a state inspection don&apos;t know specifically what records are requested — and that uncertainty often translates into over-complicated record-keeping systems (paper logs, redundant spreadsheets, backup binders) that are more burdensome to maintain than necessary. The reality of a state pesticide inspection for a pest control company is straightforward: the inspector wants to verify that licensed technicians are applying registered products at labeled rates and documenting every application with the required data fields. The actual record request is usually simple. The challenge is that it&apos;s unannounced, and the records need to be in a retrievable format before the inspector arrives — not assembled after.</p>
@@ -40,8 +40,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Inspector at the door. 12 months of records. Ready in 60 seconds. Every field complete.</h3>
-          <p>SprayBossPro&apos;s chemical tracking report produces complete, print-ready compliance records for any date range, product, property, or technician — so state inspections are a non-event, not a crisis.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s chemical tracking report produces complete, print-ready compliance records for any date range, product, property, or technician — so state inspections are a non-event, not a crisis.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

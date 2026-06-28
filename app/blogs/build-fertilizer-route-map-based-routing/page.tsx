@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Build a Fertilizer Route With Map-Based Routing | SprayBossPro',
+  title: 'Build a Fertilizer Route With Map-Based Routing | LandscapeBossPro',
   description: 'How Lasso-style circle routing lets you pull every fertilizer stop due in a neighborhood into a route in minutes, not hours.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Routing &amp; Efficiency</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Routing &amp; Efficiency</p>
         <h1>How to Build a Fertilizer Route in Under 20 Minutes Using Map-Based Routing</h1>
 
         <p>Fertilizer route building is where most operations either gain or lose an hour every morning. Companies that route from address lists spend 45 to 90 minutes manually grouping stops, estimating drive order, and texting the crew. Companies using map-based routing build the same route in under 20 minutes and dispatch to phones in one click. The difference is the tool, not the people.</p>
@@ -47,8 +47,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Build a complete fertilizer route in under 20 minutes.</h3>
-          <p>SprayBossPro&apos;s Lasso map routing lets you draw a circle around any neighborhood, pull every fertilizer stop due inside, optimize drive order, and dispatch to technician phones — all in one session.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s Lasso map routing lets you draw a circle around any neighborhood, pull every fertilizer stop due inside, optimize drive order, and dispatch to technician phones — all in one session.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

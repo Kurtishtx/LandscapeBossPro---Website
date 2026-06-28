@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Dispatch Pest Control Technicians Right | SprayBossPro',
+  title: 'How to Dispatch Pest Control Technicians Right | LandscapeBossPro',
   description: 'What goes into a properly dispatched pest control route and how digital dispatch eliminates the morning briefing bottleneck.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Dispatching</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Dispatching</p>
         <h1>How to Dispatch Pest Control Technicians With Everything They Need Before the First Stop</h1>
 
         <p>The morning dispatch handoff is one of the highest-friction points in a pest control operation. If a technician has to call the office to get a gate code, ask which side of the house to treat, or confirm whether a customer has a dog, that&apos;s four minutes lost per call. At eight stops and two calls, it&apos;s almost 20 minutes of time burned before the second treatment is done. Digital dispatch solves this by front-loading all property information into the technician&apos;s route before they leave the shop.</p>
@@ -41,8 +41,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Every technician leaves with complete property information, route order, and compliance forms — no morning briefing required.</h3>
-          <p>SprayBossPro dispatches pest control routes with full property notes, service history, compliance log forms, and optimized drive order to technician mobile devices before the first stop of the day.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro dispatches pest control routes with full property notes, service history, compliance log forms, and optimized drive order to technician mobile devices before the first stop of the day.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

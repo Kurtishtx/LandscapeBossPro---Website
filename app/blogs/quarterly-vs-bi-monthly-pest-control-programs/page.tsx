@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Quarterly vs Bi-Monthly Pest Control Programs | SprayBossPro',
+  title: 'Quarterly vs Bi-Monthly Pest Control Programs | LandscapeBossPro',
   description: 'The operational differences between quarterly and bi-monthly pest control programs and how to run both from the same scheduling system.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Program Management</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Program Management</p>
         <h1>Quarterly vs. Bi-Monthly Pest Control: How to Manage Both Programs Without Mixing Up Due Dates</h1>
 
         <p>Quarterly pest control (4 visits per year, every 90 days) and bi-monthly pest control (6 visits per year, every 60 days) are the two most common recurring program structures in residential pest control. Many companies offer both — quarterly at a lower price point for lower-pressure pest situations and bi-monthly for customers with more active pest problems or higher service expectations. Running both simultaneously requires a scheduling system that tracks each program&apos;s interval independently and never surfaces a bi-monthly customer on a quarterly schedule or vice versa.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Quarterly and bi-monthly programs tracked independently — each account surfaces exactly when it&apos;s due.</h3>
-          <p>SprayBossPro auto-schedules quarterly accounts at 90 days and bi-monthly accounts at 60 days from each completion date, with separate SMS templates and waiting list filters for each program type.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro auto-schedules quarterly accounts at 90 days and bi-monthly accounts at 60 days from each completion date, with separate SMS templates and waiting list filters for each program type.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

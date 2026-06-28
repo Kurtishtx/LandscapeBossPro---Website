@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Automated Customer Alerts for Every Spray Service | SprayBossPro',
+  title: 'Automated Customer Alerts for Every Spray Service | LandscapeBossPro',
   description: 'How day-before, on-the-way, and service complete texts fire automatically across every service type without your team sending a single one manually.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Customer Communication</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Customer Communication</p>
         <h1>How to Send Automated Customer Alerts for Every Spray Service Visit</h1>
 
         <p>A spray business making 30 stops per day across two technicians is generating 90 customer touchpoints per day if it sends a day-before reminder, an on-the-way notification, and a post-service confirmation for every stop. At 30 working days per month, that&apos;s 2,700 customer messages per month. No spray business has a person available to send 2,700 messages per month manually. The only way to deliver professional, consistent customer communication at production volume is through automated alerts that fire without any action from the office team — triggered by dispatch, by technician arrival, and by compliance log submission.</p>
@@ -34,8 +34,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Day-before, on-the-way, post-service. Three automated alerts per stop. Zero manual sends.</h3>
-          <p>SprayBossPro fires all three customer alerts automatically — triggered by dispatch, by technician transit, and by compliance log submission — with service-type-specific language and product-accurate re-entry intervals.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro fires all three customer alerts automatically — triggered by dispatch, by technician transit, and by compliance log submission — with service-type-specific language and product-accurate re-entry intervals.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

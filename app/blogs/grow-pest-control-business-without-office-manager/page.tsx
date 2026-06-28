@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Grow Pest Control Without Hiring an Office Manager | SprayBossPro',
+  title: 'Grow Pest Control Without Hiring an Office Manager | LandscapeBossPro',
   description: 'The automation and systems in pest control software that let a growing pest control operation scale account volume without adding office headcount.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>How to Grow a Pest Control Business Without Hiring an Office Manager</h1>
 
         <p>The standard growth model in pest control is: add accounts, add office labor to manage them. At some threshold — usually around 100 to 150 active recurring accounts — the owner concludes they can&apos;t run the operation alone anymore and hires an office manager. The office manager handles scheduling, customer communication, compliance records, invoicing, and coordination with field technicians. Revenue goes up; so does payroll. The business grows, but margin doesn&apos;t. The alternative — and the model that purpose-built <a href="/pest-control-software">pest control software</a> makes possible — is growing the account base while keeping office labor constant, because the software performs the scheduling, communication, and record-keeping functions that an office manager would otherwise handle.</p>
@@ -36,8 +36,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>200 accounts. One person running the office. Software doing the scheduling, dispatch, SMS, and billing.</h3>
-          <p>SprayBossPro automates the scheduling, communication, and billing functions that would otherwise require a dedicated office manager — so pest control companies can grow their account base without growing their office payroll in parallel.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro automates the scheduling, communication, and billing functions that would otherwise require a dedicated office manager — so pest control companies can grow their account base without growing their office payroll in parallel.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

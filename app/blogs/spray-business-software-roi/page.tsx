@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Spray Business Software Pays for Itself | SprayBossPro',
+  title: 'How Spray Business Software Pays for Itself | LandscapeBossPro',
   description: 'A realistic look at the time savings, route efficiency gains, and reduced admin costs that make purpose-built spray software ROI-positive immediately.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; ROI</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; ROI</p>
         <h1>How Spray Business Software Pays for Itself in the First Month</h1>
 
         <p>A spray business owner evaluating a $129/month software subscription is making a simple business case calculation: does this tool generate or save more than $129/month in value? For purpose-built spray business software, the answer is almost always yes — and often by a factor of 10 to 20x — because the value generated comes from multiple independent sources simultaneously: time savings, route efficiency, reduced admin cost, lower churn, and faster payment collection. Understanding each source concretely makes the ROI case obvious rather than theoretical.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Dispatch savings. Route efficiency. Auto-scheduling. Churn reduction. Faster payments. Five ROI sources for $129/month.</h3>
-          <p>SprayBossPro pays for itself from the first month for any spray business with more than 75 recurring accounts — and ROI compounds as the account base grows.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro pays for itself from the first month for any spray business with more than 75 recurring accounts — and ROI compounds as the account base grows.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

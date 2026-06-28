@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Price Mosquito Control Services | SprayBossPro',
+  title: 'How to Price Mosquito Control Services | LandscapeBossPro',
   description: 'How to structure per-linear-ft and per-sq-ft pricing for barrier spray programs and package pricing for seasonal programs.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pricing</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pricing</p>
         <h1>How to Price Mosquito Control Services by Linear Foot or Square Foot</h1>
 
         <p>Mosquito barrier spray pricing varies by company and market but almost always reflects the size of the property being treated — because the amount of product and the time required to treat scale directly with property size. A flat-rate pricing model ($99 per treatment regardless of property size) underprices large properties and overprices small ones, creating margin problems at both ends. Per-sq-ft or per-linear-ft pricing ties the service cost to the actual service volume and produces consistent margins across different property sizes in your customer base.</p>
@@ -31,8 +31,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Per-sq-ft, per-linear-ft, or seasonal package — stored on the account, calculated in the waiting list.</h3>
-          <p>SprayBossPro stores property measurements on every mosquito account and calculates expected route revenue automatically — so dispatchers see the day&apos;s revenue before building the first route.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro stores property measurements on every mosquito account and calculates expected route revenue automatically — so dispatchers see the day&apos;s revenue before building the first route.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

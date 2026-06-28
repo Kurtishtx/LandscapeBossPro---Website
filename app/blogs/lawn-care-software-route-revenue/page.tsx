@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Lawn Care Software: Route Revenue Before Dispatch | SprayBossPro',
+  title: 'Lawn Care Software: Route Revenue Before Dispatch | LandscapeBossPro',
   description: 'How the waiting list total in lawn care software shows expected revenue for due accounts before any routing begins — and why that matters for daily production planning.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>How Lawn Care Software Calculates Route Revenue Before You Build the Route</h1>
 
         <p>One of the least-discussed but most useful features of purpose-built lawn care software is the revenue total on the waiting list — the aggregate dollar amount of all due accounts before any routing begins. In most manual and spreadsheet-based operations, the dispatcher has no idea what a day&apos;s route will generate until the invoices are sent after the route completes. In software, that number is visible in the morning before the first stop is dispatched. It changes every day as accounts come due, and it gives the dispatcher a concrete production target before they draw a single circle on the map.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>38 accounts. $4,200. Full crew day or half day? You know before 7:30 AM.</h3>
-          <p>SprayBossPro&apos;s waiting list shows a live revenue total for all due accounts — filterable by service type, selectable by geographic cluster, updated in real time as the dispatcher builds the route.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s waiting list shows a live revenue total for all due accounts — filterable by service type, selectable by geographic cluster, updated in real time as the dispatcher builds the route.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

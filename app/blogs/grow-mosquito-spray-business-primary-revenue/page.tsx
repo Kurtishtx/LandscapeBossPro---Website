@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Grow a Mosquito Spray Business to Primary Revenue | SprayBossPro',
+  title: 'Grow a Mosquito Spray Business to Primary Revenue | LandscapeBossPro',
   description: 'How mosquito spray shifts from a secondary service offering to the primary revenue driver — what changes operationally, how software scales with the volume, and what makes the transition sustainable.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>How to Grow a Mosquito Spray Business From Add-On Service to Primary Revenue</h1>
 
         <p>Most mosquito spray businesses start as an add-on to an existing lawn care or pest control operation. Season one: 20 to 40 customers who asked about mosquito control and signed up when the existing company started offering it. By season three, if the program is managed well, that number is 150 to 250 — and mosquito spray is generating as much revenue during its 6-month season as the rest of the business generates all year. At that point, mosquito spray isn&apos;t an add-on anymore; it&apos;s the primary product, and the operational infrastructure needs to reflect that. <a href="/mosquito-spray-software">Mosquito spray software</a> is the infrastructure that makes this transition scalable rather than chaotic.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>20 accounts to 250. Add-on to primary revenue. The software scales the same way — waiting list, circle routing, automated SMS, compliance logs, no extra systems needed.</h3>
-          <p>SprayBossPro is built for the full arc of a mosquito spray business — from 20 accounts as an add-on to 300 accounts as the primary revenue driver. Same platform. Same workflow. Scales with you.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro is built for the full arc of a mosquito spray business — from 20 accounts as an add-on to 300 accounts as the primary revenue driver. Same platform. Same workflow. Scales with you.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

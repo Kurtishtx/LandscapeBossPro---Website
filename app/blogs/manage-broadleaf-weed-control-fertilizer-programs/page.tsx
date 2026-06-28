@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Manage Broadleaf Weed Control With Fertilizer | SprayBossPro',
+  title: 'Manage Broadleaf Weed Control With Fertilizer | LandscapeBossPro',
   description: 'How to run broadleaf, fertilizer, and pre-emergent programs under the same customer account without mixing schedules or compliance logs.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Program Management</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Program Management</p>
         <h1>How to Manage Broadleaf Weed Control Programs Alongside Fertilizer Rounds</h1>
 
         <p>Most lawn care customers who enroll in a fertilizer program also need weed control — and most who need broadleaf weed control benefit from fertilizer. In practice, many visits to the same property include both: a fertilizer application for the turf and a broadleaf herbicide application for the weeds. Managing both programs for the same customer without mixing their schedules, compliance records, or SMS communications requires a multi-program account structure that keeps each service type tracked independently under a shared customer profile.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Fertilizer and broadleaf weed control — both tracked correctly under the same customer account.</h3>
-          <p>SprayBossPro runs multi-program accounts with independent round tracking, separate compliance logs, and coordinated customer SMS for every service combination your customers enroll in.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro runs multi-program accounts with independent round tracking, separate compliance logs, and coordinated customer SMS for every service combination your customers enroll in.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

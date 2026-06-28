@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Pest Control Re-Entry Interval Compliance | SprayBossPro',
+  title: 'Pest Control Re-Entry Interval Compliance | LandscapeBossPro',
   description: 'How pest control software captures the re-entry interval from the product applied and fires the accurate REI to customers automatically — no manual lookup or SMS required.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>How Pest Control Software Makes Re-Entry Interval Compliance Automatic</h1>
 
         <p>Re-entry intervals are a legally required communication to pest control customers after every pesticide application — the period during which people and pets should avoid treated areas to allow the product to dry and reduce exposure risk. The requirement isn&apos;t that the company should communicate the REI when convenient or when a customer asks. The requirement is that customers must be informed after every application, with the accurate REI for the specific product applied. The &quot;specific product applied&quot; part is where manual REI communication fails: a technician who applies product A at one property and product B at the next property has two different REIs to communicate, and if the post-service text is a template that says &quot;please stay off treated areas for 30 minutes,&quot; that generic message may be accurate for product A but incorrect for product B. Purpose-built <a href="/pest-control-software">pest control software</a> eliminates this risk by pulling the REI from the product record for what was actually applied and including it in the automated post-service SMS automatically.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Product applied. REI from the label. Customer SMS sent. Compliance record filed. Zero manual steps.</h3>
-          <p>SprayBossPro sends the accurate re-entry interval from the product library record automatically with every post-service SMS — so REI communication is always correct and always compliant without any manual intervention.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro sends the accurate re-entry interval from the product library record automatically with every post-service SMS — so REI communication is always correct and always compliant without any manual intervention.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

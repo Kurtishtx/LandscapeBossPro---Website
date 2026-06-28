@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Build a Mosquito Spray Route With Circle Mapping | SprayBossPro',
+  title: 'Build a Mosquito Spray Route With Circle Mapping | LandscapeBossPro',
   description: 'How circle map routing (Lasso) builds a complete mosquito barrier spray route in under 10 minutes — from drawing the circle to dispatched route with sq ft and revenue totals.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>How to Build a Mosquito Spray Route Using Circle Map Routing</h1>
 
         <p>Building a mosquito spray route by hand — sorting a list of addresses into a logical geographic sequence, estimating drive time between stops, making sure the route doesn&apos;t backtrack — is a 30 to 45 minute process that produces a result that&apos;s geographically approximate at best. A dispatcher sorting 18 addresses by memory or by Google Maps cross-referencing is working at the limits of what manual geographic judgment can do. Circle map routing eliminates this problem entirely: instead of sorting stops from a list, the dispatcher selects stops from a map — drawing a circle around the neighborhood cluster they want to route, seeing every due mosquito treatment inside that circle instantly, and dispatching the optimized drive sequence in under 10 minutes.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Open the map. Draw the circle. See the sq ft and revenue. Build the route. Dispatch. Under 10 minutes.</h3>
-          <p>SprayBossPro&apos;s Lasso circle routing builds mosquito spray routes geographically in under 10 minutes — with real-time sq ft and revenue totals for the selected set before you commit to a single stop.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s Lasso circle routing builds mosquito spray routes geographically in under 10 minutes — with real-time sq ft and revenue totals for the selected set before you commit to a single stop.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

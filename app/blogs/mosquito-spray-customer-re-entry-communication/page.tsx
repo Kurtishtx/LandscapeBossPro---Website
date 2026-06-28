@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Mosquito Barrier Spray: Customer Re-Entry Guide | SprayBossPro',
+  title: 'Mosquito Barrier Spray: Customer Re-Entry Guide | LandscapeBossPro',
   description: 'Why the re-entry interval matters after barrier spray, what to communicate to customers, and how automated post-service SMS delivers the message at exactly the right moment — when the treatment is completed.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>How to Handle Customer Re-Entry After Mosquito Barrier Spray — The Right Way</h1>
 
         <p>Barrier spray products have a restricted re-entry interval (REI) — the period between application and when it&apos;s safe for people and pets to return to treated outdoor areas while the product is drying. For the bifenthrin-based products most commonly used in residential barrier spray, the REI is typically 30 minutes to 2 hours. For essential oil blends, it may be shorter. The REI isn&apos;t optional guidance — it&apos;s a label requirement, and communicating it to customers is the applicator&apos;s responsibility under the Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA). How that communication happens — and when — determines both compliance risk and customer trust. <a href="/mosquito-spray-software">Mosquito spray software</a> automates the re-entry message to fire at the exact moment of treatment completion.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Re-entry message fires within seconds of field completion. Right message. Right time. Every treatment, every customer.</h3>
-          <p>SprayBossPro sends the re-entry interval message automatically when the technician logs each completion in the field — so your customers are informed before they&apos;ve even had a chance to wonder whether it&apos;s safe to go back outside.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro sends the re-entry interval message automatically when the technician logs each completion in the field — so your customers are informed before they&apos;ve even had a chance to wonder whether it&apos;s safe to go back outside.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

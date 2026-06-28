@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Managing Multiple Pest Control Technicians | SprayBossPro',
+  title: 'Managing Multiple Pest Control Technicians | LandscapeBossPro',
   description: 'How pest control software assigns routes, tracks completions, and manages compliance logging across multiple technicians without requiring the office to make individual coordination calls.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>How to Manage Multiple Pest Control Technicians With Software</h1>
 
         <p>Managing one pest control technician is a coordination problem. Managing three is an operations problem. The difference is that one technician can be briefed verbally each morning and managed through a personal relationship. Three technicians require a system: structured route assignment, digital dispatch, mobile field logging, real-time completion visibility, and compliance record management across all three simultaneously — all from a single interface that doesn&apos;t require three separate phone calls per morning or three separate check-ins per afternoon. Purpose-built <a href="/pest-control-software">pest control software</a> is that system.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Three trucks. Three routes. Three dispatches. One action. No phone calls required.</h3>
-          <p>SprayBossPro dispatches multiple pest control crews simultaneously, tracks completions in real time, and generates per-technician compliance records — from a single office interface with no coordination overhead.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro dispatches multiple pest control crews simultaneously, tracks completions in real time, and generates per-technician compliance records — from a single office interface with no coordination overhead.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

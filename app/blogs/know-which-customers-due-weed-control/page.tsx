@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Know Which Customers Are Due for Weed Control | SprayBossPro',
+  title: 'Know Which Customers Are Due for Weed Control | LandscapeBossPro',
   description: 'How a program-organized waiting list with sq ft totals shows every weed control treatment due without manual account review.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Scheduling Visibility</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Scheduling Visibility</p>
         <h1>How to Know Which Customers Are Due for Weed Control Without Checking Every Account</h1>
 
         <p>In a weed control company with 200 program customers across multiple service types, knowing who is due on any given day requires reviewing the status of every account unless you have a system that surfaces due accounts automatically. Manual account review — opening each record, checking the last service date, calculating when the next one is due — is unsustainable at any real scale. A properly organized waiting list eliminates this entirely: the accounts that are due today are on the list today; accounts that aren&apos;t due aren&apos;t.</p>
@@ -32,8 +32,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>See every weed control treatment due today — without reviewing a single individual account.</h3>
-          <p>SprayBossPro auto-populates your waiting list when each account becomes due, organized by service type with sq ft totals — so your morning routing starts with complete visibility, not manual account review.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro auto-populates your waiting list when each account becomes due, organized by service type with sq ft totals — so your morning routing starts with complete visibility, not manual account review.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

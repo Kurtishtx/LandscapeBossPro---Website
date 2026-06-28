@@ -40,14 +40,14 @@ async function sbpCreateAccount(n: number) {
     const uid = signInData.user.id; const first = (document.getElementById('sbp' + n + '-first') as HTMLInputElement).value.trim(); const last = (document.getElementById('sbp' + n + '-last') as HTMLInputElement).value.trim(); const comp = (document.getElementById('sbp' + n + '-company') as HTMLInputElement).value.trim();
     await sb.auth.updateUser({ data: { full_name: first + ' ' + last } });
     const trialEnd = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString();
-    await sb.from('user_profiles').upsert({ id: uid, email, role: 'full_access', is_primary_owner: true, tenant_id: null, trial_ends_at: trialEnd, product: 'spraybosspro' }, { onConflict: 'id' });
+    await sb.from('user_profiles').upsert({ id: uid, email, role: 'full_access', is_primary_owner: true, tenant_id: null, trial_ends_at: trialEnd, product: 'landscapebosspro' }, { onConflict: 'id' });
     await sb.from('company_info').insert({ user_id: uid, company_name: comp, display_name: comp });
     await sb.from('platform_accounts').insert({ user_id: uid, email, plan: 'Monthly Subscription', monthly_amount: 129, trial_ends_at: trialEnd, active: false });
     const reasons = ['Cancel Maintaining Self','Cancel Sold House','Cancel Too Expensive','Cancel Unknown','Dropping Customer','Sold House'].map(nm => ({ name: nm, active: true, user_id: uid }));
     await sb.from('cancellation_reasons').insert(reasons);
     document.getElementById('sbp' + n + '-step2')!.style.display = 'none'; document.getElementById('sbp' + n + '-success')!.style.display = 'block';
     let secs = 4; const cd = document.getElementById('sbp' + n + '-countdown')!; cd.textContent = 'Redirecting in ' + secs + ' seconds…';
-    const iv = setInterval(() => { secs--; if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.spraybosspro.com/dashboard.html'; } else cd.textContent = 'Redirecting in ' + secs + ' second' + (secs === 1 ? '' : 's') + '…'; }, 1000);
+    const iv = setInterval(() => { secs--; if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.landscapebosspro.com/dashboard.html'; } else cd.textContent = 'Redirecting in ' + secs + ' second' + (secs === 1 ? '' : 's') + '…'; }, 1000);
   } catch (e: any) { sbpShowErr(err as HTMLElement, e.message || 'Something went wrong. Please try again.'); btn.disabled = false; btn.textContent = 'Create My Account'; }
 }
 function sbpShowErr(el: HTMLElement, msg: string) { el.textContent = msg; el.style.display = 'block'; }
@@ -71,12 +71,12 @@ export default function Home() {
     <>
       <style>{`
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        :root { --purple-dark:#080010; --purple-mid:#0d0318; --purple-deep:#130520; --orange:#e07820; --orange-dark:#c96a10; --blue:#5bbfff; --text:#1a1a2e; --muted:#555; --light-bg:#f8f7fc; --border:#e4e0f0; }
+        :root { --purple-dark:#08140d; --purple-mid:#0a1510; --purple-deep:#0f2417; --orange:#1b6e3b; --orange-dark:#14542d; --blue:#d4a017; --text:#1a1a2e; --muted:#555; --light-bg:#f8f7fc; --border:#e4e0f0; }
         html { scroll-behavior: smooth; }
         body { font-family: 'Segoe UI', Arial, sans-serif; color: var(--text); background: #fff; line-height: 1.6; }
-        .hero { background: linear-gradient(135deg, #080010 0%, #130520 60%, #1e0a35 100%); padding: 100px 40px 80px; text-align: center; position: relative; overflow: hidden; }
-        .hero::before { content: ''; position: absolute; top: -120px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(224,120,32,.15) 0%, transparent 70%); pointer-events: none; }
-        .hero-badge { display: inline-block; background: rgba(224,120,32,.15); border: 1px solid rgba(224,120,32,.4); color: var(--orange); font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 16px; border-radius: 20px; margin-bottom: 24px; }
+        .hero { background: linear-gradient(135deg, #08140d 0%, #0f2417 60%, #15321f 100%); padding: 100px 40px 80px; text-align: center; position: relative; overflow: hidden; }
+        .hero::before { content: ''; position: absolute; top: -120px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(27,110,59,.15) 0%, transparent 70%); pointer-events: none; }
+        .hero-badge { display: inline-block; background: rgba(27,110,59,.15); border: 1px solid rgba(27,110,59,.4); color: var(--orange); font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 16px; border-radius: 20px; margin-bottom: 24px; }
         .hero h1 { color: #fff; font-size: clamp(32px, 5vw, 58px); font-weight: 800; line-height: 1.15; max-width: 820px; margin: 0 auto 20px; }
         .hero h1 span { color: var(--orange); }
         .hero p { color: rgba(255,255,255,.75); font-size: clamp(16px, 2vw, 20px); max-width: 620px; margin: 0 auto 40px; }
@@ -96,7 +96,7 @@ export default function Home() {
         .centered .section-sub { margin-left: auto; margin-right: auto; }
         .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; max-width: 1200px; margin: 0 auto; }
         .feature-card { background: #fff; border: 1.5px solid var(--border); border-radius: 12px; padding: 30px 28px; transition: box-shadow .2s, border-color .2s, transform .2s; }
-        .feature-card:hover { box-shadow: 0 8px 32px rgba(8,0,16,.1); border-color: var(--orange); transform: translateY(-3px); }
+        .feature-card:hover { box-shadow: 0 8px 32px rgba(8,20,13,.1); border-color: var(--orange); transform: translateY(-3px); }
         .feature-icon { font-size: 32px; margin-bottom: 14px; display: block; }
         .feature-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 10px; color: var(--text); }
         .feature-card p { color: var(--muted); font-size: 14px; line-height: 1.6; }
@@ -108,7 +108,7 @@ export default function Home() {
         .highlight-text { flex: 1; min-width: 280px; }
         .highlight-text h2 { font-size: clamp(24px, 3vw, 36px); font-weight: 800; line-height: 1.2; margin-bottom: 16px; }
         .highlight-text p { font-size: 16px; color: var(--muted); margin-bottom: 20px; }
-        .highlight-visual { flex: 1; min-width: 280px; background: linear-gradient(135deg, var(--purple-deep) 0%, #1e0a35 100%); border-radius: 14px; padding: 36px 32px; border: 2px solid rgba(224,120,32,.3); }
+        .highlight-visual { flex: 1; min-width: 280px; background: linear-gradient(135deg, var(--purple-deep) 0%, #15321f 100%); border-radius: 14px; padding: 36px 32px; border: 2px solid rgba(27,110,59,.3); }
         .check-list { list-style: none; margin-top: 16px; }
         .check-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 15px; color: var(--muted); margin-bottom: 12px; }
         .check-list li::before { content: '✓'; background: var(--orange); color: #fff; border-radius: 50%; width: 20px; height: 20px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; margin-top: 2px; }
@@ -117,7 +117,7 @@ export default function Home() {
         .mock-dot.orange { background: var(--orange); }
         .mock-dot.green { background: #22c55e; }
         .mock-dot.blue { background: var(--blue); }
-        .mock-dot.yellow { background: #e8c000; }
+        .mock-dot.yellow { background: #21853b; }
         .mock-label { color: rgba(255,255,255,.85); font-size: 13px; font-weight: 600; }
         .mock-sub { color: rgba(255,255,255,.45); font-size: 11px; margin-top: 1px; }
         .mock-badge { margin-left: auto; background: var(--orange); color: #fff; font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 10px; flex-shrink: 0; }
@@ -135,7 +135,7 @@ export default function Home() {
         .stat-item .lbl { color: rgba(255,255,255,.85); font-size: 14px; margin-top: 6px; }
         .pricing-grid { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; max-width: 1000px; margin: 0 auto; }
         .price-card { background: #fff; border: 2px solid var(--border); border-radius: 14px; padding: 36px 32px; width: 280px; position: relative; transition: box-shadow .2s, transform .2s; }
-        .price-card:hover { box-shadow: 0 12px 40px rgba(8,0,16,.12); transform: translateY(-4px); }
+        .price-card:hover { box-shadow: 0 12px 40px rgba(8,20,13,.12); transform: translateY(-4px); }
         .price-card.featured { border-color: var(--orange); background: linear-gradient(180deg, #fff 0%, #fff8f2 100%); }
         .featured-badge { position: absolute; top: -13px; left: 50%; transform: translateX(-50%); background: var(--orange); color: #fff; font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 4px 14px; border-radius: 20px; white-space: nowrap; }
         .price-tier { font-size: 13px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
@@ -158,8 +158,8 @@ export default function Home() {
         .testimonial-body { font-size: 15px; color: var(--muted); line-height: 1.7; margin-bottom: 20px; font-style: italic; }
         .testimonial-author { font-weight: 700; font-size: 14px; color: var(--text); }
         .testimonial-role { font-size: 12px; color: var(--muted); }
-        .cta-band { background: linear-gradient(135deg, var(--purple-dark) 0%, #1e0a35 100%); text-align: center; padding: 100px 40px; position: relative; overflow: hidden; }
-        .cta-band::before { content: ''; position: absolute; bottom: -100px; left: 50%; transform: translateX(-50%); width: 600px; height: 600px; border-radius: 50%; background: radial-gradient(circle, rgba(224,120,32,.12) 0%, transparent 70%); pointer-events: none; }
+        .cta-band { background: linear-gradient(135deg, var(--purple-dark) 0%, #15321f 100%); text-align: center; padding: 100px 40px; position: relative; overflow: hidden; }
+        .cta-band::before { content: ''; position: absolute; bottom: -100px; left: 50%; transform: translateX(-50%); width: 600px; height: 600px; border-radius: 50%; background: radial-gradient(circle, rgba(27,110,59,.12) 0%, transparent 70%); pointer-events: none; }
         .cta-band h2 { color: #fff; font-size: clamp(28px, 4vw, 46px); font-weight: 800; margin-bottom: 16px; }
         .cta-band p { color: rgba(255,255,255,.7); font-size: 18px; margin-bottom: 40px; max-width: 560px; margin-left: auto; margin-right: auto; }
         footer { background: var(--purple-dark); padding: 50px 40px 30px; border-top: 1px solid rgba(255,255,255,.08); }
@@ -171,8 +171,8 @@ export default function Home() {
         .footer-links { color: rgba(255,255,255,.4); font-size: 13px; margin-top: 20px; text-align: center; }
         .footer-links a { color: rgba(255,255,255,.5); text-decoration: none; }
         .footer-links a:hover { color: #fff; }
-        .premium-band { background: linear-gradient(135deg, var(--purple-dark) 0%, #1a0530 100%); padding: 90px 40px; text-align: center; position: relative; overflow: hidden; }
-        .premium-band::before { content: ''; position: absolute; top: -80px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(224,120,32,.1) 0%, transparent 65%); pointer-events: none; }
+        .premium-band { background: linear-gradient(135deg, var(--purple-dark) 0%, #11281a 100%); padding: 90px 40px; text-align: center; position: relative; overflow: hidden; }
+        .premium-band::before { content: ''; position: absolute; top: -80px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(27,110,59,.1) 0%, transparent 65%); pointer-events: none; }
         .premium-band h2 { color: #fff; font-size: clamp(26px, 4vw, 44px); font-weight: 800; line-height: 1.2; max-width: 860px; margin: 0 auto 18px; }
         .premium-band h2 span { color: var(--orange); }
         .premium-band > p { color: rgba(255,255,255,.65); font-size: 17px; max-width: 700px; margin: 0 auto 52px; line-height: 1.8; }
@@ -186,7 +186,7 @@ export default function Home() {
         .lasso-ring { position: absolute; top: 14px; left: 18px; right: 18px; bottom: 14px; border: 2.5px dashed var(--orange); border-radius: 50%; opacity: .7; }
         .lasso-pins { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; position: relative; z-index: 1; }
         .lpin { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; }
-        .lpin.s { background: var(--orange); box-shadow: 0 0 0 3px rgba(224,120,32,.3); }
+        .lpin.s { background: var(--orange); box-shadow: 0 0 0 3px rgba(27,110,59,.3); }
         .lpin.u { background: rgba(255,255,255,.2); }
         .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
         .stat-cell { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.1); border-radius: 8px; padding: 12px 14px; }
@@ -196,7 +196,7 @@ export default function Home() {
         .stat-cell.full .stat-val { color: #fff; font-size: 13px; font-weight: 600; }
         .simple-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; max-width: 1100px; margin: 0 auto; }
         .simple-card { background: #fff; border: 1.5px solid var(--border); border-radius: 12px; padding: 30px 26px; transition: border-color .2s, box-shadow .2s, transform .15s; }
-        .simple-card:hover { border-color: var(--orange); box-shadow: 0 6px 24px rgba(224,120,32,.1); transform: translateY(-2px); }
+        .simple-card:hover { border-color: var(--orange); box-shadow: 0 6px 24px rgba(27,110,59,.1); transform: translateY(-2px); }
         .simple-num { font-size: 40px; font-weight: 800; color: var(--orange); opacity: .25; line-height: 1; margin-bottom: 12px; }
         .simple-card h3 { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
         .simple-card p { color: var(--muted); font-size: 14px; line-height: 1.6; }
@@ -211,9 +211,9 @@ export default function Home() {
       <Navbar onTrialClick={(el) => openSignupModal(1, el)} />
 
       {/* ═══ MOCKUP IMAGE ═══ */}
-      <div style={{background:'linear-gradient(135deg,#080010 0%,#130520 60%,#1e0a35 100%)', padding:'80px 40px 0', textAlign:'center'}}>
+      <div style={{background:'linear-gradient(135deg,#08140d 0%,#0f2417 60%,#15321f 100%)', padding:'80px 40px 0', textAlign:'center'}}>
         <div style={{maxWidth:'1000px', margin:'0 auto'}}>
-          <img src="/dashboard-mockup.webp" width={1200} height={800} fetchPriority="high" decoding="async" alt="SprayBossPro spray business software showing the circle-map route builder, waiting list, and mobile app for lawn care and pest control technicians" style={{width:'100%', height:'auto', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
+          <img src="/dashboard-mockup.webp" width={1200} height={800} fetchPriority="high" decoding="async" alt="LandscapeBossPro spray business software showing the circle-map route builder, waiting list, and mobile app for lawn care and pest control technicians" style={{width:'100%', height:'auto', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
         </div>
       </div>
 
@@ -221,7 +221,7 @@ export default function Home() {
       <div className="hero" style={{paddingTop:'60px'}}>
         <div className="hero-badge">Built for Lawn Care &amp; Pest Control</div>
         <h1>Run Your Entire Operation<br /><span>From One Dashboard</span></h1>
-        <p>SprayBossPro is the all-in-one field management platform built specifically for lawn care and pest control businesses. Schedule jobs, send estimates, collect payments, and keep your team coordinated — all in one place.</p>
+        <p>LandscapeBossPro is the all-in-one field management platform built specifically for lawn care and pest control businesses. Schedule jobs, send estimates, collect payments, and keep your team coordinated — all in one place.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
         </div>
@@ -236,9 +236,9 @@ export default function Home() {
       {/* ═══ PREMIUM BAND ═══ */}
       <div className="premium-band">
         <h2>Affordable Doesn&apos;t Mean Cheap.<br /><span>This Is Enterprise-Level Software.</span></h2>
-        <p>We charged less because we&apos;ve been the customer. We know what it feels like to pay $600 a month for software that still doesn&apos;t do what your business actually needs. SprayBossPro does everything the enterprise platforms do — route mapping, chemical compliance, automated SMS, Stripe payments, role-based access, mobile app — built specifically for spray businesses, and priced for the real world. $129 a month isn&apos;t a cheap price. It&apos;s a fair price. The big platforms aren&apos;t charging $500 because they&apos;re better. They&apos;re charging $500 because they can — and because their customers don&apos;t have a better option. Now you do.</p>
+        <p>We charged less because we&apos;ve been the customer. We know what it feels like to pay $600 a month for software that still doesn&apos;t do what your business actually needs. LandscapeBossPro does everything the enterprise platforms do — route mapping, chemical compliance, automated SMS, Stripe payments, role-based access, mobile app — built specifically for spray businesses, and priced for the real world. $129 a month isn&apos;t a cheap price. It&apos;s a fair price. The big platforms aren&apos;t charging $500 because they&apos;re better. They&apos;re charging $500 because they can — and because their customers don&apos;t have a better option. Now you do.</p>
         <div className="premium-grid">
-          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Enterprise Route Intelligence</h4><p>Live route maps, drag-and-drop stop ordering, and circle-to-schedule map selection — tools that cost thousands per month at other platforms are standard in SprayBossPro at every plan level.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Enterprise Route Intelligence</h4><p>Live route maps, drag-and-drop stop ordering, and circle-to-schedule map selection — tools that cost thousands per month at other platforms are standard in LandscapeBossPro at every plan level.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Full Chemical Compliance Engine</h4><p>Pesticide application logs, technician license tracking, weather conditions per application, print-ready compliance reports — built to hold up to any state inspector, at no extra charge.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Automated Communication Suite</h4><p>10+ automated SMS alert types, a two-way texting inbox, 3-step estimate follow-up sequences, 3-step payment follow-up sequences — all running without you every single day.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Stripe Payment Processing</h4><p>Card-on-file storage, post-service billing, partial payments, automated payment reminders, and full payment history. The same billing infrastructure the big guys use — included in your $129.</p></div>
@@ -251,9 +251,9 @@ export default function Home() {
       <section id="lasso">
         <div className="highlight-row">
           <div className="highlight-text">
-            <span className="section-label">Only in SprayBossPro</span>
+            <span className="section-label">Only in LandscapeBossPro</span>
             <h2>Circle Any Area on the Map.<br />Instantly Know Everything Inside It.</h2>
-            <p>No other lawn care or pest control software has this. On the waiting list map, draw a circle around any geographic area — a neighborhood, a ZIP code, a corridor — and SprayBossPro instantly calculates every detail of what&apos;s inside before you schedule a single stop or mix a single gallon.</p>
+            <p>No other lawn care or pest control software has this. On the waiting list map, draw a circle around any geographic area — a neighborhood, a ZIP code, a corridor — and LandscapeBossPro instantly calculates every detail of what&apos;s inside before you schedule a single stop or mix a single gallon.</p>
             <p style={{marginTop:'12px'}}>This isn&apos;t just a map feature. It&apos;s a business intelligence tool. You can look at a section of your service area and know in seconds whether it&apos;s worth building a route around, how many trucks to send, what to load, and how much chemical to mix. No calls. No guesses. No wasted time.</p>
             <ul className="check-list">
               <li>Total sq ft and linear ft for all properties inside the circle</li>
@@ -295,13 +295,13 @@ export default function Home() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Built Different</span>
           <h2 className="section-title">Powerful Doesn&apos;t Have to Mean Complicated.</h2>
-          <p className="section-sub">The big enterprise platforms take weeks to learn, months to set up, and require a dedicated person just to manage them. SprayBossPro is designed so any owner or office manager can be running real routes on day one — without training, without a consultant, without an IT department.</p>
+          <p className="section-sub">The big enterprise platforms take weeks to learn, months to set up, and require a dedicated person just to manage them. LandscapeBossPro is designed so any owner or office manager can be running real routes on day one — without training, without a consultant, without an IT department.</p>
         </div>
         <div className="simple-grid">
           <div className="simple-card"><div className="simple-num">01</div><h3>Set Up in One Afternoon</h3><p>Add your service types, import your clients and properties, set up your chemical mixes, and configure your SMS alert templates. Most businesses are scheduling real routes the same day they sign up. No implementation fee. No onboarding consultant. No 6-hour kickoff call.</p></div>
           <div className="simple-card"><div className="simple-num">02</div><h3>One Screen Does Everything</h3><p>The dispatch board shows your waiting list, your scheduled stops, your route map, your day summary, and your chemical needs all in one place. Your crew gets their stops on their phone. You&apos;re not switching between six different apps to run your day.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Your Techs Learn It in Minutes</h3><p>The mobile tech view is built for people in trucks, not office managers at desks. Big buttons, clear status, one tap to mark complete, log chemicals, skip a stop, or add a note. We&apos;ve had technicians learn the system while sitting in the parking lot before their first stop.</p></div>
-          <div className="simple-card"><div className="simple-num">04</div><h3>Automation Runs Without You</h3><p>Set your alert templates once — scheduled, completed, skipped, estimate follow-ups, payment follow-ups, review requests. After that, SprayBossPro handles customer communication automatically on every single job, every single day, without you having to think about it again.</p></div>
+          <div className="simple-card"><div className="simple-num">04</div><h3>Automation Runs Without You</h3><p>Set your alert templates once — scheduled, completed, skipped, estimate follow-ups, payment follow-ups, review requests. After that, LandscapeBossPro handles customer communication automatically on every single job, every single day, without you having to think about it again.</p></div>
         </div>
       </section>
 
@@ -310,19 +310,19 @@ export default function Home() {
         <div className="centered" style={{maxWidth:'1200px', margin:'0 auto'}}>
           <span className="section-label">Everything You Need</span>
           <h2 className="section-title">Stop Juggling 5 Different Apps</h2>
-          <p className="section-sub">SprayBossPro replaces your scheduling app, your billing software, your texting tool, and your route planner — all under one roof.</p>
+          <p className="section-sub">LandscapeBossPro replaces your scheduling app, your billing software, your texting tool, and your route planner — all under one roof.</p>
         </div>
         <div className="feature-grid">
-          <div className="feature-card"><span className="feature-icon">📋</span><h3>Smart Scheduling</h3><p>SprayBossPro is smart enough to know exactly how much work is waiting. For every service type on your waiting list, it automatically totals the square footage or linear footage so you know precisely how much you can fit in a day before you ever make a single call. No more guessing, no more overbooking — just look at your waiting list, see the ft² or linear ft for each service, and schedule with confidence.</p></div>
+          <div className="feature-card"><span className="feature-icon">📋</span><h3>Smart Scheduling</h3><p>LandscapeBossPro is smart enough to know exactly how much work is waiting. For every service type on your waiting list, it automatically totals the square footage or linear footage so you know precisely how much you can fit in a day before you ever make a single call. No more guessing, no more overbooking — just look at your waiting list, see the ft² or linear ft for each service, and schedule with confidence.</p></div>
           <div className="feature-card"><span className="feature-icon">🗺️</span><h3>Live Route Map</h3><p>See all your stops pinned on an interactive map. Build efficient routes, drag to reorder, and give your drivers a clear path every single day.</p></div>
           <div className="feature-card"><span className="feature-icon">💰</span><h3>Estimates &amp; Invoices</h3><p>Create professional estimates in seconds, email them to clients, and convert accepted estimates directly to invoices. Track every dollar owed.</p></div>
           <div className="feature-card"><span className="feature-icon">💳</span><h3>Stripe Payments</h3><p>Accept credit cards directly through the platform. Store cards on file, charge after service, and track payment history all in one place.</p></div>
           <div className="feature-card"><span className="feature-icon">💬</span><h3>Two-Way SMS</h3><p>Send and receive text messages from customers right inside the app. Full conversation history organized by contact — no more switching to your phone.</p></div>
-          <div className="feature-card"><span className="feature-icon">🔔</span><h3>Automated Alerts</h3><p>Auto-text and email customers when a service is scheduled, completed, or rescheduled. Set it once and let SprayBossPro handle the communication.</p></div>
+          <div className="feature-card"><span className="feature-icon">🔔</span><h3>Automated Alerts</h3><p>Auto-text and email customers when a service is scheduled, completed, or rescheduled. Set it once and let LandscapeBossPro handle the communication.</p></div>
           <div className="feature-card"><span className="feature-icon">👥</span><h3>Client &amp; Lead Management</h3><p>Manage existing clients and active leads side by side. Track estimates, service history, properties, and notes all tied to each contact.</p></div>
           <div className="feature-card"><span className="feature-icon">🏠</span><h3>Property Profiles</h3><p>Every service address gets its own profile with coordinates, notes, service history, and the ability to map it instantly.</p></div>
           <div className="feature-card"><span className="feature-icon">🧪</span><h3>Chemical Tracking</h3><p>Log every chemical application with mix used, area treated, gallons applied, weather, and technician. Generate compliance reports in one click.</p></div>
-          <div className="feature-card"><span className="feature-icon">📦</span><h3>Package Plans</h3><p>Create recurring service packages, assign clients, and manage renewals. SprayBossPro reminds you when package renewals are due.</p></div>
+          <div className="feature-card"><span className="feature-icon">📦</span><h3>Package Plans</h3><p>Create recurring service packages, assign clients, and manage renewals. LandscapeBossPro reminds you when package renewals are due.</p></div>
           <div className="feature-card"><span className="feature-icon">🚛</span><h3>Team &amp; Truck Management</h3><p>Manage employees, assign trucks, track hours, and control who sees what with role-based access for office staff, technicians, and drivers.</p></div>
           <div className="feature-card"><span className="feature-icon">📊</span><h3>Dashboard &amp; Reports</h3><p>Custom stat cards show today&apos;s revenue, services completed, properties served, money owed, and more — all at a glance the moment you log in.</p></div>
         </div>
@@ -336,7 +336,7 @@ export default function Home() {
           <p className="section-sub">Over the past 20 years we have tried just about every field service software out there — and for 10+ years we were paying $500–$700 a month. Every feature was an add-on. Every user cost more. Every upgrade was another invoice.</p>
           <div style={{background:'#fff', border:'1.5px solid var(--border)', borderRadius:'14px', padding:'36px 40px', maxWidth:'800px', margin:'0 auto 56px', textAlign:'left', borderLeft:'5px solid var(--orange)'}}>
             <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We were paying <strong>$500 to $700 a month</strong> for software that nickel-and-dimed us at every turn. Want texting? That&apos;s an add-on. Want more users? Pay per user. Want the reporting module? Upgrade your plan. It never ended — and none of those people had ever run a spray route in their life.</p>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>That&apos;s exactly why we built SprayBossPro with one flat price that includes everything. <strong>$129 a month.</strong> No add-ons. No user fees. No locked features. We include it all because that&apos;s how it should have been from day one.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>That&apos;s exactly why we built LandscapeBossPro with one flat price that includes everything. <strong>$129 a month.</strong> No add-ons. No user fees. No locked features. We include it all because that&apos;s how it should have been from day one.</p>
             <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>The only reason we charge a small fee for outbound text messages is simple — they cost us money to send. We&apos;re not marking them up to make a profit off you. 500 outbound messages are included every month, and if you go over, it&apos;s just $15 per additional 500. That&apos;s it. No gotchas. No surprises. We&apos;re operators just like you, and we built the pricing we always wished existed.</p>
           </div>
         </div>
@@ -372,7 +372,7 @@ export default function Home() {
           <div className="highlight-text">
             <span className="section-label">Scheduling</span>
             <h2>From Waiting List to Dispatched in Seconds</h2>
-            <p>SprayBossPro gives you a waiting list of everything not yet scheduled, a full dispatch board for scheduled jobs, and a live map so you can build tight, efficient routes every morning.</p>
+            <p>LandscapeBossPro gives you a waiting list of everything not yet scheduled, a full dispatch board for scheduled jobs, and a live map so you can build tight, efficient routes every morning.</p>
             <ul className="check-list">
               <li>Waiting list with sq ft totals and service counts per type</li>
               <li>One-click scheduling with date picker and tech assignment</li>
@@ -396,7 +396,7 @@ export default function Home() {
               <div><div className="mock-label">456 Elm Ave — Torres, M.</div><div className="mock-sub">Lawn Insect 3 · 12,000 ft²</div></div>
               <div className="mock-badge green-badge">Done</div>
             </div>
-            <div className="mock-item" style={{borderColor:'rgba(224,120,32,.5)'}}>
+            <div className="mock-item" style={{borderColor:'rgba(27,110,59,.5)'}}>
               <div className="mock-dot orange"></div>
               <div><div className="mock-label">789 Pine Rd — Johnson, K.</div><div className="mock-sub">Mosquito 3 · 5,000 ft²</div></div>
               <div className="mock-badge">In Progress</div>
@@ -452,7 +452,7 @@ export default function Home() {
           <div className="highlight-text">
             <span className="section-label">Billing</span>
             <h2>Get Paid Faster. Chase Less.</h2>
-            <p>Build an estimate in minutes, email it directly from the platform, and let clients accept it with a single click. The moment they accept, convert it to an invoice and collect payment — all without leaving SprayBossPro.</p>
+            <p>Build an estimate in minutes, email it directly from the platform, and let clients accept it with a single click. The moment they accept, convert it to an invoice and collect payment — all without leaving LandscapeBossPro.</p>
             <ul className="check-list">
               <li>Estimate builder with your service catalog and line items</li>
               <li>Email estimates via Resend with custom branded templates</li>
@@ -495,7 +495,7 @@ export default function Home() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Automated Alerts</span>
           <h2 className="section-title">Communicate Like a Big Company.<br />Run Like a Small One.</h2>
-          <p className="section-sub">Set up automated SMS and email alerts once. SprayBossPro sends them automatically — keeping your customers informed without any extra work from you.</p>
+          <p className="section-sub">Set up automated SMS and email alerts once. LandscapeBossPro sends them automatically — keeping your customers informed without any extra work from you.</p>
         </div>
         <div className="alert-grid">
           <div className="alert-pill"><span className="ap-icon">📅</span><div><div className="ap-label">Service Scheduled</div><div className="ap-sub">Auto-text when a job is booked</div></div></div>
@@ -528,7 +528,7 @@ export default function Home() {
           <div className="highlight-text">
             <span className="section-label">Your Team</span>
             <h2>Office, Field, and Mobile — All Connected</h2>
-            <p>SprayBossPro isn&apos;t just for the office. Your technicians get a mobile-optimized version built for the truck. Roles control exactly what each person can see and do.</p>
+            <p>LandscapeBossPro isn&apos;t just for the office. Your technicians get a mobile-optimized version built for the truck. Roles control exactly what each person can see and do.</p>
             <ul className="check-list">
               <li>Role-based access: Owner, Manager, Office, Technician, Mobile</li>
               <li>Mobile technicians see their jobs, mark complete, and skip</li>
@@ -554,7 +554,7 @@ export default function Home() {
           <div className="highlight-text">
             <span className="section-label">Compliance</span>
             <h2>Chemical Tracking Built Right In</h2>
-            <p>Every application logged. Every mix recorded. Every technician tracked. SprayBossPro gives you a complete chemical application history you can filter, print, and take to any inspection.</p>
+            <p>Every application logged. Every mix recorded. Every technician tracked. LandscapeBossPro gives you a complete chemical application history you can filter, print, and take to any inspection.</p>
             <ul className="check-list">
               <li>Log product mixes, area treated, and gallons applied per job</li>
               <li>Track weather conditions at time of application</li>
@@ -586,15 +586,15 @@ export default function Home() {
           <h2 className="section-title">Built by an Operator. Owned by an Operator.</h2>
           <p className="section-sub">We&apos;re not a big corporation. We&apos;re not a venture-backed tech startup. We&apos;re a privately owned company built by someone who has been in the field since 2006.</p>
           <div style={{background:'#fff', border:'1.5px solid var(--border)', borderRadius:'14px', padding:'36px 40px', maxWidth:'800px', margin:'0 auto 56px', textAlign:'left', borderLeft:'5px solid var(--orange)'}}>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We own and operate a spray business. We&apos;ve been in this industry since <strong>2006</strong> — which means when we built SprayBossPro, we didn&apos;t have to guess what operators need. We already knew. We lived it every day.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We own and operate a spray business. We&apos;ve been in this industry since <strong>2006</strong> — which means when we built LandscapeBossPro, we didn&apos;t have to guess what operators need. We already knew. We lived it every day.</p>
             <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We built this software because everything else out there was built by people who have never driven a spray truck, never managed a waiting list of hundreds or thousands of properties, never had to chase down a payment while also trying to dispatch a full crew. They build features they <em>think</em> you need. We build features we <em>know</em> you need.</p>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>SprayBossPro is <strong>privately owned</strong> — no corporate board, no outside investors, no decisions made by people who have never touched a sprayer. When you call or message us, you&apos;re talking to the owner. That&apos;s the way we like it, and that&apos;s never going to change.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>LandscapeBossPro is <strong>privately owned</strong> — no corporate board, no outside investors, no decisions made by people who have never touched a sprayer. When you call or message us, you&apos;re talking to the owner. That&apos;s the way we like it, and that&apos;s never going to change.</p>
           </div>
         </div>
         <div className="testimonial-grid" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="testimonial-card">
             <div className="testimonial-stars">★★★★★</div>
-            <p className="testimonial-body">&ldquo;Before SprayBossPro I was using 3 different apps and still falling through the cracks on follow-ups. Now everything is in one place and my close rate on estimates is way up because the follow-up texts go out automatically.&rdquo;</p>
+            <p className="testimonial-body">&ldquo;Before LandscapeBossPro I was using 3 different apps and still falling through the cracks on follow-ups. Now everything is in one place and my close rate on estimates is way up because the follow-up texts go out automatically.&rdquo;</p>
             <div className="testimonial-author">Lawn Care Owner</div>
             <div className="testimonial-role">Nashville, TN</div>
           </div>
@@ -619,7 +619,7 @@ export default function Home() {
           <div className="highlight-text">
             <span className="section-label">Built on Modern Technology</span>
             <h2>Fast. Reliable. No Delays.</h2>
-            <p>SprayBossPro runs on the latest and greatest infrastructure available today. That means your texts and emails go out in seconds — not hours. No queues backing up, no alerts firing late, no wondering if your customer got the message. Everything happens in real time, the way it&apos;s supposed to.</p>
+            <p>LandscapeBossPro runs on the latest and greatest infrastructure available today. That means your texts and emails go out in seconds — not hours. No queues backing up, no alerts firing late, no wondering if your customer got the message. Everything happens in real time, the way it&apos;s supposed to.</p>
             <p style={{marginTop:'12px'}}>We built on a modern stack specifically to eliminate the performance issues and outages that plague older field service platforms. Less downtime. Fewer bugs. A faster experience every time you log in.</p>
           </div>
           <div className="highlight-visual">
@@ -642,7 +642,7 @@ export default function Home() {
             <span className="section-label" style={{color:'var(--orange)'}}>We Actually Listen</span>
             <h2 style={{color:'#fff'}}>Have an Idea? We&apos;ll Build It.</h2>
             <p style={{color:'rgba(255,255,255,.7)'}}>Most software companies put your feature request in a queue and get back to you six months later — if ever. That&apos;s not us. When you have a suggestion or need something built for your workflow, we listen. We respond. And we build it fast.</p>
-            <p style={{color:'rgba(255,255,255,.7)', marginTop:'12px'}}>Custom features for our clients typically ship in 1–2 weeks, not months. SprayBossPro is built by someone who runs a field service business, and we know that when you need something, you need it now — not on the next quarterly release cycle.</p>
+            <p style={{color:'rgba(255,255,255,.7)', marginTop:'12px'}}>Custom features for our clients typically ship in 1–2 weeks, not months. LandscapeBossPro is built by someone who runs a field service business, and we know that when you need something, you need it now — not on the next quarterly release cycle.</p>
             <p style={{color:'rgba(255,255,255,.7)', marginTop:'12px'}}>Our goal is simple: be the best field management software available. And the only way to get there is by building it with our clients — not just for them.</p>
           </div>
           <div className="highlight-visual">
@@ -670,8 +670,8 @@ export default function Home() {
       {/* ═══ MODALS ═══ */}
       <div id="sbp-backdrop" onClick={() => closeAllModals()} style={{display:'none', position:'fixed', top:0, left:0, width:'100%', height:'100%', background:'rgba(0,0,0,.55)', zIndex:99997}}></div>
       {[1,2,3].map(n => (
-        <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #e07820', boxShadow:'0 0 0 4px rgba(224,120,32,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
-          <div style={{background:'linear-gradient(135deg,#080010,#1e0a35)', padding:'28px 28px 22px', position:'relative'}}>
+        <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #1b6e3b', boxShadow:'0 0 0 4px rgba(27,110,59,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
+          <div style={{background:'linear-gradient(135deg,#08140d,#15321f)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
             <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required. Full access. Cancel anytime.</div>
             <button onClick={() => closeSignupModal(n)} style={{position:'absolute', top:'16px', right:'16px', background:'rgba(255,255,255,.12)', border:'none', color:'#fff', width:'32px', height:'32px', borderRadius:'50%', cursor:'pointer', fontSize:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>×</button>
@@ -684,7 +684,7 @@ export default function Home() {
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Lawn &amp; Spray Co." style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Email Address</label><input id={`sbp${n}-email`} type="email" placeholder="you@yourcompany.com" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
-            <button onClick={() => sbpStep2(n)} style={{width:'100%', background:'#e07820', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Next: Create Password →</button>
+            <button onClick={() => sbpStep2(n)} style={{width:'100%', background:'#1b6e3b', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Next: Create Password →</button>
           </div>
           <div id={`sbp${n}-step2`} style={{padding:'24px 28px', display:'none'}}>
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
@@ -695,8 +695,8 @@ export default function Home() {
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Confirm Password</label><input id={`sbp${n}-confirm`} type="password" placeholder="Repeat password" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
-            <div style={{marginBottom:'18px', display:'flex', alignItems:'flex-start', gap:'10px'}}><input type="checkbox" id={`sbp${n}-agree`} style={{width:'16px', height:'16px', accentColor:'#e07820', cursor:'pointer', flexShrink:0, marginTop:'3px'}} /><label htmlFor={`sbp${n}-agree`} style={{fontSize:'13px', color:'#555', cursor:'pointer', lineHeight:1.5}}>I agree to the <a href="https://spraybosspro.com/terms" target="_blank" style={{color:'#e07820'}}>Terms of Service</a> and <a href="https://spraybosspro.com/privacy-policy" target="_blank" style={{color:'#e07820'}}>Privacy Policy</a></label></div>
-            <button id={`sbp${n}-create-btn`} onClick={() => sbpCreateAccount(n)} style={{width:'100%', background:'#e07820', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Create My Account</button>
+            <div style={{marginBottom:'18px', display:'flex', alignItems:'flex-start', gap:'10px'}}><input type="checkbox" id={`sbp${n}-agree`} style={{width:'16px', height:'16px', accentColor:'#1b6e3b', cursor:'pointer', flexShrink:0, marginTop:'3px'}} /><label htmlFor={`sbp${n}-agree`} style={{fontSize:'13px', color:'#555', cursor:'pointer', lineHeight:1.5}}>I agree to the <a href="https://landscapebosspro.com/terms" target="_blank" style={{color:'#1b6e3b'}}>Terms of Service</a> and <a href="https://landscapebosspro.com/privacy-policy" target="_blank" style={{color:'#1b6e3b'}}>Privacy Policy</a></label></div>
+            <button id={`sbp${n}-create-btn`} onClick={() => sbpCreateAccount(n)} style={{width:'100%', background:'#1b6e3b', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Create My Account</button>
             <button onClick={() => sbpBackToStep1(n)} style={{width:'100%', background:'none', border:'none', color:'#888', fontSize:'13px', cursor:'pointer', marginTop:'10px', padding:'6px', fontFamily:'inherit', textDecoration:'underline'}}>← Back</button>
           </div>
           <div id={`sbp${n}-success`} style={{padding:'48px 28px', textAlign:'center', display:'none'}}>

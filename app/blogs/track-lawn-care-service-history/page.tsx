@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Track Lawn Care Service History Per Customer | SprayBossPro',
+  title: 'Track Lawn Care Service History Per Customer | LandscapeBossPro',
   description: 'Why a complete per-property service history log matters for compliance, customer retention, and technician training.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Operations &amp; Compliance</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Operations &amp; Compliance</p>
         <h1>How to Track Lawn Care Service History for Every Customer</h1>
 
         <p>Service history is one of the most underappreciated assets in a lawn care business. A complete, accurate record of every visit — what was applied, when, by whom, to how many square feet, under what weather conditions — is not just a compliance document. It&apos;s a customer retention tool, a dispute resolution tool, a training tool, and an operations tool. The companies that track it well use it constantly. The companies that don&apos;t track it are always operating blind.</p>
@@ -50,8 +50,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Every visit logged. Every application documented. Always.</h3>
-          <p>SprayBossPro captures complete service history per property — chemicals, sq ft, weather, technician — from mobile in the field, with compliance-ready reporting built in.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro captures complete service history per property — chemicals, sq ft, weather, technician — from mobile in the field, with compliance-ready reporting built in.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

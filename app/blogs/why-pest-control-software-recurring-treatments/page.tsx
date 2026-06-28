@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Pest Control Software for Recurring Treatments | SprayBossPro',
+  title: 'Pest Control Software for Recurring Treatments | LandscapeBossPro',
   description: 'Why generic field service software fails pest control companies — and what purpose-built pest control software handles differently for recurring program management.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>Why Pest Control Businesses Need Software Built for Recurring Treatments</h1>
 
         <p>Pest control is not a one-time service business. It is a recurring treatment business — built on quarterly programs, bi-monthly visits, annual contracts, and re-service calls that keep the same customers on schedule all year. The economics of pest control depend on retention: a customer who completes a full year of quarterly treatments is worth four times more than a one-time account, and a customer who renews for three years is the foundation of a stable recurring revenue base. Software that manages this model correctly understands what recurring means — not as a billing frequency, but as an operational architecture where every completion triggers the next service, every package tracks remaining treatments, and every inspection-ready compliance log is created automatically as a byproduct of the daily field workflow.</p>
@@ -27,8 +27,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Recurring auto-scheduling. Package treatment tracking. EPA pre-fill compliance logs. Built for pest control, not adapted for it.</h3>
-          <p>SprayBossPro is purpose-built for pest control companies running recurring programs — with every feature the industry requires at $129/month flat, no add-ons.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro is purpose-built for pest control companies running recurring programs — with every feature the industry requires at $129/month flat, no add-ons.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

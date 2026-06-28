@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Pest Control Software: Payment Collection | SprayBossPro',
+  title: 'Pest Control Software: Payment Collection | LandscapeBossPro',
   description: 'How card-on-file billing in pest control software collects payment after each treatment automatically — eliminating invoice cycles, collection calls, and end-of-month billing gaps.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>How Pest Control Software Handles Payment Collection for Recurring Programs</h1>
 
         <p>Billing for recurring pest control programs is one of the most variable operational practices in the industry. Some companies invoice after every visit and chase payment for weeks. Some bill monthly regardless of service frequency. Some send quarterly bills for the full quarter upfront. Some operate on annual prepay. Each model has tradeoffs in cash flow, customer experience, and collection overhead — but they all share one problem when managed manually: the billing is disconnected from the service delivery, requiring someone to track what was delivered and bill for it separately from the system that managed the route and logged the completion. Purpose-built <a href="/pest-control-software">pest control software</a> closes this gap by tying billing directly to the completion event — so payment collection is a system output of service delivery, not a separate manual process running in parallel.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Treatment completed. Card charged. Receipt sent. All three before the truck is out of the driveway.</h3>
-          <p>SprayBossPro&apos;s card-on-file billing charges customers automatically when each pest control treatment is logged — with automated declined payment alerts and invoice-based billing for customers who prefer it.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s card-on-file billing charges customers automatically when each pest control treatment is logged — with automated declined payment alerts and invoice-based billing for customers who prefer it.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Property Notes and Details in Lawn Care Software | SprayBossPro',
+  title: 'Property Notes and Details in Lawn Care Software | LandscapeBossPro',
   description: 'How lawn care software stores property notes, access instructions, and service details so every technician has the right information before arriving at the stop.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>How to Manage Client Notes and Property Details in Lawn Care Software</h1>
 
         <p>A lawn care technician arriving at a property without knowing the gate code, without knowing a dog is in the backyard, or without knowing the customer wants a courtesy call before entry is not operating at full professional capacity — even if they&apos;re excellent at applying product. The gap between a technically skilled technician and a professionally excellent one is often information: the property-specific details that make every visit smooth, that prevent the callback about the trampled flower bed, and that give the customer confidence that the company knows their property and respects it. Lawn care software that manages client notes and property details correctly closes this gap on every stop, on every route, on every visit.</p>
@@ -39,8 +39,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Gate code. Dog in yard. Knock before entry. The technician sees it all before they pull in.</h3>
-          <p>SprayBossPro property notes, custom fields, and tags give every technician complete property context on every dispatched stop — no phone calls to the office required.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro property notes, custom fields, and tags give every technician complete property context on every dispatched stop — no phone calls to the office required.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

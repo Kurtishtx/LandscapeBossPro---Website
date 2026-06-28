@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Build a Mosquito Control Business Year Over Year | SprayBossPro',
+  title: 'Build a Mosquito Control Business Year Over Year | LandscapeBossPro',
   description: 'The program structure, customer communication, and scheduling systems that compound mosquito control business growth season after season.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Business Growth</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Business Growth</p>
         <h1>How to Build a Mosquito Control Business That Grows Year Over Year</h1>
 
         <p>A mosquito control business that grows year over year isn&apos;t just adding new customers each spring — it&apos;s retaining a high percentage of last year&apos;s customers, growing revenue per retained customer through upsells and program upgrades, and adding new customers on top of a stable recurring base. The math compounds favorably when retention is high: a business that starts Season 2 with 85 percent of Season 1&apos;s customers and adds 50 new customers is growing from a fundamentally different position than one that starts Season 2 with 60 percent of Season 1&apos;s customers and needs to add 80 new customers just to match last year&apos;s revenue. Retention is the growth multiplier in a seasonal recurring program business.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>High re-enrollment. Consistent intervals. Growing customer base. The compounding model for mosquito business growth.</h3>
-          <p>SprayBossPro gives mosquito control businesses the auto-scheduling precision, overdue recovery tools, and customer communication systems that produce high re-enrollment rates and year-over-year account base growth.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro gives mosquito control businesses the auto-scheduling precision, overdue recovery tools, and customer communication systems that produce high re-enrollment rates and year-over-year account base growth.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

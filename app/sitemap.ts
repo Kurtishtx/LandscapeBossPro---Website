@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const BASE = 'https://spraybosspro.com';
+const BASE = 'https://landscapebosspro.com';
 
 const hubPages = [
   '/lawn-care-scheduling-software',

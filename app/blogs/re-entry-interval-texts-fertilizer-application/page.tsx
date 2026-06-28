@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Re-Entry Interval After Fertilizer Applications | SprayBossPro',
+  title: 'Re-Entry Interval After Fertilizer Applications | LandscapeBossPro',
   description: 'How automated post-application SMS works so every customer gets the right re-entry window after every fertilizer visit.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Customer Communication</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Customer Communication</p>
         <h1>How to Send Re-Entry Interval Texts After Every Fertilizer Application Automatically</h1>
 
         <p>Re-entry interval communication is not optional for pesticide applicators — it&apos;s a legal requirement on most pesticide labels and a customer service necessity on all fertilizer applications. The customer needs to know when it&apos;s safe to walk on the lawn, let children play, or let pets outside. If that information doesn&apos;t reach them, you&apos;ll get calls, and the customers who can&apos;t reach you or don&apos;t bother calling may simply cancel.</p>
@@ -47,8 +47,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>The right re-entry interval message, sent to every customer, after every application. Automatically.</h3>
-          <p>SprayBossPro triggers re-entry interval SMS from the product record the moment a technician submits their compliance log — product-specific, customer-specific, and completely automatic.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro triggers re-entry interval SMS from the product record the moment a technician submits their compliance log — product-specific, customer-specific, and completely automatic.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

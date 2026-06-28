@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Is Lawn Care Software and Do You Need It? | SprayBossPro',
+  title: 'What Is Lawn Care Software and Do You Need It? | LandscapeBossPro',
   description: 'A plain-language breakdown of what lawn care software does, what problems it solves, and at what point a lawn care business genuinely needs it.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>What Is Lawn Care Software and Does Your Business Actually Need It?</h1>
 
         <p>Lawn care software is a purpose-built platform for managing the operational work of a recurring lawn care business — scheduling, routing, dispatching, compliance logging, customer communication, and payment collection. It&apos;s not a generic CRM. It&apos;s not a calendar. It&apos;s not a field service tool designed for plumbers that someone adapted for lawn care. Purpose-built lawn care software is designed around the specific workflows that define how a lawn care company actually operates: a waiting list of due accounts, a map for route building, field compliance logs for chemical applications, and automated SMS that fires at every customer touchpoint.</p>
@@ -31,8 +31,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Waiting list. Circle routing. Compliance logs. Automated SMS. That&apos;s what lawn care software actually does.</h3>
-          <p>SprayBossPro is purpose-built for lawn care companies running recurring chemical programs — with every core feature included at $129/month flat, no add-ons required.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro is purpose-built for lawn care companies running recurring chemical programs — with every core feature included at $129/month flat, no add-ons required.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

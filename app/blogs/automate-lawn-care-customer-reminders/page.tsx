@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Automate Lawn Care Customer Reminders | SprayBossPro',
+  title: 'Automate Lawn Care Customer Reminders | LandscapeBossPro',
   description: 'How day-before, on-the-way, and service complete SMS alerts fire automatically so your team never manually sends a single text.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Customer Communication</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Customer Communication</p>
         <h1>How to Automate Customer Reminders for Every Lawn Care Visit</h1>
 
         <p>The biggest communication failure in lawn care operations isn&apos;t rudeness — it&apos;s silence. Customers who don&apos;t know when you&apos;re coming call to ask. Customers who come home to tire tracks and no notification are unsettled. Customers who don&apos;t hear from you for six weeks wonder if you forgot them. Every one of those situations costs you time on the phone and trust with the customer.</p>
@@ -52,8 +52,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Never manually send a service notification again.</h3>
-          <p>SprayBossPro fires 10+ automated SMS alert types — scheduled, reminder, on the way, complete, skipped, payment due, estimate follow-up — for every customer, every visit, all season.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro fires 10+ automated SMS alert types — scheduled, reminder, on the way, complete, skipped, payment due, estimate follow-up — for every customer, every visit, all season.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Log Target Pests and EPA Reg Numbers Per Stop | SprayBossPro',
+  title: 'Log Target Pests and EPA Reg Numbers Per Stop | LandscapeBossPro',
   description: 'The field logging structure that captures target pest, treatment area, and EPA registration number data on every pest control stop without slowing technicians down.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Field Logging</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Field Logging</p>
         <h1>How to Log Target Pests, Treatment Areas, and EPA Reg Numbers on Every Stop</h1>
 
         <p>Three fields on every pest control compliance log cause more incomplete record problems than any others: target pest, treatment area, and EPA registration number. Target pest is sometimes left to a generic &quot;general pest&quot; entry when the actual target was German cockroach in the kitchen and American cockroach around the exterior perimeter. Treatment area is skipped when technicians are in a hurry. EPA reg number is entered incorrectly when typed from memory. A field logging form that makes all three impossible to skip — and reduces the effort of entering them correctly — solves all three problems simultaneously.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Every required field captured correctly at the property — target pest, treatment area, EPA reg number — no typing from memory.</h3>
-          <p>SprayBossPro&apos;s product library pre-fills EPA reg numbers when a product is selected, and treatment area checklists let technicians log specific areas in two taps — complete, state-ready records on every stop.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s product library pre-fills EPA reg numbers when a product is selected, and treatment area checklists let technicians log specific areas in two taps — complete, state-ready records on every stop.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Mosquito Spray: Linear Foot Measurement Tracking | SprayBossPro',
+  title: 'Mosquito Spray: Linear Foot Measurement Tracking | LandscapeBossPro',
   description: 'How linear ft measurements are stored per property, used for pricing, displayed on the waiting list, and tracked in the chemical compliance report for perimeter barrier spray applications.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>How Mosquito Spray Software Handles Linear Foot Measurements for Barrier Spray</h1>
 
         <p>Linear foot barrier spray — where the billable measurement is the length of the treatment edge rather than the area of the treated surface — is a common and often more accurate model for perimeter-focused mosquito applications. A property with 800 linear feet of fence line, shrub border, and wooded perimeter edge gets priced by the perimeter measurement, which reflects the actual treatment work more accurately than sq ft when the treatment is edge-specific rather than distributed across open lawn area. <a href="/mosquito-spray-software">Mosquito spray software</a> stores linear ft as a first-class measurement field per property — not as a workaround in a notes field — so it flows through the system the same way sq ft does: pricing calculations, waiting list totals, route-building displays, and chemical compliance records.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Linear ft stored per property. Shown on the waiting list. Calculated in pricing. Captured in the compliance record. First-class measurement — not a notes field workaround.</h3>
-          <p>SprayBossPro treats mosquito spray linear ft as a native measurement field — stored per property, totaled on the waiting list, used in per-treatment pricing calculations, and recorded in the chemical compliance log.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro treats mosquito spray linear ft as a native measurement field — stored per property, totaled on the waiting list, used in per-treatment pricing calculations, and recorded in the chemical compliance log.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

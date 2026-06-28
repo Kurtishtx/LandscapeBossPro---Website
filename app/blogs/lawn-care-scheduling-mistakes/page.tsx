@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'The Biggest Lawn Care Scheduling Mistakes | SprayBossPro',
+  title: 'The Biggest Lawn Care Scheduling Mistakes | LandscapeBossPro',
   description: 'The recurring scheduling errors that cause missed treatments, overdue accounts, and lost customers — and how to fix all of them.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Scheduling &amp; Operations</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Scheduling &amp; Operations</p>
         <h1>The Biggest Lawn Care Scheduling Mistakes Companies Make</h1>
 
         <p>Most lawn care companies don&apos;t lose customers because of bad service. They lose them because of scheduling failures — missed treatments, late visits, no communication, and accounts that fall through the cracks when things get busy. These aren&apos;t random bad luck. They&apos;re predictable patterns that show up in almost every lawn care operation running on manual systems.</p>
@@ -43,8 +43,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Fix your scheduling before it costs you customers.</h3>
-          <p>SprayBossPro automates your waiting list, route building, dispatch, and customer alerts so nothing falls through the cracks.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro automates your waiting list, route building, dispatch, and customer alerts so nothing falls through the cracks.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

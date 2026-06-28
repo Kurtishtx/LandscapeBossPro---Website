@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Re-Entry Interval After Weed Control Applications | SprayBossPro',
+  title: 'Re-Entry Interval After Weed Control Applications | LandscapeBossPro',
   description: 'How re-entry intervals vary by weed control product and how to capture the correct interval from the compliance log to send the right SMS.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Compliance &amp; Communication</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Compliance &amp; Communication</p>
         <h1>What Re-Entry Interval Should You Send Customers After Weed Control Applications?</h1>
 
         <p>Re-entry interval (REI) is the minimum time that must pass after a pesticide application before people — including pets — can safely re-enter the treated area. For weed control products, REIs range from as short as 4 hours to as long as 48 hours depending on the specific product and formulation. Sending the right REI to every customer after every application is both a legal obligation and a liability issue. Getting it wrong — sending a 4-hour REI when the product requires 24 hours — exposes you to liability if a customer or pet enters the treated area too early.</p>
@@ -39,8 +39,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Every customer gets the right re-entry interval for what was actually applied at their property.</h3>
-          <p>SprayBossPro pulls the REI from the completed compliance log and fires the post-service SMS with the correct interval — no static templates, no manually entered times, no liability exposure from wrong information.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro pulls the REI from the completed compliance log and fires the post-service SMS with the correct interval — no static templates, no manually entered times, no liability exposure from wrong information.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

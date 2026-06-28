@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Manage Spray Technicians in the Field | SprayBossPro',
+  title: 'Manage Spray Technicians in the Field | LandscapeBossPro',
   description: 'How mobile-first dispatch, in-field logging, and route tracking eliminate the need for office-to-field phone calls during the workday.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Field Management</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Field Management</p>
         <h1>How to Manage Spray Technicians in the Field Without Calling Them All Day</h1>
 
         <p>Office-to-field phone calls are one of the most expensive and disruptive inefficiencies in spray operations. A technician who gets called while treating a property stops work, handles the call, and restarts — losing 5 to 10 minutes per interruption. An office that calls every technician twice per day to check progress status is burning 30 to 60 minutes of management time on information that should already be visible in the software. Digital mobile dispatch, in-field logging with real-time status updates, and pre-loaded property information eliminate the primary reasons these calls happen.</p>
@@ -40,8 +40,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Property notes, real-time progress, route updates — all on the phone. Zero office-to-field calls required.</h3>
-          <p>SprayBossPro gives spray technicians everything they need on their mobile device and gives the office real-time route visibility — so field management happens through the software, not through constant phone calls.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro gives spray technicians everything they need on their mobile device and gives the office real-time route visibility — so field management happens through the software, not through constant phone calls.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

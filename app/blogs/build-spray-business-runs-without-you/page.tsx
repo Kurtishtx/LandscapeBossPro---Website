@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Build a Spray Business That Runs Without You | SprayBossPro',
+  title: 'Build a Spray Business That Runs Without You | LandscapeBossPro',
   description: 'The systems, workflows, and automation that let a spray business owner step back from day-to-day operations without losing control.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Owner Operations</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Owner Operations</p>
         <h1>How to Build a Spray Business That Runs Without You in the Field Every Day</h1>
 
         <p>The defining constraint of a spray business where the owner is in the field every day is simple: the business grows only as fast as the owner can personally work. Adding customers means the owner works harder. Taking a vacation means stopping the business. Training a replacement means trusting someone to operate a business they didn&apos;t build. The systems that allow an owner to step out of day-to-day field operations aren&apos;t complicated — they&apos;re the same systems that make a well-run spray business operate efficiently at any scale. But they need to be in place before the owner steps back, not assembled hastily when the owner finally gets tired.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Waiting list runs itself. Routes dispatch themselves. Compliance logs submit themselves. SMS fires itself.</h3>
-          <p>SprayBossPro gives spray business owners the operational infrastructure to step back from day-to-day field management while maintaining complete visibility over scheduling, compliance, and revenue from anywhere.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro gives spray business owners the operational infrastructure to step back from day-to-day field management while maintaining complete visibility over scheduling, compliance, and revenue from anywhere.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

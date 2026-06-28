@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Pest Control vs Generic Field Service Software | SprayBossPro',
+  title: 'Pest Control vs Generic Field Service Software | LandscapeBossPro',
   description: 'Why generic field service platforms fall short for pest control companies running recurring programs that require compliance logging, interval-based scheduling, and re-entry SMS.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Software Selection</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Software Selection</p>
         <h1>Pest Control Software vs. Generic Field Service Software: What&apos;s Actually Different</h1>
 
         <p>Generic field service management platforms — the ones that handle HVAC, plumbing, electrical, cleaning, and dozens of other trades — can technically be used for pest control. You can create customers, create jobs, dispatch technicians, and collect signatures. What they can&apos;t do without significant customization is handle the specific requirements that make pest control operationally distinct: EPA compliance logging, pesticide-specific re-entry interval tracking, product library management, interval-based recurring program scheduling, and the chemical usage reporting that state regulations require. The gap between &quot;technically works for pest control&quot; and &quot;built for pest control&quot; is where companies lose hours every week.</p>
@@ -32,9 +32,9 @@ export default function Page() {
         <p>For the specific training workflow that takes advantage of purpose-built compliance logging forms, see <a href="/blogs/train-pest-control-technicians-application-logs">How to Train Pest Control Technicians to Submit Complete Application Logs Every Time</a>.</p>
 
         <div className="blog-cta-box">
-          <h3>Generic field service software works for 50 trades. SprayBossPro is built for yours.</h3>
+          <h3>Generic field service software works for 50 trades. LandscapeBossPro is built for yours.</h3>
           <p>Interval-based recurring scheduling, product library EPA logging, automatic re-entry SMS, and map-based route building — the things pest control actually needs, built in by default, not bolted on through workarounds.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

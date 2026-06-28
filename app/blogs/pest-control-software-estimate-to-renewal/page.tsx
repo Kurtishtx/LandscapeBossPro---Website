@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Pest Control Software: Estimate to Renewal | SprayBossPro',
+  title: 'Pest Control Software: Estimate to Renewal | LandscapeBossPro',
   description: 'How pest control software manages every stage of the customer relationship — estimate, first service, recurring program, re-service, and renewal — without manual handoffs between stages.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>How Pest Control Software Automates the Full Customer Lifecycle — Estimate to Renewal</h1>
 
         <p>A pest control customer moves through a predictable lifecycle: they inquire, they receive an estimate, they accept the estimate and become a customer, they receive their first treatment, they continue through their annual program, they receive periodic re-service calls, and they either renew or lapse at the end of their contract period. In most pest control businesses, each stage of this lifecycle is managed through a different tool or a different manual process — leads in one spreadsheet, estimates in email, service schedule in a calendar, compliance logs in paper files, and renewals tracked by whoever remembers. Purpose-built <a href="/pest-control-software">pest control software</a> manages the entire lifecycle in one system, with automated touchpoints at each stage that remove the manual handoffs where customers are most likely to fall through.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Lead. Estimate. Customer. First treatment. Program. Re-service. Renewal. One system. No manual handoffs.</h3>
-          <p>SprayBossPro manages the full pest control customer lifecycle — from first estimate through annual renewal — with automated touchpoints at every stage so customers are retained without constant manual effort.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro manages the full pest control customer lifecycle — from first estimate through annual renewal — with automated touchpoints at every stage so customers are retained without constant manual effort.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What the Best Lawn Care Software Does Differently | SprayBossPro',
+  title: 'What the Best Lawn Care Software Does Differently | LandscapeBossPro',
   description: 'The specific capabilities that separate purpose-built lawn care software from generic field service tools adapted for lawn care use.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>What the Best Lawn Care Software Does That Generic Tools Don&apos;t</h1>
 
         <p>Most lawn care companies that try generic field service software — tools designed for HVAC, plumbing, or cleaning companies that are marketed broadly as &quot;for any service business&quot; — discover the limitations within the first month. The job gets created. The tech gets dispatched. The job gets marked complete. But the features that make lawn care specifically work at scale — the waiting list organized by sq ft and service type, the interval-based auto-scheduling from completion date, the EPA compliance log with product library pre-fill, the re-entry interval SMS — either don&apos;t exist or exist as manual workarounds that add time rather than saving it. The best lawn care software isn&apos;t a generic field service tool. It&apos;s a tool built specifically for how lawn care companies operate.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Waiting list. Completion-date auto-scheduling. Product library compliance logs. Automatic REI SMS. The difference is by design.</h3>
-          <p>SprayBossPro is built for lawn care companies running chemical programs — not adapted from a field service tool designed for plumbers. Every feature works the way lawn care actually works.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro is built for lawn care companies running chemical programs — not adapted from a field service tool designed for plumbers. Every feature works the way lawn care actually works.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Set Up a New Lawn Care Customer in Software | SprayBossPro',
+  title: 'Set Up a New Lawn Care Customer in Software | LandscapeBossPro',
   description: 'The exact steps to add a new lawn care customer in software — client, property, sq ft areas, package plan, and first service — so they appear on the waiting list automatically.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>How to Set Up a New Lawn Care Customer in Software and Start the First Program</h1>
 
         <p>The way a lawn care business sets up new customers in software determines whether those customers ever miss a service. A customer entered correctly — with a client record, a property with the right sq ft measurements, a package plan that defines their program, and a first service on the waiting list — will never fall through the cracks. A customer entered in a shortcut manner — skipping the sq ft, not attaching a package, not creating the first service — generates a record that produces no output. The dispatcher won&apos;t see them on the waiting list. They won&apos;t appear in the sq ft totals. Their revenue won&apos;t factor into the daily route planning. Doing it right the first time is faster than correcting it later.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Client. Property. Sq ft by service type. Package plan. First service. Five steps to a customer who never falls through the cracks.</h3>
-          <p>SprayBossPro&apos;s new customer setup flow creates a complete, active account in under 10 minutes — with sq ft data, package services, and automatic waiting list placement from the first completion forward.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s new customer setup flow creates a complete, active account in under 10 minutes — with sq ft data, package services, and automatic waiting list placement from the first completion forward.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

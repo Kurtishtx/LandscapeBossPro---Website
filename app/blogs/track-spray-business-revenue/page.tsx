@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Track Spray Business Revenue by Service Type | SprayBossPro',
+  title: 'Track Spray Business Revenue by Service Type | LandscapeBossPro',
   description: 'How to see daily, weekly, and monthly revenue broken down by service type so you know which programs are driving growth.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Revenue Tracking</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Revenue Tracking</p>
         <h1>How to Track Spray Business Revenue by Service Type and Route</h1>
 
         <p>A spray business that tracks only total revenue is flying partially blind. Total revenue tells you whether the business is growing — but it doesn&apos;t tell you which service types are driving that growth, which programs are underperforming relative to account count, or which routes are producing the most revenue per truck-hour. Service-type and route-level revenue visibility turns financial reporting from a lagging indicator into an operational tool that influences scheduling, pricing, and program expansion decisions in real time.</p>
@@ -34,8 +34,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Revenue by service type. Revenue by crew. Revenue by route — before and after dispatch.</h3>
-          <p>SprayBossPro tracks spray business revenue at the service-type, route, and crew level — with pre-route revenue visibility in the waiting list so dispatchers optimize output before the trucks leave the shop.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro tracks spray business revenue at the service-type, route, and crew level — with pre-route revenue visibility in the waiting list so dispatchers optimize output before the trucks leave the shop.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

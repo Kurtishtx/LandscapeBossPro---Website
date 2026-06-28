@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Manage Mosquito Control for Lawn Care Customers | SprayBossPro',
+  title: 'Manage Mosquito Control for Lawn Care Customers | LandscapeBossPro',
   description: 'How to track mosquito and lawn care programs under the same customer account on separate schedules without creating routing or billing conflicts.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Multi-Service Management</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Multi-Service Management</p>
         <h1>How to Manage Mosquito Control Customers Who Also Have Lawn Care Programs</h1>
 
         <p>A customer enrolled in both a fertilizer program and a seasonal mosquito program has two independent scheduling relationships with your business. Their fertilizer Round 4 might be due on June 15th. Their mosquito treatment might be due on June 18th. These are three days apart, different service types, different products, different compliance logs, and potentially different technicians depending on crew specialization. Managing both programs cleanly — without missing either service, without double-billing, and without creating routing inefficiencies — requires a system that tracks multiple programs per customer account as independent entities, not as combined service records.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Mosquito and lawn care programs on the same account. Independent schedules. Separate compliance logs. No conflicts.</h3>
-          <p>SprayBossPro tracks mosquito and lawn care programs as independent scheduling tracks under the same customer account — each auto-scheduling from its own interval, each surfacing in the waiting list when due.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro tracks mosquito and lawn care programs as independent scheduling tracks under the same customer account — each auto-scheduling from its own interval, each surfacing in the waiting list when due.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

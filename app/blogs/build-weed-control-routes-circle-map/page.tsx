@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Build Weed Control Routes With Circle Map Routing | SprayBossPro',
+  title: 'Build Weed Control Routes With Circle Map Routing | LandscapeBossPro',
   description: 'How to draw a circle on any neighborhood and pull every weed control stop due inside into an optimized route in minutes.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Routing</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Routing</p>
         <h1>How to Build Weed Control Routes Using Circle Map Route Building</h1>
 
         <p>Building weed control routes from a list is slow and produces inefficient drive paths. You&apos;re mentally mapping addresses — ZIP code by ZIP code, neighborhood by neighborhood — trying to assemble a route that makes geographic sense. Circle map route building inverts the process: you start on the map, draw a circle around the area you&apos;re working today, and every weed control stop due inside appears automatically. The route is geographic from the start. No mental mapping required.</p>
@@ -32,8 +32,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Draw a circle. See the scope. Build the route. Done in minutes.</h3>
-          <p>SprayBossPro&apos;s circle map routing shows every weed control stop due in any area you select — with total sq ft, stop count, service type breakdown, and drive-optimized route order — before you dispatch a single stop.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s circle map routing shows every weed control stop due in any area you select — with total sq ft, stop count, service type breakdown, and drive-optimized route order — before you dispatch a single stop.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

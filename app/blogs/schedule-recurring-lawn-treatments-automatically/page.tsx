@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Auto-Schedule Recurring Lawn Treatments | SprayBossPro',
+  title: 'Auto-Schedule Recurring Lawn Treatments | LandscapeBossPro',
   description: 'How auto-rescheduling works for multi-round lawn care programs so your schedule manages itself between visits.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Scheduling &amp; Automation</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Scheduling &amp; Automation</p>
         <h1>How to Schedule Recurring Lawn Treatments Without Manually Booking Every Round</h1>
 
         <p>If someone on your team manually books every visit for every customer on a multi-round lawn care program, your operation has a hidden bottleneck. At 50 customers it&apos;s annoying. At 200 customers it consumes hours every week that should go toward growing the business. Auto-rescheduling eliminates that bottleneck entirely.</p>
@@ -44,8 +44,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Let your schedule manage itself between rounds.</h3>
-          <p>SprayBossPro auto-reschedules every customer after each completed visit so your waiting list is always accurate and your office isn&apos;t manually rebooking 1,400 treatments per season.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro auto-reschedules every customer after each completed visit so your waiting list is always accurate and your office isn&apos;t manually rebooking 1,400 treatments per season.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

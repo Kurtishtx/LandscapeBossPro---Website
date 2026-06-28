@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Convert Spray Service Estimates to Scheduled Jobs | SprayBossPro',
+  title: 'Convert Spray Service Estimates to Scheduled Jobs | LandscapeBossPro',
   description: 'How to build spray service estimates with per-sq-ft pricing and convert approved estimates directly into scheduled recurring programs.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Sales</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Sales</p>
         <h1>How to Write Estimates for Spray Services and Convert Them to Scheduled Jobs</h1>
 
         <p>The gap between a spray service estimate and a scheduled recurring program involves several steps where deals fall through: the estimate arrives late, the pricing is confusing, the customer forgets to respond, or the approval process requires too many manual steps to convert to an active account. A streamlined estimate-to-enrollment workflow — estimate built from the property sq ft, sent instantly, approved in one click, and converted directly to a recurring program in the scheduling system — eliminates all of these friction points.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Estimate built from sq ft. Sent instantly. Approved in one click. Converted to a recurring program automatically.</h3>
-          <p>SprayBossPro streamlines the spray service estimate workflow from sq ft measurement to program enrollment — with per-sq-ft pricing, instant delivery, and one-click conversion to scheduled recurring service.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro streamlines the spray service estimate workflow from sq ft measurement to program enrollment — with per-sq-ft pricing, instant delivery, and one-click conversion to scheduled recurring service.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

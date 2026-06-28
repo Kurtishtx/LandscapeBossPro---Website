@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Price Spray Services by Square Foot or Linear Foot | SprayBossPro',
+  title: 'Price Spray Services by Square Foot or Linear Foot | LandscapeBossPro',
   description: 'How to structure per-sq-ft and per-linear-ft pricing for different service types and track program revenue per stop and per route.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pricing</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pricing</p>
         <h1>How to Price Spray Services by Square Foot or Linear Foot</h1>
 
         <p>Flat-rate pricing for spray services — a fixed price per property regardless of size — is the fastest way to underprice large properties and overprice small ones. A 4,500-sq-ft turf area and a 12,000-sq-ft turf area both take the same pricing structure but require very different amounts of product and time. Per-sq-ft pricing corrects this by tying the service price to the area being treated. It also makes the pricing model transparent to customers (&quot;we charge $X per 1,000 sq ft&quot;) and makes route revenue calculation straightforward — total sq ft on a route multiplied by the per-sq-ft rate gives the expected revenue before you build the route.</p>
@@ -38,8 +38,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Per-sq-ft and per-linear-ft pricing. Route revenue calculated before dispatch. Total sq ft visible in the waiting list.</h3>
-          <p>SprayBossPro stores property sq ft and linear footage on every account and calculates route revenue automatically in the waiting list — so dispatchers see expected revenue before building a single route.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro stores property sq ft and linear footage on every account and calculates route revenue automatically in the waiting list — so dispatchers see expected revenue before building a single route.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

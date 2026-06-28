@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Dispatch Mosquito Spray Technicians Without Calls | SprayBossPro',
+  title: 'Dispatch Mosquito Spray Technicians Without Calls | LandscapeBossPro',
   description: 'How mobile dispatch eliminates the morning route briefing call for mosquito spray technicians — routes, addresses, notes, and compliance log forms delivered to mobile before they leave the shop.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Mosquito Spray Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Mosquito Spray Software</p>
         <h1>How to Dispatch Mosquito Spray Technicians Without Morning Phone Calls</h1>
 
         <p>The morning startup sequence for a mosquito spray operation without dispatch software goes like this: the dispatcher prints or reads off the day&apos;s stop list to each technician, answers questions about which properties have gate codes or access notes, confirms which product to load for each stop, and coordinates start time and check-in protocol. For two technicians running 15 stops each across two routes, this morning briefing takes 20 to 30 minutes and needs to happen before anyone leaves the shop. When the dispatcher is also the owner, this is 30 minutes of administrative time every morning at 6:30 AM during the entire mosquito season. Mobile dispatch from <a href="/mosquito-spray-software">mosquito spray software</a> delivers everything the technician needs to their phone the night before or the morning of — eliminating the briefing call entirely.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Routes, addresses, product notes, compliance forms — delivered to mobile. No morning call. No printout. No briefing.</h3>
-          <p>SprayBossPro dispatches complete mosquito spray routes to technician mobile devices — with addresses, property notes, product info, and compliance log forms — so the morning briefing call is replaced by a route notification the night before.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro dispatches complete mosquito spray routes to technician mobile devices — with addresses, property notes, product info, and compliance log forms — so the morning briefing call is replaced by a route notification the night before.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

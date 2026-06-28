@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Manage the Mosquito Control Season Start to Finish | SprayBossPro',
+  title: 'Manage the Mosquito Control Season Start to Finish | LandscapeBossPro',
   description: 'A seasonal playbook for managing spring startup, peak season routing, and fall close-out for a mosquito control program.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Seasonal Operations</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Seasonal Operations</p>
         <h1>How to Manage the Mosquito Control Season From First Spray to Season Close</h1>
 
         <p>The mosquito control season has a distinct three-phase structure — spring startup, peak season, and fall close-out — each with different operational demands. Managing each phase correctly keeps customers on schedule, prevents protection gaps during the season&apos;s most active periods, and positions the business for clean re-enrollment the following spring. Understanding what each phase requires from a scheduling and communication standpoint is what separates a mosquito company that runs smoothly through a 6-month season from one that scrambles from June through August trying to stay current.</p>
@@ -34,8 +34,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Spring startup. Peak season routing. Fall close-out. One system manages all three phases.</h3>
-          <p>SprayBossPro handles seasonal mosquito program enrollment, 21-day auto-scheduling through peak season, overdue flagging during weather disruptions, and season-close management — all from the same waiting list and dispatch workflow.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro handles seasonal mosquito program enrollment, 21-day auto-scheduling through peak season, overdue flagging during weather disruptions, and season-close management — all from the same waiting list and dispatch workflow.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

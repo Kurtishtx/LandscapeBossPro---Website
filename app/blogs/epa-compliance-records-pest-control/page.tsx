@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'EPA Compliance Records for Pest Control Companies | SprayBossPro',
+  title: 'EPA Compliance Records for Pest Control Companies | LandscapeBossPro',
   description: 'The complete compliance log requirements for pest control applications and how to capture every field in a state-ready format.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Compliance</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Compliance</p>
         <h1>What EPA Compliance Records Do Pest Control Companies Need on Every Job?</h1>
 
         <p>Licensed pest control operators are required by state pesticide law to maintain records of every pesticide application. These records must contain specific data elements, be retained for a defined period, and be producible on demand when a state pesticide inspector or enforcement officer requests them. Knowing exactly what goes in a compliant pest control application record — and having a system that captures all of it without relying on technician memory — is the foundation of a licensable, scalable operation.</p>
@@ -49,8 +49,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Every required compliance field captured at the property — state-ready on demand.</h3>
-          <p>SprayBossPro&apos;s field logging form captures all required EPA compliance fields via the product library — EPA reg numbers, rates, re-entry intervals, treatment areas, and weather conditions — submitted at the property and available for inspection in seconds.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s field logging form captures all required EPA compliance fields via the product library — EPA reg numbers, rates, re-entry intervals, treatment areas, and weather conditions — submitted at the property and available for inspection in seconds.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

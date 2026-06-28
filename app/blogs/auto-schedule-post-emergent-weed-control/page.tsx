@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Auto-Schedule Post-Emergent Weed Control Rounds | SprayBossPro',
+  title: 'Auto-Schedule Post-Emergent Weed Control Rounds | LandscapeBossPro',
   description: 'How 4-week, 6-week, and 8-week post-emergent cycles auto-reschedule on completion so your team never manually books a follow-up visit.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Scheduling Automation</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Scheduling Automation</p>
         <h1>How to Auto-Schedule Post-Emergent Weed Control Rounds at the Right Interval</h1>
 
         <p>Post-emergent weed control programs work on cycles. Apply, wait for the product to work and weeds to die back, then return for follow-up on remaining or new growth. The cycle interval — typically 4, 6, or 8 weeks depending on your product and program structure — is the scheduling trigger. When a round is completed, the next one should appear on your waiting list automatically at the right interval, for every customer, every time. Manual rebooking is the most avoidable source of overdue weed control accounts.</p>
@@ -37,8 +37,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Post-emergent rounds that schedule themselves — every completion, every customer.</h3>
-          <p>SprayBossPro auto-populates the next round on your waiting list the moment a tech marks a visit complete — at your configured interval, for every program customer, with zero office action required.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro auto-populates the next round on your waiting list the moment a tech marks a visit complete — at your configured interval, for every program customer, with zero office action required.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Pest Control Software: Commercial vs Residential | SprayBossPro',
+  title: 'Pest Control Software: Commercial vs Residential | LandscapeBossPro',
   description: 'The operational differences between commercial and residential pest control accounts — and how software manages both from the same scheduling, compliance, and billing platform.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Pest Control Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Pest Control Software</p>
         <h1>How Pest Control Software Manages Commercial vs. Residential Accounts</h1>
 
         <p>Commercial and residential pest control accounts operate differently in almost every dimension — billing, service frequency, access requirements, compliance documentation, and customer communication expectations are all materially different between a quarterly residential account and a monthly restaurant contract. Pest control software that handles both account types well needs a flexible enough data model to accommodate these differences without requiring two separate operational systems. The best approach is not to build a &quot;commercial mode&quot; and a &quot;residential mode&quot; but to build flexible account, property, and billing structures that accommodate the operational realities of each without friction.</p>
@@ -30,8 +30,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Quarterly residential. Monthly commercial. Card billing. Net-30 invoicing. One platform handles both without workarounds.</h3>
-          <p>SprayBossPro manages commercial and residential pest control accounts from the same waiting list, routing, compliance, and billing platform — with flexible billing models, property-level access notes, and filterable compliance records.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro manages commercial and residential pest control accounts from the same waiting list, routing, compliance, and billing platform — with flexible billing models, property-level access notes, and filterable compliance records.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

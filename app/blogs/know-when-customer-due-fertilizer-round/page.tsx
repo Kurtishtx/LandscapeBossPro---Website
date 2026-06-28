@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Know When Customers Are Due for Fertilizer Rounds | SprayBossPro',
+  title: 'Know When Customers Are Due for Fertilizer Rounds | LandscapeBossPro',
   description: 'How a round-organized waiting list tells you exactly which customers are due, how many sq ft, and what round they\'re on before you route anything.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Scheduling &amp; Program Management</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Scheduling &amp; Program Management</p>
         <h1>How to Know When Each Customer Is Due for Their Next Fertilizer Round</h1>
 
         <p>Knowing when every customer is due for their next fertilizer round — across hundreds of accounts on different programs and different round timelines — should not require checking a spreadsheet, calling the office manager, or mentally tracking dates. It should be visible the moment you open your scheduling screen. Here&apos;s how a round-organized waiting list gives you that visibility and why it&apos;s the operational center of any well-run fertilizer program.</p>
@@ -47,8 +47,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Open your screen and instantly know who&apos;s due, what round, and how many sq ft.</h3>
-          <p>SprayBossPro&apos;s round-organized waiting list calculates every customer&apos;s next due date automatically and surfaces them at the right time — organized by round, service type, and sq ft totals.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s round-organized waiting list calculates every customer&apos;s next due date automatically and surfaces them at the right time — organized by round, service type, and sq ft totals.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

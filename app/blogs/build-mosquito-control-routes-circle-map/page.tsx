@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Mosquito Control Route Building With Circle Map | SprayBossPro',
+  title: 'Mosquito Control Route Building With Circle Map | LandscapeBossPro',
   description: 'How circle-based map routing pulls every mosquito treatment due in a neighborhood into an optimized route in minutes during peak season.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Routing</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Routing</p>
         <h1>How to Build Mosquito Control Routes Using Circle Map Route Building</h1>
 
         <p>Mosquito control route building during peak season is a daily challenge that most companies solve too slowly. With 200 active accounts all cycling through 21-day intervals, the waiting list on any given summer morning might have 15 to 25 accounts due in multiple geographic clusters. Building those into efficient routes from a list of names and addresses takes 30 to 45 minutes and produces mediocre drive sequences. Circle map routing does the same work in 8 to 12 minutes and produces geographically optimized routes that reduce drive time and fit more stops into a crew-day.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Draw a circle around any neighborhood. See the stops, revenue, and overdue count. Build the route in minutes.</h3>
-          <p>SprayBossPro&apos;s circle map routing shows every mosquito treatment due in any area you select — with overdue priority, drive order optimization, and route dispatch to technician phones before the first stop.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s circle map routing shows every mosquito treatment due in any area you select — with overdue priority, drive order optimization, and route dispatch to technician phones before the first stop.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

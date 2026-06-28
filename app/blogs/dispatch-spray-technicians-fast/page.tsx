@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Dispatch Spray Technicians in Under 30 Minutes | SprayBossPro',
+  title: 'Dispatch Spray Technicians in Under 30 Minutes | LandscapeBossPro',
   description: 'The waiting list and circle route workflow that gets every tech dispatched with an optimized route before 8am without back-and-forth phone calls.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Dispatching</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Dispatching</p>
         <h1>How to Dispatch Spray Technicians in Under 30 Minutes Every Morning</h1>
 
         <p>Morning dispatch in a spray business is a high-stakes 30-minute window. If every technician isn&apos;t on the road with a full, optimized route before 8 AM, the day loses production time that can&apos;t be recovered. A company with three trucks spending 25 minutes per truck on morning route-building is burning 75 minutes of potential revenue before the first stop. With a waiting list and circle map routing workflow, two or three full crew routes can be built, optimized, and pushed to technician phones in under 30 minutes total.</p>
@@ -36,8 +36,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Two crews dispatched with optimized routes and full property info — in under 30 minutes, every morning.</h3>
-          <p>SprayBossPro&apos;s waiting list and circle map routing build and dispatch multi-crew spray routes in minutes — with property notes, compliance forms, and drive order optimization delivered to technician phones before the first stop.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro&apos;s waiting list and circle map routing build and dispatch multi-crew spray routes in minutes — with property notes, compliance forms, and drive order optimization delivered to technician phones before the first stop.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

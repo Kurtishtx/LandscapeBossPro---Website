@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Lawn Care Route Optimization: Cut Drive Time | SprayBossPro',
+  title: 'Lawn Care Route Optimization: Cut Drive Time | LandscapeBossPro',
   description: 'How to optimize drive order across a day of lawn care stops to reduce fuel costs and increase stops per route.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Routing &amp; Efficiency</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Routing &amp; Efficiency</p>
         <h1>Lawn Care Route Optimization: How to Cut Windshield Time and Fit More Stops Per Day</h1>
 
         <p>Windshield time is the most expensive part of a lawn care operation that no one tracks. Every minute a truck is moving between stops is a minute no revenue is being generated. Cut drive time by 20 percent across a full crew and you often recover one to two additional stops per day — without adding a single employee or working any longer hours.</p>
@@ -48,8 +48,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Fit more stops in every route, every day.</h3>
-          <p>SprayBossPro builds optimized routes from your waiting list using map-based stop selection and automatic drive order sequencing. Stop leaving stops on the table.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro builds optimized routes from your waiting list using map-based stop selection and automatic drive order sequencing. Stop leaving stops on the table.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">

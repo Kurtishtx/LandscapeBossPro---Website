@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Move Lawn Care From Spreadsheets to Software | SprayBossPro',
+  title: 'Move Lawn Care From Spreadsheets to Software | LandscapeBossPro',
   description: 'A practical transition plan for moving a lawn care operation from spreadsheets to purpose-built software — without disrupting an active season or losing track of any accounts.',
 };
 
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <BlogShell>
       <article className="blog-article">
-        <p className="blog-meta">SprayBossPro Blog &mdash; Lawn Care Software</p>
+        <p className="blog-meta">LandscapeBossPro Blog &mdash; Lawn Care Software</p>
         <h1>How to Transition a Lawn Care Business From Spreadsheets to Software</h1>
 
         <p>The biggest reason lawn care businesses delay switching from spreadsheets to software is fear of transition disruption — the mental model that switching systems mid-season will cause more problems than staying on the current system for another year. This fear is understandable but usually overstated. A well-planned transition to purpose-built lawn care software can be completed in 2 to 4 weeks during an active season, with zero accounts lost and no disruption to service delivery. The key is approaching the transition as a setup project with a defined completion point rather than an open-ended configuration exploration.</p>
@@ -33,8 +33,8 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>2 to 4 weeks. Complete setup before import. One parallel week. Full cutover with confidence.</h3>
-          <p>SprayBossPro is designed for fast transitions — with package plan templates, CSV import support, and a setup process that can be completed in one active season without disrupting a single service route.</p>
-          <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <p>LandscapeBossPro is designed for fast transitions — with package plan templates, CSV import support, and a setup process that can be completed in one active season without disrupting a single service route.</p>
+          <a href="https://my.landscapebosspro.com">Start Free Trial</a>
         </div>
 
         <div className="blog-keywords">
