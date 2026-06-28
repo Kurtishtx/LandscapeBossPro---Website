@@ -16,29 +16,25 @@ export default function Footer() {
             </div>
             <div className="site-footer-col">
               <h4>Solutions</h4>
-              <a href="/lawn-care-software">Lawn Care Software</a>
-              <a href="/lawn-care-scheduling-software">Lawn Care Scheduling</a>
-              <a href="/mosquito-spray-software">Mosquito Spray</a>
-              <a href="/mosquito-control-software">Mosquito Control</a>
-              <a href="/pest-control-software">Pest Control</a>
-              <a href="/pest-control-scheduling-software">Pest Control Scheduling</a>
-              <a href="/weed-control-software">Weed Control</a>
-              <a href="/fertilizer-software">Fertilizer Software</a>
-              <a href="/spray-business-software">Spray Business</a>
+              <a href="/landscaping-software">Landscaping Software</a>
+              <a href="/landscape-estimating-software">Landscape Estimating</a>
+              <a href="/landscape-scheduling-software">Landscape Scheduling</a>
+              <a href="/landscape-crew-dispatch-software">Crew & Dispatch</a>
+              <a href="/landscaping-invoicing-software">Invoicing & Billing</a>
+              <a href="/landscape-business-software">Landscape Business</a>
+              <a href="/landscape-maintenance-software">Landscape Maintenance</a>
+              <a href="/landscape-customer-management-software">Customer Management</a>
             </div>
             <div className="site-footer-col">
               <h4>Compare</h4>
               <a href="/vs-jobber">vs. Jobber</a>
               <a href="/vs-servicetitan">vs. ServiceTitan</a>
-              <a href="/vs-housecallpro">vs. Housecall Pro</a>
-              <a href="/vs-gorilladesk">vs. GorillaDesk</a>
-              <a href="/vs-fieldroutes">vs. FieldRoutes</a>
-              <a href="/vs-serviceautopilot">vs. Service Autopilot</a>
-              <a href="/vs-realgreen">vs. RealGreen</a>
-              <a href="/vs-lawnpro">vs. LawnPro</a>
               <a href="/vs-aspire">vs. Aspire</a>
-              <a href="/vs-clip">vs. CLIP</a>
-              <a href="/vs-spraye">vs. Spraye</a>
+              <a href="/vs-lmn">vs. LMN</a>
+              <a href="/vs-yardbook">vs. Yardbook</a>
+              <a href="/vs-singleops">vs. SingleOps</a>
+              <a href="/vs-serviceautopilot">vs. Service Autopilot</a>
+              <a href="/vs-housecallpro">vs. Housecall Pro</a>
             </div>
             <div className="site-footer-col">
               <h4>Resources</h4>

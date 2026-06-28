@@ -131,8 +131,8 @@ export default function VsHousecallPro() {
 
       <div className="hero">
         <div className="hero-badge">Housecall Pro Alternative</div>
-        <h1>Housecall Pro Is Built for Plumbers and HVAC.<br /><span>LandscapeBossPro Is Built for Spray.</span><br />$129 vs $149 — and No Comparison on Features.</h1>
-        <p>Housecall Pro serves cleaning companies, plumbers, HVAC techs, and dozens of other trades. LandscapeBossPro is built specifically for lawn care and pest control — with the sq ft waiting list, chemical compliance logs, lasso route selector, and recurring treatment tracking that HCP doesn&apos;t have at any price.</p>
+        <h1>Housecall Pro Is Built for Plumbers and HVAC.<br /><span>LandscapeBossPro Is Built for Landscaping.</span><br />$129 vs $149 — and No Comparison on Features.</h1>
+        <p>Housecall Pro serves cleaning companies, plumbers, HVAC techs, and dozens of other trades. LandscapeBossPro is built specifically for landscaping — with the line-item estimates, materials &amp; products tracking, project scheduling, crew dispatch, and recurring maintenance plans that HCP doesn&apos;t do well at any price.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -148,7 +148,7 @@ export default function VsHousecallPro() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">Housecall Pro Pricing Reality</span>
           <h2 className="section-title">HCP Charges More Per Tier. LandscapeBossPro Is $129 — Unlimited.</h2>
-          <p className="section-sub" style={{marginLeft:'auto', marginRight:'auto'}}>Housecall Pro structures pricing around user count. The moment you need more than one user, your price jumps. LandscapeBossPro doesn&apos;t have user tiers — your whole team is included at $129/month.</p>
+          <p className="section-sub" style={{marginLeft:'auto', marginRight:'auto'}}>Housecall Pro structures pricing around user count. The moment you need more than one user, your price jumps. LandscapeBossPro doesn&apos;t have user tiers — your whole crew is included at $129/month.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="highlight-row">
@@ -168,7 +168,7 @@ export default function VsHousecallPro() {
                     <div className="hcp-tier-users">Up to 5 users</div>
                   </div>
                   <div className="hcp-tier-price">$149/mo</div>
-                  <div className="hcp-tier-note">Most spray teams need this tier. Same price as SBP — far fewer spray features.</div>
+                  <div className="hcp-tier-note">Most landscaping crews need this tier. More than LBP — far fewer landscaping features.</div>
                 </div>
                 <div className="hcp-tier">
                   <div className="hcp-tier-header">
@@ -176,25 +176,25 @@ export default function VsHousecallPro() {
                     <div className="hcp-tier-users">Up to 8 users</div>
                   </div>
                   <div className="hcp-tier-price">$299/mo</div>
-                  <div className="hcp-tier-note">Still no sq ft waiting list, lasso, or chemical compliance logs.</div>
+                  <div className="hcp-tier-note">Still no line-item landscaping estimates, materials tracking, or crew dispatch built for projects.</div>
                 </div>
               </div>
               <div className="sbp-contrast">
                 <div className="sbp-contrast-label">LandscapeBossPro — $129/month</div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Users</span><span className="sbp-contrast-row-val">Unlimited — no caps</span></div>
-                <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Sq Ft Waiting List</span><span className="sbp-contrast-row-val">✓ Included</span></div>
-                <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Chemical Compliance Logs</span><span className="sbp-contrast-row-val">✓ Included</span></div>
+                <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Line-Item Estimates</span><span className="sbp-contrast-row-val">✓ Included</span></div>
+                <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Materials &amp; Products Tracking</span><span className="sbp-contrast-row-val">✓ Included</span></div>
               </div>
             </div>
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">The Math</span>
-              <h2>At the Same Price as HCP Essentials, LandscapeBossPro Has Features HCP Doesn&apos;t Have at Any Price.</h2>
-              <p>HCP Essentials is $149/month and covers up to 5 users. LandscapeBossPro is $129/month with unlimited users. But the bigger gap isn&apos;t price — it&apos;s features. HCP doesn&apos;t have a sq ft waiting list, a lasso circle route selector, or dedicated chemical compliance logs. These aren&apos;t premium add-ons in LandscapeBossPro — they&apos;re in the base price.</p>
+              <h2>For Less Than HCP Essentials, LandscapeBossPro Has Landscaping Tools HCP Doesn&apos;t Have at Any Price.</h2>
+              <p>HCP Essentials is $149/month and covers up to 5 users. LandscapeBossPro is $129/month with unlimited users. But the bigger gap isn&apos;t price — it&apos;s features. HCP doesn&apos;t have detailed line-item landscaping estimates, materials &amp; products tracking, or crew dispatch built around multi-day projects. These aren&apos;t premium add-ons in LandscapeBossPro — they&apos;re in the base price.</p>
               <ul className="check-list">
-                <li>Sq ft waiting list by service type — doesn&apos;t exist in HCP</li>
-                <li>Lasso circle map selector — doesn&apos;t exist in HCP</li>
-                <li>Chemical compliance logs — doesn&apos;t exist in HCP</li>
-                <li>Recurring treatment waiting list — doesn&apos;t exist in HCP</li>
+                <li>Line-item estimates &amp; bids for install and design-build — built for landscaping</li>
+                <li>Materials &amp; products tracking per job — doesn&apos;t exist in HCP</li>
+                <li>Project scheduling across multi-day jobs — beyond HCP&apos;s one-visit model</li>
+                <li>Recurring maintenance plans — purpose-built, not a generic recurring job</li>
                 <li>Unlimited users at $129 — HCP needs MAX ($299) for 8 users</li>
               </ul>
             </div>
@@ -203,15 +203,15 @@ export default function VsHousecallPro() {
       </section>
 
       <div className="premium-band">
-        <h2>Housecall Pro Was Designed for Cleaning Companies and Plumbers.<br /><span>Not for Spray Routes.</span></h2>
-        <p>Housecall Pro is a capable general home service platform. But when your business runs on recurring spray routes with square footage tracking, chemical application logs, and dense geographic scheduling, "general home service" isn&apos;t what you need. LandscapeBossPro was built around the specific operational model of lawn care and pest control — and it shows in every feature.</p>
+        <h2>Housecall Pro Was Designed for Cleaning Companies and Plumbers.<br /><span>Not for Landscaping Projects.</span></h2>
+        <p>Housecall Pro is a capable general home service platform. But when your business runs on multi-day install and design-build projects with detailed material takeoffs, line-item bids, multiple crews, and recurring maintenance plans, "general home service" isn&apos;t what you need. LandscapeBossPro was built around the specific operational model of landscaping — and it shows in every feature.</p>
         <div className="premium-grid">
-          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Sq Ft Waiting List</h4><p>Before scheduling, LandscapeBossPro shows you exactly how much sq ft is waiting per service type. Know your Lawn Care 4, Mosquito, and Insect Control backlog. Build routes around what&apos;s due. HCP doesn&apos;t have this model at any tier.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Route Selector</h4><p>Draw a circle on your map, instantly see every property inside with a service due. Stops, sq ft, service type — all shown before you schedule. HCP has basic job scheduling. Not the same as a geographic lasso built for spray route density.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Chemical Compliance Logs</h4><p>Log product, mix rate, area, weather, and tech license automatically on every application. Pull compliance reports on demand. HCP has job notes — not a dedicated pesticide compliance system built for applicator licensing requirements.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users at $129</h4><p>HCP Basic is 1 user. HCP Essentials caps at 5 users for $149. LandscapeBossPro covers your entire team at $129 — no user caps, no tier jumps, no per-seat math as you hire. Add your 10th employee at no extra cost.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Recurring Treatment Model</h4><p>LandscapeBossPro is built around recurring service programs — waiting lists, treatment cycles, package renewals, due-date flags. HCP handles recurring jobs for general trades. The spray-specific workflow is different, and HCP wasn&apos;t built for it.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Two-Way SMS Inbox</h4><p>Full inbound/outbound SMS conversation history per contact, organized by customer. Automated appointment alerts, estimate follow-ups, payment reminders — all built in. Included at $129, not locked behind a premium tier.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Line-Item Estimates &amp; Bids</h4><p>Build detailed, professional bids with line items for labor, materials, plants, hardscape, and sod. Send for online acceptance and turn the won bid into a scheduled project. HCP&apos;s quotes were built for quick repair jobs, not landscape installs.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📦</div><h4>Materials &amp; Products Tracking</h4><p>Track materials and products on every job — pavers, mulch, stone, plants, sod, soil. Tie quantities to estimates and know your job cost. HCP has line items on invoices, not real materials tracking built for material-heavy landscape work.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🗓️</div><h4>Project Scheduling &amp; Job Board</h4><p>Schedule multi-day projects across crews, drag jobs on a board, and keep every phase organized. HCP centers on one-visit appointments. LandscapeBossPro plans projects that run days or weeks with a true job board.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users at $129</h4><p>HCP Basic is 1 user. HCP Essentials caps at 5 users for $149. LandscapeBossPro covers your entire crew at $129 — no user caps, no tier jumps, no per-seat math as you hire. Add your 10th employee at no extra cost.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Recurring Maintenance Plans</h4><p>LandscapeBossPro is built around recurring maintenance programs — visit schedules, plan renewals, due-date flags, and route-ready crews. HCP handles recurring jobs for general trades. The landscape maintenance workflow is different, and HCP wasn&apos;t built for it.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Two-Way Customer Texts</h4><p>Full inbound/outbound text conversation history per contact, organized by customer. Automated appointment alerts, estimate follow-ups, payment reminders — all built in. Included at $129, not locked behind a premium tier.</p></div>
         </div>
       </div>
 
@@ -219,7 +219,7 @@ export default function VsHousecallPro() {
         <div className="centered" style={{maxWidth:'960px', margin:'0 auto'}}>
           <span className="section-label">Side by Side</span>
           <h2 className="section-title">LandscapeBossPro vs Housecall Pro</h2>
-          <p className="section-sub">The features that matter for spray businesses — not general home service.</p>
+          <p className="section-sub">The features that matter for landscaping businesses — not general home service.</p>
         </div>
         <div className="compare-wrap">
           <table className="compare-table">
@@ -231,17 +231,17 @@ export default function VsHousecallPro() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="feature-name">Built Specifically for Lawn Care &amp; Pest Control</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Sq Ft Waiting List by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Lasso Circle Map Route Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Chemical Compliance Logs &amp; Reports</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Recurring Treatment Waiting List</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Package Plans &amp; Renewal Tracking</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
-              <tr><td className="feature-name">Chemical Product Catalog &amp; Mix Recipes</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Two-Way SMS Inbox Included</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Essentials+</span></td></tr>
+              <tr><td className="feature-name">Built Specifically for Landscaping</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Line-Item Estimates &amp; Bids for Installs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Basic</span></td></tr>
+              <tr><td className="feature-name">Materials &amp; Products Tracking per Job</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Multi-Day Project Scheduling &amp; Job Board</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
+              <tr><td className="feature-name">Recurring Maintenance Plans</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
+              <tr><td className="feature-name">Crew Dispatch &amp; Routing</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Client &amp; Property Profiles</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Two-Way Customer Texts Included</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Essentials+</span></td></tr>
               <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
-              <tr><td className="feature-name">Mobile App for Technicians</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Mobile App for Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Automated Review Requests</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Unlimited Users at Flat Price</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Capped by tier</span></td></tr>
               <tr><td className="feature-name">Price for a 5-Person Team</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129/month</td><td style={{color:'var(--muted)'}}>$149/month (Essentials)</td></tr>
@@ -254,40 +254,40 @@ export default function VsHousecallPro() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Right Tool</span>
           <h2 className="section-title">When You Need a Tool Built for Your Business — Not Every Business</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>Housecall Pro does many things well for general home service companies. LandscapeBossPro does fewer things — but all of them are the exact things a spray business needs, built deeper and better than any general platform.</p>
+          <p className="section-sub" style={{maxWidth:'720px'}}>Housecall Pro does many things well for general home service companies. LandscapeBossPro does fewer things — but all of them are the exact things a landscaping business needs, built deeper and better than any general platform.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>Sq Ft Is the Unit That Matters</h3><p>LandscapeBossPro tracks everything in square feet — waiting lists, route totals, property breakdowns, billing. Lawn care and pest control pricing is sq ft based. Your software should be too. HCP tracks job duration and billing, not sq ft.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>The Spray Route Model Is Different</h3><p>Spray businesses run recurring treatment schedules across hundreds of properties. That&apos;s a different operating model than one-off plumbing calls or cleaning visits. LandscapeBossPro was built around the spray model from day one.</p></div>
-          <div className="simple-card"><div className="simple-num">03</div><h3>Chemical Compliance Isn&apos;t Optional</h3><p>Pesticide applicators are subject to state compliance requirements. Chemical application logs, product records, license tracking — these need to be built into the software. HCP has job notes. LandscapeBossPro has compliance logs.</p></div>
-          <div className="simple-card"><div className="simple-num">04</div><h3>$20 Less — And More Included</h3><p>LandscapeBossPro is $129/month with unlimited users, unlimited routes, chemical logs, lasso, sq ft waiting list, and SMS. HCP Essentials is $149 with a 5-user cap and none of those spray-specific features. Less money. More spray.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>Projects, Not Quick Appointments</h3><p>LandscapeBossPro is built around multi-day install and design-build projects — line-item bids, phased scheduling, multiple crews, and job-cost visibility. HCP centers on single-visit appointments. Landscaping work doesn&apos;t fit that mold.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>Landscaping Is Material-Heavy</h3><p>Pavers, mulch, stone, plants, sod, soil — your jobs run on materials. LandscapeBossPro tracks materials and products on every estimate and job so you know your real cost. HCP tracks job duration and invoices, not the materials a landscape job is built from.</p></div>
+          <div className="simple-card"><div className="simple-num">03</div><h3>Estimates Win the Job</h3><p>Detailed, professional line-item bids close design-build and install work. LandscapeBossPro builds them fast, sends them for online acceptance, and turns the won bid into a scheduled project. HCP&apos;s quotes were built for quick repairs, not landscape installs.</p></div>
+          <div className="simple-card"><div className="simple-num">04</div><h3>$20 Less — And More Included</h3><p>LandscapeBossPro is $129/month with unlimited users, line-item estimates, materials tracking, project scheduling, crew dispatch, recurring maintenance plans, and customer texts. HCP Essentials is $149 with a 5-user cap and none of those landscaping-specific tools. Less money. More landscaping.</p></div>
         </div>
       </section>
 
       <section>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">Less Than HCP Essentials — More Spray Features</h2>
-          <p className="section-sub">$129/month. Unlimited users. Every spray-specific feature included.</p>
+          <h2 className="section-title">Less Than HCP Essentials — More Landscaping Features</h2>
+          <p className="section-sub">$129/month. Unlimited users. Every landscaping-specific feature included.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
-            <div className="featured-badge">Less Than HCP Essentials — More Spray Features</div>
-            <div className="price-tier">One Plan. Built for Spray. Start Today.</div>
+            <div className="featured-badge">Less Than HCP Essentials — More Landscaping Features</div>
+            <div className="price-tier">One Plan. Built for Landscaping. Start Today.</div>
             <div className="price-amount"><sup>$</sup>129</div>
             <div className="price-period">per month — cancel anytime</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
-              <li>Sq Ft Waiting List by Service Type</li>
-              <li>Lasso Circle Map Route Selector</li>
-              <li>Chemical Compliance Logs &amp; Reports</li>
-              <li>Full Scheduling, Dispatch &amp; Route Map</li>
-              <li>Estimates, Invoices &amp; Card-on-File Payments</li>
-              <li>Two-Way SMS &amp; 10+ Automated Alerts</li>
-              <li>Package Plans &amp; Renewal Tracking</li>
-              <li>Mobile App for Technicians</li>
-              <li>500 Outbound SMS/month included</li>
+              <li>Line-Item Estimates &amp; Bids</li>
+              <li>Materials &amp; Products Tracking</li>
+              <li>Project Scheduling &amp; Job Board</li>
+              <li>Crew Dispatch, Routing &amp; Route Map</li>
+              <li>Invoicing &amp; Card-on-File Payments</li>
+              <li>Two-Way Customer Texts &amp; 10+ Automated Alerts</li>
+              <li>Recurring Maintenance Plans &amp; Renewal Tracking</li>
+              <li>Mobile App for Crews</li>
+              <li>500 Outbound Texts/month included</li>
               <li>14-day free trial — no credit card required</li>
             </ul>
             <button className="price-btn price-btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(2, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
@@ -297,7 +297,7 @@ export default function VsHousecallPro() {
       </section>
 
       <div className="cta-band">
-        <h2>Done Paying for General Home Service Software<span>That Doesn&apos;t Know What a Spray Business Needs?</span></h2>
+        <h2>Done Paying for General Home Service Software<span>That Doesn&apos;t Know What a Landscaping Business Needs?</span></h2>
         <p>Try LandscapeBossPro free for 14 days. No credit card required. Set up in an afternoon.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>

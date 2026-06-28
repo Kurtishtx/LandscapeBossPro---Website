@@ -2,29 +2,25 @@
 import { useState } from 'react';
 
 const solutions = [
-  { label: 'Lawn Care Software',           href: '/lawn-care-software' },
-  { label: 'Lawn Care Scheduling',         href: '/lawn-care-scheduling-software' },
-  { label: 'Mosquito Control Software',    href: '/mosquito-control-software' },
-  { label: 'Mosquito Spray Software',      href: '/mosquito-spray-software' },
-  { label: 'Pest Control Software',        href: '/pest-control-software' },
-  { label: 'Pest Control Scheduling',      href: '/pest-control-scheduling-software' },
-  { label: 'Spray Business Software',      href: '/spray-business-software' },
-  { label: 'Weed Control Software',        href: '/weed-control-software' },
-  { label: 'Fertilizer Software',          href: '/fertilizer-software' },
+  { label: 'Landscaping Software',         href: '/landscaping-software' },
+  { label: 'Landscape Estimating',         href: '/landscape-estimating-software' },
+  { label: 'Landscape Scheduling',         href: '/landscape-scheduling-software' },
+  { label: 'Crew & Dispatch',              href: '/landscape-crew-dispatch-software' },
+  { label: 'Invoicing & Billing',          href: '/landscaping-invoicing-software' },
+  { label: 'Landscape Business Software',  href: '/landscape-business-software' },
+  { label: 'Landscape Maintenance',        href: '/landscape-maintenance-software' },
+  { label: 'Customer Management',          href: '/landscape-customer-management-software' },
 ];
 
 const comparisons = [
   { label: 'vs. Jobber',             href: '/vs-jobber' },
   { label: 'vs. ServiceTitan',       href: '/vs-servicetitan' },
-  { label: 'vs. GorillaDesk',        href: '/vs-gorilladesk' },
-  { label: 'vs. Housecall Pro',      href: '/vs-housecallpro' },
-  { label: 'vs. FieldRoutes',        href: '/vs-fieldroutes' },
-  { label: 'vs. Service AutoPilot',  href: '/vs-serviceautopilot' },
-  { label: 'vs. Spraye',             href: '/vs-spraye' },
-  { label: 'vs. RealGreen',          href: '/vs-realgreen' },
-  { label: 'vs. LawnPro',            href: '/vs-lawnpro' },
-  { label: 'vs. CLIP',               href: '/vs-clip' },
   { label: 'vs. Aspire',             href: '/vs-aspire' },
+  { label: 'vs. LMN',                href: '/vs-lmn' },
+  { label: 'vs. Yardbook',           href: '/vs-yardbook' },
+  { label: 'vs. SingleOps',          href: '/vs-singleops' },
+  { label: 'vs. Service AutoPilot',  href: '/vs-serviceautopilot' },
+  { label: 'vs. Housecall Pro',      href: '/vs-housecallpro' },
 ];
 
 export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElement) => void }) {

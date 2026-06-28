@@ -138,8 +138,8 @@ export default function VsAspire() {
 
       <div className="hero">
         <div className="hero-badge">Aspire Software Alternative</div>
-        <h1>Aspire Costs $1,299/Month on Average.<br /><span>LandscapeBossPro Is $129. That&apos;s 10x Less — With Features Aspire Doesn&apos;t Have.</span></h1>
-        <p>Aspire is an enterprise ERP built for $5M+ landscaping companies with 100+ employees. If you&apos;re a spray business, you&apos;d pay 10x more for complexity you&apos;ll never use — and still miss the spray-specific features LandscapeBossPro has at $129.</p>
+        <h1>Aspire Costs $1,299/Month on Average.<br /><span>LandscapeBossPro Is $129. That&apos;s 10x Less — and You&apos;re Running Estimates Today, Not Months From Now.</span></h1>
+        <p>Aspire is an enterprise ERP built for $5M+ landscaping companies with 100+ employees and months of onboarding. If you run a growing landscaping or design-build business, you&apos;d pay 10x more for complexity you&apos;ll never use. LandscapeBossPro gives you line-item estimates, materials tracking, scheduling, and invoicing at $129 — set up in a day.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -147,7 +147,7 @@ export default function VsAspire() {
           <div><div className="hero-stat-val">$1,299</div><div className="hero-stat-lbl">Aspire Monthly Average</div></div>
           <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">LandscapeBossPro — Everything Included</div></div>
           <div><div className="hero-stat-val">10x</div><div className="hero-stat-lbl">Less Than Aspire</div></div>
-          <div><div className="hero-stat-val">Grows</div><div className="hero-stat-lbl">With Your Spray Business</div></div>
+          <div><div className="hero-stat-val">1 Day</div><div className="hero-stat-lbl">To Set Up — Not Months</div></div>
         </div>
       </div>
 
@@ -155,7 +155,7 @@ export default function VsAspire() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">What Aspire Actually Costs</span>
           <h2 className="section-title">Aspire at $1,299/Month vs LandscapeBossPro at $129/Month — The 10x Difference</h2>
-          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>Aspire is a full enterprise ERP — job costing, crew management, equipment tracking, multi-branch operations, CRM, and more. It&apos;s built for large landscaping companies with complex operational needs. For a spray business, you&apos;d pay $1,299/month on average for tools you&apos;ll never use, without the spray-specific features LandscapeBossPro has.</p>
+          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>Aspire is a full enterprise ERP — heavy job costing, equipment fleets, multi-branch operations, and a months-long implementation. It&apos;s built for the largest landscaping companies. For most install, design-build, and maintenance crews, you&apos;d pay $1,299/month on average for complexity you&apos;ll never touch. LandscapeBossPro covers estimates, materials, scheduling, dispatch, and invoicing for $129 — live in a day.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="highlight-row">
@@ -186,16 +186,16 @@ export default function VsAspire() {
             </div>
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">10x Less</span>
-              <h2>Aspire Is an Enterprise ERP. LandscapeBossPro Is Built for Spray Routes. Those Aren&apos;t the Same Thing.</h2>
-              <p>Aspire software is a full business management platform built for large landscaping operations with multi-million dollar revenue, dozens of crews, and complex job costing requirements. The average operator pays ~$1,299/month or more once licensing and implementation are factored in.</p>
-              <p>LandscapeBossPro is $129/month — designed for spray businesses running recurring treatment schedules. Lasso routing, sq ft waiting lists by service type, chemical compliance logs — these are built into LandscapeBossPro. They don&apos;t exist in Aspire.</p>
+              <h2>Aspire Is a Heavyweight Enterprise ERP. LandscapeBossPro Is Built to Get You Bidding and Billing Fast.</h2>
+              <p>Aspire software is a full business management platform built for the largest landscaping operations — multi-million dollar revenue, dozens of crews, and a long implementation before you ever send a bid. The average operator pays ~$1,299/month or more once licensing and onboarding are factored in.</p>
+              <p>LandscapeBossPro is $129/month — built for landscaping and design-build crews who need to win work now. Line-item estimates, materials and products tracking, project scheduling, crew dispatch, and card-on-file invoicing are all included and ready in a day.</p>
               <ul className="check-list">
                 <li>$129/month — 10x less than Aspire&apos;s average</li>
-                <li>Sq ft waiting list by service type — not in Aspire</li>
-                <li>Lasso circle route selector — not in Aspire</li>
-                <li>Chemical compliance logs — not a core Aspire feature</li>
+                <li>Line-item estimates &amp; bids — ready out of the box</li>
+                <li>Materials &amp; products tracking on every job</li>
+                <li>Project scheduling, crew dispatch &amp; routing built in</li>
                 <li>14-day free trial — no card required, start now</li>
-                <li>Set up in hours — not months of onboarding</li>
+                <li>Set up in a day — not months of onboarding</li>
               </ul>
             </div>
           </div>
@@ -203,15 +203,15 @@ export default function VsAspire() {
       </section>
 
       <div className="premium-band">
-        <h2>Aspire Is an ERP for $5M Landscaping Companies.<span>You&apos;re a Spray Business. That&apos;s Not the Same Thing.</span></h2>
-        <p>Aspire has job costing, equipment tracking, multi-branch management, proposal tools, and full crew management. It&apos;s powerful — for the right company. A spray business running recurring treatment routes doesn&apos;t need an enterprise ERP. It needs sq ft tracking, lasso routing, chemical logs, and a waiting list by service type. LandscapeBossPro has all of that at $129/month.</p>
+        <h2>Aspire Is an ERP for $5M Landscaping Companies.<span>Most Crews Just Need to Bid, Schedule, and Get Paid.</span></h2>
+        <p>Aspire has deep job costing, equipment fleet tracking, multi-branch management, and a months-long rollout. It&apos;s powerful — for the right company. A growing install, hardscape, planting, or maintenance business doesn&apos;t need an enterprise ERP. It needs line-item estimates, materials tracking, a job board, crew dispatch, recurring maintenance plans, and fast invoicing. LandscapeBossPro has all of that at $129/month.</p>
       </div>
 
       <section>
         <div className="centered" style={{maxWidth:'960px', margin:'0 auto 48px'}}>
           <span className="section-label">Side by Side</span>
           <h2 className="section-title">LandscapeBossPro vs Aspire Software</h2>
-          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>A complete feature comparison — including the spray-specific tools LandscapeBossPro has that Aspire doesn&apos;t, and the price difference that matters most.</p>
+          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>A complete feature comparison — including the everyday landscaping tools you actually use, the speed to get started, and the price difference that matters most.</p>
         </div>
         <div className="compare-wrap">
           <table className="compare-table">
@@ -225,18 +225,18 @@ export default function VsAspire() {
             <tbody>
               <tr><td className="feature-name">Monthly Price</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129/month flat</td><td style={{color:'#dc2626', fontWeight:700}}>~$1,299/month avg</td></tr>
               <tr><td className="feature-name">Published Pricing</td><td className="sbp-col"><span className="chk">✓ $129 — right here</span></td><td><span className="crs">✗ Custom quote only</span></td></tr>
-              <tr><td className="feature-name">Sq Ft Waiting List by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Lasso Circle Map Route Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Chemical Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Not a core feature</span></td></tr>
-              <tr><td className="feature-name">Two-Way SMS Inbox</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="prt">Add-on / integration</span></td></tr>
+              <tr><td className="feature-name">Line-Item Estimates &amp; Bids</td><td className="sbp-col"><span className="chk">✓ Built in</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Materials &amp; Products Tracking</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Recurring Maintenance Plans</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Two-Way Customer Texts</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="prt">Add-on / integration</span></td></tr>
               <tr><td className="feature-name">14-Day Free Trial</td><td className="sbp-col"><span className="chk">✓ No card required</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Recurring Treatment Waiting List</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Setup Time</td><td className="sbp-col"><span className="chk">Hours — self-serve</span></td><td><span className="prt">Weeks of onboarding</span></td></tr>
+              <tr><td className="feature-name">Job Board &amp; Crew Dispatch</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Setup Time</td><td className="sbp-col"><span className="chk">A day — self-serve</span></td><td><span className="prt">Months of onboarding</span></td></tr>
               <tr><td className="feature-name">No Annual Contract</td><td className="sbp-col"><span className="chk">✓ Month-to-month</span></td><td><span className="crs">✗ Annual contract</span></td></tr>
-              <tr><td className="feature-name">Package Plans &amp; Renewals</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Invoicing &amp; Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Scheduling &amp; Dispatch</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
-              <tr><td className="feature-name">Job Costing &amp; Crew Management</td><td className="sbp-col"><span className="prt">Not applicable — spray</span></td><td><span className="chk">✓ Enterprise-grade</span></td></tr>
-              <tr><td className="feature-name">Mobile App for Technicians</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Enterprise Job Costing &amp; Equipment Fleets</td><td className="sbp-col"><span className="prt">Lightweight — most crews don&apos;t need it</span></td><td><span className="chk">✓ Enterprise-grade</span></td></tr>
+              <tr><td className="feature-name">Mobile App for Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
             </tbody>
           </table>
         </div>
@@ -245,13 +245,13 @@ export default function VsAspire() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Right Fit</span>
-          <h2 className="section-title">Aspire Is Built for Large Landscaping Operations. LandscapeBossPro Is Built for Spray Routes.</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>Aspire is a genuinely powerful platform — for the right company. It&apos;s overkill for a spray business and still misses the spray-specific features you need. LandscapeBossPro is purpose-built for how spray businesses actually work.</p>
+          <h2 className="section-title">Aspire Is Built for the Biggest Landscaping Operations. LandscapeBossPro Is Built for the Rest of Us.</h2>
+          <p className="section-sub" style={{maxWidth:'720px'}}>Aspire is a genuinely powerful platform — for the right company. For most install, design-build, hardscape, planting, and maintenance crews it&apos;s overkill and slow to launch. LandscapeBossPro is purpose-built for how landscaping businesses actually bid, schedule, and get paid.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>10x Less — $1,170 Saved Every Month</h3><p>Aspire averages ~$1,299/month. LandscapeBossPro is $129/month. That&apos;s $1,170 saved every single month — $14,040 per year — on software that was actually built for how spray businesses operate. The savings alone pay for significant business growth.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>Built for Spray — Not Landscaping ERPs</h3><p>Aspire was designed for multi-million dollar landscaping companies with complex crew management, equipment tracking, and multi-branch operations. Spray businesses need sq ft waiting lists, lasso routing, chemical compliance logs, and recurring treatment tracking. Those features don&apos;t exist in Aspire. They&apos;re built into LandscapeBossPro.</p></div>
-          <div className="simple-card"><div className="simple-num">03</div><h3>Hours to Set Up — Not Months</h3><p>Aspire requires a significant implementation and onboarding process — weeks of setup, training, and configuration before you&apos;re operational. LandscapeBossPro is self-serve. Start your free trial, add your clients, build your routes, and send your first estimate in a single afternoon.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>10x Less — $1,170 Saved Every Month</h3><p>Aspire averages ~$1,299/month. LandscapeBossPro is $129/month. That&apos;s $1,170 saved every single month — $14,040 per year — on software actually built for how landscaping crews operate. The savings alone fund a new truck, a new crew member, or more marketing.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>Built for Landscaping Work — Not Heavyweight ERPs</h3><p>Aspire was designed for multi-million dollar companies with complex crew management, equipment fleet tracking, and multi-branch operations. Most landscaping businesses need line-item estimates, materials and products tracking, project scheduling, a job board, dispatch, and fast invoicing. That&apos;s exactly what LandscapeBossPro delivers — without the enterprise weight.</p></div>
+          <div className="simple-card"><div className="simple-num">03</div><h3>A Day to Set Up — Not Months</h3><p>Aspire requires a significant implementation and onboarding process — months of setup, training, and configuration before you&apos;re operational. LandscapeBossPro is self-serve. Start your free trial, add your clients and properties, build your jobs, and send your first line-item estimate in a single afternoon.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Month-to-Month — No Lock-In</h3><p>LandscapeBossPro is month-to-month from day one with a 14-day free trial. No annual contract required. No implementation fees. No credit card to start your trial. Aspire requires an annual contract and a significant upfront commitment. LandscapeBossPro has to earn your business every month.</p></div>
         </div>
       </section>
@@ -272,15 +272,15 @@ export default function VsAspire() {
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
-              <li>Sq Ft Waiting List by Service Type</li>
-              <li>Lasso Circle Map Route Selector</li>
-              <li>Chemical Compliance Logs &amp; Reports</li>
-              <li>Full Scheduling, Dispatch &amp; Route Map</li>
-              <li>Estimates, Invoices &amp; Card-on-File Payments</li>
-              <li>Two-Way SMS &amp; 10+ Automated Alerts</li>
-              <li>Package Plans &amp; Renewal Tracking</li>
-              <li>Mobile App for Technicians</li>
-              <li>500 Outbound SMS/month included</li>
+              <li>Line-Item Estimates &amp; Bids</li>
+              <li>Materials &amp; Products Tracking</li>
+              <li>Job Board, Project Scheduling &amp; Dispatch</li>
+              <li>Crew Routing &amp; Mobile App</li>
+              <li>Invoices &amp; Card-on-File Payments</li>
+              <li>Two-Way Customer Texts &amp; Automated Alerts</li>
+              <li>Recurring Maintenance Plans</li>
+              <li>Client &amp; Property Profiles</li>
+              <li>Reports &amp; Job Tracking</li>
               <li>14-day free trial — no credit card required</li>
             </ul>
             <button className="price-btn price-btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(2, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
@@ -290,8 +290,8 @@ export default function VsAspire() {
       </section>
 
       <div className="cta-band">
-        <h2>Why Pay $1,299/Month for Software<span>Built for a Different Industry? LandscapeBossPro Is $129.</span></h2>
-        <p>Spray-specific features, $129/month flat, 14-day free trial. Start today — no demo required, no card needed.</p>
+        <h2>Why Pay $1,299/Month for an Enterprise ERP<span>You&apos;ll Wait Months to Use? LandscapeBossPro Is $129.</span></h2>
+        <p>Estimates, materials, scheduling, dispatch, and invoicing — $129/month flat, 14-day free trial. Start today — no demo required, no card needed, live in a day.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>

@@ -122,26 +122,26 @@ async function sbpCreateAccount(n: number) {
 function sbpShowErr(el: HTMLElement, msg: string) { el.textContent = msg; el.style.display = 'block'; }
 
 const tableRows = [
-  ['Scheduling & Dispatch Board', 'Schedule stops, assign techs, build routes, view day summary'],
-  ['Sq Ft Waiting List', 'See total sq ft waiting per service type before you build a route'],
-  ['Live Route Map', 'Interactive map with all stops pinned — drag to reorder'],
-  ['Chemical Application Tracking', 'Log product, rate, gallons, weather, and tech per stop'],
-  ['Compliance Reports', 'Print-ready pesticide application reports for any inspector'],
-  ['Estimates', 'Build, email, and track estimates with a service catalog'],
+  ['Line-Item Estimates & Bids', 'Build detailed bids with labor and material line items, email and track them'],
+  ['Materials & Products Tracking', 'Track mulch, sod, plants, stone, and hardscape materials per project'],
+  ['Job & Project Scheduling', 'Schedule installs and projects, assign crews, view the day at a glance'],
+  ['Job Board', 'See every active project, its stage, and what crew is on it'],
+  ['Crew Dispatch & Routing', 'Build routes, assign crews, and dispatch the day in a few clicks'],
+  ['Live Route Map', 'Interactive map with all job sites pinned — drag to reorder'],
   ['Invoices & Payments', 'Stripe card-on-file billing, payment history, partial payments'],
+  ['Recurring Maintenance Plans', 'Set up recurring landscape maintenance visits with auto-billing'],
   ['Two-Way SMS Inbox', 'Send and receive texts with customers inside the app'],
-  ['Automated SMS Alerts (10+ types)', 'Service scheduled, completed, estimate sent, review request, and more'],
-  ['Estimate Follow-Up Sequence', "3 automated texts if a client doesn't respond to an estimate"],
+  ['Automated SMS Alerts (10+ types)', 'Project scheduled, completed, estimate sent, review request, and more'],
+  ['Estimate Follow-Up Sequence', "3 automated texts if a client doesn't respond to a bid"],
   ['Payment Follow-Up Sequence', '3 automated texts for unpaid invoices'],
-  ['Package Programs', 'Multi-treatment packages with renewal tracking'],
   ['Client & Lead Management', 'Full CRM for existing customers and open prospects'],
-  ['Property Profiles', 'Service history, chemical logs, notes, sq ft, GPS per address'],
-  ['Mobile App for Technicians', 'Field-optimized stop list, mark complete, log chemicals'],
-  ['Role-Based Access', 'Owner, Manager, Office, Tech, Mobile — granular permissions'],
-  ['Truck Management', 'Assign vehicles to routes, track by truck'],
+  ['Property Profiles', 'Project history, materials used, notes, sq ft, GPS per address'],
+  ['Mobile App for Crews', 'Field-optimized job list, mark complete, log materials and hours'],
+  ['Role-Based Access', 'Owner, Manager, Office, Crew Lead, Mobile — granular permissions'],
+  ['Equipment & Truck Management', 'Assign vehicles to crews and routes, track by truck'],
   ['Employee Hour Tracking', 'Hours per job, payroll-ready reports'],
-  ['Google Review Requests', 'Auto-sent after every completed service'],
-  ['Dashboard & Reports', 'Revenue, stops, money owed, properties served — at a glance'],
+  ['Google Review Requests', 'Auto-sent after every completed project'],
+  ['Dashboard & Reports', 'Revenue, jobs, money owed, properties served — at a glance'],
   ['Discount Codes & Sales Tax', 'Percentage or flat discounts, auto tax calculation per invoice'],
   ['Unlimited Users', 'Add every employee at no per-user cost'],
   ['Unlimited Clients & Properties', 'No caps — 50 accounts or 5,000, same price'],
@@ -155,8 +155,8 @@ const faqs = [
   { q: 'How many users can I add?', a: 'Unlimited. Add every tech, office staff member, and manager at no extra cost. No per-user fees. Ever.' },
   { q: "What's the SMS pricing?", a: '500 outbound SMS messages per month are included in your $129. If you go over, you can add blocks of 500 for $15 each. Most businesses with under 300 active properties never hit the 500 limit.' },
   { q: 'Are there any contracts or annual commitments?', a: 'None. Month to month, always. Cancel anytime from your account settings.' },
-  { q: 'Does this work for both lawn care and pest control?', a: 'Yes. LandscapeBossPro was built for spray businesses — lawn care, pest control, mosquito treatment, or any combination. The service types, chemical tracking, and waiting list work the same way regardless of what you spray.' },
-  { q: 'What if I have questions or need help getting set up?', a: "We're a small team and we respond fast. Reach us anytime at support@landscapebosspro.com. We've run routes ourselves — we know what setup actually looks like and we're here to help." },
+  { q: 'Does this work for installs and recurring maintenance?', a: 'Yes. LandscapeBossPro was built for landscaping businesses — design-build, hardscape, planting, sod installs, and recurring landscape maintenance, or any combination. Line-item estimates, materials tracking, and crew dispatch work the same way regardless of the project.' },
+  { q: 'What if I have questions or need help getting set up?', a: "We're a small team and we respond fast. Reach us anytime at support@landscapebosspro.com. We've run crews ourselves — we know what setup actually looks like and we're here to help." },
 ];
 
 export default function Pricing() {
@@ -196,9 +196,9 @@ export default function Pricing() {
           <div style={{fontSize:'13px',fontWeight:700,color:'var(--muted)',textTransform:'uppercase',letterSpacing:'1px',marginBottom:'10px'}}>LandscapeBossPro</div>
           <div style={{fontSize:'72px',fontWeight:800,color:'var(--text)',lineHeight:1}}><sup style={{fontSize:'30px',verticalAlign:'super'}}>$</sup>129</div>
           <div style={{color:'var(--muted)',fontSize:'15px',marginBottom:'8px',marginTop:'6px'}}>per month</div>
-          <div style={{fontSize:'16px',color:'var(--text)',fontWeight:600,marginBottom:'32px'}}>Your entire lawn care or pest control operation. One price.</div>
+          <div style={{fontSize:'16px',color:'var(--text)',fontWeight:600,marginBottom:'32px'}}>Your entire landscaping operation. One price.</div>
           <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:'10px 24px',marginBottom:'36px',textAlign:'left'}}>
-            {['Unlimited Users','Unlimited Clients','Unlimited Properties','Unlimited Leads','Scheduling & Dispatch','Live Route Map','Sq Ft Waiting List','Chemical Tracking','Estimates & Invoices','Stripe Payments','Two-Way SMS Inbox','Automated Alerts','Package Programs','Mobile App for Techs','Chemical Compliance Reports','Role-Based Access','Truck Management','Hour Tracking','Review Requests','Dashboard & Reports'].map((item,i) => (
+            {['Unlimited Users','Unlimited Clients','Unlimited Properties','Unlimited Leads','Job & Project Scheduling','Live Route Map','Job Board','Materials Tracking','Estimates & Invoices','Stripe Payments','Two-Way SMS Inbox','Automated Alerts','Recurring Maintenance Plans','Mobile App for Crews','Crew Dispatch & Routing','Role-Based Access','Equipment & Truck Management','Hour Tracking','Review Requests','Dashboard & Reports'].map((item,i) => (
               <div key={i} style={{display:'flex',alignItems:'center',gap:'8px',fontSize:'14px',color:'var(--text)'}}>
                 <span style={{color:'var(--orange)',fontWeight:700,flexShrink:0,fontSize:'15px'}}>✓</span>{item}
               </div>
@@ -219,9 +219,9 @@ export default function Pricing() {
         <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(200px,1fr))',gap:'24px',maxWidth:'900px',margin:'0 auto'}}>
           {[
             {old:'$149/user/mo',nw:'$129 flat',desc:'Unlimited users. Add every tech and office staff at no extra cost.'},
-            {old:'Locked features',nw:'All features',desc:'No tiers. No "upgrade to access chemical tracking." Everything is included.'},
+            {old:'Locked features',nw:'All features',desc:'No tiers. No "upgrade to access materials tracking." Everything is included.'},
             {old:'Annual contracts',nw:'Month to month',desc:'No contracts. No cancellation fees. Stop whenever you want.'},
-            {old:'Generic software',nw:'Built for spray',desc:'Sq ft waiting lists, chemical logs, spray-specific workflows. Not adapted from a plumbing app.'},
+            {old:'Generic software',nw:'Built for landscaping',desc:'Line-item estimates, materials tracking, crew dispatch, project workflows. Not adapted from a plumbing app.'},
           ].map((c,i) => (
             <div key={i} style={{background:'rgba(255,255,255,.06)',border:'1px solid rgba(255,255,255,.1)',borderRadius:'12px',padding:'24px 20px'}}>
               <div style={{color:'rgba(255,255,255,.35)',fontSize:'13px',fontWeight:600,textTransform:'uppercase',letterSpacing:'1px',marginBottom:'6px',textDecoration:'line-through'}}>{c.old}</div>
@@ -271,7 +271,7 @@ export default function Pricing() {
               <div style={{fontSize:'17px',fontWeight:700,color:'var(--text)',marginBottom:'10px'}}>{f.q}</div>
               <div style={{fontSize:'15px',color:'var(--muted)',lineHeight:1.7}}>
                 {f.q.includes('help getting set up') ? (
-                  <>We&apos;re a small team and we respond fast. Reach us anytime at <a href="mailto:support@landscapebosspro.com" style={{color:'var(--orange)'}}>support@landscapebosspro.com</a>. We&apos;ve run routes ourselves — we know what setup actually looks like and we&apos;re here to help.</>
+                  <>We&apos;re a small team and we respond fast. Reach us anytime at <a href="mailto:support@landscapebosspro.com" style={{color:'var(--orange)'}}>support@landscapebosspro.com</a>. We&apos;ve run crews ourselves — we know what setup actually looks like and we&apos;re here to help.</>
                 ) : f.a}
               </div>
             </div>

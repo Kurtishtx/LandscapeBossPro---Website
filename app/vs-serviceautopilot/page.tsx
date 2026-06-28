@@ -149,8 +149,8 @@ export default function VsServiceAutopilot() {
 
       <div className="hero">
         <div className="hero-badge">Service Autopilot Alternative</div>
-        <h1>SA Costs $500+/Month to Get Close to What SBP Offers.<br /><span>And Even Then, It Still Doesn&apos;t Have Everything.</span></h1>
-        <p>Service Autopilot has tiers. Route optimization is $199/month. Automations are $499/month. Two-way texting costs even more. LandscapeBossPro is $129/month with everything included — plus an accurate lasso, sq ft waiting list, and chemical compliance logs that SA doesn&apos;t have at any price.</p>
+        <h1>SA Costs $500+/Month to Get Close to What LandscapeBossPro Offers.<br /><span>And Even Then, It Still Isn&apos;t Built for Landscaping.</span></h1>
+        <p>Service Autopilot has tiers. Route optimization is $199/month. Automations are $499/month. Two-way texting costs even more. LandscapeBossPro is $129/month with everything included — line-item estimates, materials tracking, crew dispatch, and recurring maintenance plans built for landscaping, not bolted on.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -158,7 +158,7 @@ export default function VsServiceAutopilot() {
           <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">LandscapeBossPro — Everything Included</div></div>
           <div><div className="hero-stat-val">$0</div><div className="hero-stat-lbl">Sign-Up Fee for LandscapeBossPro</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Users — No Per-Seat Fees</div></div>
-          <div><div className="hero-stat-val">Accurate</div><div className="hero-stat-lbl">Lasso Sq Ft — SA Overstates It</div></div>
+          <div><div className="hero-stat-val">Built</div><div className="hero-stat-lbl">For Landscaping — Not Generic</div></div>
         </div>
       </div>
 
@@ -178,23 +178,23 @@ export default function VsServiceAutopilot() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="feature-name">Sq Ft Waiting List by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Accurate Lasso Sq Ft Calculation</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Overstates by service count</span></td></tr>
-              <tr><td className="feature-name">Chemical Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Route Optimization</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="prt">Pro tier — $199/mo</span></td></tr>
+              <tr><td className="feature-name">Line-Item Estimates &amp; Bids</td><td className="sbp-col"><span className="chk">✓ Built in</span></td><td><span className="prt">Add-on / higher tier</span></td></tr>
+              <tr><td className="feature-name">Materials &amp; Products Tracking</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Job &amp; Project Scheduling</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Crew Dispatch &amp; Routing</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="prt">Pro tier — $199/mo</span></td></tr>
               <tr><td className="feature-name">Automations &amp; Workflows</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="prt">Pro Plus — $499/mo</span></td></tr>
               <tr><td className="feature-name">Two-Way SMS Texting</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="prt">Elite tier — call for pricing</span></td></tr>
               <tr><td className="feature-name">No Sign-Up Fee</td><td className="sbp-col"><span className="chk">✓ $0</span></td><td><span className="crs">✗ Sign-up fee required</span></td></tr>
               <tr><td className="feature-name">Unlimited Users at Flat Price</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Per-user pricing applies</span></td></tr>
-              <tr><td className="feature-name">Lasso Circle Map Route Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Map select — inaccurate sq ft</span></td></tr>
-              <tr><td className="feature-name">Recurring Treatment Waiting List</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Job Board for Open Projects</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
+              <tr><td className="feature-name">Recurring Maintenance Plans</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Package Plans &amp; Renewal Tracking</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
-              <tr><td className="feature-name">Mobile App for Technicians</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Mobile App for Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">No Annual Contract</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Varies by tier</span></td></tr>
               <tr><td className="feature-name">Entry Price (basic features)</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129/month</td><td style={{color:'var(--muted)'}}>$49/month (very limited)</td></tr>
-              <tr><td className="feature-name">Price with Route Optimization</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129/month</td><td style={{color:'var(--muted)'}}>$199/month (Pro)</td></tr>
+              <tr><td className="feature-name">Price with Crew Routing</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129/month</td><td style={{color:'var(--muted)'}}>$199/month (Pro)</td></tr>
               <tr><td className="feature-name">Price with Automations + SMS</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129/month</td><td style={{color:'var(--muted)'}}>$499+/month (Pro Plus / Elite)</td></tr>
             </tbody>
           </table>
@@ -204,19 +204,19 @@ export default function VsServiceAutopilot() {
       <section id="lasso" className="dark-section">
         <div className="highlight-row">
           <div className="highlight-text">
-            <span className="section-label">Lasso — Accurate by Service Type</span>
-            <h2 style={{color:'#fff'}}>Service Autopilot Has Map Selection.<br />LandscapeBossPro Has an Accurate Lasso.</h2>
-            <p style={{color:'rgba(255,255,255,.65)'}}>Service Autopilot has a map selection tool — but it overstates sq ft by counting each service separately. If a property has Lawn Care 4 and Mosquito scheduled, SA counts the sq ft twice. LandscapeBossPro counts the property sq ft once and breaks down the services separately. The difference is roughly 2x — and it matters when you&apos;re pricing and planning routes.</p>
+            <span className="section-label">Estimates — Built for Project Work</span>
+            <h2 style={{color:'#fff'}}>Service Autopilot Schedules Visits.<br />LandscapeBossPro Builds the Whole Project.</h2>
+            <p style={{color:'rgba(255,255,255,.65)'}}>Service Autopilot was built around recurring visit routes. Landscaping is project and material heavy — a single design-build or hardscape job has dozens of line items, material quantities, and labor stages. LandscapeBossPro builds line-item estimates with materials and products attached, then turns the accepted bid straight into a scheduled project with crews assigned. SA makes you bolt that workflow on.</p>
             <ul className="check-list" style={{marginTop:'20px'}}>
-              <li style={{color:'rgba(255,255,255,.75)'}}>SBP counts property sq ft once — SA counts per service and overstates</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Accurate sq ft waiting list — know exactly how much work is due</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Service type breakdown shown separately from total sq ft</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Accurate data means accurate pricing and route planning</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Line-item estimates with materials, products, and labor per stage</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Accepted bid becomes a scheduled project — no re-entry</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Track materials and products against every job</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Crews dispatched and routed to the right project each day</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Available at $129/month — not locked behind SA&apos;s $199 Pro tier</li>
             </ul>
           </div>
           <div className="highlight-visual-dark">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Lasso — Sq Ft Accuracy Comparison</div>
+            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Estimate — Line Items &amp; Materials</div>
             <div className="lasso-map">
               <div className="lasso-ring"></div>
               <div className="lasso-pins">
@@ -227,11 +227,11 @@ export default function VsServiceAutopilot() {
               </div>
             </div>
             <div className="stat-grid">
-              <div className="stat-cell warn"><div className="stat-val">~236,800</div><div className="stat-lbl">SA shows — counts sq ft per service (inaccurate)</div></div>
-              <div className="stat-cell"><div className="stat-val">118,400</div><div className="stat-lbl">What SBP shows — actual property sq ft</div></div>
-              <div className="stat-cell"><div className="stat-val">14</div><div className="stat-lbl">Stops Selected</div></div>
-              <div className="stat-cell"><div className="stat-val">19</div><div className="stat-lbl">Total Services</div></div>
-              <div className="stat-cell full"><div className="stat-val">Lawn Care 4 · 8 &nbsp;|&nbsp; Mosquito · 6 &nbsp;|&nbsp; Insect · 5</div><div className="stat-lbl">SBP Breakdown — Services Counted Separately</div></div>
+              <div className="stat-cell warn"><div className="stat-val">Add-on</div><div className="stat-lbl">SA — detailed material estimates not built in</div></div>
+              <div className="stat-cell"><div className="stat-val">Built in</div><div className="stat-lbl">LandscapeBossPro — line-item estimates with materials</div></div>
+              <div className="stat-cell"><div className="stat-val">24</div><div className="stat-lbl">Line Items on Bid</div></div>
+              <div className="stat-cell"><div className="stat-val">$18,400</div><div className="stat-lbl">Project Total</div></div>
+              <div className="stat-cell full"><div className="stat-val">Plantings · 9 &nbsp;|&nbsp; Hardscape · 8 &nbsp;|&nbsp; Sod &amp; Grading · 7</div><div className="stat-lbl">LandscapeBossPro Breakdown — Materials by Project Stage</div></div>
             </div>
           </div>
         </div>
@@ -240,8 +240,8 @@ export default function VsServiceAutopilot() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">The Real SA Pricing Ladder</span>
-          <h2 className="section-title">SA Starts at $49. But You&apos;ll Need $499+ to Get What SBP Gives You at $129.</h2>
-          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>Service Autopilot&apos;s pricing looks affordable at the Startup tier — but that tier has very limited functionality. Every major feature that makes SA worth using is locked behind a higher tier.</p>
+          <h2 className="section-title">SA Starts at $49. But You&apos;ll Need $499+ to Get What LandscapeBossPro Gives You at $129.</h2>
+          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>Service Autopilot&apos;s pricing looks affordable at the Startup tier — but that tier has very limited functionality. Every major feature that makes SA worth using for a landscaping crew is locked behind a higher tier.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="highlight-row">
@@ -255,7 +255,7 @@ export default function VsServiceAutopilot() {
                 <div className="sa-tier">
                   <div className="sa-tier-name">Pro</div>
                   <div className="sa-tier-price">$199</div>
-                  <div className="sa-tier-note">Route optimization unlocked</div>
+                  <div className="sa-tier-note">Crew routing unlocked</div>
                 </div>
                 <div className="sa-tier">
                   <div className="sa-tier-name">Pro Plus</div>
@@ -269,24 +269,24 @@ export default function VsServiceAutopilot() {
                 </div>
               </div>
               <div style={{background:'linear-gradient(135deg, var(--purple-deep) 0%, #15321f 100%)', borderRadius:'10px', padding:'18px', border:'2px solid rgba(27,110,59,.3)'}}>
-                <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', fontWeight:700, textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>What it costs to match SBP at SA</div>
-                <div className="mock-item"><div className="mock-dot red"></div><div><div className="mock-label">Route Optimization</div><div className="mock-sub">SA Pro tier required</div></div><div className="mock-badge red-badge">$199/mo</div></div>
+                <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', fontWeight:700, textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>What it costs to match LandscapeBossPro at SA</div>
+                <div className="mock-item"><div className="mock-dot red"></div><div><div className="mock-label">Crew Routing</div><div className="mock-sub">SA Pro tier required</div></div><div className="mock-badge red-badge">$199/mo</div></div>
                 <div className="mock-item"><div className="mock-dot red"></div><div><div className="mock-label">Automations</div><div className="mock-sub">SA Pro Plus tier required</div></div><div className="mock-badge red-badge">$499/mo</div></div>
                 <div className="mock-item"><div className="mock-dot red"></div><div><div className="mock-label">Two-Way Texting</div><div className="mock-sub">SA Elite tier required</div></div><div className="mock-badge red-badge">Call</div></div>
-                <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">LandscapeBossPro</div><div className="mock-sub">Everything included — plus lasso &amp; chemical logs</div></div><div className="mock-badge">$129/mo</div></div>
+                <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">LandscapeBossPro</div><div className="mock-sub">Everything included — plus estimates &amp; materials tracking</div></div><div className="mock-badge">$129/mo</div></div>
               </div>
             </div>
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">The Real Cost</span>
-              <h2>$499+/Month at SA Still Doesn&apos;t Get You Everything SBP Includes at $129.</h2>
-              <p>Even at SA&apos;s top published tier ($499/month for Pro Plus), you&apos;re still missing the accurate lasso, sq ft waiting list by service type, and chemical compliance logs. Those don&apos;t exist in SA at any price. LandscapeBossPro includes everything at $129/month with no sign-up fee.</p>
+              <h2>$499+/Month at SA Still Doesn&apos;t Get You Everything LandscapeBossPro Includes at $129.</h2>
+              <p>Even at SA&apos;s top published tier ($499/month for Pro Plus), you&apos;re still missing the landscaping-first workflow: line-item estimates with materials attached, products tracking by job, and a job board for open projects. LandscapeBossPro includes everything at $129/month with no sign-up fee.</p>
               <ul className="check-list">
-                <li>Accurate sq ft lasso — SA double-counts it</li>
-                <li>Sq ft waiting list by service type — not in SA at any tier</li>
-                <li>Chemical compliance logs — not in SA at any tier</li>
+                <li>Line-item estimates with materials — built for project work</li>
+                <li>Materials &amp; products tracking by job — not SA&apos;s focus</li>
+                <li>Job board for open projects — assign crews fast</li>
                 <li>Automations included at $129 — SA charges $499 for these</li>
                 <li>Two-way SMS included — SA charges Elite pricing (custom quote)</li>
-                <li>No sign-up fee at SBP — SA charges one</li>
+                <li>No sign-up fee at LandscapeBossPro — SA charges one</li>
               </ul>
             </div>
           </div>
@@ -294,29 +294,29 @@ export default function VsServiceAutopilot() {
       </section>
 
       <div className="premium-band">
-        <h2>SA Costs 4x More to Get Close to SBP.<br /><span>And Close Isn&apos;t the Same as Equal.</span></h2>
-        <p>The features that matter most to lawn care and pest control businesses — accurate sq ft tracking, chemical compliance logs, sq ft waiting lists — don&apos;t exist in Service Autopilot. You can climb from Startup to Elite and you still won&apos;t find them. LandscapeBossPro was built with those features at its core.</p>
+        <h2>SA Costs 4x More to Get Close to LandscapeBossPro.<br /><span>And Close Isn&apos;t the Same as Built for Landscaping.</span></h2>
+        <p>The features that matter most to landscaping and design-build businesses — line-item estimates, materials and products tracking, crew dispatch on real projects — are exactly what LandscapeBossPro was built around. You can climb SA from Startup to Elite and still be working around a platform that wasn&apos;t designed for project and material heavy work.</p>
         <div className="premium-grid">
-          <div className="premium-card"><div className="premium-card-icon">📐</div><h4>Accurate Sq Ft — Not Doubled</h4><p>SBP tracks sq ft per property and shows service breakdowns separately. SA counts sq ft per service — so a property with 2 services appears twice as large. That&apos;s a real problem when you&apos;re planning routes by sq ft capacity.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Sq Ft Waiting List</h4><p>See exactly how much sq ft is waiting per service type before you build a route. Know your Lawn Care 4, Mosquito, and Insect Control backlog in real time. This workflow doesn&apos;t exist in Service Autopilot at any tier.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Chemical Compliance</h4><p>Log every application with product, mix rate, area, weather, and tech license. Pull compliance reports any time. SA has job records. That&apos;s not the same as a dedicated pesticide compliance log built for applicator licensing requirements.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💰</div><h4>$129 — Not $499+</h4><p>Getting route optimization, automations, and SMS at SA costs $499+/month. LandscapeBossPro includes all of these at $129/month — plus the spray-specific features SA doesn&apos;t have. It&apos;s not even close on value.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">⚡</div><h4>No Sign-Up Fee</h4><p>SA charges a sign-up fee to get started. LandscapeBossPro charges $0 to sign up and offers a 14-day free trial with no credit card required. You can start today and be scheduling routes this afternoon.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>SMS Included at $129</h4><p>Two-way SMS inbox, automated alerts, estimate follow-ups — all included at $129/month. SA locks two-way texting behind their Elite tier. At SA, SMS alone costs more than SBP&apos;s entire platform.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📝</div><h4>Line-Item Estimates &amp; Bids</h4><p>Build detailed bids with materials, products, and labor broken out by stage — plantings, hardscape, grading, sod. The accepted estimate becomes a scheduled project automatically, so nothing gets re-keyed.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📦</div><h4>Materials &amp; Products Tracking</h4><p>Track every material and product against the job it belongs to. Know what was quoted, what was used, and what each project really cost. This kind of material tracking simply isn&apos;t Service Autopilot&apos;s focus.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🚚</div><h4>Crew Dispatch &amp; Routing</h4><p>Assign crews to projects, route their day, and dispatch from one board. Your install, hardscape, and maintenance crews each see their own schedule. SA charges $199/month for routing — LandscapeBossPro includes it.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💰</div><h4>$129 — Not $499+</h4><p>Getting crew routing, automations, and SMS at SA costs $499+/month. LandscapeBossPro includes all of these at $129/month — plus the estimating and materials workflow built for landscaping. It&apos;s not even close on value.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">⚡</div><h4>No Sign-Up Fee</h4><p>SA charges a sign-up fee to get started. LandscapeBossPro charges $0 to sign up and offers a 14-day free trial with no credit card required. You can start today and be scheduling projects this afternoon.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>SMS Included at $129</h4><p>Two-way customer texting, automated alerts, estimate follow-ups — all included at $129/month. SA locks two-way texting behind their Elite tier. At SA, SMS alone can cost more than LandscapeBossPro&apos;s entire platform.</p></div>
         </div>
       </div>
 
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Built Different</span>
-          <h2 className="section-title">SA Is a General Lawn Care Platform. SBP Is Built Around Spray Routes.</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>Service Autopilot serves a wide range of lawn service businesses. LandscapeBossPro was built specifically around recurring spray routes, sq ft scheduling, and chemical compliance — the things that make lawn care and pest control operations different from general landscaping.</p>
+          <h2 className="section-title">SA Is a General Service Platform. LandscapeBossPro Is Built Around Landscaping Projects.</h2>
+          <p className="section-sub" style={{maxWidth:'720px'}}>Service Autopilot serves a wide range of service businesses. LandscapeBossPro was built specifically around line-item estimates, materials tracking, and crew dispatch on real projects — the things that make install, design-build, and hardscape work different from generic recurring visits.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>Sq Ft Is the Right Unit</h3><p>LandscapeBossPro tracks everything in square feet — waiting lists, route totals, property-level breakdown by service. SA tracks job durations and stop counts. For spray businesses, sq ft is the unit that drives pricing, routing, and capacity planning.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>No Tier-Climbing Required</h3><p>LandscapeBossPro gives you route optimization, automations, two-way SMS, and chemical logs at $129/month. SA starts at $49 and charges you more for each major feature until you&apos;re at $499+/month before you have what SBP includes at the entry level.</p></div>
-          <div className="simple-card"><div className="simple-num">03</div><h3>No Sign-Up Fee. No Lock-In.</h3><p>Start a free trial right now — no credit card required, no sign-up fee. SA charges to get started and has an onboarding process. LandscapeBossPro is self-serve and you can be fully operational today.</p></div>
-          <div className="simple-card"><div className="simple-num">04</div><h3>Accurate Data for Accurate Decisions</h3><p>When SBP tells you there&apos;s 118,400 sq ft of Lawn Care 4 waiting, that&apos;s accurate. SA&apos;s count is inflated by how many services each property has. You can&apos;t plan routes or quote jobs accurately on inflated sq ft numbers.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>Projects &amp; Materials First</h3><p>LandscapeBossPro tracks everything around the project — line-item estimates, materials and products used, labor by stage. SA tracks visit durations and stop counts. For landscaping, the project and its materials are what drive pricing and profit.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>No Tier-Climbing Required</h3><p>LandscapeBossPro gives you crew routing, automations, two-way SMS, and full estimating at $129/month. SA starts at $49 and charges you more for each major feature until you&apos;re at $499+/month before you have what LandscapeBossPro includes at the entry level.</p></div>
+          <div className="simple-card"><div className="simple-num">03</div><h3>No Sign-Up Fee. No Lock-In.</h3><p>Start a free trial right now — no credit card required, no sign-up fee. SA charges to get started and has an onboarding process. LandscapeBossPro is self-serve and you can be building estimates and scheduling crews today.</p></div>
+          <div className="simple-card"><div className="simple-num">04</div><h3>Estimate to Invoice in One Flow</h3><p>An accepted bid becomes a scheduled project, the project becomes an invoice with card-on-file payment — no double entry. SA makes you stitch that together across tiers and add-ons. LandscapeBossPro runs the whole job in one place.</p></div>
         </div>
       </section>
 
@@ -335,15 +335,15 @@ export default function VsServiceAutopilot() {
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
-              <li>Sq Ft Waiting List by Service Type</li>
-              <li>Accurate Lasso Circle Map Route Selector</li>
-              <li>Chemical Compliance Logs &amp; Reports</li>
-              <li>Route Optimization Included (not a $199 add-on)</li>
+              <li>Line-Item Estimates &amp; Bids</li>
+              <li>Materials &amp; Products Tracking</li>
+              <li>Job &amp; Project Scheduling + Job Board</li>
+              <li>Crew Dispatch &amp; Routing Included (not a $199 add-on)</li>
               <li>Automations Included (not a $499 add-on)</li>
               <li>Two-Way SMS Included (not a custom-quote add-on)</li>
-              <li>Estimates, Invoices &amp; Card-on-File Payments</li>
-              <li>Package Plans &amp; Renewal Tracking</li>
-              <li>Mobile App for Technicians</li>
+              <li>Invoices &amp; Card-on-File Payments</li>
+              <li>Recurring Maintenance &amp; Package Plans</li>
+              <li>Mobile App for Crews</li>
               <li>500 Outbound SMS/month included</li>
             </ul>
             <button className="price-btn price-btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(2, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
@@ -353,13 +353,12 @@ export default function VsServiceAutopilot() {
       </section>
 
       <div className="cta-band">
-        <h2>SA at $500+/Month Still Doesn&apos;t Have Everything SBP Does at $129.<span>Accurate Lasso. Sq Ft Waiting List. Chemical Compliance. All Included.</span></h2>
+        <h2>SA at $500+/Month Still Isn&apos;t Built for Landscaping the Way LandscapeBossPro Is at $129.<span>Line-Item Estimates. Materials Tracking. Crew Dispatch. All Included.</span></h2>
         <p>Try LandscapeBossPro free for 14 days. No credit card required. No sign-up fee.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
       </div>
-
       <div id="sbp-backdrop" onClick={() => closeAllModals()} style={{display:'none', position:'fixed', top:0, left:0, width:'100%', height:'100%', background:'rgba(0,0,0,.55)', zIndex:99997}}></div>
       {[1,2,3].map(n => (
         <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #1b6e3b', boxShadow:'0 0 0 4px rgba(27,110,59,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
@@ -374,7 +373,7 @@ export default function VsServiceAutopilot() {
               <div style={{flex:1}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>First Name</label><input id={`sbp${n}-first`} type="text" placeholder="John" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
               <div style={{flex:1}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Last Name</label><input id={`sbp${n}-last`} type="text" placeholder="Smith" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             </div>
-            <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Lawn Care" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
+            <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Landscaping" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Email Address</label><input id={`sbp${n}-email`} type="email" placeholder="you@yourcompany.com" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <button onClick={() => sbpStep2(n)} style={{width:'100%', background:'#1b6e3b', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Next: Create Password →</button>
           </div>

@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "LandscapeBossPro | Lawn Care & Pest Control Software",
+  title: 'LandscapeBossPro | Landscaping Business Software',
   description: "LandscapeBossPro is premium lawn care and pest control software built by people who've run real routes. Circle a map area and instantly know sq ft, stops, and chemical needs. $129/month, everything included.",
 };
 

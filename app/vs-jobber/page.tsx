@@ -142,14 +142,14 @@ export default function VsJobber() {
       <div className="hero">
         <div className="hero-badge">Jobber Alternative</div>
         <h1>Jobber Is Built for Every Industry.<br /><span>LandscapeBossPro Is Built for Yours.</span></h1>
-        <p>Jobber is a solid general-purpose field service tool. But "general purpose" means it wasn't designed around square footage waiting lists, chemical compliance logs, the lasso route selector, or the way lawn care and pest control businesses actually schedule recurring spray routes. LandscapeBossPro was.</p>
+        <p>Jobber is a solid general-purpose field service tool. But "general purpose" means it wasn't designed around line-item estimates, materials and product tracking, multi-day project scheduling, crew dispatch, or the way landscaping and design-build businesses actually price and run jobs. LandscapeBossPro was.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">Flat Monthly vs Jobber&apos;s Per-Tier Pricing</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Users — No Per-Seat Fees</div></div>
-          <div><div className="hero-stat-val">Sq Ft</div><div className="hero-stat-lbl">Waiting List — Jobber Doesn&apos;t Have This</div></div>
+          <div><div className="hero-stat-val">Line Items</div><div className="hero-stat-lbl">Material Estimates — Built In</div></div>
           <div><div className="hero-stat-val">2006</div><div className="hero-stat-lbl">In the Industry Since</div></div>
         </div>
       </div>
@@ -158,7 +158,7 @@ export default function VsJobber() {
         <div className="centered" style={{maxWidth:'900px', margin:'0 auto'}}>
           <span className="section-label">Side by Side</span>
           <h2 className="section-title">LandscapeBossPro vs Jobber</h2>
-          <p className="section-sub">The features that matter most for lawn care and pest control — not general field service.</p>
+          <p className="section-sub">The features that matter most for landscaping and design-build — not general field service.</p>
         </div>
         <div className="compare-wrap">
           <table className="compare-table">
@@ -170,17 +170,17 @@ export default function VsJobber() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="feature-name">Sq Ft Waiting List by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Chemical Application Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Lasso — Draw a Circle on Any Area of the Map, Instantly See Every Stop, Sq Ft &amp; Service Due Inside</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Not available</span></td></tr>
-              <tr><td className="feature-name">Built Specifically for Lawn Care &amp; Pest Control</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Line-Item Estimates with Materials &amp; Labor</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Materials &amp; Products Tracking per Project</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Job Board — See Every Project, Stop, Sq Ft &amp; Crew at a Glance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Not available</span></td></tr>
+              <tr><td className="feature-name">Built Specifically for Landscaping &amp; Design-Build</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">True Two-Way SMS Inbox (Included)</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Grow plan only ($299/mo)</span></td></tr>
-              <tr><td className="feature-name">Recurring Treatment Waiting List</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Package Plans &amp; Renewal Tracking</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
-              <tr><td className="feature-name">Product Mix &amp; Chemical Catalog</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Recurring Maintenance Plans</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Maintenance Plans &amp; Renewal Tracking</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
+              <tr><td className="feature-name">Materials &amp; Products Catalog</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
-              <tr><td className="feature-name">Mobile App for Technicians</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Mobile App for Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Automated Review Requests</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Automated Estimate Follow-Ups</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Unlimited Users at Flat Price</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
@@ -196,12 +196,12 @@ export default function VsJobber() {
         <h2>Jobber Charges More as You Grow.<br /><span>LandscapeBossPro Charges $129. Period.</span></h2>
         <p>The moment you add your 6th employee on Jobber, you&apos;re bumped to a higher tier. Add more features, pay more. Add more users, pay more. LandscapeBossPro has one price — $129/month — that covers your entire team, every feature, forever. No tiers. No per-seat math. No surprises on your invoice.</p>
         <div className="premium-grid">
-          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Sq Ft Waiting List</h4><p>Before you schedule a single stop, LandscapeBossPro shows you the total square footage waiting per service type. Know exactly how much Lawn Care 4, Mosquito, or Insect Control you can fit before you call anyone. Jobber has no concept of this.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Chemical Compliance Logs</h4><p>Every application logged automatically with product, mix rate, gallons, area, weather, and tech license. Pull a print-ready compliance report in 30 seconds. Jobber has job notes. That&apos;s not the same thing as a pesticide compliance log.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Map Route Selector</h4><p>Draw a circle on the map, instantly see every property inside with a service due. Stops, service types, sq ft — all calculated before you schedule anything. Jobber has basic route optimization. Not the same as Lasso.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Line-Item Estimates</h4><p>Build detailed bids the way landscapers actually price work — separate line items for plants, sod, stone, mulch, labor, and equipment. LandscapeBossPro totals materials and margin for you. Jobber gives you a flat quote box, not a material takeoff.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🧱</div><h4>Materials &amp; Products Tracking</h4><p>Every project tracks the materials and products it consumes — pavers, plantings, soil, edging, aggregate. Know what each job cost in materials and what it earned. Jobber has job notes. That&apos;s not the same thing as real material tracking.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Job Board &amp; Crew Dispatch</h4><p>See every project on one board, assign crews, and dispatch routes in a couple clicks. Stops, sq ft, and crew load all in one view before you commit to a day. Jobber has basic scheduling — not a board built for multi-crew project work.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💬</div><h4>True Two-Way SMS Inbox</h4><p>Send and receive text messages inside LandscapeBossPro with full conversation history per contact. Jobber has limited client messaging — not a full SMS inbox with inbound/outbound history organized by customer.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Recurring Treatment Tracking</h4><p>Set recurring schedules per property, track what&apos;s due, and build waiting lists by service type. Jobber handles recurring jobs, but not the lawn care waiting list model that shows you all your due work before you build a route.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users, One Price</h4><p>Every employee — techs, office staff, managers — included at $129/month. Jobber charges per tier based on user count. Add your 6th employee and your bill goes up. Ours doesn&apos;t.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Recurring Maintenance Plans</h4><p>Set recurring maintenance schedules per property, track what&apos;s due, and renew plans automatically. Jobber handles recurring jobs, but not the maintenance-plan model landscapers use to manage a full book of recurring properties.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users, One Price</h4><p>Every employee — crew, office staff, managers — included at $129/month. Jobber charges per tier based on user count. Add your 6th employee and your bill goes up. Ours doesn&apos;t.</p></div>
         </div>
       </div>
 
@@ -209,15 +209,15 @@ export default function VsJobber() {
         <div className="highlight-row">
           <div className="highlight-text">
             <span className="section-label">The Real Difference</span>
-            <h2>Jobber Is a Great Tool for Many Industries.<br />Lawn Care and Pest Control Aren&apos;t Really One of Them.</h2>
-            <p>Jobber does a lot of things well. But it was designed to work for cleaning companies, landscapers, HVAC techs, plumbers, and dozens of other trades. When you build software for everyone, you can&apos;t build the deep features that spray businesses actually need. LandscapeBossPro was built by people who ran spray routes — and it shows.</p>
+            <h2>Jobber Is a Great Tool for Many Industries.<br />Project-Based Landscaping Isn&apos;t Really One of Them.</h2>
+            <p>Jobber does a lot of things well. But it was designed to work for cleaning companies, HVAC techs, plumbers, and dozens of other trades. When you build software for everyone, you can&apos;t build the deep features that project- and material-heavy landscaping businesses actually need. LandscapeBossPro was built by people who ran landscape crews — and it shows.</p>
             <ul className="check-list">
-              <li>Sq ft waiting list grouped by service type — know what&apos;s due before you schedule</li>
-              <li>Chemical compliance logs that hold up to any state inspector</li>
-              <li>Product mix catalog with mix recipes stored and logged per job</li>
-              <li>Lasso circle map selector — build tight geographic routes fast</li>
-              <li>Recurring treatment tracking with automatic due-date flags</li>
-              <li>Package program renewals tracked per property automatically</li>
+              <li>Line-item estimates with materials and labor — bid the way landscapers price</li>
+              <li>Materials and products tracking per project, with real job costing</li>
+              <li>Materials catalog with plants, sod, stone, and mulch stored and reused</li>
+              <li>Job board and crew dispatch — assign and route crews fast</li>
+              <li>Recurring maintenance plans with automatic due-date flags</li>
+              <li>Maintenance plan renewals tracked per property automatically</li>
               <li>True inbound/outbound SMS inbox organized by customer</li>
               <li>$129/month flat — add 20 employees, price doesn&apos;t change</li>
             </ul>
@@ -246,7 +246,7 @@ export default function VsJobber() {
             </div>
             <div style={{marginTop:'16px', background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px'}}>
               <div style={{color:'var(--orange)', fontSize:'13px', fontWeight:700, marginBottom:'8px'}}>LandscapeBossPro also includes things Jobber doesn&apos;t:</div>
-              <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', lineHeight:2}}>✓ Sq Ft Waiting List by Service Type<br />✓ Chemical Compliance Logs &amp; Reports<br />✓ Lasso Circle Map Route Selector<br />✓ Recurring Treatment Waiting List<br />✓ Package Plan Renewal Tracking</div>
+              <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', lineHeight:2}}>✓ Line-Item Estimates with Materials &amp; Labor<br />✓ Materials &amp; Products Tracking per Project<br />✓ Job Board &amp; Crew Dispatch<br />✓ Recurring Maintenance Plans<br />✓ Maintenance Plan Renewal Tracking</div>
             </div>
           </div>
         </div>
@@ -255,21 +255,21 @@ export default function VsJobber() {
       <section id="lasso" className="dark-section">
         <div className="highlight-row">
           <div className="highlight-text">
-            <span className="section-label">Lasso — Circle Map Scheduling</span>
+            <span className="section-label">Job Board — Project Scheduling</span>
             <h2 style={{color:'#fff'}}>One Feature Jobber Can&apos;t Match.</h2>
-            <p style={{color:'rgba(255,255,255,.65)'}}>Draw a circle on your service area map and LandscapeBossPro instantly shows every property inside that radius with a service due — total stops, service types, sq ft, all calculated before you schedule a single stop. Jobber has route optimization. That&apos;s completely different from Lasso. No competitor has built anything like this.</p>
+            <p style={{color:'rgba(255,255,255,.65)'}}>Pull up your service area on the job board and LandscapeBossPro instantly shows every property with work due — total stops, project types, sq ft, all calculated before you assign a single crew. Jobber has basic scheduling. That&apos;s completely different from a board built for multi-crew landscape projects. No general-purpose tool maps work to crews like this.</p>
             <ul className="check-list" style={{marginTop:'20px'}}>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Draw any size circle — instantly see all properties with services due inside</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Breaks down stops, sq ft, and service types in real time</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>One click to schedule all selected stops to a date and truck</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Select an area — instantly see all properties with work due inside</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Breaks down stops, sq ft, and project types in real time</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>One click to schedule all selected projects to a date and crew</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Tighten routes geographically — stop wasting fuel on scattered stops</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Cuts route-building from an hour to under 5 minutes</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Works across all service types simultaneously</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Jobber doesn&apos;t have this. FieldRoutes doesn&apos;t have this. Nobody does.</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Works across installs, hardscape, planting, and maintenance at once</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Jobber doesn&apos;t have this. Generic field service tools don&apos;t either.</li>
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Lasso — Route Selector</div>
+            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Job Board — Crew Selector</div>
             <div className="lasso-map">
               <div className="lasso-ring"></div>
               <div className="lasso-pins">
@@ -281,10 +281,10 @@ export default function VsJobber() {
             </div>
             <div className="stat-grid">
               <div className="stat-cell"><div className="stat-val">14</div><div className="stat-lbl">Stops Selected</div></div>
-              <div className="stat-cell"><div className="stat-val">19</div><div className="stat-lbl">Total Services</div></div>
+              <div className="stat-cell"><div className="stat-val">19</div><div className="stat-lbl">Total Projects</div></div>
               <div className="stat-cell"><div className="stat-val">118,400</div><div className="stat-lbl">Sq Ft</div></div>
               <div className="stat-cell"><div className="stat-val">4,200</div><div className="stat-lbl">Linear Ft (Beds)</div></div>
-              <div className="stat-cell full"><div className="stat-val">Lawn Care 4 · 8 &nbsp;|&nbsp; Mosquito · 6 &nbsp;|&nbsp; Insect · 5</div><div className="stat-lbl">Breakdown by Service Type</div></div>
+              <div className="stat-cell full"><div className="stat-val">Maintenance · 8 &nbsp;|&nbsp; Planting · 6 &nbsp;|&nbsp; Hardscape · 5</div><div className="stat-lbl">Breakdown by Project Type</div></div>
             </div>
           </div>
         </div>
@@ -293,13 +293,13 @@ export default function VsJobber() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Simplicity</span>
-          <h2 className="section-title">Easier to Learn Than Jobber. More Powerful for Spray Routes.</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>Jobber has been around for years and has a solid UI. But LandscapeBossPro was designed specifically for the way spray businesses work — which means less configuration, less hunting through menus, and a dispatch board that actually makes sense for recurring service routes.</p>
+          <h2 className="section-title">Easier to Learn Than Jobber. More Powerful for Landscape Projects.</h2>
+          <p className="section-sub" style={{maxWidth:'720px'}}>Jobber has been around for years and has a solid UI. But LandscapeBossPro was designed specifically for the way landscaping businesses work — which means less configuration, less hunting through menus, and a job board that actually makes sense for multi-day, multi-crew project work.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>Set Up in One Afternoon</h3><p>Add your services, import clients and properties, connect payments, set up your SMS alerts — most owners are fully operational the same day. No onboarding call, no implementation consultant, no 90-day timeline to get started.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>Built Around the Dispatch Board</h3><p>Everything flows through the dispatch board — waiting list, scheduling, map, dispatch, chemical log. It&apos;s designed the way a spray business thinks about its day. Not the way a plumber or cleaning company would.</p></div>
-          <div className="simple-card"><div className="simple-num">03</div><h3>Techs Are Up and Running Fast</h3><p>The mobile app shows your techs exactly what they need — today&apos;s stops, the property notes, the complete button. No training videos, no IT ticket, no confused crew. They&apos;re using it on day one.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>Set Up in One Afternoon</h3><p>Add your services and materials, import clients and properties, connect payments, set up your SMS alerts — most owners are fully operational the same day. No onboarding call, no implementation consultant, no 90-day timeline to get started.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>Built Around the Job Board</h3><p>Everything flows through the job board — estimates, materials, scheduling, dispatch, invoicing. It&apos;s designed the way a landscaping business thinks about its day. Not the way a plumber or cleaning company would.</p></div>
+          <div className="simple-card"><div className="simple-num">03</div><h3>Crews Are Up and Running Fast</h3><p>The mobile app shows your crews exactly what they need — today&apos;s stops, the property notes, the materials list, the complete button. No training videos, no IT ticket, no confused crew. They&apos;re using it on day one.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Automation That Actually Runs</h3><p>SMS alerts, estimate follow-ups, payment reminders, review requests — set them up once and LandscapeBossPro runs them every time, automatically. You&apos;re not babysitting automations or configuring Zapier workflows.</p></div>
         </div>
       </section>
@@ -320,14 +320,14 @@ export default function VsJobber() {
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
-              <li>Sq Ft Waiting List by Service Type</li>
-              <li>Lasso Circle Map Route Selector</li>
-              <li>Chemical Compliance Logs &amp; Reports</li>
+              <li>Line-Item Estimates with Materials &amp; Labor</li>
+              <li>Job Board &amp; Crew Dispatch</li>
+              <li>Materials &amp; Products Tracking per Project</li>
               <li>Full Scheduling, Dispatch &amp; Route Map</li>
               <li>Estimates, Invoices &amp; Card-on-File Payments</li>
               <li>Two-Way SMS &amp; 10+ Automated Alerts</li>
-              <li>Package Plans &amp; Renewal Tracking</li>
-              <li>Mobile App for Technicians</li>
+              <li>Recurring Maintenance Plans &amp; Renewals</li>
+              <li>Mobile App for Crews</li>
               <li>500 Outbound SMS/month included</li>
             </ul>
             <button className="price-btn price-btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(2, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
@@ -337,7 +337,7 @@ export default function VsJobber() {
       </section>
 
       <div className="cta-band">
-        <h2>Ready to Switch from Jobber to Software<br />Actually Built for Spray Routes?</h2>
+        <h2>Ready to Switch from Jobber to Software<br />Actually Built for Landscaping?</h2>
         <p>Try LandscapeBossPro free for 14 days. No credit card required. Set up in an afternoon.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
