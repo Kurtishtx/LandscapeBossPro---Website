@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing &amp; Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing &amp; Billing guides &rarr;</a></p>
         <h1>Connecting Scheduling and Invoicing: How Landscaping Software Bills Straight From the Job Board</h1>
         <p>In most landscaping outfits, scheduling and billing live in two different worlds. The job board &mdash; whether it is a whiteboard, a spreadsheet, or a stack of work orders &mdash; tells the crews where to go and what to do. Invoicing happens later, often days later, when someone in the office sits down and tries to reconstruct what actually got installed, how much mulch went down, and which extras the client approved on site. That gap is where money disappears. LandscapeBossPro closes it by treating the job board and the invoice as two views of the same record, so a finished job can become a bill in a couple of clicks instead of a couple of phone calls.</p>
 

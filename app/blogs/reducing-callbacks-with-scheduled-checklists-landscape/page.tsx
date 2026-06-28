@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Reducing Callbacks With Scheduled Job Checklists in Landscape Software</h1>
 
         <p>A callback is the most expensive job on your calendar. You already paid the crew, burned the fuel, and used the materials &mdash; and now you have to send a truck back to fix the bed they forgot to edge or the downspout drain they never reconnected. The customer is annoyed, the crew is grumbling about driving across town for fifteen minutes of work, and the day you planned just lost an hour. The cause is almost never laziness. It is that the full scope of the job lived in someone&apos;s head or on a bid the crew never saw. Landscape scheduling software fixes this by attaching a checklist to every scheduled job &mdash; so the crew works from the same list the customer paid for, and nothing gets skipped.</p>

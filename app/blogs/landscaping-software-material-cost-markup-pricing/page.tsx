@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Software guides &rarr;</a></p>
         <h1>Pricing Material Cost and Markup Correctly Inside Landscaping Software</h1>
         <p>
           Landscaping is a material-heavy business. On a single design-build job you might move pallets of pavers, yards of mulch, tons of soil, sod, boulders, plants, edging, and base rock &mdash; and every one of those line items has a cost that moves around. When you price off gut feel or a number you scribbled on a notepad three months ago, you bleed margin without ever seeing where it went. The fix is not working harder on the calculator. It is building your material cost and markup logic directly into your landscaping software so every estimate prices itself the same correct way, every time.

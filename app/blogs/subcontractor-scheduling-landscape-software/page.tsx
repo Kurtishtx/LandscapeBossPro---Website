@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Scheduling Subcontractors and Material Drops on Big Landscape Projects</h1>
 
         <p>On a small maintenance route, scheduling is mostly about which crew goes where. On a big design-build or hardscape install, scheduling is a different animal entirely. You&apos;re coordinating your own crew, an excavation sub, a mason, an irrigation contractor, and three or four separate material drops &mdash; pavers, base stone, sod, mulch, and a truckload of plant material that can&apos;t sit on a pallet in the sun for a week. Get the sequence wrong and you&apos;re paying a crew to stand around waiting for stone, or eating the cost of plants that died on the curb because they showed up ten days before anyone could put them in the ground. Landscape scheduling software exists to keep that sequence tight, visible, and on the calendar instead of in your head.</p>

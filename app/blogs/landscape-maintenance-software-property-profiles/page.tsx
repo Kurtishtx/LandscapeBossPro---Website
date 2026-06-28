@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>Why Detailed Property Profiles Matter in Landscape Maintenance Software</h1>
 
         <p>A landscape maintenance crew that pulls into a driveway not knowing where the gate latch is, how many cubic yards of mulch the beds took last spring, or that the back lawn is striped into two zones with a planting bed buffer is a crew that loses time on every visit. Recurring maintenance is a volume business: the same properties, week after week, season after season. The companies that win on margin are the ones where every crew already knows the property before they unload the trailer. That knowledge has to live somewhere &mdash; and in a serious operation, it lives in the property profile inside your landscape maintenance software, not in a lead crew member&apos;s head.</p>

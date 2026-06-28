@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Estimating Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-estimating-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Estimating Software guides &rarr;</a></p>
         <h1>Handling Change Orders Without Rewriting the Whole Landscape Estimate</h1>
         <p>
           Every landscape job changes. The homeowner walks the site with your crew and decides the

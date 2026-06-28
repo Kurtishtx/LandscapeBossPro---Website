@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew &amp; Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew &amp; Dispatch Software guides &rarr;</a></p>
         <h1>Client and Property Profiles That Make Dispatch Easier in Landscape Software</h1>
 
         <p>Most dispatch problems are really information problems. A crew shows up to install a paver patio and the gate is locked. A maintenance crew rolls up to a property and nobody told them the back bed gets mulch this round but not the front. A foreman calls the office to ask which side of the driveway the sod goes, and the answer is sitting in someone&apos;s head three trucks away. None of that is a routing failure. It is a profile failure &mdash; the job went out without the details the crew needed to finish it. Strong client and property profiles in landscape software fix the root cause, so dispatch sends a complete job the first time instead of a partial one that bounces back as a phone call.</p>

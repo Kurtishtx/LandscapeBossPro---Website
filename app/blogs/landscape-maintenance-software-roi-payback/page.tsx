@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>The ROI Math: What Landscape Maintenance Software Pays Back Each Month</h1>
         <p>
           Every landscaping owner has heard the pitch that software &quot;pays for itself.&quot; That&apos;s easy to say and harder to prove. So let&apos;s do the actual math. A modern landscape maintenance platform isn&apos;t an expense you hope works out &mdash; it&apos;s a set of small leaks you stop, every single month. When you add up faster estimates, fewer missed invoices, automatic card-on-file billing, and crews that don&apos;t backtrack across town, the monthly payback usually dwarfs the subscription. Here&apos;s how to run the numbers for your own shop.

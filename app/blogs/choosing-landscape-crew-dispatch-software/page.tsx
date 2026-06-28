@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew & Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew & Dispatch Software guides &rarr;</a></p>
         <h1>How to Choose Landscape Crew &amp; Dispatch Software</h1>
         <p>
           When your landscaping business outgrows a whiteboard and a group text, the day starts to leak money. A design-build crew sits idle waiting on mulch that never got ordered, a maintenance route doubles back across town, and the install foreman calls the office three times before lunch asking which property is next. The right landscape crew &amp; dispatch software pulls all of that into one place &mdash; line-item estimates, materials, the schedule, routing, and invoicing &mdash; so the work that you already won actually gets done on time. This guide walks through what to look for before you commit.

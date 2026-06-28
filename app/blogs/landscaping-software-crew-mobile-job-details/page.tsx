@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Software guides &rarr;</a></p>
         <h1>Giving Crews Job Details on Their Phones With Landscaping Software</h1>
         <p>
           The gap between the office and the field is where landscaping jobs go sideways. A foreman shows up to a planting install missing the plant list, a hardscape crew lays the wrong paver because the bid changed after the verbal walkthrough, or a maintenance route gets run out of order because nobody told the driver about a schedule swap. None of that is a people problem &mdash; it&apos;s an information problem. When the right job details live on a clipboard in someone&apos;s truck instead of on every crew member&apos;s phone, things get missed. Good landscaping software closes that gap by pushing the estimate, the materials, the schedule, and the customer notes straight to the phones doing the work.

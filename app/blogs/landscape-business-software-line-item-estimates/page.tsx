@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Building Line-Item Estimates That Win Bids with Landscape Business Software</h1>
         <p>In landscaping, the estimate is the sale. A homeowner deciding between three contractors for a patio install, a planting bed, or a full design-build project rarely picks the cheapest bid &mdash; they pick the one that looks the most organized and trustworthy. A clean, itemized estimate that breaks out every paver, plant, and yard of mulch tells the client you know exactly what the job takes. A scribbled number on the back of a business card tells them you are guessing. The right landscape business software turns the estimate into your strongest closing tool, and it does it in a fraction of the time a spreadsheet ever could.</p>
 

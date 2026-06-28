@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Letting Clients Request and Confirm Visits Through Landscape Software</h1>
         <p>Every landscaping owner knows the drain of phone tag. A client wants to add a mulch refresh, push a planting date, or get a maintenance crew out before a backyard party &mdash; and you spend the evening returning calls instead of building bids. When you let clients request and confirm visits directly through your landscape software, those requests land in one place, tied to the right property, and your crews stay booked without anyone playing operator. LandscapeBossPro turns the back-and-forth into a few taps for the client and a clean, scheduled job for you.</p>
 

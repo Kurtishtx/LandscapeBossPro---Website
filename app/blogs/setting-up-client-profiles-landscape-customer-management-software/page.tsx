@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Setting Up Client and Property Profiles in Landscape Customer Management Software</h1>
 
         <p>A landscaping business lives and dies by the quality of its records. When a homeowner calls to add a paver patio to the planting job you bid last spring, the office needs to pull up their history in seconds &mdash; the original design-build estimate, the materials you ordered, the crew that did the work, the invoice, and the card on file. If that information is scattered across a notebook, a phone&apos;s text thread, and three different spreadsheets, you lose time and you look unprofessional. The client and property profile is the foundation everything else in your landscape customer management software is built on. Set it up right, and estimates, material orders, scheduling, dispatch, and billing all flow from one clean record.</p>

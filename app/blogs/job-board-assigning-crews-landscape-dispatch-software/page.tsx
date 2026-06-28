@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew &amp; Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew &amp; Dispatch Software guides &rarr;</a></p>
         <h1>Using the Job Board to Assign Crews in Landscape Dispatch Software</h1>
 
         <p>Every landscaping company has the same morning problem: a stack of work that needs to happen and a finite number of crews to do it. Install projects, maintenance routes, mulch drops, a sod job that got bumped from yesterday &mdash; it all has to land on somebody&apos;s truck. Do that on a whiteboard or in your head and you end up with one crew slammed, another idling, and a customer wondering where their estimate went. The job board in LandscapeBossPro is the cure. It&apos;s a single live list of every job that needs a crew, and assigning work is as simple as moving a job from the board onto a crew&apos;s day. This post walks through how to use it well.</p>

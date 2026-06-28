@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>The End-of-Month Billing Run In Landscape Maintenance Software</h1>
         <p>The last day of the month is the day a lot of landscaping owners dread. The crews are done, the mowing routes are finished, the mulch is spread &mdash; and now you owe yourself a long night of figuring out who got what and who still has to pay for it. The end-of-month billing run is supposed to be the easy part. Too often it&apos;s the hardest. With the right landscape maintenance software, the billing run stops being a marathon at the kitchen table and becomes a fifteen-minute review before you hit send. Here&apos;s how it actually works.</p>
 

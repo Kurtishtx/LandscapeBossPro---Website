@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>A Day in the Life: Running Crew Dispatch on Landscape Scheduling Software</h1>
 
         <p>It is 6:15 in the morning and three crews are loading trailers in the yard. One is heading out to install a paver walkway, one is running a route of recurring maintenance accounts, and one is planting a design-build bed that was bid back in April. In a paper shop, this is the moment everything goes sideways &mdash; the foreman who has the wrong address, the mulch order nobody confirmed, the customer who calls the office at 7:00 wondering why the truck never showed. On landscape scheduling software, the day is already built. Let&apos;s walk through it hour by hour and watch how dispatch actually runs when the schedule, the job board, and the crews are all reading from the same record.</p>

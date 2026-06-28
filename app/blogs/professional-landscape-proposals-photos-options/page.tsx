@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Estimating Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-estimating-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Estimating Software guides &rarr;</a></p>
         <h1>Professional Landscape Proposals With Photos, Options, and Line Items</h1>
         <p>A landscape proposal is the first real impression a homeowner gets of your business, and it carries a lot of weight. When you hand someone a typed page with a single lump-sum number, you are asking them to trust thousands of dollars to a stranger with almost nothing to go on. When you hand them a proposal with photos of their own yard, clear line items, and a few options to choose from, you look like the pro who has done this a hundred times &mdash; because you have. LandscapeBossPro is built to turn the second kind of proposal into something you can produce in minutes, not hours, so you win more design-build, planting, and hardscape jobs without burning your evenings on paperwork.</p>
 

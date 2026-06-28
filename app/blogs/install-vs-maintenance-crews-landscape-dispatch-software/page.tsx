@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew &amp; Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew &amp; Dispatch Software guides &rarr;</a></p>
         <h1>Dispatching Install Crews and Maintenance Crews in One Landscape Software</h1>
 
         <p>Most landscaping companies don&apos;t run one crew &mdash; they run two kinds of crews doing two very different jobs. Your install and design-build teams are out building hardscape, planting beds, laying sod, and spreading mulch, dragging trailers full of material to a handful of long jobs. Your maintenance crews are running tight mowing routes, hitting a dozen accounts a day, in and out fast. Both have to be dispatched every morning, often from the same yard, sometimes sharing the same people. When the office juggles install on a whiteboard and maintenance on a separate route sheet, the day falls apart in the gaps between the two. LandscapeBossPro dispatches both from a single board so you can run the whole operation from one screen.</p>

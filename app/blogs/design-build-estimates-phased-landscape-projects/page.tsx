@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Estimating Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-estimating-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Estimating Software guides &rarr;</a></p>
         <h1>Estimating Phased Design-Build Landscape Projects Without Losing Margin</h1>
         <p>A big design-build job rarely lands as a single clean sale. The client wants the patio and planting beds now, the retaining wall next spring, and the sod and irrigation sleeves whenever the budget loosens up. That is the nature of phased landscape work&mdash;and it is exactly where most contractors quietly bleed margin. When a project gets carved into stages on a napkin, materials get double-counted, labor gets forgotten, and the markup you thought you locked in slips away one change at a time. LandscapeBossPro is built to keep every phase of a design-build estimate on the books, priced correctly, and tied back to the same property and client profile from the first walk-through to the final invoice.</p>
 

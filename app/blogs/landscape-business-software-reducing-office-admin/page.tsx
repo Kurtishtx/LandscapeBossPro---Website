@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Cutting Office Admin Hours with Automated Landscape Business Software</h1>
         <p>Most landscaping owners didn&apos;t get into this business to sit at a desk. They got into it to build patios, install plantings, lay sod, spread mulch, and keep a route of maintenance accounts looking sharp. Yet somehow the office work keeps winning. Bids get retyped from a notepad into a spreadsheet, schedules get redrawn on a whiteboard every morning, invoices get rebuilt from memory at the kitchen table, and the phone never stops ringing with customers asking when the crew is coming. Those admin hours are silent profit killers &mdash; they don&apos;t show up on any job cost sheet, but they eat your evenings and pull you away from selling work. LandscapeBossPro is built to automate that paperwork so the business runs on one system instead of on your free time.</p>
 

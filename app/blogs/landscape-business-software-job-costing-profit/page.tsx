@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Job Costing: Knowing Which Landscape Jobs Actually Made Money</h1>
         <p>Most landscape contractors can tell you their total revenue for the year. Far fewer can tell you which jobs actually made money and which ones quietly bled cash. A big paver patio install might feel like a win because the invoice was large, but if the materials ran over, the crew spent two extra days on site, and you ate a delivery fee or two, that &quot;big&quot; job might have earned less than a string of small mulch refreshes. Job costing is how you stop guessing. LandscapeBossPro turns every estimate, material order, and crew hour into a clear profit picture for each job &mdash; so you bid the next one with real numbers instead of hope.</p>
 

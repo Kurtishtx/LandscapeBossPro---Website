@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew & Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew & Dispatch Software guides &rarr;</a></p>
         <h1>Scaling From One Crew to Five With Landscape Dispatch Software</h1>
         <p>
           When you run a single landscape crew, you can keep the whole operation in your head. You know which install starts Monday, which patio gets its last course of pavers, and which maintenance accounts need mowing before the weekend. But the moment you add a second, third, or fourth crew, that mental map collapses. Trucks roll out late, two foremen show up at the same job, and a $14,000 hardscape bid sits unanswered for a week. Scaling from one crew to five is not really a hiring problem &mdash; it is a coordination problem. Landscape dispatch software is the tool that lets one owner direct five crews without drowning in phone calls and sticky notes.

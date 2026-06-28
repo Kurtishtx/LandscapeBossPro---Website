@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Seven Scheduling Mistakes Landscape Software Fixes Overnight</h1>
 
         <p>Landscaping is harder to schedule than most trades. One day a crew is loading sod and mulch for an install, the next they&apos;re running a maintenance route, and the day after that they&apos;re back on a hardscape job that slipped because the materials showed up late. When all of that lives on a whiteboard and a stack of texts, the cracks show up fast. The good news is that almost every scheduling problem in a landscape business comes from the same handful of mistakes &mdash; and the right software fixes them so quickly the difference shows up the very next morning. Here are seven.</p>

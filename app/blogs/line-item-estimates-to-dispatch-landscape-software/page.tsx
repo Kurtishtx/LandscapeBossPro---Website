@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew & Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew & Dispatch Software guides &rarr;</a></p>
         <h1>From Line-Item Estimate to Dispatched Crew in Landscape Software</h1>
         <p>
           A landscape job lives or dies in the gap between the bid and the day the crew rolls up. You priced the paver patio down to the pallet, the homeowner signed, and then&hellip; the estimate sits in one app, the calendar lives in another, and the foreman finds out about the job from a text at 6 a.m. with no material list and a half-right address. That handoff is where margin leaks out. Good landscape software closes the gap by making the line-item estimate the single source of truth that flows straight into scheduling, materials, and crew dispatch &mdash; no re-typing, no lost details.

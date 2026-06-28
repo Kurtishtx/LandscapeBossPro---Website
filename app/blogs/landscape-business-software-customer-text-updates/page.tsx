@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Keeping Clients Updated with Automated Customer Texts</h1>
         <p>On a landscaping job, the single biggest source of friction usually is not the work itself &mdash; it&apos;s the silence around it. The client booked a patio install three weeks ago and hasn&apos;t heard a word since. The maintenance customer wonders whether the crew is coming Tuesday or Thursday. The homeowner who signed off on a planting bid is staring at an empty driveway at 8 a.m. wondering if anyone is showing up. Every one of those gaps turns into a phone call, and every phone call pulls you off a job. Automated customer texts close those gaps before they ever open, and LandscapeBossPro builds the messaging right into the same system that runs your estimates, scheduling, and invoicing.</p>
 

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Segmenting Customers by Service and Value in Landscape Customer Management Software</h1>
         <p>
           Not every landscaping client is the same, and treating them like they are is how money slips through the cracks. A one-time mulch drop is a different animal than a $40,000 design-build patio, and a weekly mowing account is a different animal than a homeowner who calls once a year for a sod patch. When all of those clients sit in one undifferentiated pile, you cannot tell who deserves a follow-up call, who is overdue for a maintenance renewal, or who is worth chasing for the next big install. Customer segmentation inside landscape customer management software fixes that, and in LandscapeBossPro the data you need to slice your client list is already attached to every property profile.

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Dispatching Crews and Routing Trucks with Landscape Business Software</h1>
 
         <p>A landscaping company doesn&apos;t run one kind of day. One crew is on a three-day paver patio install. Another is knocking out twelve maintenance accounts across two neighborhoods. A third is dropping eighteen yards of mulch and setting plants at a design-build job. Coordinating all of that from a clipboard and a string of morning phone calls is where time, fuel, and margin quietly leak out of the business. Landscape business software replaces the morning scramble with a single dispatch action that puts the right stops, materials, and property notes on the right truck &mdash; before anyone leaves the yard.</p>

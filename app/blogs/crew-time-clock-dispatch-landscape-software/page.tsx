@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew &amp; Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew &amp; Dispatch Software guides &rarr;</a></p>
         <h1>Tying the Crew Time Clock to Dispatch in Landscape Software</h1>
         <p>Most landscaping outfits run two systems that never talk to each other. The crew punches a time clock somewhere &mdash; a paper sheet, a punch app, a foreman&apos;s text at the end of the day &mdash; and the dispatch board lives somewhere else entirely. When those two things stay separate, you lose money on every install and every maintenance route. You can&apos;t tie labor hours back to the bid, you can&apos;t see who is actually on which job right now, and payroll turns into a Friday-afternoon guessing game. The fix is software that treats the time clock and the dispatch board as one connected system. When a crew clocks in, they clock in <em>against a job</em>, and that single link changes how the whole operation runs.</p>
 

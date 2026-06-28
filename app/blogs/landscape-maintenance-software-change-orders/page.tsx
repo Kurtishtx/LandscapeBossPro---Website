@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>Handling Change Orders Cleanly With Landscape Maintenance Software</h1>
 
         <p>Change orders are where landscaping profit quietly leaks out. The crew shows up to install a paver patio, and the homeowner asks for two more pallets of stone and a small retaining wall &quot;while you&apos;re here.&quot; A maintenance account that started as weekly mowing now wants the beds re-mulched and three shrubs replaced. The work gets done because the customer is standing right there and saying yes &mdash; but the price was never written down, the materials were never tracked, and three weeks later you&apos;re in an awkward conversation about an invoice the customer doesn&apos;t recognize. Landscape maintenance software fixes this by turning every scope change into a documented, approved, billable line item before the wheelbarrow moves.</p>

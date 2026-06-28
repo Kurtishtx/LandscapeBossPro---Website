@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Estimating Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-estimating-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Estimating Software guides &rarr;</a></p>
         <h1>From Estimate to Invoice: One Record for the Whole Landscape Job</h1>
 
         <p>A landscape job has a long life. It starts as a walk-through and a sketch, becomes a line-item bid, turns into a scheduled install with a crew and a trailer full of material, and finally becomes an invoice the customer actually pays. In most shops, that journey crosses four or five disconnected places: a paper estimate pad, a wall calendar, a supplier&apos;s delivery ticket, a notepad of change-orders, and a separate accounting app where someone re-types the whole thing at the end. Every hand-off is a chance to lose money &mdash; a forgotten mulch upcharge, a change-order nobody billed, a deposit that was never recorded. The fix is structural: keep the estimate, the schedule, the materials, and the invoice on one connected job record so the work flows forward instead of being re-entered.</p>

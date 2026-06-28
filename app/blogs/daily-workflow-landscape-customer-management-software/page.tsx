@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>A Day in the Life: Using Landscape Customer Management Software From Open to Close</h1>
 
         <p>Most landscaping owners don&apos;t lose money on the jobs themselves &mdash; they lose it in the gaps between jobs. The estimate that sat in a notebook for a week. The pallet of pavers nobody logged. The crew that drove across town twice because dispatch wasn&apos;t clear. The invoice that went out three days late and got paid three weeks late. Landscape customer management software exists to close those gaps, and the best way to see how is to walk through a single day with it &mdash; from the first cup of coffee to the last invoice. Here is what that day looks like when the software is doing its job.</p>

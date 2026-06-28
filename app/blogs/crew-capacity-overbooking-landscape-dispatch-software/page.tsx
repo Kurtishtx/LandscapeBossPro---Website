@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew &amp; Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew &amp; Dispatch Software guides &rarr;</a></p>
         <h1>Preventing Crew Overbooking With Landscape Dispatch Software</h1>
 
         <p>Overbooking is the quiet killer of a landscaping schedule. It rarely looks like a disaster on the calendar &mdash; it looks like a normal day with one extra mulch drop, one more maintenance stop, a planting job squeezed in because the customer pushed. Then the crew leaves the shop at seven and finishes in the dark, the next morning starts behind, and three weeks later you&apos;re apologizing to good clients for an install that keeps slipping. The cause is almost always the same: nobody could actually see how full a crew&apos;s day was before another job got dropped on it. Landscape dispatch software fixes that by turning &quot;I think they have room&quot; into a number you can see. This post walks through how the software keeps you from booking more work than your crews can physically do.</p>

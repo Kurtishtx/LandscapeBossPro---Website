@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew & Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew & Dispatch Software guides &rarr;</a></p>
         <h1>Cutting Windshield Time With Landscape Dispatch Software</h1>
 
         <p>Windshield time is the part of the day nobody bills for. It&apos;s the hours your crews spend staring through the glass &mdash; driving from the yard to the first job, hopping across town because two stops got scheduled in the wrong order, doubling back for a forgotten pallet of pavers, or crawling through traffic to a maintenance route that should have been run the other direction. Every one of those minutes costs you fuel, labor, and a job you could have finished before dark. The trucks are moving, but they aren&apos;t making money. Landscape dispatch software exists to shrink that gap, and LandscapeBossPro is built to squeeze the drive time out of your day so crews spend more of it on the job and less of it on the road.</p>

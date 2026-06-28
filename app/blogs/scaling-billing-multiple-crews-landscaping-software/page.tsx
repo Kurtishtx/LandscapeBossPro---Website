@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing &amp; Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing &amp; Billing guides &rarr;</a></p>
         <h1>Scaling Billing Across Multiple Crews: How Landscaping Software Keeps Invoicing Under Control</h1>
         <p>One crew is easy to bill. You see the work, you write the invoice, you get paid. But the moment you put a second and third crew on the road &mdash; an install team laying pavers and planting on one side of town, a maintenance route mowing across the other &mdash; the billing math explodes. Now you&apos;re reconciling who did what, on which property, with how much mulch and sod, across multiple trucks and job sites every single day. This is exactly where landscaping companies stall out, not because the work isn&apos;t there, but because the invoicing falls apart. The right software keeps every crew&apos;s output flowing into one clean billing pipeline so you can scale without drowning in paperwork.</p>
 

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew &amp; Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew &amp; Dispatch Software guides &rarr;</a></p>
         <h1>A Day in the Dispatcher&apos;s Seat: The Daily Workflow With Landscape Crew Software</h1>
 
         <p>The dispatcher is the quiet engine of a landscaping company. Crews get the credit for the finished patio and the freshly mulched beds, but somebody had to decide who goes where, in what order, with which materials on the trailer &mdash; and then keep that plan from falling apart the moment a supplier runs late or a customer changes the scope. Do that job on a whiteboard and a stack of paper work orders and you spend the whole day reacting. Do it on landscape crew software and the day mostly runs itself. Here is what a single day actually looks like from the dispatcher&apos;s seat when the schedule, the job board, the crews, and the invoices all share one record.</p>

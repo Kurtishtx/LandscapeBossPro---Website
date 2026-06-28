@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>The Crew Mobile App: Work Orders, Materials, and Notes in the Field</h1>
 
         <p>The gap between the office and the field is where most landscaping money leaks out. The estimate is dialed in, the schedule is built, the materials are ordered &mdash; and then the crew shows up to a job site with half the picture. They don&apos;t know the full scope, they forget which beds get mulch, they use more sod than the bid called for and nobody writes it down, and the customer&apos;s special request from last week never makes it to the guys holding the shovels. A crew mobile app closes that gap. When your install and maintenance crews carry the work order, the material list, and a notes field in their pocket, the job that was scoped in the office is the job that actually gets built in the yard.</p>

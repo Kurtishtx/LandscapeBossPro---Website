@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>Card-on-File Billing: How Landscape Maintenance Software Gets You Paid Automatically</h1>
 
         <p>Most landscaping companies lose more money to slow billing than to bad pricing. You run a clean crew, you mow and edge thirty properties on a route day, you knock out a mulch refresh and a planting bed install on the side &mdash; and then the work of actually collecting payment piles up on a desk somewhere. Invoices get cut at the end of the month, mailed or emailed in a batch, and then you wait. Some customers pay in a week. Some pay in forty-five days. A handful never pay until you call them twice. Card-on-file billing inside your landscape maintenance software removes that entire waiting game. The customer&apos;s card is stored securely at signup, and it gets charged the moment a visit or job is marked complete in the field. No invoice batch, no check to deposit, no awkward follow-up call.</p>

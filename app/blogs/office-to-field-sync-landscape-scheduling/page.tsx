@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Keeping the Office and the Field in Sync With Live Scheduling</h1>
         <p>
           Every landscaping company runs on two clocks. There&apos;s the office clock &mdash; estimates going out, deposits coming in, materials getting ordered, and the calendar getting built for next week. Then there&apos;s the field clock &mdash; crews loading trucks at 6 a.m., installs running long, a sod delivery showing up late, and a client flagging down the foreman to add a planting bed. When those two clocks drift apart, you get double-booked crews, jobs that start before the mulch arrives, and a foreman calling the office twelve times a day just to find out what&apos;s next. Live scheduling software is what keeps both clocks locked together, so a change made at the front desk shows up on the crew&apos;s phone before they pull out of the yard.

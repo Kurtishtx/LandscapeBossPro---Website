@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Managing Design-Build Clients in Landscape Customer Management Software</h1>
         <p>A design-build client is the most valuable &mdash; and the most demanding &mdash; relationship a landscape company has. These are the projects that run for weeks or months, span thousands of dollars in materials, involve multiple crews, and almost always grow once the homeowner sees the design come to life. Manage that client with a stack of spreadsheets, text threads, and paper bids and you will lose track of what was scoped, what changed, and what you are owed. LandscapeBossPro gives you one connected record for every design-build client, so the proposal, the project, the crews, and the billing all stay tied to the same property and the same person from the first consultation to the final walkthrough.</p>
 

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Software guides &rarr;</a></p>
         <h1>Using the Job Board to Manage Pending Landscape Work in One View</h1>
         <p>Most landscaping crews don&apos;t lose money on the jobs they finish &mdash; they lose it on the jobs that quietly stall. A signed bid for a paver patio sits in someone&apos;s inbox. A planting install is waiting on a sod delivery nobody confirmed. A maintenance route has a slot open because last week&apos;s job got bumped and never rescheduled. When pending work lives in your head, a clipboard, and three text threads, things fall through. The job board in LandscapeBossPro puts every pending landscape job &mdash; install, design-build, hardscape, planting, sod, mulch, and recurring maintenance &mdash; on one screen so you can see what&apos;s ready, what&apos;s stuck, and what&apos;s next.</p>
 

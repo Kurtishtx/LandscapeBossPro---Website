@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Card-on-File Billing and Faster Payments in Landscape Customer Management Software</h1>
         <p>The hardest part of running a landscaping business usually isn&apos;t the work &mdash; it&apos;s the wait between finishing the work and seeing the money. You buy the sod, haul the mulch, run the crew, hand over an invoice, and then sit on it for weeks. Card-on-file billing built into your customer management software closes that gap. When the payment method lives right on the client profile, alongside the estimate, the schedule, and the visit history, you stop mailing invoices into a void and start collecting the day the job wraps. Here&apos;s how LandscapeBossPro turns a saved card into faster, cleaner payments across install projects and recurring maintenance accounts alike.</p>
 

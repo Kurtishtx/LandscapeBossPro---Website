@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Cutting Drive Time and Fuel With Smart Crew Routing in Landscape Software</h1>
 
         <p>Every minute your crew spends behind the wheel is a minute you can&apos;t bill for. Fuel burns, the clock runs, and the trailer full of mowers, mulch, and pavers sits idle in traffic instead of producing revenue at a property. For most landscaping companies, drive time is the single biggest hidden cost on the books&mdash;and the easiest one to ignore, because it never shows up as a line item. Smart crew routing inside LandscapeBossPro turns that invisible waste into something you can see, measure, and shrink. When the software builds tight, geographically sensible routes, your trucks cover fewer miles, your crews finish earlier, and you fit more work into the same day without hiring a single extra person.</p>

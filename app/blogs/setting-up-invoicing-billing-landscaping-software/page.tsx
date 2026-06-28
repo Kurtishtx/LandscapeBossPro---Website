@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing & Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing & Billing guides &rarr;</a></p>
         <h1>Setting Up Invoicing &amp; Billing in Your Landscaping Software: A Step-by-Step Start</h1>
 
         <p>You can build the best paver patio in the county, but if the invoice goes out three weeks late&mdash;or never goes out at all&mdash;the job didn&apos;t make you money. Landscaping is material-heavy and project-heavy, which means a lot of numbers move between the bid, the crew, and the customer. Getting paid cleanly comes down to one thing: setting up your invoicing and billing the right way from day one. This guide walks through the exact steps to configure invoicing inside LandscapeBossPro so every install, hardscape, planting, and recurring maintenance job turns into a paid invoice without you chasing paper.</p>

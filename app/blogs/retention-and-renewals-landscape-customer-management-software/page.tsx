@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Driving Retention and Plan Renewals With Landscape Customer Management Software</h1>
         <p>Winning a new landscape client costs you real money &mdash; the estimate visit, the bid you built, the crew time to learn the property. The clients who actually make a landscaping company profitable are the ones who come back next season and the season after that. A clean install is great, but a renewed maintenance plan is what smooths out cash flow and fills the schedule before the phone even rings. The trouble is that retention rarely fails because of bad work. It fails because the office got busy, a renewal email never went out, or a customer&apos;s card expired and nobody followed up. LandscapeBossPro is built to make sure those quiet leaks never cost you a relationship.</p>
 

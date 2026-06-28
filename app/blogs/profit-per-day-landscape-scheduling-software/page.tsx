@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Tracking Profit Per Crew Day Through Your Landscape Schedule</h1>
 
         <p>Most landscaping owners can tell you what they bid a job for. Far fewer can tell you what a single crew day actually earned them. That gap is where the money hides. A patio install can look profitable on paper and still lose you a day because the crew spent four hours chasing materials. A maintenance route can feel like easy money and quietly run thin once you count the windshield time between stops. The number that cuts through all of it is profit per crew day &mdash; what one crew, in one truck, produced in revenue minus what that day cost you. LandscapeBossPro is built so your schedule becomes the source of that number instead of a guess you make at year-end.</p>

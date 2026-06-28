@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Keeping Clients Updated With Customer Texts in Landscape Customer Management Software</h1>
         <p>
           Most landscaping jobs do not go sideways because of bad work. They go sideways because the client had no idea what was happening. The mulch crew shows up a day early, the homeowner is not home to point out the new bed lines, and now half the day is burned. Or the install runs long because of a backordered paver, and the customer assumes you forgot about them. Silence is what turns a happy client into a frustrated one. That is exactly the gap customer texts in landscape customer management software are built to close, and in LandscapeBossPro the texting tools sit right on top of the client and property profiles you already use to run the business.

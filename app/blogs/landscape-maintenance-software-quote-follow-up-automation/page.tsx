@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>Closing More Bids With Quote Follow-Up in Landscape Maintenance Software</h1>
 
         <p>Most landscaping companies do not lose bids because their price is wrong. They lose bids because nobody followed up. You walk a property, measure the beds, price the mulch and plantings, build a clean line-item estimate, send it &mdash; and then you get busy running crews and the quote sits in the prospect&apos;s inbox until it goes cold. Two weeks later the homeowner hires the company that called them back. The work was already done; the close was lost in the silence. Landscape maintenance software fixes this by treating every quote as a live opportunity that the system keeps warm for you, automatically, until the customer says yes or no.</p>

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Turning the Job Board Into a Customer Hub in Landscape Customer Management Software</h1>
         <p>Most landscaping companies treat the job board like a to-do list &mdash; a wall of cards that says who&apos;s working where today. That&apos;s useful, but it&apos;s only half of what the board can do. In LandscapeBossPro, every card on the board is wired straight back to the customer it belongs to, so the board stops being a daily checklist and becomes a live customer hub. Tap a paver patio job and you don&apos;t just see &quot;Tuesday, 7 AM.&quot; You see the property profile, the approved line-item estimate, the materials list, the crew assigned, and the invoice waiting to send. The work and the client finally live in the same place.</p>
 

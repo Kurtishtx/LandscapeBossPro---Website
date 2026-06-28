@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>From Bid to Invoice: The Full Workflow in Landscape Maintenance Software</h1>
         <p>Most landscaping companies don&apos;t lose money on one big mistake. They lose it in the cracks between steps &mdash; the bid that never got followed up, the mulch that got installed but never billed, the maintenance visit that slipped off the schedule. Every handoff from estimate to crew to invoice is a chance for a number to fall on the floor. Good landscape maintenance software closes those cracks by keeping one record moving through the whole job, so the bid you signed is the same data that prints on the invoice. Here is what that full workflow looks like in LandscapeBossPro.</p>
 

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew & Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew & Dispatch Software guides &rarr;</a></p>
         <h1>Giving Foremen Their Own Dispatch View in Landscape Crew Software</h1>
 
         <p>The foreman is the person actually running the work in the field, but on most landscaping operations they&apos;re flying half-blind. The office knows the full schedule, the materials list, and what the customer signed off on &mdash; and the foreman gets a screenshot, a phone call, or a sticky note. Then they spend the morning texting the office to ask what&apos;s next, where the patio job is, and how many yards of mulch were supposed to be on the truck. LandscapeBossPro fixes that by giving every foreman their own dispatch view: a phone screen that shows their crew&apos;s day, in order, with the job detail, materials, and customer info already attached. The office stops being a bottleneck, and the crew stops standing around waiting on answers.</p>

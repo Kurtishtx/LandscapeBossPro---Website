@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing &amp; Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing &amp; Billing guides &rarr;</a></p>
         <h1>Invoicing From Completed Jobs: How Landscaping Software Bills the Work Your Crews Actually Did</h1>
         <p>
           There is a gap on every landscaping job between what you quoted and what actually happened in the field. The crew swapped two perennials for a better-looking variety, hauled in an extra yard of mulch, and spent an extra hour grading the bed because the soil was rougher than expected. If your billing starts from the estimate alone, you either lose that work or you spend your evening trying to reconstruct it from a crumpled job sheet. LandscapeBossPro flips the model: instead of invoicing from a guess, you invoice from the completed job&mdash;the real materials, the real labor, and the real line items your crews logged on the property.

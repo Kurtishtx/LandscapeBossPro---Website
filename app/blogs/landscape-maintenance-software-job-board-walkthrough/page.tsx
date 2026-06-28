@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>A Walkthrough of the Job Board in Landscape Maintenance Software</h1>
 
         <p>Every landscaping company has a pile of work that isn&apos;t on the calendar yet. A new mulch job got approved this morning. A patio bid is signed but not slotted. A maintenance customer signed up online overnight. A planting job got bumped by rain and needs a new home. In most shops that pile lives in somebody&apos;s inbox, a stack of sticky notes, and three text threads &mdash; which means jobs fall through the cracks and crews idle while paying work sits invisible. The job board in LandscapeBossPro is the single place that pile lives, and this walkthrough shows how it turns loose, unscheduled work into assigned, dispatched, and billable jobs.</p>

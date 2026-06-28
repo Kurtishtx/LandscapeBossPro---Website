@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Online Quote Approval and Deposits That Lock In the Job</h1>
         <p>
           You walked the property, measured the beds, priced out the sod, the mulch, the boulders, and the labor, and you sent over a clean bid. Then nothing. The client &quot;needs to think about it,&quot; the quote sits in their inbox, and three weeks later they call a competitor who happened to ask for a signature first. In landscaping, the gap between sending a number and getting a yes is where good jobs go to die. LandscapeBossPro closes that gap by letting clients approve your quote online and drop a deposit in the same click&mdash;turning a maybe into a scheduled, funded project.

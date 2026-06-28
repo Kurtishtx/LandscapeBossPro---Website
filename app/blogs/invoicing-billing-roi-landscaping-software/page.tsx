@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing & Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing & Billing guides &rarr;</a></p>
         <h1>The ROI of Invoicing Software for a Landscaping Business</h1>
 
         <p>Software costs money, so the fair question to ask about any tool is simple: does it pay for itself? For invoicing software in a landscaping business, the answer shows up fast &mdash; in your bank account. A landscaping company lives and dies on cash flow. You front the cost of pavers, sod, mulch, trees, and labor before a single dollar comes back, and every day a finished job sits unbilled is a day your money is parked in someone else&apos;s yard. The return on invoicing software isn&apos;t abstract. It&apos;s the gap between the day a crew finishes and the day you get paid, and LandscapeBossPro is built to close that gap.</p>

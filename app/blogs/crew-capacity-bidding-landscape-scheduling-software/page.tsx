@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Bidding Smarter: Checking Crew Capacity Before You Sign the Job</h1>
 
         <p>Most landscape companies do not lose money on the jobs they bid wrong. They lose money on the jobs they bid right and then could not staff. The estimate was solid, the margin was there, the customer signed &mdash; and then the install sat for three weeks because both crews were buried in a hardscape build and a string of recurring maintenance routes. The customer got impatient, the deposit got refunded, and a perfectly profitable job turned into a reputation problem. The fix is not a better number on the bid. It is knowing what your crews can actually handle before you ever put that number in front of the client. That is what landscape scheduling software does that a spreadsheet never will.</p>

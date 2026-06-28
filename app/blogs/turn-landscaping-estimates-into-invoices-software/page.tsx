@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing &amp; Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing &amp; Billing guides &rarr;</a></p>
         <h1>How Software Turns Landscaping Estimates Into Invoices With One Click</h1>
         <p>
           Every landscaping company knows the grind. You walk a property, measure the beds, price out the plants and the pallets of sod, build a detailed bid, and email it off. The client says yes. Then&mdash;weeks later, after the crew has wrapped the install&mdash;you sit down and rebuild that whole estimate from scratch as an invoice. You retype every line item, re-add the mulch and the stone, recalculate the labor, and hope you did not miss anything between the bid and the final bill. That double work is where money leaks out of landscaping businesses. LandscapeBossPro closes the gap by turning an approved estimate into a finished invoice with a single click.

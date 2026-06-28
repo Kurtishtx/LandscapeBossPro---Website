@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew &amp; Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew &amp; Dispatch Software guides &rarr;</a></p>
         <h1>Building Crew Accountability With Landscape Dispatch Software</h1>
         <p>Every landscape owner has lived the same morning. You hand out the day&apos;s work on a clipboard or in a group text, the trucks roll out, and then the questions start. Which crew actually finished the paver patio on Oak Street? Did the install team load the right pallets of sod? Why did the maintenance route run two hours long? When the only record of the day lives in a foreman&apos;s memory, accountability is impossible. Landscape dispatch software fixes that by putting every job, every assignment, and every time stamp in one place that both the office and the field can see in real time.</p>
 

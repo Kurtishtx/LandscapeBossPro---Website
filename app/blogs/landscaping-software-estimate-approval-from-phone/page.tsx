@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Software guides &rarr;</a></p>
         <h1>Letting Clients Approve Landscape Estimates Right From Their Phone</h1>
 
         <p>Most landscaping bids die in the gap between &quot;I&apos;ll send you a quote&quot; and &quot;sounds good, let&apos;s do it.&quot; You walk the property, price out the patio, the planting beds, the sod, and the mulch, then go home and type it up. You email a PDF. The client opens it on their phone, means to reply, and forgets. A week later you&apos;re texting to follow up on a job that should already be on the calendar. The slowest part of winning landscape work usually isn&apos;t the bidding &mdash; it&apos;s the waiting. LandscapeBossPro closes that gap by letting clients approve a detailed estimate right from the phone in their pocket, the same day you send it.</p>

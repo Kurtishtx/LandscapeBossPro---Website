@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>The ROI of Landscape Customer Management Software for a Landscaping Business</h1>
 
         <p>Most landscaping owners think about software as a monthly bill rather than an investment with a return, and that framing hides the real math. A landscaping company runs on two engines at once &mdash; big install and design-build projects that turn on accurate bids and material costs, and recurring maintenance routes that turn on full schedules and clean billing. Landscape customer management software touches every one of those workflows. When you add up the saved estimating hours, the materials you stop eating, the maintenance accounts that stop slipping, and the invoices that get paid on time, the cost of the subscription gets recovered several times over &mdash; usually inside the first month or two of real use.</p>

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>From Bid to Invoice: Connecting Estimates and Billing in Landscape Customer Management Software</h1>
         <p>Every landscape job starts as a number on a bid and ends as a number on an invoice. The problem for most install and design-build crews is that those two numbers live in different worlds. You build a detailed estimate in one tool, win the job, run the crew, then sit down weeks later to rebuild the whole thing from scratch as an invoice. Lines get dropped, change orders get forgotten, and the deposit you collected never quite reconciles. LandscapeBossPro closes that gap by treating the estimate and the invoice as the same living record, so the money you quoted is the money you bill.</p>
 

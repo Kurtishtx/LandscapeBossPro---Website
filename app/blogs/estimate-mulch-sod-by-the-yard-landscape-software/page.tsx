@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Estimating Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-estimating-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Estimating Software guides &rarr;</a></p>
         <h1>Estimating Mulch, Sod, and Soil by the Yard With Landscape Software</h1>
 
         <p>Mulch, sod, and soil are where landscape bids quietly bleed money. A crew leader eyeballs a bed at &quot;about four yards&quot; when it&apos;s really six, or someone forgets that bulk topsoil is sold by the cubic yard while sod is priced by the square foot or the pallet. By the time the truck shows up short, you&apos;re making a second supplier run on your own dime and the margin you bid is gone. Landscape software fixes this at the estimate stage by turning measurements into priced line items&mdash;by the yard, by the pallet, by the bag&mdash;so the number you quote matches the material you actually buy.</p>

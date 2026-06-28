@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew & Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew & Dispatch Software guides &rarr;</a></p>
         <h1>Setting Up Your First Crew Dispatch Board in Landscape Software</h1>
         <p>If you are still dispatching landscape crews off a whiteboard, a group text, or a clipboard on the truck dash, you already know how fast the morning falls apart. A planting job runs long, a hardscape crew is short a guy, the mulch delivery slides a day, and suddenly half your schedule is wrong by 8 a.m. A crew dispatch board inside your landscape software fixes that by putting every crew, every job, and every route on one screen that updates in real time. This guide walks you through building your first board from scratch so you can stop guessing where your trucks are and start running the day on purpose.</p>
 

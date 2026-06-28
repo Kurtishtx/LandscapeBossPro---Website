@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Following Up on Open Estimates in Landscape Customer Management Software</h1>
         <p>Every landscape company has a pile of estimates that never turned into anything. You walked the property, measured the bed lines, priced the pavers and the plant list, sent over a clean proposal&mdash;and then nothing. The homeowner went quiet, the spring rush swallowed your attention, and a $14,000 patio bid quietly died in an inbox. The truth is that most of those jobs were not lost to a competitor. They were lost to silence. LandscapeBossPro treats every open estimate as live money on the table and gives you a system to chase it down before it goes cold.</p>
 

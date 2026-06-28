@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing & Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing & Billing guides &rarr;</a></p>
         <h1>The Client Billing Experience: How Landscaping Software Makes Paying Easy for Customers</h1>
 
         <p>You can build the best paver patio or the cleanest maintenance route in your market, but the last impression a client walks away with is the bill. If your invoice is a confusing PDF emailed three weeks after the job, or a handwritten total scrawled on a carbon-copy pad, you are creating friction at the exact moment you want the client reaching for their wallet. The billing experience is part of the product. Landscaping software fixes this by turning payment from a chore into something a client can finish in under a minute &mdash; from a phone, on the same day the crew rolls off the property. This article walks through how the software shapes what the customer actually sees and does when it is time to pay.</p>

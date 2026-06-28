@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Card-on-File Billing for Every Scheduled Maintenance Visit</h1>
         <p>Recurring maintenance is the steadiest money a landscaping company has &mdash; weekly mowing, biweekly bed care, seasonal cleanups, mulch refreshes. But it only stays steady if you actually collect. Most crews finish the route on a Friday and then spend the following week emailing invoices, re-sending the ones that bounced, and waiting on checks that show up two visits late. Card-on-file billing in LandscapeBossPro flips that around: the card is saved once, and every scheduled visit charges itself the moment the crew marks the job done. You keep cutting grass and laying sod; the software handles the receivables.</p>
 

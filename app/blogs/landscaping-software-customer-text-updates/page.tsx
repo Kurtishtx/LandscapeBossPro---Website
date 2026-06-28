@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Software guides &rarr;</a></p>
         <h1>How Landscaping Software Keeps Clients Informed With Text Updates</h1>
         <p>
           Ask any landscape contractor what eats up their afternoon, and a lot of them will say the same thing: answering the phone. &quot;Are you coming today?&quot; &quot;Did the mulch get delivered?&quot; &quot;Is my patio still on schedule for next week?&quot; Every one of those calls pulls a crew lead or office manager off real work. The fix is not hiring someone to sit by the phone &mdash; it is letting your landscaping software send the answer before the client ever thinks to ask. Automatic text updates turn a flood of &quot;just checking in&quot; calls into a quiet, informed customer base that already knows what is happening on their property.

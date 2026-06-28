@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Before-and-After Photo Documentation for Landscape Projects</h1>
         <p>
           A landscape transformation is the best marketing you own, but only if you actually capture it. A patio install, a fresh planting bed, a load of mulch, or a re-sodded lawn looks dramatically different from where it started &mdash; and that contrast is what earns referrals, justifies your price, and settles disputes. The problem is that photos taken on a crew member&apos;s personal phone end up scattered across text threads and camera rolls where nobody can find them. LandscapeBossPro fixes that by making before-and-after documentation a built-in part of the job, attached directly to the property profile, the estimate, and the invoice it belongs to.

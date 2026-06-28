@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Balancing Install Projects and Recurring Maintenance on One Schedule</h1>
 
         <p>Most landscaping companies run two businesses under one roof. On one side, you have install and design-build work &mdash; hardscape patios, planting beds, sod, mulch jobs, and grading projects that eat up days and burn through materials. On the other, you have recurring maintenance: the mowing routes and account visits that have to happen every week whether or not the install calendar is on fire. The hard part isn&apos;t doing either one. It&apos;s doing both at the same time, with the same crews and the same trucks, without one side quietly stealing hours from the other. LandscapeBossPro is built to hold both on a single schedule so you can see the whole operation in one view instead of guessing.</p>

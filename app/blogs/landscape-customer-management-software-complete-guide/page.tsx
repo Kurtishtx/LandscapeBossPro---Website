@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Landscape Customer Management Software: The Complete Guide for Landscaping Companies</h1>
 
         <p>Running a landscaping company means juggling two very different kinds of work at once: big one-time projects &mdash; design-build, hardscape patios, planting beds, sod, mulch installs &mdash; and recurring maintenance accounts that come back week after week. Each side has its own customers, its own scheduling rhythm, and its own pile of materials. When all of that lives in text threads, a paper calendar, and three different apps, jobs fall through the cracks, bids get forgotten, and invoices go out late. Landscape customer management software pulls every client, property, estimate, job, crew, and payment into one system so the whole operation runs off a single source of truth. This guide walks through what that software actually does for a landscaping business.</p>

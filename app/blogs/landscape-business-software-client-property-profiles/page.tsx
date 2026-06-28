@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Client &amp; Property Profiles That Hold Every Job Detail</h1>
 
         <p>Landscaping is a business of details, and most of those details live at the property. The grade behind the house that always pools water, the paver pattern the homeowner picked two summers ago, the side gate that sticks, the exact mulch color that matches the front beds, the spot where the crew has to back the trailer in &mdash; none of that fits in a phone contact or a sticky note on the truck dash. When a design-build job, a sod install, and a recurring maintenance visit all happen at the same address over three years, the company that remembers wins the repeat work. A client and property profile in your landscape software is where all of that lives, so nothing depends on one person&apos;s memory.</p>

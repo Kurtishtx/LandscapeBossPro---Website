@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Connecting Crew Clock-In to the Scheduled Job in Landscape Software</h1>
 
         <p>Most landscape companies track two things that never quite line up: the schedule the office built and the hours the crew actually worked. The schedule says the patio install is a two-day job; the timecards say the crew was somewhere for thirty-one hours that week, but nobody can say exactly which job ate the overtime. When clock-in lives on a separate app &mdash; or worse, on a paper sheet in the truck &mdash; you never learn whether your bids match reality. Landscape software fixes this by connecting the clock-in punch directly to the scheduled job, so every hour a crew works is automatically attached to the property, the work order, and the estimate that started it.</p>

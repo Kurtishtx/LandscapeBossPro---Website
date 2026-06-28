@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Estimating Mulch, Sod &amp; Planting Quantities Inside Landscape Business Software</h1>
 
         <p>Material takeoffs are where landscape jobs quietly win or lose money. Guess the mulch yardage low and your crew makes a second supplier run on your dime. Guess the sod high and you eat the leftover pallets. Forget to count the shrubs that the design called for and you&apos;re explaining a change order you should have caught at the bid. Doing this math on a notepad at the tailgate is exactly how a job you won at a healthy price ends up barely breaking even. Landscape business software fixes the problem at the source by turning measurements into priced line items&mdash;by the yard, by the pallet, by the plant&mdash;so the number you quote is the material you actually buy.</p>

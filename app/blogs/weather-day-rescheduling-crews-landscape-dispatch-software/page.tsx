@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew &amp; Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew &amp; Dispatch Software guides &rarr;</a></p>
         <h1>Re-Dispatching Crews on a Rain Day With Landscape Software</h1>
         <p>You build the perfect week on Sunday night. Two install crews on a paver patio, one planting crew running beds and sod, and a maintenance route rolling through 22 properties. Then the radar lights up Tuesday morning and half of it falls apart before the trucks even leave the yard. A rain day is not just lost hours &mdash; it is a logistics problem. Soft ground means the skid steer stays parked, the mulch order can&apos;t go down, and the sod you scheduled for delivery shouldn&apos;t be laid in standing water. The crews you dispatch software exists to keep that chaos from costing you a whole day, and the difference between a good rain day and a wasted one usually comes down to how fast you can re-dispatch.</p>
 

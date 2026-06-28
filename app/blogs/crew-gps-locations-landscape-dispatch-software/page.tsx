@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew &amp; Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew &amp; Dispatch Software guides &rarr;</a></p>
         <h1>Seeing Crew Locations Live on the Landscape Dispatch Map</h1>
 
         <p>When you run multiple landscape crews &mdash; one finishing a paver patio across town, one halfway through a planting install, and a maintenance crew working a string of recurring mowing accounts &mdash; the hardest question to answer from the office is the simplest one: where is everybody right now? Without a live map, you&apos;re calling foremen, reading texts, and guessing. A landscape dispatch map that shows crew locations live replaces all of that guesswork with a single screen. You open it, you see every truck as a moving pin, and you instantly know who is where, who is ahead, and who is buried.</p>

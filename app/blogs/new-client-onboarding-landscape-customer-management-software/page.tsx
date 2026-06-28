@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Smooth New Client Onboarding With Landscape Customer Management Software</h1>
         <p>The first two weeks with a new landscaping client set the tone for the whole relationship. A homeowner who just signed off on a paver patio, a fresh bed of plantings, or a season of maintenance wants to feel like you have your act together. If their first impression is a missed return call, a hand-scrawled estimate, or a crew that shows up at the wrong address, you have already lost ground. LandscapeBossPro tightens up that first stretch by giving you one place to capture the client, build the bid, schedule the work, and start billing &mdash; without a single sticky note. Here is how the software turns a brand-new lead into a paying, well-served client.</p>
 

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>Collecting Deposits and Progress Payments With Landscape Maintenance Software</h1>
 
         <p>Landscaping is material-heavy work. Before a single shovel hits the ground on a design-build, hardscape, or planting job, you&apos;ve already committed to buying pavers, plants, sod, mulch, base rock, and aggregate &mdash; often thousands of dollars in materials sitting on your truck or your credit card. If you wait until the job is done to collect, you&apos;re financing the project for the customer. Deposits and progress payments fix that, and the right landscape maintenance software makes collecting them automatic instead of awkward. This post walks through how the software turns a line-item bid into staged payments that protect your cash flow from deposit to final invoice.</p>

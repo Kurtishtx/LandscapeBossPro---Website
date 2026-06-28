@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Estimating Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-estimating-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Estimating Software guides &rarr;</a></p>
         <h1>Using the Job Board to Track Your Landscape Estimate Pipeline</h1>
 
         <p>Most landscaping companies lose more revenue to forgotten estimates than to lost bids. A homeowner asks for a paver patio, you walk the site, you build a number&mdash;and then it sits in your email while three other prospects, two material orders, and a crew callout pull your attention away. Two weeks later the customer hires someone else, and you never even knew the bid had gone cold. The job board in LandscapeBossPro exists to kill that problem. It turns every estimate into a card you can see, move, and act on, so your whole pipeline lives in one place instead of in your head.</p>

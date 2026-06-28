@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Reducing Office Admin Time With Landscape Customer Management Software</h1>
         <p>
           Ask most landscaping owners where their week disappears and the answer is rarely the actual digging, planting, or paver work. It is the office. It is retyping a bid into an invoice, hunting for a client&apos;s gate code, chasing a deposit that never came in, and re-explaining today&apos;s schedule to a crew for the third time. That admin pile grows with every new account, and at some point it starts capping how many jobs you can take. Landscape customer management software exists to shrink that pile, and in LandscapeBossPro the whole point is to enter information once and let it flow everywhere it needs to go.

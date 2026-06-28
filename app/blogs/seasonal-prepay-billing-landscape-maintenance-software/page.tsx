@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing & Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing & Billing guides &rarr;</a></p>
         <h1>Seasonal Prepay and Installment Billing for Landscape Maintenance Plans in Software</h1>
         <p>A landscape maintenance season is lumpy. You mow weekly from April through October, drop mulch in spring, run a heavy fall cleanup, and then watch the work taper off while the truck payments keep coming. Per-visit billing makes that lumpiness worse &mdash; big invoices in busy months, thin ones in the shoulders, and customers who flinch every time a bill arrives. Seasonal prepay and installment billing flatten the whole thing out. With LandscapeBossPro, a client can pay the full season up front for a discount, or split the year&apos;s total into equal monthly installments charged automatically to a card on file. The work still happens when it happens; only the money gets smoothed into something both of you can plan around.</p>
 

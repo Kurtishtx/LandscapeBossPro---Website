@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>How the Job Board Keeps Every Landscape Crew Booked and Busy</h1>
 
         <p>The most expensive thing in a landscaping company isn&apos;t materials or equipment&mdash;it&apos;s an idle crew. Three guys standing around at 10 a.m. because the next job isn&apos;t ready, or a maintenance route that finishes early with nowhere to send the truck, quietly bleeds profit every single week. The job board in LandscapeBossPro is built to close those gaps. It puts every install, every hardscape build, and every recurring maintenance stop on one visual board so you can see exactly who&apos;s working, who&apos;s free, and what needs to happen next&mdash;before the dead time ever shows up.</p>

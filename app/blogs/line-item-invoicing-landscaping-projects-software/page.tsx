@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing &amp; Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing &amp; Billing guides &rarr;</a></p>
         <h1>Line-Item Invoicing for Landscaping Projects: How the Software Builds Detailed Bills</h1>
 
         <p>A landscaping project is rarely one number. A backyard install might involve forty yards of mulch, three pallets of sod, two crews for four days, a skid steer rental, and a planting list of two dozen shrubs and perennials. When you hand a customer a single lump-sum invoice that says &quot;Landscape installation &mdash; $14,800,&quot; you invite questions, disputes, and slow payment. A detailed, itemized bill does the opposite: it shows the customer exactly what they paid for, it justifies the price, and it gets you paid faster. LandscapeBossPro builds that line-item invoice automatically, pulling materials, labor, and equipment straight from the work you already estimated and scheduled.</p>

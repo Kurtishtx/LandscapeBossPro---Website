@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Handling Rain Delays: Bulk Rescheduling Landscape Crews in Minutes</h1>
 
         <p>You staged the pallets, loaded the skid steer, and had two crews lined up for a paver patio and a full bed renovation. Then the radar lit up and the day was gone before the first truck left the yard. The rain itself isn&apos;t what kills a landscaping company &mdash; it&apos;s what happens in the next hour. A sod install has to slide, a planting crew has nowhere to be, fourteen maintenance stops now collide with tomorrow&apos;s already-full route, and the phone won&apos;t stop because nobody told the clients. A single washout, handled by hand, turns into three days of cascading chaos. The right scheduling software turns that same washout into a five-minute bulk reschedule.</p>

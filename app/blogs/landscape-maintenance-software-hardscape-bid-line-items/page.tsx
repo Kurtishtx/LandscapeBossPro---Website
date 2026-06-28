@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>Pricing Hardscape Jobs With Line-Item Bids in Landscape Maintenance Software</h1>
 
         <p>Hardscape is where landscaping profit is won or lost. A paver patio, a retaining wall, or a flagstone walkway carries thousands of dollars in stone, base, and crew hours, and a single bad guess on quantity can erase the margin on the whole job. When you price that work as one lump sum scribbled on a clipboard, you have no way to know whether the number is right &mdash; and no way to defend it when the customer pushes back. Line-item bids built in landscape maintenance software change that. Instead of guessing at a total, you assemble the job from its real parts: square footage, tons of base, plant counts, equipment time, and crew labor, each with its own quantity and rate. The software adds it up, and the number you hand the customer is one you can stand behind.</p>

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>A Day in the Life: How an Owner Runs the Business from One Dashboard</h1>
 
         <p>Ask any landscaping owner what their day actually looks like and you&apos;ll hear the same story: a bid to get out before the customer goes with someone else, a crew waiting on the next address, a material order that needs to go in, an invoice that should have gone out yesterday, and three customers texting at once. The work isn&apos;t the hard part &mdash; the juggling is. Most owners run that juggle across a phone, a paper calendar, a notebook, a spreadsheet, and their own memory, and the cracks between those tools are where money and hours leak out. LandscapeBossPro replaces the juggle with one dashboard. Here&apos;s what a real day looks like when estimates, scheduling, dispatch, invoicing, and customer communication all live in the same place.</p>

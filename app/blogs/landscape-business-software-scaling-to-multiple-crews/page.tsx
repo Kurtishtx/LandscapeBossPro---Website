@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Scaling from One Truck to Multiple Crews with Landscape Business Software</h1>
         <p>The jump from one truck to two is the hardest move a landscaping owner ever makes. When you run a single crew, you are the system. You hold the estimates in your head, you know which job needs sod and which needs mulch, and you remember who still owes you for last month&apos;s patio. The second you add a second truck, all of that knowledge has to live somewhere besides your brain &mdash; or the wheels come off. Landscape business software is what turns one person&apos;s memory into a shared operating system the whole company can run on.</p>
 

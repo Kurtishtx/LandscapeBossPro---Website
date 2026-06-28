@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Tracking Materials and Products Per Customer in Landscape Customer Management Software</h1>
 
         <p>Landscaping is a material business. On a single install you might move three yards of mulch, forty flats of annuals, a pallet of flagstone, two cubic yards of screened topsoil, and a dozen three-gallon shrubs &mdash; and the margin on that job lives or dies on whether you tracked all of it. When materials get logged on a paper ticket in a truck, or scribbled into a phone note that never makes it back to the office, you lose twice: once on the job cost you never recovered, and again on the next bid you price from memory instead of history. Landscape customer management software fixes that by tying every material and product to the customer, the property, and the job it belonged to &mdash; so the numbers follow the work instead of living in someone&apos;s head.</p>

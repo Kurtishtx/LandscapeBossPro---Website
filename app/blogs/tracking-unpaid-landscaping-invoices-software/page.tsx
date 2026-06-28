@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing &amp; Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing &amp; Billing guides &rarr;</a></p>
         <h1>Tracking Unpaid Invoices: How Landscaping Software Keeps Accounts Receivable Visible</h1>
         <p>Ask most landscaping owners how much money is owed to them right now and you get a shrug, a guess, or a slow scroll through an email inbox. The work got done &mdash; the retaining wall went up, the sod got laid, the maintenance route ran all season &mdash; but the cash is scattered across a dozen unpaid invoices nobody is watching. Accounts receivable that you cannot see is money you do not control. LandscapeBossPro fixes that by making every unpaid invoice visible, aged, and tied back to the client and the job it came from, so you always know exactly who owes you and how long it has been.</p>
 

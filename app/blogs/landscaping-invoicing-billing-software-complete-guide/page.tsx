@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing & Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing & Billing guides &rarr;</a></p>
         <h1>Landscaping Invoicing &amp; Billing Software: The Complete Guide for Landscape Companies</h1>
 
         <p>In a landscaping business, the gap between finishing a job and getting paid for it is where the money quietly leaks out. A crew installs a paver patio, drops three yards of mulch, and sets a dozen shrubs &mdash; and then the bill sits in someone&apos;s head, on a clipboard, or in a text thread for two weeks until the owner finds an hour to type it up. Multiply that delay across a season of installs, design-build projects, and weekly maintenance routes, and the lag becomes real cash sitting on the sidewalk. Landscaping invoicing and billing software exists to close that gap: it carries the line items, materials, and labor from the estimate straight through to a paid invoice, with as little re-typing as possible.</p>

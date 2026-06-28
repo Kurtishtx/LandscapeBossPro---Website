@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Surviving the Spring Rush With Landscape Scheduling Software</h1>
 
         <p>Every landscaper knows the feeling. The phone won&apos;t stop ringing, the inbox is full of estimate requests, the maintenance routes are kicking back into gear, and three big install jobs all want to start the same week. The spring rush is where landscaping companies make most of their money&mdash;and where they make most of their mistakes. Double-booked crews, forgotten estimates, soil deliveries that beat the crew to the site, invoices that never get sent. The right landscape scheduling software is what separates the companies that grow during the rush from the ones that just survive it. Here&apos;s how the software carries the load when the season hits all at once.</p>

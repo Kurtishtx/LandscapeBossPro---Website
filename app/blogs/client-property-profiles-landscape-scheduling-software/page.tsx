@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Why Client and Property Profiles Make Scheduling Faster</h1>
 
         <p>Most of the time a landscaping schedule slows down, it is not because the work is hard. It is because the information is scattered. The gate code is in a text thread from last spring, the dog warning is in somebody&apos;s head, the bed dimensions are on a crumpled estimate in a truck, and the customer&apos;s preferred mulch color is anybody&apos;s guess. Every one of those gaps becomes a phone call, a callback, or a crew standing in a driveway waiting for an answer. Client and property profiles fix that by putting everything you know about a customer and their site in one place &mdash; and once that record exists, scheduling gets dramatically faster. Here is exactly why.</p>

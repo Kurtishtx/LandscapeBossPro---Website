@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Building a Complete Customer History in Landscape Customer Management Software</h1>
         <p>Ask most landscape owners what they know about a five-year customer and the answer lives in three places: a stack of old estimates in a truck, a few text threads on a phone, and somebody&apos;s memory. That works until the person who remembers leaves, the homeowner disputes a charge, or you try to upsell a maintenance plan and cannot recall what you installed for them last spring. A complete customer history fixes that. In LandscapeBossPro, every bid, job, material, payment, and message attaches to one client and property profile, so the full story of the relationship is in front of you the moment you open it.</p>
 

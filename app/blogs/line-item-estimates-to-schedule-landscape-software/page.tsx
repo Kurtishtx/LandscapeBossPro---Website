@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>From Line-Item Estimate to Scheduled Job: Closing the Loop in Landscape Software</h1>
         <p>
           Most landscape companies lose money in the gap between the bid and the dig. You build a careful line-item estimate &mdash; so many yards of mulch, so many pallets of sod, so many crew hours on a retaining wall &mdash; the client signs, and then everything you priced gets re-entered by hand into a calendar, a materials list, and eventually an invoice. Every re-entry is a chance to drop a line, forget a delivery, or schedule a crew that shows up without the plants. LandscapeBossPro closes that loop so the estimate you sell becomes the job you run, automatically.

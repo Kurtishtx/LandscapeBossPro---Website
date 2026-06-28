@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Turning Completed Scheduled Jobs Into Invoices Automatically</h1>
 
         <p>The hardest part of running a landscaping company is rarely the work in the field &mdash; it&apos;s the gap between finishing the work and getting paid for it. A crew installs a patio, lays sod, drops three yards of mulch, and plants a dozen shrubs, then drives to the next stop. Three days later someone in the office is trying to reconstruct what actually happened on that job so they can build an invoice. They pull the original estimate, guess at how much mulch really went down, forget the extra labor hour, and send a bill that&apos;s either wrong or a week late. Every day that gap stays open is a day your money sits in someone else&apos;s account. LandscapeBossPro closes that gap by turning a completed scheduled job directly into an invoice &mdash; carrying the line items, materials, and pricing straight through so billing goes out the same day the work gets done.</p>

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>How to Choose the Right Landscape Business Software for Your Company</h1>
 
         <p>Buying landscape business software is one of those decisions that&apos;s easy to put off and expensive to get wrong. Switch to the wrong platform and you spend six months re-entering customers, retraining crews, and fighting a tool that doesn&apos;t match how you actually run jobs. Pick the right one and the office quiets down, the bids go out faster, and you stop losing money to forgotten materials and missed invoices. The trick is that &quot;the best software&quot; doesn&apos;t exist in the abstract &mdash; the best software is the one that fits a landscaping business, which is project-heavy and material-heavy in a way generic field-service tools rarely understand. This guide walks through what actually matters when you&apos;re comparing options.</p>

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Giving Crews Customer Context at Dispatch in Landscape Customer Management Software</h1>
 
         <p>A landscape crew that pulls up to a property with nothing but an address and a job name is a crew that will call the office twice, guess at the scope, and probably plant the wrong shrubs in the wrong bed. Landscaping is project and material heavy &mdash; a hardscape patio, a planting plan, a sod install, or a recurring maintenance visit each carries a stack of details that the crew needs in hand before the truck doors open. When your landscape customer management software pushes that context to the crew automatically at dispatch, the foreman stops calling the office and starts running the job. This is the difference between a crew that executes and a crew that interrupts your day with questions.</p>

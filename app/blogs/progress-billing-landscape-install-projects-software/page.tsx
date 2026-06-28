@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing &amp; Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing &amp; Billing guides &rarr;</a></p>
         <h1>Progress Billing for Landscape Install Projects: Invoicing in Phases With Software</h1>
 
         <p>A $40,000 design-build install isn&apos;t a job you invoice once at the end. By the time the patio is poured, the plant material is in the ground, and the sod is rolled out, you have already spent weeks of crew labor and thousands of dollars on stone, soil, and plants. Waiting until the final walkthrough to send a single invoice means floating the entire project on your own cash &mdash; and praying the homeowner doesn&apos;t balk at a five-figure number that lands all at once. Progress billing fixes that. You break the project into phases, collect a deposit up front, bill draws as milestones complete, and send a final invoice for the balance. The right software makes every one of those invoices accurate, traceable, and tied back to the original bid.</p>

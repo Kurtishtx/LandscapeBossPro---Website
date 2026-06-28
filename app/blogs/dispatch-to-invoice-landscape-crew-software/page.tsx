@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew & Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew & Dispatch Software guides &rarr;</a></p>
         <h1>Turning a Completed Dispatch Into an Invoice in Landscape Software</h1>
         <p>On a landscape install or maintenance crew, the gap between &quot;the job is done&quot; and &quot;the money is in the bank&quot; is where most of the profit quietly leaks out. The crew loads the trailer and drives to the next property, the dispatch ticket gets buried in a glovebox, and three weeks later someone in the office is trying to remember how many yards of mulch went down and whether the client was charged for the extra sod. LandscapeBossPro closes that gap by making the completed dispatch the source of the invoice &mdash; so the bill writes itself from the same record the crew already worked off of.</p>
 

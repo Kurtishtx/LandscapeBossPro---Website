@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>What Landscape Business Software Actually Does for an Install &amp; Maintenance Company</h1>
 
         <p>Landscaping is two businesses bolted together. One side builds &mdash; design-build patios, retaining walls, planting beds, sod, mulch, and full property installs that run thousands of dollars and burn through pallets of material. The other side maintains &mdash; recurring mowing crews and seasonal cleanups that hit the same properties week after week. Most owners try to run both halves out of a notebook, a spreadsheet, and a stack of text messages. Landscape business software exists to pull all of that into one system: estimates, materials, scheduling, dispatch, invoicing, and recurring billing. Here is what it actually does day to day.</p>

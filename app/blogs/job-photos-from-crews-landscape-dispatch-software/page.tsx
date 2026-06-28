@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew & Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew & Dispatch Software guides &rarr;</a></p>
         <h1>Collecting Before-and-After Photos From Dispatched Landscape Crews</h1>
         <p>
           A landscape job lives or dies on the proof. A homeowner who paid for a paver patio, a re-graded planting bed, or a full sod install wants to see the transformation &mdash; and so does the next prospect deciding whether to hire you. The trouble is that the photos almost always get stranded. They sit on a crew leader&apos;s personal phone, buried under a thousand other pictures, and the office never sees them. When you run dispatch and photo capture in one system, every before-and-after shot lands exactly where it belongs: on the job, on the property profile, and ready to back up your invoice. Here is how LandscapeBossPro turns crew photos into a real business asset instead of lost camera roll clutter.

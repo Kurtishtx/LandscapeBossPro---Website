@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Setting Up Recurring Maintenance Plans and Auto-Generated Visits</h1>
         <p>The recurring side of a landscaping business is the part that keeps the lights on between big install jobs. Weekly mowing routes, monthly bed maintenance, seasonal mulch refreshes, planting upkeep &mdash; that steady work is predictable revenue, but only if it actually gets scheduled, completed, and billed every single time. The problem is that managing it by hand is brutal. Forty accounts, each on its own cadence, all needing to land on the right crew&apos;s calendar on the right day. Miss a few and you&apos;ve left money on the table and a client wondering where you went. LandscapeBossPro fixes this with recurring maintenance plans that auto-generate visits, so the work schedules itself once you set it up.</p>
 

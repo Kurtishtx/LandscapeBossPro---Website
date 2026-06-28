@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew &amp; Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew &amp; Dispatch Software guides &rarr;</a></p>
         <h1>Tracking Materials and Loadouts on Every Dispatched Landscape Job</h1>
 
         <p>Ask any landscaping owner where the day goes sideways and a lot of them will point at the same place: the loadout. A crew rolls out at 7:00 sharp, drives forty minutes to a planting job, and discovers the trailer is short eight yards of mulch and missing half the shrubs. Now you are paying three guys to stand around while someone makes a supply run, and the customer is watching the clock. Materials are the heaviest, most expensive, most forgettable part of a landscape job &mdash; and on a whiteboard, they live entirely in somebody&apos;s head. Landscape crew software fixes that by tying every material and every loadout to the job itself, so what leaves the yard matches what the job actually needs.</p>

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>Keeping Clients In the Loop With Customer Texts in Landscape Maintenance Software</h1>
         <p>Most of the complaints a landscape company hears have nothing to do with the quality of the work. The crew showed up, edged clean, and hauled off the clippings &mdash; but the client never knew they were coming, found out about a rain delay a day late, or got an invoice in the mail three weeks after the job wrapped. The work was fine. The communication wasn&apos;t. Customer texts inside your landscape maintenance software close that gap by turning every schedule, dispatch, and billing event into a short message that lands in the client&apos;s pocket the moment it happens.</p>
 

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing &amp; Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing &amp; Billing guides &rarr;</a></p>
         <h1>Billing for Materials &amp; Products: How Landscaping Software Puts Mulch, Sod, and Stone on the Invoice</h1>
         <p>Landscaping is a material-heavy business. On a single install you might haul in fifteen yards of mulch, two pallets of sod, a ton of crushed stone, a dozen shrubs, and a few hundred feet of edging &mdash; and every bit of it costs you money before the first crew member sets foot on the property. If those materials do not make it onto the invoice cleanly, your margin walks off the job site in a wheelbarrow. LandscapeBossPro is built to keep mulch, sod, stone, and plants tied to the work from the moment you write the bid all the way to the payment, so nothing gets buried.</p>
 

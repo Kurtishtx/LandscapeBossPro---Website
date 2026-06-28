@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Software guides &rarr;</a></p>
         <h1>Card-on-File Billing for Landscape Clients: How the Software Works</h1>
 
         <p>Most landscaping companies lose more money to slow billing than to bad pricing. You finish the patio install, send the invoice, then chase the balance for three weeks. The maintenance crew mows forty lawns on Tuesday, but the payments trickle in across the next thirty days &mdash; if they come at all. Card-on-file billing fixes the timing problem at the root. The client&apos;s card is stored securely once, and the software charges it automatically when work is done. There is no invoice to mail, no check to wait on, and no monthly collections cycle. This article walks through exactly how card-on-file billing works inside landscaping software, for both one-time projects and recurring maintenance.</p>

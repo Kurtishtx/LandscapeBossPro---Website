@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Managing Recurring Maintenance Plans in Landscape Customer Management Software</h1>
         <p>
           Install and design-build jobs pay big, but recurring maintenance is what keeps the lights on between projects. Weekly mowing, biweekly bed care, seasonal mulch refreshes, and monthly property walk-throughs add up to steady, predictable revenue &mdash; if you can keep the visits scheduled, the crews routed, and the invoices going out without anyone chasing paper. The problem is that maintenance work is high-volume and low-drama, so it is exactly the kind of thing that slips through the cracks of a whiteboard or a spreadsheet. Landscape customer management software fixes that by treating every recurring plan as a living record that schedules itself, dispatches the crew, and bills the client automatically.

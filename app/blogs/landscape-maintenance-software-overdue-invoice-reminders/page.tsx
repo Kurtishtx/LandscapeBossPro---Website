@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>Stopping Late Payments With Automated Reminders in Landscape Maintenance Software</h1>
         <p>The crews showed up every week, the mowing got done, the beds got edged, the mulch went down clean &mdash; and somehow the money still is not in the bank. Late payments are the quiet killer in a landscape maintenance business. The work is finished, the client is happy, but the invoice sits unpaid at thirty, forty-five, sixty days because nobody on your team has the time to keep calling about it. The right landscape maintenance software fixes this without adding a collections person to payroll. It builds the follow-up into the same system that holds the invoice, so reminders go out automatically whether or not anyone remembers to send them.</p>
 

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>Smoothing the Office-to-Field Handoff With Landscape Maintenance Software</h1>
 
         <p>Most of the friction in a landscaping company doesn&apos;t happen at the office desk and it doesn&apos;t happen on the job site. It happens in the gap between them &mdash; the handoff. The office books the work, prices the bid, and promises the customer a date. Then somehow that information has to land in the right crew&apos;s hands, on the right day, with the right details, materials, and access notes. When that handoff is built on sticky notes, group texts, and a printed route sheet, things fall through the cracks. The crew shows up without the mulch count, mows the wrong section, or skips a stop nobody told them about. LandscapeBossPro is designed to make that handoff clean and automatic, so what the office sets up is exactly what the field sees.</p>

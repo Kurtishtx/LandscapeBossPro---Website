@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Estimating Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-estimating-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Estimating Software guides &rarr;</a></p>
         <h1>Sending Landscape Estimates From the Driveway, Not the Office</h1>
         <p>Here is the way most landscape estimates still get written: you walk the property, scribble measurements on the back of a work order, drive to the next job, and then&mdash;maybe three nights later&mdash;you finally sit down at the office computer to type it all up. By then the homeowner has called two other contractors, the details are fuzzy, and you are guessing at how many yards of mulch the front beds really needed. The estimate that took you four days to send is the one that loses. LandscapeBossPro flips that whole sequence around. The estimate gets built on your phone while you are still standing in the driveway, and it lands in the customer&apos;s inbox before you back out onto the street.</p>
 

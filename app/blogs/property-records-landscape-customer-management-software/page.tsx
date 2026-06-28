@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>How Property Records Power Landscape Customer Management Software</h1>
         <p>In landscaping, you don&apos;t really manage customers &mdash; you manage properties. The retaining wall, the bed lines, the irrigation zones, the gate code, the dog in the backyard, and the spot where the truck has to park all live at an address, not on a person. That&apos;s why the property record is the quiet engine inside good landscape customer management software. In LandscapeBossPro, every estimate, material order, scheduled visit, crew note, and invoice hangs off the property profile. When that record is complete, the office stops guessing and the crew shows up knowing exactly what they&apos;re walking into. Here&apos;s how a deep property record powers the whole operation.</p>
 

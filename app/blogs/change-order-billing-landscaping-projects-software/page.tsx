@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing &amp; Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing &amp; Billing guides &rarr;</a></p>
         <h1>Change Orders and Add-Ons: How Landscaping Software Bills Mid-Project Scope Changes</h1>
         <p>Almost no landscape install finishes exactly the way it was bid. The homeowner walks the site and decides the patio should run six feet wider. You dig the planting bed and hit a buried stump that eats half a day. The client sees the retaining wall going up and wants matching steps. Every one of those moments is real work and real materials &mdash; and if you do not capture it the same day it happens, it quietly turns into free labor. Change orders are where good landscaping companies protect their margin, and the right software makes them fast enough that crews actually use them.</p>
 

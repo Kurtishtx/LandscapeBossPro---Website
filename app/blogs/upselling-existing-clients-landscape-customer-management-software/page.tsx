@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Upselling Existing Clients With Landscape Customer Management Software</h1>
 
         <p>The easiest sale you will ever make is to a client who already trusts you. They&apos;ve seen your crew show up on time, watched your work hold up through a season, and paid their invoices without a fight. Yet most landscaping companies leave real money on the table because they treat upselling as a memory exercise &mdash; hoping someone remembers that the Hendersons mentioned wanting a patio, or that the office park asked about a planting refresh. Landscape customer management software turns that guesswork into a system. Every client profile, every completed job, and every property note becomes a record you can mine for the next project. Here is how the software helps you grow revenue from the clients you already have.</p>

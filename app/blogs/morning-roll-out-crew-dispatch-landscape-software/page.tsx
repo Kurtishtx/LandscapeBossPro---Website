@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew & Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew & Dispatch Software guides &rarr;</a></p>
         <h1>Faster Morning Roll-Outs With Landscape Crew Dispatch Software</h1>
 
         <p>The morning is where a landscaping company wins or loses its day. Every minute a crew stands around the shop at 6:45 trying to figure out where they&apos;re going, what they&apos;re loading, and who&apos;s riding with them is a minute that never comes back &mdash; multiplied by every truck in the yard, every day of the season. A slow roll-out doesn&apos;t just cost you that half hour. It pushes the whole route back, turns a tight install schedule into a late one, and leaves customers wondering why the crew that was supposed to start their patio at eight is still pulling out of the lot at nine. LandscapeBossPro crew dispatch software is built to kill that morning drag so trucks leave loaded, routed, and rolling without a huddle.</p>

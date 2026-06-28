@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Spreadsheets vs Landscape Customer Management Software: A Side-by-Side Look</h1>
 
         <p>Almost every landscaping company starts the same way: a spreadsheet for customers, another tab for jobs, maybe a third for who owes what. It works when you&apos;re running a couple of crews and bidding a handful of jobs a month. But landscaping is project-heavy and material-heavy, and spreadsheets were never built to track a hardscape bid, a pallet of sod, a planting crew&apos;s schedule, and a card-on-file maintenance plan all at once. This is a straight side-by-side look at where the spreadsheet holds up and where purpose-built software pulls ahead.</p>

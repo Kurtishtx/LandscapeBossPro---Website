@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew &amp; Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew &amp; Dispatch Software guides &rarr;</a></p>
         <h1>Automatic On-the-Way Texts From Landscape Dispatch Software</h1>
 
         <p>The single most common call a landscaping office fields all day is some version of &quot;What time will the crew be here?&quot; A homeowner wants to move a car out of the driveway before the hardscape pallets arrive. A property manager wants to unlock a back gate before the planting crew shows up. A maintenance client just wants to know the mowing crew is still coming today. Every one of those calls pulls the office away from building bids, ordering materials, and scheduling the next job. Automatic on-the-way texts kill that call volume entirely &mdash; the client gets a heads-up the moment the crew is rolling, and nobody in the office has to type a word.</p>

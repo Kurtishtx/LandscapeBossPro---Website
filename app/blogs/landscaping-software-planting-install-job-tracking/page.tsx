@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Software guides &rarr;</a></p>
         <h1>Tracking Planting and Install Jobs From Estimate to Completion</h1>
 
         <p>A planting or install job is not a single event &mdash; it is a chain of decisions, materials, labor hours, and customer expectations that has to hold together from the first walkthrough to the final invoice. When that chain lives in your head, in a spiral notebook, and in three text threads, things fall through the cracks: the wrong quantity of mulch shows up, a crew gets dispatched to a job that was never confirmed, or a finished install sits two weeks before anyone sends a bill. Landscaping software exists to keep every stage of that job connected, so a bid you wrote in March is still the same record your crew closes out in May. Here is how LandscapeBossPro tracks a planting or install job from estimate all the way to completion.</p>

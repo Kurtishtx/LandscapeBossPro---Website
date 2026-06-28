@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Card-on-File Billing: Getting Paid Without Chasing Checks</h1>
         <p>You finished the install three weeks ago. The patio looks great, the beds are mulched, the sod took root&mdash;and the invoice is still sitting unpaid in someone&apos;s kitchen drawer. Every landscaping company knows this dance. You did the work, bought the materials up front, paid the crew on Friday, and now you&apos;re playing collections agent on a Tuesday night. Card-on-file billing fixes that. When the payment method is already saved and authorized, getting paid stops being a chase and becomes an automatic part of closing the job.</p>
 

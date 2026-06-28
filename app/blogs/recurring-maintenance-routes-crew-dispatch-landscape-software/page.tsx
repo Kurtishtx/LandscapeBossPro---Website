@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew & Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew & Dispatch Software guides &rarr;</a></p>
         <h1>Building Recurring Maintenance Routes in Landscape Crew Dispatch Software</h1>
 
         <p>Recurring maintenance is the part of a landscaping business that should run itself &mdash; and almost never does. Mowing, edging, bed maintenance, mulch refreshes, and seasonal cleanups land on the same properties week after week, so in theory the office should barely have to think about them. In practice, most maintenance schedules live in a dispatcher&apos;s head or a paper clipboard, get rebuilt from scratch every Monday morning, and quietly leak revenue every time a stop gets skipped or billed late. Landscape crew dispatch software fixes this by turning each recurring account into a standing route entry that schedules itself, bills itself, and dispatches to the crew with one tap.</p>

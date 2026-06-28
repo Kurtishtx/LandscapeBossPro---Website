@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>A Day In the Field: How Crews Use the Landscape Maintenance Software App</h1>
 
         <p>The office sees landscape maintenance software as schedules, estimates, and invoices. The crew sees something different &mdash; a phone in the truck that tells them where to go, what to do, and what to bring. The two views meet inside the same system, but the crew&apos;s day runs almost entirely through the mobile app. So let&apos;s ride along. Here is a full day in the field, stop by stop, and exactly how a landscaping crew uses the app to get through it without a single phone call to dispatch.</p>

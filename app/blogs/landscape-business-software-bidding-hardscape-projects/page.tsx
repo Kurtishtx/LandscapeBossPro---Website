@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Bidding Hardscape &amp; Patio Projects Accurately Using Landscape Business Software</h1>
 
         <p>Hardscape is where landscaping money is made &mdash; and where it&apos;s lost. A paver patio, a retaining wall, an outdoor kitchen, or a stone walkway carries thousands of dollars in pavers, base aggregate, sand, fabric, adhesive, edging, and crew hours. Bid it too low and you eat the overage out of your own margin. Bid it too high and you lose the job to the contractor down the road. Most of the bad bids in this business come from the same place: a number scratched on a notepad, a rough guess at how many tons of base you&apos;ll need, and labor priced on gut feel. Landscape business software replaces that guesswork with a structured, line-item bid that prices every component of the project before you ever quote the customer &mdash; so the number you hand over actually holds up when the crew gets to work.</p>

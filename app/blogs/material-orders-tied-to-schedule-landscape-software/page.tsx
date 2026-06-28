@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Ordering Materials On Time by Reading the Landscape Schedule</h1>
         <p>
           In landscaping, the schedule is more than a list of who goes where. It is a buying plan. Every install, hardscape build, planting day, and mulch refresh on next week&apos;s calendar represents pallets of sod, yards of mulch, tons of stone, and flats of plants that have to be sitting in your yard or dropped at the site before the crew shows up. When materials show up late, the whole day stalls &mdash; and you still pay the crew to stand around. LandscapeBossPro is built so the schedule itself tells you what to order and when, instead of you guessing from memory.

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Software guides &rarr;</a></p>
         <h1>Your First Week on Landscaping Software: A Practical Setup Guide</h1>
         <p>
           Switching your landscaping business onto new software always feels bigger than it is. You picture days of data entry, a crew that ignores the app, and a half-built system you abandon by spring. It does not have to go that way. If you treat your first week as a simple checklist &mdash; clients in, estimates flowing, materials tracked, crews scheduled, and billing turned on &mdash; you can be running real jobs through LandscapeBossPro before the next Monday. This guide walks you through that week, day by day, so nothing important gets skipped.

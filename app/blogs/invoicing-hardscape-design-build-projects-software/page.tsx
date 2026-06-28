@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing & Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing & Billing guides &rarr;</a></p>
         <h1>Invoicing Hardscape and Design-Build Projects: Billing Big Jobs With Software</h1>
         <p>A backyard patio with a seat wall, fire feature, and planting beds is not a $200 mow-and-go ticket. It is a five-figure project that runs for weeks, eats pallets of pavers and tons of base, and ties up your best crew. Bill a job like that the way you bill a small maintenance stop and you will bleed cash &mdash; floating thousands of dollars in material while you wait sixty days to collect. The fix is not a bigger paper invoice book. It is software that ties the estimate, the materials, the schedule, and the payments together so a big design-build job bills itself in stages instead of one scary number at the end.</p>
 

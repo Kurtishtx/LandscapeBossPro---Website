@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Estimating Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-estimating-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Estimating Software guides &rarr;</a></p>
         <h1>Hardscape Estimating Software for Pavers, Walls, and Patios</h1>
 
         <p>A hardscape bid is unforgiving. A planting job that comes in a little short on mulch costs you twenty dollars and ten minutes at the supplier. A patio that comes in short on pavers costs you a half day of crew time, a second delivery fee, a dye-lot mismatch, and an awkward call to a customer who is now staring at a half-finished patio. Pavers, retaining walls, and patios are the highest-material, highest-labor work most landscape companies do, and the estimate is where the money is won or lost &mdash; long before a single crew member sets a stone. Hardscape estimating software exists to make that estimate accurate, repeatable, and fast enough that you can quote a job the same week you walk it.</p>

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Handling Change Orders and On-Site Upsells Without Losing Money</h1>
         <p>Some of the best revenue your crew ever earns happens after the bid is signed. The homeowner watches the new patio go in and asks for a fire pit to match. A maintenance client points at a tired bed and says, &quot;Can you redo that while you&apos;re here?&quot; A planting job uncovers a drainage problem the crew can fix in an afternoon. These moments are pure opportunity &mdash; but only if you capture them cleanly. Handled on a sticky note or a verbal &quot;we&apos;ll figure it out later,&quot; change orders and upsells turn into free labor, blown material budgets, and awkward billing fights. The right landscape business software makes capturing them so fast that crews actually do it every time.</p>
         <p>This post walks through how LandscapeBossPro lets your team turn on-site requests into signed, profitable add-ons &mdash; without slowing down the job or losing track of the materials.</p>

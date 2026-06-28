@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>A Client Self-Service Portal in Landscape Customer Management Software</h1>
         <p>Most of the back-office time a landscape company burns is not spent installing patios or running mowing routes &mdash; it is spent answering the same handful of customer questions over the phone. When is my crew coming? Did you get my deposit? Can I see the bid again? What card do you have on file? Every one of those calls pulls someone off real work. A client self-service portal in LandscapeBossPro hands those answers back to the customer, giving each client a secure login where they can see their bids, schedules, invoices, and payment details on their own time. The result is fewer interruptions for your office and a more professional experience for the homeowner or property manager.</p>
 

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Software guides &rarr;</a></p>
         <h1>Spreadsheets vs Landscaping Software: Why Crews Make the Switch</h1>
 
         <p>Almost every landscaping company starts on a spreadsheet. You track bids on one tab, customers on another, maybe a rough schedule on a third. It works when you&apos;re running one install crew and a handful of maintenance accounts. But landscaping is project-heavy and material-heavy, and the spreadsheet that got you to your first 30 clients is usually the thing holding you back at 100. Here is where it breaks, and what crews switch to instead.</p>

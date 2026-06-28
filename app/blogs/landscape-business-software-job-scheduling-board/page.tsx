@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Using the Job Board to Schedule Installs and Maintenance Visits</h1>
         <p>
           Most landscaping companies juggle two very different kinds of work at the same time. On one side you have big-ticket installs &mdash; patios, planting beds, sod, retaining walls, and full design-build projects that run for days or weeks. On the other side you have recurring maintenance and mowing routes that hit the same properties on a fixed rotation. Trying to run both off a whiteboard, a group text, and a stack of printed work orders is how jobs slip, crews sit idle, and customers call asking where you are. The LandscapeBossPro job board puts every install and every maintenance visit on one screen so you can see the whole week at a glance and assign work with confidence.

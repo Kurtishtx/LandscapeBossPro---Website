@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Estimating Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-estimating-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Estimating Software guides &rarr;</a></p>
         <h1>Pricing Landscape Installs: Labor, Materials, and Markup in One Estimate</h1>
 
         <p>A landscape install bid is three different math problems pretending to be one number. You have labor &mdash; crew hours times a loaded rate. You have materials &mdash; yards of mulch, pallets of sod, tons of stone, plants, edging, base, and fabric, each at a cost that moved last week. And you have markup &mdash; the margin that keeps the doors open after the truck is unloaded and the crew is paid. When those three live on a legal pad, a calculator, and a supplier text thread, the final price is a guess. LandscapeBossPro pulls labor, materials, and markup into one line-item estimate so the number you hand the client is the number that actually protects your margin.</p>

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>Using Before and After Photos In Landscape Maintenance Software</h1>
 
         <p>A mowing and maintenance crew can do everything right on a property &mdash; edge clean, blow off the walks, trim the beds &mdash; and still get a call two days later from a client who swears the crew skipped them. Without proof, that argument is the client&apos;s memory against the crew&apos;s. With a timestamped before and after photo attached to the job, the argument is over before it starts. Before and after photos inside landscape maintenance software turn every visit into a documented, defensible record &mdash; and that same record quietly drives upsells, settles disputes, and shows commercial clients exactly what they pay for. This is one of the most underused features in the whole platform, and it costs the crew about fifteen seconds per stop.</p>

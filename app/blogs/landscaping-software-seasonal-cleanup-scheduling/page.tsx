@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Software guides &rarr;</a></p>
         <h1>Scheduling Spring and Fall Cleanups With Landscaping Software</h1>
 
         <p>Cleanups are the bookends of the landscaping season. Every spring your crews are racing to cut back perennials, edge beds, haul winter debris, refresh mulch, and get a few hundred properties ready before the maintenance schedule ramps up. Every fall the same crews reverse the work &mdash; final cutbacks, leaf hauling, bed prep for winter. The problem is never the labor. It&apos;s the logistics. Cleanups arrive as a flood of one-off requests on top of your recurring maintenance accounts, and if you&apos;re tracking them on a whiteboard or a text thread, you lose money on every disorganized day. Landscaping software exists to turn that flood into a routed, priced, billable schedule.</p>

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew &amp; Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew &amp; Dispatch Software guides &rarr;</a></p>
         <h1>Crew Checklists and Job Notes in Landscape Dispatch Software</h1>
 
         <p>A landscaping job lives or dies on what the crew knows when they pull up. The estimate said three yards of mulch and a row of arborvitae, but did the crew get the part about the gate code, the spot where the sod has to be cut around the irrigation heads, or the fact that the homeowner wants the old edging hauled off? When that information lives only in the owner&apos;s head or a text thread from last week, it shows up on site as a missed step, a callback, or a crew standing around waiting on a phone call. LandscapeBossPro attaches crew checklists and job notes directly to the job, so the scope, the materials, and the property details ride along with the dispatch instead of getting lost between the office and the truck.</p>

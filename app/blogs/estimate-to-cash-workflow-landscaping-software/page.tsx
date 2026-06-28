@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing &amp; Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing &amp; Billing guides &rarr;</a></p>
         <h1>From Estimate to Cash: The Full Landscaping Billing Workflow in Software</h1>
         <p>Every landscaping job lives or dies on the same path: you bid it, you build it, and you bill it. The problem is that most shops run those three stages in three different places &mdash; a quote in one app, a calendar on the wall, and an invoice typed up from memory two weeks after the crew rolled off. Numbers drift, line items get dropped, and money slips. LandscapeBossPro closes that gap by carrying a single job from estimate to cash inside one system, so the dollars you bid are the dollars you collect. Here is what that workflow actually looks like.</p>
 

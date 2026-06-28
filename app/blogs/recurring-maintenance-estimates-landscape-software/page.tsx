@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Estimating Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-estimating-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Estimating Software guides &rarr;</a></p>
         <h1>Estimating Recurring Landscape Maintenance Plans the Right Way</h1>
         <p>One-time install jobs are easy to price &mdash; you walk the site, count the materials, and send a number. Recurring maintenance is where landscape companies bleed money. You quote a flat monthly rate, the property turns out bigger than it looked, the mulch refresh eats your margin, and twelve months later you&apos;re mowing for free. The fix isn&apos;t guessing harder. It&apos;s building maintenance estimates the same disciplined, line-item way you build an install bid, and letting your software carry the math, the schedule, and the billing for you. Here&apos;s how to estimate recurring plans the right way inside LandscapeBossPro.</p>
 

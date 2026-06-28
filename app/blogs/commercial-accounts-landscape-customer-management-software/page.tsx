@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Handling Commercial Accounts and Multi-Property Clients in Landscape Customer Management Software</h1>
         <p>Commercial work is where landscaping companies grow up. A property manager who hands you ten retail centers, an HOA with twelve common areas, or a developer with a string of office parks is worth more than dozens of one-off residential jobs &mdash; but only if you can keep the books straight. The trouble is that most software treats every job as a standalone customer. Bill the wrong site, miss a planting at one of forty locations, or send a single invoice with no breakdown, and you look amateur to the exact accounts that pay the best. LandscapeBossPro is built so one client can own many properties, each with its own scope, schedule, and billing, while you still see the whole relationship in one place.</p>
 

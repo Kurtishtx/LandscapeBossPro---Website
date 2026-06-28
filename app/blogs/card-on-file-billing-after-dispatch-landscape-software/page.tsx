@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew &amp; Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew &amp; Dispatch Software guides &rarr;</a></p>
         <h1>Card-on-File Billing After Every Dispatched Landscape Job</h1>
         <p>You dispatched the crew at 7 a.m., they laid sod and spread three yards of mulch by noon, and the truck rolled to the next stop. So why are you still waiting on that money two weeks later? For most landscaping companies, the gap between finishing a dispatched job and actually getting paid is the leakiest part of the whole operation &mdash; invoices that go out late, checks that show up later, and a bookkeeper who spends Mondays re-sending bills. Card-on-file billing in LandscapeBossPro closes that gap. The card is saved once, and the moment a crew marks a dispatched job complete, the software charges it. The labor, the materials, and the payment all move together.</p>
 

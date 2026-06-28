@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Software guides &rarr;</a></p>
         <h1>Collecting Deposits and Progress Payments With Landscaping Software</h1>
         <p>Landscaping work ties up a lot of cash before you ever see a dime. A design-build job means buying pavers, plants, sod, mulch, and base material, then paying a crew to install all of it over days or weeks. If you wait until the job is finished to invoice, you are essentially loaning the client thousands of dollars in materials and labor. Deposits and progress payments fix that, and the right landscaping software makes collecting them automatic instead of awkward. Here is how LandscapeBossPro helps you get paid on the schedule the job actually deserves.</p>
 

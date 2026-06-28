@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Scheduling Planting, Sod, and Mulch Deliveries Around Crew Availability</h1>
         <p>Every install crew has lived this nightmare. Forty yards of mulch hit the driveway on Tuesday, but the crew that was supposed to spread it got pulled onto a sod job across town. Now the pile sits there blocking the customer&apos;s garage, the homeowner is calling, and you&apos;re paying for material that nobody is touching. Or worse &mdash; the pallets of sod show up on Thursday, the crew is ready and waiting, and the order is two days late because nobody connected the delivery date to the job date. When you run planting, sod, and mulch work, the schedule isn&apos;t just about people. It&apos;s about getting heavy, perishable material and the right crew to the same property on the same day. That is exactly what scheduling software is built to coordinate.</p>
 

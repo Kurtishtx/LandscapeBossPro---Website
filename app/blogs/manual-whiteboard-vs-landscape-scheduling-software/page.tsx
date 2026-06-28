@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>The Whiteboard Schedule vs. Landscape Scheduling Software</h1>
 
         <p>Walk into the back office of almost any landscaping company and you&apos;ll find the same thing on the wall: a big dry-erase board covered in crew names, job sites, and arrows. It works &mdash; right up until it doesn&apos;t. The whiteboard is fine when you&apos;re running one crew off the back of a single truck. But the day you&apos;re juggling a hardscape build, three mulch jobs, a sod install, and a full week of maintenance routes, that board becomes the bottleneck. It can&apos;t travel with your crews, it can&apos;t tie a job to its materials or its invoice, and the second someone erases the wrong line, the plan is gone. Here&apos;s an honest look at where the whiteboard breaks down, and what landscape scheduling software does instead.</p>

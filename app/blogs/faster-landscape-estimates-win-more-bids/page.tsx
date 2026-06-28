@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Estimating Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-estimating-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Estimating Software guides &rarr;</a></p>
         <h1>Why Faster Estimates Win More Landscape Bids</h1>
 
         <p>In landscaping, the first professional estimate in the homeowner&apos;s inbox usually wins the job. A property owner who calls three companies for a paver patio, a planting bed redesign, or a season of recurring maintenance is not waiting around to compare every bid line by line. They are waiting to feel taken care of &mdash; and the contractor who answers fast, sends a clean line-item estimate, and follows up looks like the company that will actually show up and finish the work. Speed is not a nice-to-have. It is the competitive edge, and the right software is what turns a two-day quoting backlog into a same-day reply. That is exactly what LandscapeBossPro is built to do.</p>

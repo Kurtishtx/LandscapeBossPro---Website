@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>Spreadsheets vs Landscape Maintenance Software: What Actually Changes</h1>
         <p>Almost every landscaping business starts on spreadsheets. One tab for bids, one for the maintenance route, one for who owes what, and a fourth nobody trusts anymore. It works&mdash;until you have three crews, forty recurring properties, and a design-build job that needs eight tons of stone delivered on Thursday. The question owners ask is fair: what actually changes when you move to dedicated landscape maintenance software? Not the marketing promises&mdash;the real, day-to-day differences. Here is an honest breakdown of where spreadsheets quietly cost you money and where software earns its keep.</p>
 

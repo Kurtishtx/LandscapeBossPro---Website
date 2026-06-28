@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>From Handwritten Bids to Digital Estimates: A Manual-vs-Software Comparison</h1>
 
         <p>Most landscaping companies start the same way: a clipboard, a pad of carbon-copy bid forms, and a calculator in the truck. For a single-crew operation doing a few install jobs a month, a handwritten bid gets the job done. But landscaping is project-heavy and material-heavy &mdash; mulch by the yard, pavers by the pallet, sod by the roll, plants by the each &mdash; and the moment your pipeline gets busy, the handwritten bid starts costing you money you never see leave your pocket. This is a direct comparison of the old way against digital estimates built into landscape business software.</p>

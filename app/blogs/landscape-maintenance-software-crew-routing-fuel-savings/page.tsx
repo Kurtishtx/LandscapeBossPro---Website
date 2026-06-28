@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>Cutting Drive Time and Fuel With Crew Routing in Landscape Maintenance Software</h1>
         <p>Fuel is one of the few line items on a landscape maintenance crew&apos;s budget that you can shrink without cutting a single hour of real work. The waste isn&apos;t in the mowing or the bed cleanups &mdash; it&apos;s in the windshield time between stops. A crew that crisscrosses town all day burns gallons, racks up payroll, and finishes fewer properties than a crew that runs a tight, geographically sensible route. Crew routing inside your landscape maintenance software is the tool that turns a messy stop list into an efficient loop, and it pays for itself faster than almost any other feature you&apos;ll use.</p>
 

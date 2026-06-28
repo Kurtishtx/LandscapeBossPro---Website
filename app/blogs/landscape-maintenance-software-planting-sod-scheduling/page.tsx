@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>Scheduling Planting and Sod Installs Around Crews in Landscape Maintenance Software</h1>
 
         <p>Most landscaping companies don&apos;t run a single type of work. You&apos;ve got recurring maintenance routes that have to hit the same properties every week, and then you&apos;ve got the project work &mdash; planting jobs, sod installs, bed renovations &mdash; that pays well but eats a whole crew for a day or more. The hard part isn&apos;t selling the install. It&apos;s fitting that install into a calendar that&apos;s already full of mowing stops without breaking the route, blowing the bid, or having a pallet of sod show up to a job nobody&apos;s available to lay. Landscape maintenance software exists to make that scheduling problem solvable on a screen instead of in your head at 6 a.m.</p>

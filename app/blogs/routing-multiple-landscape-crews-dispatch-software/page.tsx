@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew &amp; Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew &amp; Dispatch Software guides &rarr;</a></p>
         <h1>Routing Multiple Landscape Crews From One Dispatch Screen</h1>
 
         <p>By the time a landscaping company is running three or four crews, the morning has turned into a logistics puzzle. The install crew needs the paver job with the right material drop. The maintenance crew needs the mowing route in driving order. The planting crew needs the design-build job with the plant list and the gate code. When a dispatcher is juggling all of that across phone calls, paper route sheets, and a whiteboard, stops get missed, trucks backtrack across town, and the office spends the first hour of every day reacting instead of running. Routing every crew from one dispatch screen takes that puzzle apart and turns it into a few clicks.</p>

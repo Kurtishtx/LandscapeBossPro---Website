@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Software guides &rarr;</a></p>
         <h1>Handling Rained-Out Days and Rescheduling in Landscaping Software</h1>
 
         <p>Rain is the one variable a landscaping company can never schedule around. You can sequence a hardscape build perfectly, stage the pallets, and have two crews rolling by 7 a.m. &mdash; and then a system moves in and the day is gone. The work itself isn&apos;t the hard part. The hard part is what happens next: a planting crew with nowhere to be, a sod install that has to slide, a dozen maintenance stops that now collide with tomorrow&apos;s full route, and a phone that won&apos;t stop ringing because nobody told the clients. A rained-out day is rarely one lost day. Without a system, it becomes three days of cascading chaos. Good landscaping software turns that cascade into a five-minute reschedule.</p>

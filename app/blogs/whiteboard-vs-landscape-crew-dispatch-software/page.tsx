@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew &amp; Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew &amp; Dispatch Software guides &rarr;</a></p>
         <h1>The Dispatch Whiteboard Versus Landscape Crew Dispatch Software</h1>
 
         <p>Walk into the back office of most growing landscape companies and you will find the same artifact taped to the wall: a dry-erase whiteboard divided into columns for each crew, with magnet labels or marker scrawl for the day&apos;s jobs. It works &mdash; right up until it doesn&apos;t. The board is a single physical object that lives in one room, gets erased every night, and tells the crews in the field absolutely nothing once they pull out of the yard. For a business juggling install projects, hardscape builds, planting jobs, and a route of recurring maintenance accounts, the whiteboard is the bottleneck that quietly caps how big you can get. This is the case for replacing it with landscape crew dispatch software.</p>

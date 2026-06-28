@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew &amp; Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew &amp; Dispatch Software guides &rarr;</a></p>
         <h1>Reassigning Jobs On the Fly With Landscape Dispatch Software</h1>
         <p>No landscape day survives first contact with reality. A skid steer won&apos;t start, a sod delivery shows up three hours late, a homeowner calls and begs you to push the patio install a day, or your best hardscape lead calls out sick. When that happens, the question isn&apos;t whether you reshuffle the board &mdash; it&apos;s how fast you can do it without dropping a job, double-booking a crew, or sending a truck to a property with no materials waiting. That speed is exactly what landscape dispatch software is built for, and it&apos;s the difference between a bad morning and a blown week.</p>
 

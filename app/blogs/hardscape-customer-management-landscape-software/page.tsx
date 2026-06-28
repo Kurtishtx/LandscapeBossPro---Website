@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Hardscape Project Customer Management in Landscape Customer Management Software</h1>
 
         <p>A paver patio, a retaining wall, an outdoor kitchen, a fire pit with a seating wall &mdash; hardscape is the highest-ticket, longest-running work most landscaping companies sell. A single project can carry five figures of stone, base, and labor, span three weeks of crew time, and pass through deposit, progress, and final payments before it closes. Run that on a clipboard and a text thread and something always slips: a material shortfall on day two, a customer who didn&apos;t know the crew was coming, an invoice that never went out. Landscape customer management software exists to hold the whole hardscape job &mdash; the bid, the materials, the schedule, the crew, and the money &mdash; in one record so nothing falls through the gaps.</p>

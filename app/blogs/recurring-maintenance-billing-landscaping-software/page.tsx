@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing &amp; Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing &amp; Billing guides &rarr;</a></p>
         <h1>Recurring Maintenance Billing: How Software Invoices Your Mowing and Maintenance Plans Automatically</h1>
         <p>If you run mowing routes and seasonal maintenance contracts, you already know where the money leaks out: the billing. Your crews finish every property on schedule, but at the end of the month you&apos;re hunched over a spreadsheet trying to remember who got bi-weekly service, who upgraded to weekly, and which client added a bed cleanup back in April. Recurring maintenance billing software fixes that by turning every maintenance plan into an invoice that goes out on its own. LandscapeBossPro is built so that the work your crews log in the field becomes money in your account &mdash; without you typing a single line item by hand.</p>
 

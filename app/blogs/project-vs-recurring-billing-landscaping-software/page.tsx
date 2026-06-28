@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing &amp; Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing &amp; Billing guides &rarr;</a></p>
         <h1>Project Billing vs. Recurring Billing: How Landscaping Software Handles Both</h1>
         <p>Most landscaping companies live in two billing worlds at once. On one side you have big one-time projects&mdash;a hardscape patio, a planting design-build, a sod and mulch install&mdash;that get bid as a line-item estimate and billed in chunks. On the other side you have recurring maintenance accounts and mowing routes that bill the same amount, week after week or month after month. Trying to run both out of a single spreadsheet or a generic invoicing app is where money quietly leaks out. LandscapeBossPro is built to handle project billing and recurring billing side by side, so every dollar you earned actually shows up on an invoice.</p>
 

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing &amp; Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing &amp; Billing guides &rarr;</a></p>
         <h1>Billing From Client and Property Profiles: How Landscaping Software Keeps Invoices Accurate</h1>
         <p>Most billing mistakes in a landscaping business do not happen because someone is bad at math. They happen because the information used to build the invoice is scattered. The address is in one place, the agreed price is in an email, the last cleanup date is in a crew lead&apos;s head, and the customer&apos;s card is on a sticky note. When you assemble an invoice from four sources, something is going to be wrong. LandscapeBossPro fixes this at the root by billing directly from client and property profiles &mdash; the same records that hold every estimate, job, and payment for that account. The invoice is not retyped; it is pulled.</p>
 

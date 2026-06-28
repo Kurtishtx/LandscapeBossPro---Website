@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>Setting Up Recurring Maintenance Plans in Landscape Maintenance Software</h1>
         <p>
           Recurring maintenance is the backbone of a stable landscaping business. Installs and hardscape jobs pay big, but they come and go &mdash; the maintenance route is what covers payroll every single week, rain or shine. The catch is that maintenance only stays profitable if you stop running it by hand. When you have sixty properties on weekly and biweekly cycles, you cannot afford to rebuild the calendar every Sunday or chase invoices one at a time. The fix is to set the plans up correctly once inside your landscape maintenance software, and let the system carry the season for you. Here is how to do exactly that in LandscapeBossPro.

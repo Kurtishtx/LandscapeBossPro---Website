@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Estimating Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-estimating-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Estimating Software guides &rarr;</a></p>
         <h1>Setting Up Landscape Estimating Software in Your First Week</h1>
         <p>
           Switching from a yellow legal pad or a tangled spreadsheet to real landscape estimating software feels like a big lift, but it does not have to swallow your whole month. If you spend a focused hour or two each day for one week, you can have a system that spits out clean, line-item bids for install jobs, hardscape projects, and recurring maintenance routes. The trick is to set it up in the right order so each step builds on the last. Here is a day-by-day plan to get LandscapeBossPro working for you by Friday.

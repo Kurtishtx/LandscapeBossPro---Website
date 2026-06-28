@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing &amp; Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing &amp; Billing guides &rarr;</a></p>
         <h1>Manual Invoicing vs. Software: Why Landscaping Companies Make the Switch</h1>
 
         <p>Ask a landscaping owner where their week disappears and a surprising amount of it is paperwork after the work is done. The crew finished the paver patio on Thursday, the planting beds went in Friday, and now it&apos;s Sunday night and you&apos;re hunched over a notepad or a spreadsheet trying to remember how many yards of mulch went down and what you charged for the sod. Manual invoicing feels free because you&apos;re not paying for software, but it quietly costs you in slow payments, math errors, and bids that never turn into money. This is the gap LandscapeBossPro invoicing is built to close.</p>

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Turning Leads into Booked Jobs with a Landscape Sales Pipeline</h1>
 
         <p>Every landscaping company runs on leads&mdash;a homeowner who wants a new paver patio, a property manager shopping a maintenance contract, a referral asking about sod and fresh planting beds. The leads come in. The question is how many of them you actually book. Most shops lose work not because their bids are too high, but because a lead got jotted on a sticky note, a callback never happened, or an estimate sat unsent for a week. A sales pipeline inside your landscape business software fixes that by giving every lead a place to live and a clear next step until it&apos;s either a booked job or an honest no.</p>

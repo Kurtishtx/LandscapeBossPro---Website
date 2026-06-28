@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Auto-Generating Recurring Maintenance Visits in Landscape Software</h1>
         <p>
           If you run a recurring landscape maintenance route, you already know the math: a hundred properties, each on a weekly or biweekly cycle, every visit needing the right crew, the right day, and an invoice at the end. Build that calendar by hand and you will spend your Sunday nights copying last week into next week. Miss a property and the phone rings. The whole point of maintenance work is that it repeats &mdash; so your software should be the thing repeating it, not you. This is exactly what auto-generated recurring visits inside LandscapeBossPro are built to do.

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>Never Skip a Visit: How Landscape Maintenance Software Catches Misses</h1>
         <p>
           A missed visit is one of the quietest ways a landscaping company loses money and trust. The crew gets pulled onto a big hardscape install, a property slips off the rotation, and three weeks later you get a phone call from a client asking why their beds look rough and their lawn is shaggy. By then the damage is done &mdash; not to the grass, but to the relationship. The good news is that catching misses is exactly the kind of boring, repetitive tracking that software handles far better than a clipboard or a memory. When your recurring schedule, crew dispatch, and completion data all live in one place, a skipped stop stops being invisible. This is how the right landscape maintenance software turns &quot;we forgot&quot; into &quot;we already knew and already fixed it.&quot;

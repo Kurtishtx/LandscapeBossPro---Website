@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>Your First Week On Landscape Maintenance Software: A Setup Plan</h1>
 
         <p>The hardest part of switching to landscape maintenance software is not learning the software &mdash; it&apos;s the fear of stopping your real work to set it up. You picture a week buried in data entry while the install crew sits idle and the mowing route falls behind. It doesn&apos;t have to go that way. If you tackle setup in the right order, you can have client profiles loaded, estimates flowing, the schedule built, and crews dispatching from their phones inside five working days, all while keeping the business running. The trick is to build the foundation first and layer the features on top of it, one day at a time, instead of trying to switch everything on at once. Here is a day-by-day plan that gets a landscaping company &mdash; install, hardscape, planting, and recurring maintenance alike &mdash; fully running on one platform in a week.</p>

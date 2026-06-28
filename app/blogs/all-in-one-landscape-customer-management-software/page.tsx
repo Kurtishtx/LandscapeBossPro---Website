@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>All-in-One vs Separate Tools for Landscape Customer Management Software</h1>
 
         <p>Most landscaping companies don&apos;t choose a software stack on purpose &mdash; they accumulate one. A spreadsheet for the install bids. A separate calendar for the maintenance crews. A notes app for materials lists. A standalone payment processor that doesn&apos;t know anything about the job it&apos;s collecting on. Each tool solves one problem, and together they create a bigger one: the customer record is scattered across six places, and nobody can see the whole picture. The real decision in front of a growing landscape business isn&apos;t which estimating app or which scheduling app &mdash; it&apos;s whether all-in-one landscape customer management software beats the pile of separate tools you&apos;re already paying for.</p>

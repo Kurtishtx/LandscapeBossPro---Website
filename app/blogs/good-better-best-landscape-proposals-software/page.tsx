@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Estimating Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-estimating-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Estimating Software guides &rarr;</a></p>
         <h1>Building Good-Better-Best Landscape Proposals That Close</h1>
         <p>When a homeowner asks for a new patio, a planting bed makeover, or a full design-build backyard, handing them a single take-it-or-leave-it number is the fastest way to lose the job. Smart landscape contractors give clients a choice: a Good option that hits the budget, a Better option that adds value, and a Best option that goes all in. The trouble is that building three real proposals by hand &mdash; with accurate materials, labor, and markup on each &mdash; eats your evening. LandscapeBossPro turns that whole process into a few clicks, so you can send tiered proposals the same day you walk the property.</p>
 

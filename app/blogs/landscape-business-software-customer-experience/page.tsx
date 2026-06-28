@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>The Client Experience: How Software Makes Your Landscaping Brand Look Bigger</h1>
         <p>A homeowner shopping for a patio install, a planting overhaul, or a new mulch-and-maintenance plan rarely knows whether they are hiring a 40-truck operation or a guy with a trailer and two crew members. What they judge is the experience &mdash; how fast the bid arrived, how clean it looked, whether the crew showed up when promised, and how painless it was to pay. That experience is where a small landscaping company can punch way above its weight. With the right software running the show, a two-crew outfit can deliver the same polished, buttoned-up experience as a regional firm, and LandscapeBossPro is built to make that happen from the first estimate to the final invoice.</p>
 

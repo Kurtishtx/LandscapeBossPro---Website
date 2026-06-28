@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Setting Up LandscapeBossPro: Your First Week with Landscape Business Software</h1>
         <p>
           New software can feel like one more thing on a plate that&apos;s already full of design-build proposals, mulch deliveries, and a maintenance route that never sits still. The good news is that getting LandscapeBossPro running doesn&apos;t require a slow season or an IT department. If you set aside a little time each day for a week, you&apos;ll go from a spreadsheet-and-shoebox operation to a system that builds bids, tracks materials, schedules crews, and sends invoices &mdash; all in one place. Here&apos;s a day-by-day plan to get your landscaping business up and running fast.

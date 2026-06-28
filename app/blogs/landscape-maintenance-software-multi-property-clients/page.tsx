@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Maintenance Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-maintenance-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Maintenance Software guides &rarr;</a></p>
         <h1>Managing Clients With Many Properties In Landscape Maintenance Software</h1>
         <p>Some of your best landscape maintenance clients aren&apos;t a single house on a single lot. They&apos;re a property manager with eight apartment complexes, an HOA with a clubhouse and three entrance islands, or a commercial owner who keeps adding strip-mall locations to your route. These accounts are worth real money, but they&apos;re also the easiest to fumble. One crew mows the wrong building, one site gets billed twice, one location quietly falls off the schedule for a month before anyone notices. The fix isn&apos;t a bigger spreadsheet &mdash; it&apos;s software built to treat one client as many properties without losing track of either. That&apos;s exactly what LandscapeBossPro does.</p>
 

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Software guides &rarr;</a></p>
         <h1>Daily Crew Dispatch and Routing With Landscaping Software</h1>
 
         <p>Every landscaping company lives or dies by what happens in the first hour of the day. The crews show up, the foreman waits for the schedule, somebody texts the owner asking which yard is first, the install crew needs the address for the patio job, and the maintenance crew wants to know if the mulch drop got added. By the time everyone actually leaves the yard, you have burned forty-five minutes of paid labor on coordination that produced zero billable work. Landscaping software replaces that scramble with a single dispatch action &mdash; routes, job details, property notes, and material lists pushed to each crew&apos;s phone before the trucks pull out.</p>

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Crew & Dispatch Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-crew-dispatch-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Crew & Dispatch Software guides &rarr;</a></p>
         <h1>How the Crew Mobile App Powers Landscape Dispatch Software</h1>
         <p>
           Dispatch software is only as good as the information flowing back from the field. You can build the cleanest schedule in the office, but if your install and maintenance crews can&apos;t see their stops, log their materials, or close out a job from the truck, the whole system stalls. That&apos;s where the crew mobile app comes in. In LandscapeBossPro, the mobile app is the live link between the dispatch board and the people pushing wheelbarrows of mulch and setting pavers &mdash; and it&apos;s what makes the rest of your landscape software actually work day to day.

@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Business Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-business-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Business Software guides &rarr;</a></p>
         <h1>Faster Invoicing &amp; Payments for Landscaping Jobs</h1>
 
         <p>The slowest part of running a landscaping company usually isn&apos;t the dirt work &mdash; it&apos;s getting paid for it. A crew finishes a paver patio on Tuesday, the foreman scribbles the materials on a notepad, the office rebuilds the invoice from the original bid on Thursday, it gets emailed Friday, and the check shows up three weeks later if the customer remembers. Multiply that across a dozen install jobs and a route of recurring maintenance accounts, and you&apos;ve got tens of thousands of dollars sitting in &quot;done but not billed&quot; limbo. LandscapeBossPro closes that gap by tying invoicing directly to the estimates, materials, and jobs you already track, so finishing the work and billing the work become one motion instead of two separate chores.</p>

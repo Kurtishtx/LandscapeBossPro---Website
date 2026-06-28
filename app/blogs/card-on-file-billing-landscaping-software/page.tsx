@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing & Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing & Billing guides &rarr;</a></p>
         <h1>Card-on-File Billing for Landscaping: How Software Charges Clients Automatically</h1>
         <p>Landscaping is a cash-flow business pretending to be a dirt business. You front the mulch, the sod, the pavers, and the labor, then wait weeks for a check to show up &mdash; if it shows up at all. Card-on-file billing fixes the back half of that equation. With LandscapeBossPro, a client&apos;s payment method is saved once, securely, and the software charges it automatically as work gets done: a deposit when the estimate is approved, progress payments as a hardscape job hits milestones, and a clean charge after every maintenance visit. The crew keeps moving and the money follows the work instead of trailing thirty days behind it.</p>
 

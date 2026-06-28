@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Estimating Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-estimating-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Estimating Software guides &rarr;</a></p>
         <h1>Unit Pricing in Landscape Estimates: Per Square Foot, Per Yard, Per Plant</h1>
 
         <p>Most landscape work doesn&apos;t price as a single flat number. A patio prices per square foot. Mulch and topsoil price per cubic yard. Sod prices per square foot or per pallet. Planting prices per plant, often broken out by container size. When you bid by quoting one round figure off the top of your head, your margin swings wildly from job to job &mdash; profitable on one install, underwater on the next. Unit pricing fixes that by pricing every line off a known rate and a measured quantity. Here&apos;s how landscape estimating software turns unit pricing into fast, consistent, accurate bids.</p>

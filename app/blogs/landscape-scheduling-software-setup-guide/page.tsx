@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>How to Set Up Landscape Scheduling Software in Your First Week</h1>
         <p>
           Buying landscape scheduling software is the easy part. Actually getting it running&mdash;so your install crews, maintenance routes, and office all live in one place&mdash;is where most owners stall. The good news is you do not need a month of training or a consultant. With a simple plan, you can have LandscapeBossPro loaded, your crews built, and your first jobs dispatched inside a single week. Here is exactly how to do it, one day at a time, so nothing falls through the cracks while you keep the trucks rolling.

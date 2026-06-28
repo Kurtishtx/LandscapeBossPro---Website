@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Customer Management</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-customer-management-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Customer Management guides &rarr;</a></p>
         <h1>Project Clients vs Recurring Maintenance Clients in Landscape Customer Management Software</h1>
         <p>Most landscaping companies serve two very different kinds of customers, and the trouble starts when you treat them the same. A project client wants a one-time outcome &mdash; a new patio, a planting plan, a sod install, a design-build backyard. A recurring maintenance client wants the same crew showing up week after week to keep the property sharp. They buy differently, they pay differently, and they need to be managed differently. The right customer management software lets you handle both inside one system without forcing either into the wrong mold. Here is how LandscapeBossPro keeps project clients and maintenance clients straight.</p>
 

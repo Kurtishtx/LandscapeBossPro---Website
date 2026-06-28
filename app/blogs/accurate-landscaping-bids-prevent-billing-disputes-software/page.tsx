@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscaping Invoicing &amp; Billing</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscaping-invoicing-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscaping Invoicing &amp; Billing guides &rarr;</a></p>
         <h1>How Accurate Bids in Software Prevent Landscaping Billing Disputes</h1>
 
         <p>Almost every billing dispute in a landscaping business traces back to the same moment: the gap between what the customer thought they were paying for and what the final invoice actually says. The patio was supposed to be 400 square feet, but the install came in at 520. The planting bid covered fifteen shrubs, but the crew put in twenty-two. The customer remembers a round number from a conversation in the driveway; the invoice shows something else entirely. When the bid lives in your head, on a napkin, or in a text thread, you have no shared record to point back to &mdash; and the argument becomes your word against theirs. Accurate, line-item bids built in software close that gap before the first shovel hits the ground, because the number on the invoice is the same number the customer already approved.</p>

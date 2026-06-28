@@ -10,6 +10,7 @@ export default function Page() {
     <BlogShell>
       <article className="blog-article">
         <p className="blog-meta">LandscapeBossPro Blog &mdash; Landscape Scheduling Software</p>
+        <p className="blog-silo-pill" style={{margin:'2px 0 22px'}}><a href="/landscape-scheduling-software" style={{display:'inline-block',background:'#eaf1e8',color:'#14542d',fontWeight:700,fontSize:'13.5px',padding:'8px 16px',borderRadius:'20px',textDecoration:'none',border:'1px solid #cfe0d2'}}>&#127807; More Landscape Scheduling Software guides &rarr;</a></p>
         <h1>Scheduling Multi-Day Install Jobs in Landscape Scheduling Software</h1>
         <p>A paver patio, a planting bed redesign, or a full design-build install almost never fits inside a single day. You have demo, grading, base prep, materials drops, and the finish work &mdash; and each phase depends on the one before it. When you try to run that on a paper calendar or a whiteboard, one rained-out day shoves the whole job sideways and your crews show up to the wrong site. Good landscape scheduling software treats a multi-day install as one connected project, not a pile of disconnected appointments. Here is how the right setup keeps a long install on the rails.</p>
 
