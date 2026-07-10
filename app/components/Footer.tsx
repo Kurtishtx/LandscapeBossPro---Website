@@ -42,7 +42,7 @@ export default function Footer() {
             </div>
             <div className="site-footer-col">
               <h4>BossPro Family</h4>
-              <a href="https://industrybosspro.com">IndustryBossPro</a>
+              <a href="https://industrybosspro.com">IndustryBossPro — All-in-One Field Service Software</a>
             </div>
           </div>
         </div>
