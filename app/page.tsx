@@ -217,15 +217,8 @@ export default function Home() {
 
       <Navbar onTrialClick={(el) => openSignupModal(1, el)} />
 
-      {/* ═══ MOCKUP IMAGE ═══ */}
-      <div style={{background:'linear-gradient(135deg,#08140d 0%,#0f2417 60%,#15321f 100%)', padding:'80px 40px 0', textAlign:'center'}}>
-        <div style={{maxWidth:'1000px', margin:'0 auto'}}>
-          <img src="/dashboard-mockup.webp" width={1200} height={800} fetchPriority="high" decoding="async" alt="LandscapeBossPro landscaping business software showing the job board, route map, line-item estimate builder, and the mobile app crews use in the field" style={{width:'100%', height:'auto', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
-        </div>
-      </div>
-
       {/* ═══ HERO ═══ */}
-      <div className="hero" style={{paddingTop:'60px'}}>
+      <div className="hero" style={{paddingTop:'110px'}}>
         <div className="hero-badge">Built for Landscaping Companies</div>
         <h1>Run Your Whole Landscaping<br /><span>Business From One Dashboard</span></h1>
         <p>LandscapeBossPro is the all-in-one platform built for landscaping companies &mdash; install, design-build, hardscape, planting, sod, mulch, and recurring maintenance crews. Build line-item estimates, schedule jobs, dispatch crews, track materials, and get paid &mdash; all in one place.</p>
