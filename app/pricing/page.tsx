@@ -156,7 +156,7 @@ const faqs = [
   { q: "What's the SMS pricing?", a: '500 outbound SMS messages per month are included in your $129. If you go over, you can add blocks of 500 for $15 each. Most businesses with under 300 active properties never hit the 500 limit.' },
   { q: 'Are there any contracts or annual commitments?', a: 'None. Month to month, always. Cancel anytime from your account settings.' },
   { q: 'Does this work for installs and recurring maintenance?', a: 'Yes. LandscapeBossPro was built for landscaping businesses — design-build, hardscape, planting, sod installs, and recurring landscape maintenance, or any combination. Line-item estimates, materials tracking, and crew dispatch work the same way regardless of the project.' },
-  { q: 'What if I have questions or need help getting set up?', a: "We're a small team and we respond fast. Reach us anytime at support@landscapebosspro.com. We've run crews ourselves — we know what setup actually looks like and we're here to help." },
+  { q: 'What if I have questions or need help getting set up?', a: "We're a small team and we respond fast. Reach us anytime at Support@bossprohq.com. We've run crews ourselves — we know what setup actually looks like and we're here to help." },
 ];
 
 export default function Pricing() {
@@ -271,7 +271,7 @@ export default function Pricing() {
               <div style={{fontSize:'17px',fontWeight:700,color:'var(--text)',marginBottom:'10px'}}>{f.q}</div>
               <div style={{fontSize:'15px',color:'var(--muted)',lineHeight:1.7}}>
                 {f.q.includes('help getting set up') ? (
-                  <>We&apos;re a small team and we respond fast. Reach us anytime at <a href="mailto:support@landscapebosspro.com" style={{color:'var(--orange)'}}>support@landscapebosspro.com</a>. We&apos;ve run crews ourselves — we know what setup actually looks like and we&apos;re here to help.</>
+                  <>We&apos;re a small team and we respond fast. Reach us anytime at <a href="mailto:Support@bossprohq.com" style={{color:'var(--orange)'}}>Support@bossprohq.com</a>. We&apos;ve run crews ourselves — we know what setup actually looks like and we&apos;re here to help.</>
                 ) : f.a}
               </div>
             </div>
