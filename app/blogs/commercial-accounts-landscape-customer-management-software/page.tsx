@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run Every Commercial Property From One Account</h3>
           <p>LandscapeBossPro lets you manage multi-property clients with per-site estimates, schedules, and invoicing &mdash; all rolled up under one parent account.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape customer management software, commercial landscaping accounts, multi-property client billing, recurring maintenance plans, landscape invoicing software, crew scheduling and dispatch</div>
       </article>

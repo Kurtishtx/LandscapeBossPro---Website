@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Run Your Whole Landscape Business on One Platform</h3>
           <p>LandscapeBossPro ties bids, materials, scheduling, crew dispatch, invoicing, and card-on-file billing to one client and property profile &mdash; so every job and dollar stays accounted for.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape customer management software, line-item landscape estimates, landscape materials tracking, crew dispatch and scheduling, landscape invoicing and payments, card-on-file billing</div>
       </article>

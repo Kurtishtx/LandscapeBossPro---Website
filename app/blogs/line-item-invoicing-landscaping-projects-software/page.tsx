@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Send landscaping invoices your customers can actually read &mdash; and pay on the spot</h3>
           <p>LandscapeBossPro builds detailed line-item bills from your estimates, tracks every material and labor line, and collects payment with card on file so projects of any size get billed clearly and paid fast.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

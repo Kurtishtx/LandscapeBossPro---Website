@@ -101,6 +101,7 @@ export default function Page() {
             links and card-on-file billing, so landscaping crews collect faster and chase less.
           </p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping invoicing software, online payments for landscaping, landscaping invoice software, card-on-file billing landscaping, landscaping payment links, get paid faster landscaping</div>
       </article>

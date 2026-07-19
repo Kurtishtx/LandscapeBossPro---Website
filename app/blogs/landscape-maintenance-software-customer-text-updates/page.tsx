@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Put Your Client Updates on Autopilot With LandscapeBossPro</h3>
           <p>LandscapeBossPro sends arrival, completion, and billing texts straight from your live schedule and invoices &mdash; so clients always know what is happening on their property.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape maintenance software, customer text updates, crew dispatch software, recurring maintenance billing, landscaping scheduling software, automated client notifications</div>
       </article>

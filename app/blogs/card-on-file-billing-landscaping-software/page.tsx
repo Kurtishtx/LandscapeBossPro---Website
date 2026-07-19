@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Get paid the day the work gets done</h3>
           <p>LandscapeBossPro stores a card on file and automatically charges deposits, progress payments, and recurring visits so your landscaping crews stop chasing checks.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: card-on-file billing software, landscaping invoicing software, automatic invoicing for landscapers, landscape estimate and deposit software, recurring landscape billing, landscape project payment tracking</div>
       </article>

@@ -65,6 +65,7 @@ export default function Page() {
           <h3>Let Your Schedule Drive Your Material Orders</h3>
           <p>LandscapeBossPro turns your job calendar into a buying plan so mulch, sod, plants, and stone arrive before your crews do.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape scheduling software, landscaping materials tracking, landscape job scheduling, crew dispatch software, line-item landscape estimates, recurring maintenance scheduling</div>
       </article>

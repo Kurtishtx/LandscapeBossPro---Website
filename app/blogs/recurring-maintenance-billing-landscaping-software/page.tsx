@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Put Your Maintenance Billing on Autopilot</h3>
           <p>LandscapeBossPro auto-invoices your mowing and maintenance plans, charges cards on file, and keeps every charge tied to the work your crews actually do.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: recurring maintenance billing software, landscaping invoicing software, mowing plan billing, card-on-file landscaping payments, automated lawn maintenance invoices, landscape crew scheduling software</div>
       </article>

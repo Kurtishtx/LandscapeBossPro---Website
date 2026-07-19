@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Run Every Job From Bid to Paid in LandscapeBossPro</h3>
           <p>LandscapeBossPro turns your estimates into scheduled jobs, dispatches the crew, and bills the customer &mdash; all from one record.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape maintenance software, landscaping estimating software, job scheduling software, crew dispatch software, landscaping invoicing software, recurring maintenance billing</div>
       </article>

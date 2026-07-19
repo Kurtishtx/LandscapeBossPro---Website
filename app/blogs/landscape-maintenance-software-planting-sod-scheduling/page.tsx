@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Fit planting and sod installs around your maintenance crews without the double-booking</h3>
           <p>LandscapeBossPro turns sold installs into scheduled jobs &mdash; line-item bids, material delivery, crew dispatch, customer texts, and invoicing on one calendar.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

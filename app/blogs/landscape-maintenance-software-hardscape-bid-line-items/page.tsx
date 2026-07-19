@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Price hardscape jobs you can actually defend &mdash; and profit from.</h3>
           <p>LandscapeBossPro builds line-item hardscape bids from real materials, labor, and equipment, then turns the approved estimate straight into an invoice.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

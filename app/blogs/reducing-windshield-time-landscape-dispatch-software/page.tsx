@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Spend less of the day driving and more of it billing</h3>
           <p>LandscapeBossPro routes your crews, dispatches from a live job board, and loads jobs off the estimate so trucks stop wasting hours on the road.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

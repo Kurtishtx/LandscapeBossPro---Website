@@ -42,6 +42,7 @@ export default function Page() {
           <h3>Keep Every Crew Booked, Every Day</h3>
           <p>LandscapeBossPro gives you a visual job board that fills open slots, balances install and maintenance work, and turns finished jobs into invoices automatically.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape scheduling software, job board, crew dispatch software, landscape crew scheduling, recurring maintenance plans, landscaping invoicing software</div>
       </article>

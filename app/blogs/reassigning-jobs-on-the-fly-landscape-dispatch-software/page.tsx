@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Run Your Crews From One Screen With LandscapeBossPro</h3>
           <p>LandscapeBossPro lets you reassign jobs, move materials, route crews, and text customers in seconds &mdash; so a thrown-off morning never becomes a wasted week.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape dispatch software, crew scheduling software, job board for landscapers, reassign landscape jobs, landscape crew routing, recurring maintenance scheduling</div>
       </article>

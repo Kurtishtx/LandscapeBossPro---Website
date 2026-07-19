@@ -99,6 +99,7 @@ export default function Page() {
           <h3>Track Every Material From Bid to Invoice</h3>
           <p>LandscapeBossPro attaches materials and products to every job, so your estimates, crew loadouts, and invoices all match&mdash;and your margins stay protected.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: landscape business software, landscape materials tracking, product tracking software, line-item estimates, landscape crew dispatch software, landscaping invoicing software</div>

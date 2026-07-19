@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Let LandscapeBossPro chase your invoices for you</h3>
           <p>LandscapeBossPro sends automated reminders, charges cards on file, and shows every overdue maintenance account in one dashboard &mdash; so your landscaping business gets paid faster with less effort.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape maintenance software, automated payment reminders, overdue invoice tracking, card on file billing, recurring maintenance billing, landscaping invoicing software</div>
       </article>

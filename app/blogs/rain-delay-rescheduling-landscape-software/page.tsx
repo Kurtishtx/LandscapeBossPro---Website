@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Reschedule a Rained-Out Day in Minutes, Not Hours</h3>
           <p>LandscapeBossPro lets you bulk-move a full day of jobs, re-route your crews, and text every affected client &mdash; all from one screen.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape scheduling software, bulk rescheduling crews, crew dispatch routing, rain delay landscaping software, customer text notifications, landscape job board</div>
       </article>

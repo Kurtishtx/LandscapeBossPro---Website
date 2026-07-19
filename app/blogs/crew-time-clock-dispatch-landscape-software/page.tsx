@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run Your Crews and Your Numbers from One Place</h3>
           <p>LandscapeBossPro ties your crew time clock to dispatch, estimating, and invoicing so every logged hour lands on the right job &mdash; and the right invoice.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape crew dispatch software, crew time clock software, landscaping job costing software, landscape scheduling software, crew dispatch and routing, landscape invoicing software</div>
       </article>

@@ -107,6 +107,7 @@ export default function Page() {
           <h3>Stop underbidding with LandscapeBossPro</h3>
           <p>LandscapeBossPro builds line-item bids on real material costs and crew rates, then schedules, invoices, and collects on every job so your margin survives from estimate to payment.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: landscape estimating software, stop underbidding landscape jobs, line-item bids, landscaping materials tracking, crew labor rates, landscape job costing software</div>

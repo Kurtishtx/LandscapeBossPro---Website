@@ -62,6 +62,7 @@ export default function Page() {
           <h3>Run installs and maintenance from one board</h3>
           <p>LandscapeBossPro schedules your installs and recurring visits, dispatches crews, and turns finished work into invoices &mdash; all in one place.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape job board software, landscape scheduling software, install scheduling, recurring maintenance plans, crew dispatch software, landscaping invoicing software</div>
       </article>

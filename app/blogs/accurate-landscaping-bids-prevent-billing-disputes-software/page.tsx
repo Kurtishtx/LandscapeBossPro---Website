@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Bill the number the customer already approved &mdash; every time.</h3>
           <p>LandscapeBossPro turns line-item landscaping estimates into invoices automatically, so your bids, materials, and final charges always match and disputes never get started.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

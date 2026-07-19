@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Get your landscaping company up and running on one platform in a week.</h3>
           <p>LandscapeBossPro brings your estimates, materials, scheduling, crew dispatch, and billing together so setup is fast and your first week of work flows straight from bid to bank.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

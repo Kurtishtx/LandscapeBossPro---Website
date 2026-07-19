@@ -98,6 +98,7 @@ export default function Page() {
           <h3>Run your whole design-build on LandscapeBossPro</h3>
           <p>LandscapeBossPro schedules every phase, crew, and material so your projects move from demo to final walkthrough without the chaos.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape scheduling software, design-build project scheduling, landscaping crew dispatch, phased job scheduling, landscape materials tracking, progress invoicing software</div>
       </article>

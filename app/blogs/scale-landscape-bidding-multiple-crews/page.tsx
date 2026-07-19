@@ -108,6 +108,7 @@ export default function Page() {
           <h3>Bid consistently across every crew with LandscapeBossPro</h3>
           <p>LandscapeBossPro gives your whole team one shared materials catalog, saved estimate templates, and company-wide labor rates, then routes approved bids straight to the job board for scheduling, dispatch, and invoicing.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: landscape estimating software, multi-crew bidding, landscape estimate templates, landscaping materials tracking, crew dispatch software, landscape invoicing software</div>

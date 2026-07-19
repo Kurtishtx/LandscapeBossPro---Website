@@ -37,6 +37,7 @@ export default function Page() {
           <h3>One platform for every estimate, crew, material, and invoice</h3>
           <p>LandscapeBossPro replaces the stack of disconnected tools with a single system that runs your bids, schedule, dispatch, billing, and recurring maintenance plans from one customer record.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

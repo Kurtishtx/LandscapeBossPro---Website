@@ -109,6 +109,7 @@ export default function Page() {
             job board, crew dispatch, and card-on-file billing for project and recurring work alike.
           </p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: landscape business software, landscaping estimate software, job scheduling software, crew dispatch software, recurring maintenance billing, landscaping invoicing software</div>

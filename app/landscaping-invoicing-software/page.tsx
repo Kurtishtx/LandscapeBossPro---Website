@@ -225,6 +225,7 @@ export default function LandscapingInvoicingSoftware() {
         <p>Landscaping is project work and material work — a single install can carry a dozen line items, pallets of sod, yards of mulch, and a crew on the clock for three days. LandscapeBossPro turns your detailed bid into a clean invoice, stores cards on file, bills your recurring maintenance accounts automatically, and shows you exactly who still owes you.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Line Items</div><div className="hero-stat-lbl">Detailed Estimates &amp; Bids</div></div>
@@ -533,6 +534,7 @@ export default function LandscapingInvoicingSoftware() {
         <p>LandscapeBossPro is invoicing and billing software built by someone who has actually bid, installed, and collected on real landscape jobs. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
       </div>
 

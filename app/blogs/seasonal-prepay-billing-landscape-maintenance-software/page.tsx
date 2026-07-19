@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Smooth out your maintenance season&apos;s cash flow</h3>
           <p>LandscapeBossPro lets clients prepay a full season or split their plan into automatic monthly installments billed to a card on file.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: seasonal prepay billing software, landscape maintenance plan software, installment billing for landscapers, recurring landscape billing, landscaping invoicing software, maintenance plan card-on-file billing</div>
       </article>

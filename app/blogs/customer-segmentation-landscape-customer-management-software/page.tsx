@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Know Your Best Landscaping Clients at a Glance</h3>
           <p>LandscapeBossPro segments your customers by service type and value so you can target installs, renew maintenance plans, and focus on the accounts that pay.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape customer management software, customer segmentation, recurring maintenance plans, line-item estimates, invoicing and payments, client property profiles</div>
       </article>

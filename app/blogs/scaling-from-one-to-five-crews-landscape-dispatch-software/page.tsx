@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Run Five Crews Like You Ran One</h3>
           <p>LandscapeBossPro gives every crew a shared job board, smart routing, line-item estimates, automatic customer texts, and card-on-file billing &mdash; so you can scale without losing control.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: landscape dispatch software, landscape crew scheduling, crew routing software, landscaping estimate software, recurring maintenance billing, landscape job board</div>

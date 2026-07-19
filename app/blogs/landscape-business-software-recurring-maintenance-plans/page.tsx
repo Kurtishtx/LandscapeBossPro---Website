@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Put your maintenance routes on autopilot with LandscapeBossPro</h3>
           <p>LandscapeBossPro builds recurring maintenance plans that auto-generate every visit, fill your job board, route your crews, and bill card-on-file &mdash; so the steady work runs itself.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: recurring maintenance plan software, landscape business software, auto-generated visit scheduling, landscape maintenance scheduling, crew dispatch and routing, card-on-file billing</div>
       </article>

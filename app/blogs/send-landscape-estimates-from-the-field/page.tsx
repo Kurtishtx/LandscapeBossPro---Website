@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Quote landscape jobs from the driveway with LandscapeBossPro</h3>
           <p>LandscapeBossPro lets your crews build line-item estimates on site, send them in seconds, and turn approvals into scheduled, invoiced jobs.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape estimating software, field estimates, line-item landscape bids, mobile estimating app, materials and products tracking, recurring maintenance billing</div>
       </article>

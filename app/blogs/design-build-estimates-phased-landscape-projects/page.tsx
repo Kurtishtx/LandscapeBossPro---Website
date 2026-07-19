@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Bid bigger landscape projects without losing margin</h3>
           <p>LandscapeBossPro builds phased, line-item estimates with real material costs, then schedules, dispatches, and invoices every phase from one place.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape estimating software, design-build estimating, phased project bids, landscape materials tracking, landscaping invoicing software, crew scheduling software</div>
       </article>

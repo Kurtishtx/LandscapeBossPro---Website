@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Stop signing jobs your crews cannot start</h3>
           <p>LandscapeBossPro shows you real crew capacity and material lead times while you build the bid, so every start date you promise is one you can actually deliver.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

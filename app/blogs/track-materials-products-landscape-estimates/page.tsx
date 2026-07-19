@@ -98,6 +98,7 @@ export default function Page() {
           <h3>Build Every Bid on a Real Materials List</h3>
           <p>LandscapeBossPro turns your estimates into line-item material lists, tracks your margins, and carries every product through to scheduling and invoicing.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: landscape estimating software, landscape materials tracking, line-item bids, landscaping estimate software, material cost tracking, landscape invoicing software</div>

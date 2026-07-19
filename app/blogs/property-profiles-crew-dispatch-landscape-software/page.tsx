@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Build the profile once. Dispatch a complete job every time.</h3>
           <p>LandscapeBossPro keeps client and property profiles &mdash; access notes, measurements, job history, materials, and card on file &mdash; so every job your crews are dispatched can be finished without a call back to the office.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

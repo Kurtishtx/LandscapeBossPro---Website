@@ -37,6 +37,7 @@ export default function Page() {
           <h3>One profile. Every estimate, material list, job, and invoice in one place.</h3>
           <p>LandscapeBossPro links your clients and properties to their full history so the office and the crew always work from the same complete record.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

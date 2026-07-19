@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Build Tighter Routes With LandscapeBossPro</h3>
           <p>LandscapeBossPro maps your crews&apos; days around real property locations so you cut drive time, save fuel, and fit more landscape jobs into every week.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: landscape crew routing software, landscape scheduling software, crew dispatch software, landscape job board, landscape maintenance scheduling, route optimization for landscapers</div>

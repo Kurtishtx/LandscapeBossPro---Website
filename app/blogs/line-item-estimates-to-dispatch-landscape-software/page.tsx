@@ -54,6 +54,7 @@ export default function Page() {
           <h3>Run Every Landscape Job From Bid to Paid in One Place</h3>
           <p>LandscapeBossPro turns your line-item estimates into scheduled jobs, dispatched crews, tracked materials, and automatic invoices &mdash; all from one screen.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape estimate software, landscape crew dispatch software, landscaping job scheduling software, landscape materials tracking software, landscape invoicing software, recurring landscape maintenance software</div>
       </article>

@@ -225,6 +225,7 @@ export default function LandscapeEstimatingSoftware() {
         <p>Generic field service software was never built to price a paver patio, a planting bed, a sod install, or a season of recurring maintenance. <a href="/">LandscapeBossPro</a> is built from the ground up for landscaping companies &mdash; line-item estimates, material and product tracking, project scheduling, crew dispatch, and invoicing all live in one place so the way you bid, build, and bill finally matches how you actually work.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Line-Item</div><div className="hero-stat-lbl">Bids Built in Minutes</div></div>
@@ -540,6 +541,7 @@ export default function LandscapeEstimatingSoftware() {
         <p>LandscapeBossPro is landscape estimating software built by someone who has actually bid and built the projects. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
       </div>
 

@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Close the gap between your office and your crews</h3>
           <p>LandscapeBossPro carries every bid, schedule, property note, and instruction straight to the field and reports the work back, so nothing gets lost in the handoff.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

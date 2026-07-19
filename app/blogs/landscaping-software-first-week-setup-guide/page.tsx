@@ -65,6 +65,7 @@ export default function Page() {
           <h3>Get Your Landscaping Business Running in a Week</h3>
           <p>LandscapeBossPro brings your estimates, materials, scheduling, dispatch, and card-on-file billing into one simple system built for landscaping crews.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping software setup, landscaping estimate software, materials tracking, crew scheduling and dispatch, recurring maintenance billing, card-on-file invoicing</div>
       </article>

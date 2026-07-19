@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Turn cleanup season chaos into a routed, priced, billable schedule</h3>
           <p>LandscapeBossPro captures every cleanup request, bids it with real line items, routes the crews, and bills card-on-file the day the work is done.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

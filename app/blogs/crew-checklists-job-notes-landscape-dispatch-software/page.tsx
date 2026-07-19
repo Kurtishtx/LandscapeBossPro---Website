@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Send your crews out knowing the whole job</h3>
           <p>LandscapeBossPro attaches checklists, job notes, materials, and the estimate to every stop so your crews dispatch with the full scope in hand.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

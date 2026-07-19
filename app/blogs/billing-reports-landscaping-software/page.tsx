@@ -36,6 +36,7 @@ export default function Page() {
           <h3>See your real cash flow with LandscapeBossPro</h3>
           <p>LandscapeBossPro turns your estimates, invoices, and payments into clear billing reports &mdash; revenue by job type, aged receivables, and collection trends &mdash; so you always know where your money is.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping billing reports, landscaping invoicing software, aged receivables tracking, landscaping revenue reports, cash flow software for landscapers, recurring maintenance billing</div>
       </article>

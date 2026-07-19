@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Run your biggest accounts on LandscapeBossPro</h3>
           <p>LandscapeBossPro tracks every property under a client separately for scheduling and dispatch, then rolls it all into one consolidated, card-on-file invoice for the account.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape maintenance software, multi-property client management, client and property profiles, crew dispatch and routing, recurring maintenance plans, consolidated landscaping invoicing</div>
       </article>

@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Turn Every Landscape Project Into Proof</h3>
           <p>LandscapeBossPro keeps before-and-after photos tied to your estimates, materials, schedules, and invoices &mdash; so your best work sells the next job and protects your crews.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape business software, job photo documentation, landscaping estimates, materials tracking, crew dispatch, invoicing and payments</div>
       </article>

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Spend Less Time at the Desk and More Time Selling Work</h3>
           <p>LandscapeBossPro automates your estimates, scheduling, invoicing, and customer texts so your landscaping company runs on one system instead of on your evenings.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape business software, automated landscaping office software, landscaping estimating software, landscape scheduling software, landscaping invoicing software, reduce office admin landscaping</div>
       </article>

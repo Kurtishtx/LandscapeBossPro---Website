@@ -60,6 +60,7 @@ export default function Page() {
           <h3>Put every job detail in your crew&apos;s pocket</h3>
           <p>LandscapeBossPro pushes estimates, materials, schedules, and property notes straight to your crews&apos; phones so install and maintenance jobs get done right the first time.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping software, crew mobile app, job scheduling software, crew dispatch, materials tracking, landscaping job board</div>
       </article>

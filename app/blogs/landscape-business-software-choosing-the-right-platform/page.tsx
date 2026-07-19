@@ -37,6 +37,7 @@ export default function Page() {
           <h3>One platform for landscaping bids, crews, and billing.</h3>
           <p>LandscapeBossPro brings line-item estimates, materials tracking, scheduling, dispatch, and automatic invoicing into a single system built for install and maintenance work alike.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

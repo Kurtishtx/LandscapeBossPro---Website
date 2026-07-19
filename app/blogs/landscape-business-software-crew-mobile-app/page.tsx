@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Put work orders, materials, and notes in your crew&apos;s pocket.</h3>
           <p>LandscapeBossPro&apos;s crew mobile app sends scoped work orders to the field, tracks materials at the point of use, and feeds it all straight back to billing.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

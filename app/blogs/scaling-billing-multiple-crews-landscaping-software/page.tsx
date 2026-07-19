@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Invoice Every Crew From One Dashboard</h3>
           <p>LandscapeBossPro turns every crew&apos;s completed jobs into accurate invoices, charges cards on file, and keeps your cash flow predictable as you grow.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping invoicing software, multi-crew billing software, landscape crew dispatch software, card-on-file landscaping payments, landscaping materials tracking, scale landscaping business software</div>
       </article>

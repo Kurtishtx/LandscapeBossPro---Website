@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Bill the Work Your Crews Actually Did</h3>
           <p>LandscapeBossPro turns completed landscaping jobs into accurate invoices from real materials and labor&mdash;then helps you collect by card, text, and automatic recurring billing.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping invoicing software, invoice from completed jobs, landscape crew dispatch software, materials tracking software, recurring landscape maintenance billing, card on file landscaping</div>
       </article>

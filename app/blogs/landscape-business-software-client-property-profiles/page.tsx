@@ -45,6 +45,7 @@ export default function Page() {
           <h3>Every job detail, every estimate, every invoice &mdash; one profile per property.</h3>
           <p>LandscapeBossPro keeps client and property profiles that hold your bids, materials, job history, billing, and crew notes so nothing rides on memory.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

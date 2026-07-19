@@ -42,6 +42,7 @@ export default function Page() {
           <h3>Get Paid on Time, Every Phase</h3>
           <p>LandscapeBossPro builds your estimates, collects deposits and progress payments, and bills card on file so your landscaping crews stay funded and your invoices stay clear.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping software, deposit billing, progress payments, card-on-file billing, landscaping invoicing software, recurring maintenance plans</div>
       </article>

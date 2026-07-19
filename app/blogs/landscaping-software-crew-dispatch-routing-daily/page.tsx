@@ -45,6 +45,7 @@ export default function Page() {
           <h3>Dispatch every crew&apos;s day in one click with LandscapeBossPro</h3>
           <p>LandscapeBossPro sends routed stops, job scope, property notes, and material lists straight to your maintenance and install crews &mdash; then closes the loop with invoicing, recurring billing, and customer texts.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run Your Crews Through Any Forecast With LandscapeBossPro</h3>
           <p>LandscapeBossPro gives you a live job board, drag-and-drop scheduling, optimized routing, and one-tap customer texts so a rain day takes minutes to reschedule instead of wrecking your week.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape dispatch software, crew scheduling software, landscape job board, route optimization for landscapers, rescheduling landscape crews, landscape maintenance software</div>
       </article>

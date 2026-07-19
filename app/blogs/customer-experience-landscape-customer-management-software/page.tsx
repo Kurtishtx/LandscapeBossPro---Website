@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Give Every Landscaping Client a Better Experience</h3>
           <p>LandscapeBossPro connects estimates, scheduling, customer texts, and billing in one system so your clients feel taken care of from the first bid to the final invoice.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape customer management software, client experience, line-item estimates, customer texts, job scheduling and dispatch, invoicing and card-on-file billing</div>
       </article>

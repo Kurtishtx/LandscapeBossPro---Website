@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Bill Every Yard of Mulch, Sod, and Stone with LandscapeBossPro</h3>
           <p>LandscapeBossPro keeps your materials and products on the estimate, the job, and the invoice so you charge for everything you deliver and get paid faster.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping invoicing software, material tracking for landscapers, line-item landscaping estimates, mulch and sod billing software, landscape product catalog, card-on-file landscaping payments</div>
       </article>

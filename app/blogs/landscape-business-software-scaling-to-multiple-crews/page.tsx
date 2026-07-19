@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run Two Crews as Smoothly as One</h3>
           <p>LandscapeBossPro gives your whole team shared estimates, scheduling, dispatch, materials tracking, and automatic invoicing so you can scale past one truck without losing control.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape business software, crew scheduling software, landscaping estimate software, dispatch and routing, recurring maintenance billing, landscaping invoicing software</div>
       </article>

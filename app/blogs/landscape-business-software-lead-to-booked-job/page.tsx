@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Book More of the Leads You Already Have</h3>
           <p>LandscapeBossPro gives you a visual sales pipeline that carries every lead from first call to line-item estimate, approval, deposit, and booked job&mdash;so no opportunity slips away.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape business software, landscape sales pipeline, line-item estimates, lead tracking, landscaping job board, recurring maintenance billing</div>
       </article>

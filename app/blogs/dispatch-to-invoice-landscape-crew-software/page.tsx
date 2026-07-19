@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Stop letting completed jobs sit unbilled</h3>
           <p>LandscapeBossPro turns every finished crew dispatch into a line-item invoice your client can pay by text or card on file &mdash; in seconds, not weeks.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape dispatch software, crew dispatch to invoice, landscape invoicing software, landscape materials tracking, card-on-file billing, recurring maintenance plans</div>
       </article>

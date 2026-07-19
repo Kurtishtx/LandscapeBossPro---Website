@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Stop billing from notepads. Invoice the job the day it&apos;s done.</h3>
           <p>LandscapeBossPro turns your approved estimates, tracked materials, and completed visits into invoices and card payments automatically &mdash; so your landscaping company gets paid faster on every job.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

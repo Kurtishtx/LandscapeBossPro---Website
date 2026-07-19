@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Put a real dispatch view in every foreman&apos;s hand</h3>
           <p>LandscapeBossPro gives crews their routed stops, job line items, materials, and customer texts on their phones &mdash; so foremen stop calling the office and start finishing the day.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

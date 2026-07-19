@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Run every pending job from one board with LandscapeBossPro</h3>
           <p>LandscapeBossPro turns signed bids into scheduled jobs, routes your crews, and bills the work &mdash; install and maintenance &mdash; all from a single job board.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping job board software, landscape project scheduling, crew dispatch software, landscaping estimates to jobs, recurring maintenance scheduling, landscape business software</div>
       </article>

@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Stop Giving Away Extra Work</h3>
           <p>LandscapeBossPro turns every change order into an approved, scheduled, billable line item &mdash; so your crews get paid for everything they do.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape maintenance software, change order software, landscaping estimates, materials tracking, crew dispatch, card-on-file billing</div>
       </article>

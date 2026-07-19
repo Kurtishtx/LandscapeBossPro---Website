@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Turn Rain Days Into Five-Minute Reschedules</h3>
           <p>LandscapeBossPro bulk-reschedules washed-out jobs, re-routes your crews, and texts every affected client automatically &mdash; so one storm never costs you a week.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: landscaping software, job scheduling software, crew dispatch and routing, reschedule landscaping jobs, customer text updates, recurring maintenance plans</div>

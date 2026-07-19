@@ -96,6 +96,7 @@ export default function Page() {
             keeps dispatch, customer texts, and billing on one schedule.
           </p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">
           Keywords: landscape scheduling software, hardscape project scheduling, patio project scheduling software,

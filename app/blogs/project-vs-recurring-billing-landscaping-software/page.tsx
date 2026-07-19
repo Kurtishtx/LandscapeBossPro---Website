@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Run project and recurring billing in one place with LandscapeBossPro</h3>
           <p>LandscapeBossPro bids your installs, automates your maintenance billing, and charges cards on file&mdash;so every job, big or recurring, gets invoiced and paid.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping invoicing software, recurring billing software, project billing for landscapers, landscaping estimate software, card-on-file billing, landscape maintenance billing</div>
       </article>

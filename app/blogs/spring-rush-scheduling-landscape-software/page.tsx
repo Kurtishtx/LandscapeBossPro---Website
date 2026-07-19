@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Make This Spring Rush Your Most Profitable Yet</h3>
           <p>LandscapeBossPro books your estimates, dispatches your crews, juggles installs and maintenance, and bills finished work automatically&mdash;so the busiest season runs without the chaos.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape scheduling software, landscape crew scheduling, crew dispatch software, recurring maintenance plans, landscaping invoicing software, line-item estimates</div>
       </article>

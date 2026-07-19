@@ -86,6 +86,7 @@ export default function Page() {
           <h3>Stop letting markup leak out of your landscape jobs</h3>
           <p>LandscapeBossPro builds your materials, markup, and margins into every estimate, recurring plan, and invoice &mdash; so the price you bid is the price you bank.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape maintenance software, landscaping estimating software, materials and markup tracking, landscape invoicing software, recurring maintenance billing, landscaping job costing</div>
       </article>

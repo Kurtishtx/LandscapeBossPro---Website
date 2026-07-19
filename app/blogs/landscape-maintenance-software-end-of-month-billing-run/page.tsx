@@ -42,6 +42,7 @@ export default function Page() {
           <h3>Close out your month in minutes with LandscapeBossPro</h3>
           <p>LandscapeBossPro turns every logged visit into an invoice, charges card-on-file automatically, and texts clients a payment link so your billing run ends with money in the bank.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape maintenance software, end-of-month billing run, recurring maintenance billing, card-on-file billing, landscaping invoicing software, crew visit tracking</div>
       </article>

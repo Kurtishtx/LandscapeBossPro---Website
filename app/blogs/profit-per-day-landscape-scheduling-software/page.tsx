@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Turn your landscape schedule into a profit report</h3>
           <p>LandscapeBossPro ties estimates, materials, crew hours, and invoices to every scheduled job so you can see profit per crew day at a glance.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

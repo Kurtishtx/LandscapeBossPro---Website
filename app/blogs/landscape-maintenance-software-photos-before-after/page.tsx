@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Document Every Visit, Win Every Dispute, Close More Upsells</h3>
           <p>LandscapeBossPro attaches before and after photos to every job and property profile, so your crews prove their work and your office turns routine stops into new revenue.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

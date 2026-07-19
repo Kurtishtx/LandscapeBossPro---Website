@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Estimate maintenance plans that actually make money</h3>
           <p>LandscapeBossPro builds line-item recurring estimates, schedules the visits, tracks your materials, and bills the card on file automatically.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape estimating software, recurring maintenance estimates, landscape maintenance billing software, card-on-file landscape billing, landscape crew scheduling software, landscape materials tracking</div>
       </article>

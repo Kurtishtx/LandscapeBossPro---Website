@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Give every crew the whole property before they unload the trailer.</h3>
           <p>LandscapeBossPro property profiles carry access details, bed and zone notes, and material history into every dispatched stop &mdash; so recurring maintenance runs clean and your bids stay grounded in real numbers.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Stop Letting Open Estimates Go Cold With LandscapeBossPro</h3>
           <p>LandscapeBossPro tracks every bid on a live pipeline, automates follow-up texts, and turns one-tap approvals into scheduled, paid landscape jobs.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape estimating software, landscape bid follow-up software, landscape customer management software, estimate pipeline tracking, automated customer follow-up texts, online estimate approval</div>
       </article>

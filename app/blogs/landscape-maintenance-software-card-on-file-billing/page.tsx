@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Charge the card the day the job closes. No invoices, no chasing checks, no accounts receivable.</h3>
           <p>LandscapeBossPro stores customer cards securely and bills every completed maintenance visit and install job automatically, so your landscaping company gets paid the day the work is done.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

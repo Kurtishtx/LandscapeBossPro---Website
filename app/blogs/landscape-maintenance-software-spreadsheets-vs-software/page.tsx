@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Run Your Whole Landscape Business in One Place</h3>
           <p>LandscapeBossPro turns line-item estimates, materials, scheduling, crew dispatch, recurring plans, and card-on-file billing into one connected system.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape maintenance software, landscaping estimate software, crew scheduling software, recurring billing software, landscaping job board, materials tracking software</div>
       </article>

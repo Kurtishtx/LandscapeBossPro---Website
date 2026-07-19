@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Lock in more jobs with LandscapeBossPro</h3>
           <p>LandscapeBossPro lets clients approve your quotes and pay a deposit online, then drops the funded job straight onto your schedule.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape business software, online quote approval, landscaping deposit software, card on file billing, landscaping estimates, job scheduling software</div>
       </article>

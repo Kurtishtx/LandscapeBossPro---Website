@@ -37,6 +37,7 @@ export default function Page() {
           <h3>See every crew on one live landscape dispatch map</h3>
           <p>LandscapeBossPro puts your crews, jobs, materials, and customers on a single map so you can reroute the day, send accurate arrival texts, and keep every install and maintenance crew moving.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

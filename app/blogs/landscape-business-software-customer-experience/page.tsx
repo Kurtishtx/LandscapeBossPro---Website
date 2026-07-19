@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Make Your Landscaping Brand Look Bigger with LandscapeBossPro</h3>
           <p>LandscapeBossPro ties estimates, scheduling, crew dispatch, customer texts, and online invoicing into one system so your landscaping company delivers a big-brand client experience.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape business software, line-item estimates, job scheduling software, crew dispatch and routing, landscaping invoicing, recurring maintenance plans</div>
       </article>

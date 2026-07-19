@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Give Every Client a Self-Service Login With LandscapeBossPro</h3>
           <p>LandscapeBossPro gives your customers a secure portal to approve bids, view their schedule, pay invoices, and manage card on file &mdash; so your office fields fewer calls and gets paid faster.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape customer management software, client self-service portal, online bid approval landscaping, card-on-file landscape billing, customer schedule portal, recurring maintenance billing software</div>
       </article>

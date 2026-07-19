@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Bid every landscape job by the unit, not by the gut.</h3>
           <p>LandscapeBossPro prices per square foot, per cubic yard, and per plant off stored property data and reusable rate tables &mdash; so your bids are fast, itemized, and consistently profitable.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

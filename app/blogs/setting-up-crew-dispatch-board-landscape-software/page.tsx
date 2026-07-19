@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run Every Crew From One Board</h3>
           <p>LandscapeBossPro turns your approved estimates into scheduled jobs, dispatches and routes your crews, tracks materials, and bills clients &mdash; all from a single dispatch board.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape crew dispatch software, crew dispatch board, landscape job scheduling software, landscape routing software, landscape estimating and invoicing software, recurring maintenance scheduling</div>
       </article>

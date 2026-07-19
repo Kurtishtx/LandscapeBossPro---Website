@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Let every dispatched job pay for itself</h3>
           <p>LandscapeBossPro saves a card on file and auto-charges the moment a crew closes a dispatched landscape job, so your work gets paid the same day it&apos;s done.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: card-on-file billing software, landscape crew dispatch software, automatic invoicing for landscapers, landscape job dispatch billing, recurring landscape maintenance billing, property profile payments</div>
       </article>

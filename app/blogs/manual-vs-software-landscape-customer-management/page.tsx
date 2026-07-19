@@ -42,6 +42,7 @@ export default function Page() {
           <h3>Run estimates, jobs, and billing in one place</h3>
           <p>LandscapeBossPro replaces your scattered spreadsheets with line-item estimates, material tracking, crew dispatch, and automatic card-on-file billing built for landscaping.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

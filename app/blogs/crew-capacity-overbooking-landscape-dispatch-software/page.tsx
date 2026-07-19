@@ -37,6 +37,7 @@ export default function Page() {
           <h3>See real crew capacity before you book the job</h3>
           <p>LandscapeBossPro shows how full every install and maintenance crew already is, so you stop overbooking days and start finishing on time.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

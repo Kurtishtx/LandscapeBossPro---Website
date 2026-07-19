@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Keep Every Client in the Loop with LandscapeBossPro</h3>
           <p>LandscapeBossPro automates customer texts across estimates, scheduling, dispatch, and invoicing so your landscaping clients stay updated without a single extra phone call.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape business software, automated customer texts, crew dispatch and routing, job scheduling software, landscaping invoicing, recurring maintenance plans</div>
       </article>

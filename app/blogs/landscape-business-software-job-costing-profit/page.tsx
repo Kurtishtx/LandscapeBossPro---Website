@@ -36,6 +36,7 @@ export default function Page() {
           <h3>See the real profit on every landscape job</h3>
           <p>LandscapeBossPro ties your estimates, materials, and crew hours together so you know exactly which jobs made money &mdash; and bid the next ones smarter.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape job costing software, landscape estimating software, materials tracking, crew scheduling software, recurring maintenance billing, landscape business software</div>
       </article>

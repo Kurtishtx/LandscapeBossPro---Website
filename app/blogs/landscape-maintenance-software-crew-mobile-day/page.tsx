@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Run the whole crew day from one app</h3>
           <p>LandscapeBossPro puts your schedule, dispatch, job notes, materials, photos, customer texts, and invoicing in one mobile app your crews actually use in the field.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

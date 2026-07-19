@@ -39,6 +39,7 @@ export default function Page() {
           <h3>See every unpaid invoice in one place with LandscapeBossPro</h3>
           <p>LandscapeBossPro tracks every open balance, ages your receivables by client, and ties each invoice back to the estimate and job &mdash; so your landscaping business always knows who owes what.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping invoicing software, accounts receivable tracking, overdue invoice tracking, landscaping billing software, card on file billing, client property profiles</div>
       </article>

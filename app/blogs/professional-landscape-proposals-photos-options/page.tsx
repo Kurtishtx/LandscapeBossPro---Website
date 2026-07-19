@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Win More Landscape Jobs With Proposals That Sell</h3>
           <p>LandscapeBossPro lets you build photo-rich, line-itemed proposals with options &mdash; then turn the signed bid into a scheduled, invoiced job in a few clicks.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape proposal software, landscape estimating software, line-item landscape bids, good-better-best landscape options, landscape job scheduling software, landscape invoicing software</div>
       </article>

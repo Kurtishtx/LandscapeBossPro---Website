@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Stop Hand-Writing Invoices and Get Paid Faster</h3>
           <p>LandscapeBossPro turns completed jobs into accurate, line-item invoices with card-on-file billing, so your landscaping company collects in days instead of weeks.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping invoicing software, landscape billing software, card-on-file billing, recurring maintenance billing, line-item estimates, invoice from completed jobs</div>
       </article>

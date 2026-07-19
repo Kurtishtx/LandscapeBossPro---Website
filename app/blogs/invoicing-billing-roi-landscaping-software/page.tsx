@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Bill faster and get paid sooner with LandscapeBossPro</h3>
           <p>LandscapeBossPro turns approved estimates into instant invoices, charges recurring maintenance to card on file, and keeps every job from going unbilled.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

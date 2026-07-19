@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run every hardscape build from bid to final payment in one place.</h3>
           <p>LandscapeBossPro gives landscaping companies line-item bids, material tracking, phased scheduling, crew dispatch, and milestone invoicing on every project.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -37,6 +37,7 @@ export default function Page() {
           <h3>One job record from the first walk-through to the paid invoice.</h3>
           <p>LandscapeBossPro keeps your estimate, materials, schedule, crew dispatch, and invoicing on a single connected record so nothing gets re-typed and nothing gets left off the bill.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

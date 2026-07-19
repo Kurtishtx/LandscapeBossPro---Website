@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Onboard Every New Landscaping Client the Easy Way</h3>
           <p>LandscapeBossPro gives you property profiles, line-item estimates, crew scheduling, card-on-file billing, and automatic texts in one place &mdash; so every new client starts off smooth.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape customer management software, client onboarding software, line-item landscaping estimates, recurring maintenance billing, crew scheduling and dispatch, card-on-file landscaping payments</div>
       </article>

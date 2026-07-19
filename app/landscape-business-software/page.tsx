@@ -225,6 +225,7 @@ export default function LandscapeBusinessSoftware() {
         <p>Most field service software is built for plumbers and HVAC techs. LandscapeBossPro is built from the ground up for landscaping companies &mdash; the way you bid jobs, track materials, schedule installs, and run recurring maintenance crews is completely different, and your software should be too.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Line-Item</div><div className="hero-stat-lbl">Estimates &amp; Bids Per Job</div></div>
@@ -556,6 +557,7 @@ export default function LandscapeBusinessSoftware() {
         <p>LandscapeBossPro is the only landscape management software built by someone who has actually run install crews and maintenance routes. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
       </div>
 

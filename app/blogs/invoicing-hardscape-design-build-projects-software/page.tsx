@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Bill Your Biggest Jobs Without the Headache</h3>
           <p>LandscapeBossPro turns hardscape and design-build estimates into staged invoices, tracks your materials, and collects payments online so you stop financing your clients&apos; projects.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: hardscape invoicing software, design-build progress billing, landscaping estimate software, materials tracking for landscapers, card-on-file landscape billing, project invoicing for landscaping</div>
       </article>

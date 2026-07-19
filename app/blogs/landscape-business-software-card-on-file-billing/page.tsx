@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Stop Chasing Checks With LandscapeBossPro</h3>
           <p>LandscapeBossPro stores client cards securely and auto-charges them for completed jobs and recurring maintenance, so you get paid the day the work is done.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: card-on-file billing, landscape business software, recurring maintenance billing, landscaping invoicing software, automatic payments, landscaping crew scheduling</div>
       </article>

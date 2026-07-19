@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Put Your Calendar on Autopilot With LandscapeBossPro</h3>
           <p>LandscapeBossPro lets your clients request and confirm landscaping visits online, turns them into line-item bids, and books your crews &mdash; all in one place.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape scheduling software, customer self-scheduling, online visit requests, landscaping job board, recurring maintenance scheduling, landscape estimate software</div>
       </article>

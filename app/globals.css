@@ -1,4 +1,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+/* iOS Safari: never let the page scroll sideways */
+html, body { max-width: 100%; overflow-x: hidden; }
+img { max-width: 100%; height: auto; }
 
 :root {
   --purple-dark: #08140d;
@@ -420,3 +423,7 @@ section { padding: 96px 40px; }
   .blog-cta-box { padding: 36px 24px; }
   .blog-index { padding: 48px 20px 80px; }
 }
+
+
+.hero-trust { flex-basis: 100%; text-align: center; color: rgba(255,255,255,.75); font-size: 14px; font-weight: 600; margin-top: 16px; letter-spacing: .2px; }
+.hero-trust b { color: var(--orange); font-weight: 800; }

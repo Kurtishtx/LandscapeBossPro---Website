@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Collect deposits, bill progress payments, and charge card-on-file &mdash; all from one estimate</h3>
           <p>LandscapeBossPro turns your line-item bids into staged payments that keep cash flowing from deposit to final invoice across installs and recurring maintenance.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

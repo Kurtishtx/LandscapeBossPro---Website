@@ -36,6 +36,7 @@ export default function Page() {
           <h3>See the Payback For Yourself With LandscapeBossPro</h3>
           <p>LandscapeBossPro ties estimates, materials, crew dispatch, and invoicing into one platform &mdash; so the leaks close, the miles drop, and the invoices go out the same day.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape dispatch software ROI, landscape crew scheduling software, landscaping estimating software, materials tracking landscape software, recurring maintenance billing, landscaping invoicing software</div>
       </article>

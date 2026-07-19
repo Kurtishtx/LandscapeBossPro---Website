@@ -109,6 +109,7 @@ export default function Page() {
           <h3>Grow your crew on LandscapeBossPro</h3>
           <p>LandscapeBossPro builds line-item bids, tracks materials, schedules and dispatches your crews, then invoices and collects &mdash; so the tool pays for itself in tighter pricing and faster cash.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: landscape business software, landscaping software ROI, crew dispatch software, landscape job board, material tracking landscaping, recurring maintenance billing</div>

@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Turn More Bids Into Booked Landscape Jobs</h3>
           <p>LandscapeBossPro lets clients approve line-item estimates from their phone, then converts each approval into a scheduled, materials-ready job with billing already set up.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape estimate software, line-item landscaping bids, online estimate approval, landscaping job scheduling software, card on file landscape billing, landscape invoicing software</div>
       </article>

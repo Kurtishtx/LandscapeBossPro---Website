@@ -97,6 +97,7 @@ export default function Page() {
           <h3>Stop starting landscape jobs on a promise</h3>
           <p>LandscapeBossPro collects deposits and stores cards-on-file the moment your estimate is approved, so the cash is in before the crew rolls out.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape estimating software, landscape deposit collection, card-on-file billing, landscape invoicing software, recurring maintenance billing, landscape project scheduling</div>
       </article>

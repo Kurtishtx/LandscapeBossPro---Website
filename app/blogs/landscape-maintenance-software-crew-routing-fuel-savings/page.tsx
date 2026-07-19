@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Run Tighter Routes With LandscapeBossPro</h3>
           <p>LandscapeBossPro sequences your crews&apos; stops, dispatches them to the job board, and ties routing into scheduling, invoicing, and recurring plans so you cut drive time and book more work.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape maintenance software, crew routing software, mowing route optimization, crew dispatch software, recurring maintenance scheduling, landscape crew management</div>
       </article>

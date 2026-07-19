@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run your landscaping business off the property record</h3>
           <p>LandscapeBossPro ties every estimate, material, schedule, crew, and invoice to the property so your team always shows up knowing the job.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape customer management software, property records software, landscaping client profiles, landscape job scheduling software, landscaping crew dispatch software, landscape estimate and materials tracking</div>
       </article>

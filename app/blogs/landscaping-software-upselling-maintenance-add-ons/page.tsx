@@ -98,6 +98,7 @@ export default function Page() {
           <h3>Turn Every Maintenance Visit Into an Upsell</h3>
           <p>LandscapeBossPro lets crews flag add-on work, fires off line-item estimates by text, and bills approved jobs card-on-file automatically.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping software, upselling maintenance clients, line-item estimates, landscape job board, card-on-file billing, client property profiles</div>
       </article>

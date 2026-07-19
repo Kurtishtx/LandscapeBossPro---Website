@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run every landscape crew from one dispatch screen</h3>
           <p>LandscapeBossPro lets one dispatcher assign, route, and track install, hardscape, planting, and maintenance crews from a single screen &mdash; with materials, property notes, and invoicing built right in.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

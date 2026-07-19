@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Bid faster, track materials, fill the schedule, and get paid on time &mdash; all in one place</h3>
           <p>LandscapeBossPro gives landscaping businesses line-item estimating, materials tracking, project and maintenance scheduling, dispatch, and card-on-file invoicing so the software pays for itself in the first season.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

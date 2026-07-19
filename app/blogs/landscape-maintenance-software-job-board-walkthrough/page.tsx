@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Turn your backlog into booked, billable jobs</h3>
           <p>LandscapeBossPro&apos;s job board sorts every pending install and maintenance job, then drops it onto a crew&apos;s schedule with the scope, materials, and billing already attached.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

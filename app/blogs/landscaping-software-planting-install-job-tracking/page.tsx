@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run every install from bid to paid in one place</h3>
           <p>LandscapeBossPro keeps your planting and install jobs connected from line-item estimate through materials, scheduling, dispatch, and invoice &mdash; so nothing slips and nothing goes unbilled.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

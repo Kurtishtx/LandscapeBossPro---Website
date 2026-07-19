@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Spend Less Time in the Office, More Time Landscaping</h3>
           <p>LandscapeBossPro ties estimates, scheduling, dispatch, materials, and invoicing to one client profile so you enter information once and stop redoing admin work.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape customer management software, reducing office admin, client and property profiles, line-item estimates, crew dispatch and scheduling, invoicing and card-on-file payments</div>
       </article>

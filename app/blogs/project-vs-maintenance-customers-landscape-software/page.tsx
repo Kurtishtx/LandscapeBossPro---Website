@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Manage project and maintenance clients in one place with LandscapeBossPro</h3>
           <p>LandscapeBossPro tracks line-item bids and materials for your install jobs and runs recurring plans, dispatch, and card-on-file billing for your maintenance accounts &mdash; all on one property profile.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape customer management software, recurring maintenance plan software, landscape estimating software, materials tracking, crew scheduling software, card-on-file billing</div>
       </article>

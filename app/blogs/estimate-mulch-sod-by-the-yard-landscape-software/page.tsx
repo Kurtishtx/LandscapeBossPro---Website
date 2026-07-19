@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Bid mulch, sod, and soil by the yard&mdash;and order exactly what you priced.</h3>
           <p>LandscapeBossPro turns bed measurements and spread depths into accurate, priced line items so your bids hold their margin and your trucks load right the first time.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

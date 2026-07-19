@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Bill straight from your job board with LandscapeBossPro</h3>
           <p>LandscapeBossPro links your scheduling, crew dispatch, and invoicing so finished landscape jobs turn into paid invoices &mdash; with the right line items, materials, and card-on-file &mdash; in seconds.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping invoicing software, job board scheduling, landscape crew dispatch, card-on-file billing, recurring maintenance billing, estimate to invoice</div>
       </article>

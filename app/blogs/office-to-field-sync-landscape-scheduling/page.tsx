@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Put Your Whole Crew on One Live Schedule</h3>
           <p>LandscapeBossPro syncs your office and field with live scheduling, line-item estimates, materials tracking, dispatch, recurring plans, and automated invoicing &mdash; all in one place.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: landscape scheduling software, crew dispatch software, landscaping job board, recurring maintenance scheduling, landscape materials tracking, landscaping business software</div>

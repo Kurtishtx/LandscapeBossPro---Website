@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Get every crew out the door with the right stops, materials, and notes &mdash; from one dispatch action</h3>
           <p>LandscapeBossPro routes your install and maintenance crews by territory, assigns work by truck, and sends each crew its full day with line-item scope, materials, and property notes &mdash; so the office stops making phone calls and starts moving trucks.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

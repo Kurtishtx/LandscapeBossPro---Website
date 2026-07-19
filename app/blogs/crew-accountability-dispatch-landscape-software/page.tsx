@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run Your Crews on LandscapeBossPro</h3>
           <p>LandscapeBossPro assigns jobs, routes crews, tracks materials, and turns completed work into paid invoices &mdash; all from one dashboard.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape dispatch software, crew accountability, landscape job scheduling, landscape crew routing, materials tracking, landscape invoicing software</div>
       </article>

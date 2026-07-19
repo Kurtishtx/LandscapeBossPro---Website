@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Stop Rebuilding Bids Into Invoices by Hand</h3>
           <p>LandscapeBossPro turns approved landscaping estimates into accurate invoices in one click&mdash;then helps you collect by card, text, and automatic recurring billing.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping invoicing software, landscape estimate to invoice, landscaping billing software, materials tracking software, recurring landscape maintenance billing, card on file landscaping</div>
       </article>

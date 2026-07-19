@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Get Paid Faster With LandscapeBossPro</h3>
           <p>LandscapeBossPro turns your estimates into invoices, bills recurring maintenance on card-on-file automatically, and chases overdue balances so you don&apos;t have to.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: landscaping invoicing software, landscaping billing software, card-on-file billing, recurring maintenance billing, landscape estimate to invoice, get paid faster landscaping</div>

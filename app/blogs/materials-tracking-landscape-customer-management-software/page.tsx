@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Every yard of mulch, every plant, every pallet &mdash; tracked to the customer.</h3>
           <p>LandscapeBossPro logs materials and products per customer from estimate to job to invoice, so your job costs are real and nothing installed goes unbilled.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

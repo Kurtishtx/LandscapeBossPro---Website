@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run your whole job &mdash; estimate to cash &mdash; in LandscapeBossPro</h3>
           <p>LandscapeBossPro turns line-item estimates into scheduled work and same-day invoices with card-on-file billing, so your landscaping business gets paid for every job it bids.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping invoicing software, line-item estimate software, landscaping billing workflow, card on file billing, recurring maintenance billing, landscaping job scheduling software</div>
       </article>

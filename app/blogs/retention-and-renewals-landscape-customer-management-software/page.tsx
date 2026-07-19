@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Keep Landscape Customers Renewing With LandscapeBossPro</h3>
           <p>LandscapeBossPro combines client profiles, recurring plans, card-on-file billing, and automated texts so your customers stay on the books season after season.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape customer management software, recurring maintenance plans, customer retention software, card-on-file landscape billing, automated customer texts, landscape client profiles</div>
       </article>

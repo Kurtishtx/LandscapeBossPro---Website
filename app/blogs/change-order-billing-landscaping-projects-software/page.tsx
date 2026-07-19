@@ -44,6 +44,7 @@ export default function Page() {
           <h3>Bill every scope change the day it happens</h3>
           <p>LandscapeBossPro turns mid-project add-ons into signed, line-item change orders that flow straight onto the invoice &mdash; so you stop giving away work for free.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping change order software, mid-project add-on billing, landscape project invoicing, line-item estimates, materials tracking, landscaping invoicing software</div>
       </article>

@@ -102,6 +102,7 @@ export default function Page() {
             right truck, your bids stay profitable, and nothing gets forgotten on the way out the gate.
           </p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape scheduling software, materials tracking software, landscape job scheduling, crew dispatch software, line-item landscape estimates, landscaping business software</div>
       </article>

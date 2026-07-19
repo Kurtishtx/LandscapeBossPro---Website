@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run Your Install Jobs the Smart Way With LandscapeBossPro</h3>
           <p>LandscapeBossPro turns your bids into phased, crew-assigned schedules with materials tracking, client texts, and card-on-file billing &mdash; so multi-day installs finish on time and on budget.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape scheduling software, multi-day install scheduling, design-build project management, landscape crew dispatch, materials tracking software, landscaping job board</div>
       </article>

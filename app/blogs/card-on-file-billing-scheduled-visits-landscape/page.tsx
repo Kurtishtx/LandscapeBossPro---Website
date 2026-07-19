@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Stop chasing checks &mdash; let the visit bill itself</h3>
           <p>LandscapeBossPro stores a card on file and auto-charges every scheduled maintenance visit, so your recurring landscape work gets paid the day it&apos;s done.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: card-on-file billing software, landscape maintenance scheduling software, recurring lawn billing, automatic invoicing for landscapers, landscape crew dispatch software, property profile payments</div>
       </article>

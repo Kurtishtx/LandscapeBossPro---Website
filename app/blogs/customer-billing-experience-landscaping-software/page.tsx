@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Give your landscaping clients a billing experience they actually like</h3>
           <p>LandscapeBossPro turns approved estimates into itemized invoices with one-tap online payment, card-on-file maintenance plans, and automatic text updates &mdash; so getting paid is easy for you and effortless for your customers.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Stop Losing Money on Mistimed Deliveries</h3>
           <p>LandscapeBossPro ties material orders, crew schedules, dispatch, and invoicing into one system so planting, sod, and mulch land the day your crew is ready to install.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape scheduling software, crew dispatch software, sod and mulch delivery scheduling, landscaping job scheduling, materials tracking software, landscape estimating software</div>
       </article>

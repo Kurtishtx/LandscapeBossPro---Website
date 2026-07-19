@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Price every job for real profit with LandscapeBossPro</h3>
           <p>LandscapeBossPro builds your material costs and markup into line-item estimates, so every bid protects your margin and flows straight into scheduling, invoicing, and payments.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: landscaping estimate software, material cost tracking, markup and pricing, landscaping bid software, hardscape estimating, line-item landscape invoicing</div>

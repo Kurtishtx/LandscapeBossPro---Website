@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Bill from the work, not from memory</h3>
           <p>LandscapeBossPro turns approved estimates into accurate invoices, tracks every material and visit to the right property, and flags any job that has not been billed &mdash; so nothing slips and nothing gets overcharged.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscaping invoicing software, reduce billing errors, line-item estimate to invoice, landscaping materials tracking, recurring maintenance billing, accurate landscaping invoices</div>
       </article>

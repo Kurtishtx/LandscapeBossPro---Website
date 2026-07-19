@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Get your crews paid before they leave the driveway</h3>
           <p>LandscapeBossPro puts the itemized invoice on your crew&apos;s phone so they can collect cards, checks, or cash on-site and send an instant receipt the moment the job is done.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: collect payment in the field landscaping, landscaping invoicing software, mobile payments for landscape crews, on-site card payments landscaping, landscape crew invoicing app, card-on-file landscape billing</div>
       </article>

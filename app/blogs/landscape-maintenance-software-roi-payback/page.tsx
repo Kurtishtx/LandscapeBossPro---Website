@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Run the ROI for Your Landscaping Business</h3>
           <p>LandscapeBossPro builds bids in minutes, bills recurring plans automatically, and routes your crews so the work &mdash; and the money &mdash; never slips through the cracks.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: landscape maintenance software, landscaping estimating software, recurring billing for landscapers, crew scheduling and dispatch, landscaping invoicing software, materials tracking</div>
       </article>

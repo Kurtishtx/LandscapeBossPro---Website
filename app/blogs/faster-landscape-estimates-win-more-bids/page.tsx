@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Build winning landscape bids in minutes with LandscapeBossPro</h3>
           <p>LandscapeBossPro turns line-item estimates, materials, scheduling, dispatch, and invoicing into one fast workflow so you respond first and close more work.</p>
           <a href="https://my.landscapebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: landscape estimating software, landscape bidding software, line-item landscape estimates, landscaping materials tracking, landscape job scheduling software, landscape invoicing software</div>
