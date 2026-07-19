@@ -447,7 +447,7 @@ export default function Features() {
       <div id="sbp-form-1" style={{display:'none',position:'fixed',zIndex:99999,width:'420px',maxWidth:'calc(100vw - 24px)',background:'#fff',borderRadius:'14px',border:'3px solid #1b6e3b',boxShadow:'0 0 0 4px rgba(27,110,59,.35), 0 16px 60px rgba(0,0,0,.45)',maxHeight:'calc(100vh - 40px)',overflowY:'auto'}}>
         <div style={{background:'linear-gradient(135deg,#08140d,#15321f)',padding:'28px 28px 22px',position:'relative'}}>
           <div style={{color:'#fff',fontSize:'20px',fontWeight:800,paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-          <div style={{color:'rgba(255,255,255,.6)',fontSize:'13px',marginTop:'5px'}}>No credit card required. Full access. Cancel anytime.</div>
+          <div style={{color:'rgba(255,255,255,.6)',fontSize:'13px',marginTop:'5px'}}>No credit card required · Full access · $129/mo after your 14-day trial</div>
           <button onClick={() => closeSignupModal(1)} style={{position:'absolute',top:'16px',right:'16px',background:'rgba(255,255,255,.12)',border:'none',color:'#fff',width:'32px',height:'32px',borderRadius:'50%',cursor:'pointer',fontSize:'20px',display:'flex',alignItems:'center',justifyContent:'center'}}>×</button>
         </div>
         <div id="sbp1-step1" style={{padding:'24px 28px'}}>
@@ -485,7 +485,7 @@ export default function Features() {
       <div id="sbp-form-2" style={{display:'none',position:'fixed',zIndex:99999,width:'420px',maxWidth:'calc(100vw - 24px)',background:'#fff',borderRadius:'14px',border:'3px solid #1b6e3b',boxShadow:'0 0 0 4px rgba(27,110,59,.35), 0 16px 60px rgba(0,0,0,.45)',maxHeight:'calc(100vh - 40px)',overflowY:'auto'}}>
         <div style={{background:'linear-gradient(135deg,#08140d,#15321f)',padding:'28px 28px 22px',position:'relative'}}>
           <div style={{color:'#fff',fontSize:'20px',fontWeight:800,paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-          <div style={{color:'rgba(255,255,255,.6)',fontSize:'13px',marginTop:'5px'}}>No credit card required. Full access. Cancel anytime.</div>
+          <div style={{color:'rgba(255,255,255,.6)',fontSize:'13px',marginTop:'5px'}}>No credit card required · Full access · $129/mo after your 14-day trial</div>
           <button onClick={() => closeSignupModal(2)} style={{position:'absolute',top:'16px',right:'16px',background:'rgba(255,255,255,.12)',border:'none',color:'#fff',width:'32px',height:'32px',borderRadius:'50%',cursor:'pointer',fontSize:'20px',display:'flex',alignItems:'center',justifyContent:'center'}}>×</button>
         </div>
         <div id="sbp2-step1" style={{padding:'24px 28px'}}>
