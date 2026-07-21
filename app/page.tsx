@@ -81,6 +81,9 @@ export default function Home() {
         .hero h1 span { color: var(--orange); }
         .hero p { color: rgba(255,255,255,.75); font-size: clamp(16px, 2vw, 20px); max-width: 620px; margin: 0 auto 40px; }
         .hero-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+        .btn-demo { display: inline-flex; align-items: center; gap: 9px; background: rgba(255,255,255,.07); border: 1.5px solid rgba(255,255,255,.32); color: #fff; font-size: 16px; font-weight: 700; padding: 15px 30px; border-radius: 8px; text-decoration: none; transition: background .18s, border-color .18s, transform .18s; }
+        .btn-demo:hover { background: rgba(255,255,255,.14); border-color: rgba(255,255,255,.6); transform: translateY(-1px); }
+        .btn-demo .btn-demo-dot { width: 8px; height: 8px; border-radius: 50%; background: #4ade80; box-shadow: 0 0 0 3px rgba(74,222,128,.22); }
         .btn-primary { background: var(--orange); color: #fff; padding: 16px 36px; border-radius: 6px; font-size: 16px; font-weight: 700; text-decoration: none; transition: background .2s, transform .1s; display: inline-block; cursor: pointer; border: none; }
         .btn-primary:hover { background: var(--orange-dark); transform: translateY(-1px); }
         .btn-secondary { background: transparent; color: #fff; padding: 16px 36px; border-radius: 6px; font-size: 16px; font-weight: 600; text-decoration: none; border: 2px solid rgba(255,255,255,.3); transition: border-color .2s, background .2s; display: inline-block; }
@@ -224,6 +227,7 @@ export default function Home() {
         <p>LandscapeBossPro is the all-in-one platform built for landscaping companies &mdash; install, design-build, hardscape, planting, sod, mulch, and recurring maintenance crews. Build line-item estimates, schedule jobs, dispatch crews, track materials, and get paid &mdash; all in one place.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
+          <a href="https://my.landscapebosspro.com/demo.html" className="btn-demo"><span className="btn-demo-dot" />Try the Live Demo</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="hero-stats">
