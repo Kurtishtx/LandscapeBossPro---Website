@@ -79,6 +79,16 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
               Start Free Trial
             </button>
           </div>
+          {/* Live Demo — mobile only, sits in the bar next to the hamburger */}
+          <a
+            href="https://my.landscapebosspro.com/demo.html"
+            className="nav-demo-mobile"
+            style={{ alignItems: 'center', gap: '6px', marginLeft: 'auto', marginRight: '12px', border: '1.5px solid rgba(255,255,255,.35)', background: 'rgba(255,255,255,.06)', borderRadius: '999px', padding: '7px 13px', fontSize: '13px', fontWeight: 700, color: '#fff', textDecoration: 'none', whiteSpace: 'nowrap' }}
+          >
+            <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#4ade80', boxShadow: '0 0 0 3px rgba(74,222,128,.22)', flexShrink: 0 }} />
+            Live Demo
+          </a>
+
           {/* Hamburger — mobile only */}
           <button className="nav-hamburger" onClick={() => toggleMenu(!open)} aria-label="Menu">
             <span style={{display:'block', width:'22px', height:'2px', background:'#fff', marginBottom:'5px', transition:'transform .2s', transform: open ? 'rotate(45deg) translate(5px,5px)' : 'none'}}></span>
