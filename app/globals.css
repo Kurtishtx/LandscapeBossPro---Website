@@ -73,7 +73,7 @@ html { scroll-behavior: smooth; }
 .navbar-cta:hover { background: var(--orange-dark) !important; }
 /* ─── HAMBURGER ─── */
 .nav-hamburger { display: none; background: none; border: none; cursor: pointer; padding: 4px; flex-shrink: 0; }
-.nav-demo-mobile { display: none; }
+.nav-demo-mobile { display: none; align-items: center; gap: 6px; margin-left: auto; border: 1.5px solid rgba(255,255,255,.35); background: rgba(255,255,255,.06); border-radius: 999px; padding: 7px 13px; font-size: 13px; font-weight: 700; color: #fff; text-decoration: none; white-space: nowrap; }
 .nav-mobile-menu { position: fixed; top: 64px; left: 0; right: 0; bottom: 0; background: #0a1510; border-top: 1px solid rgba(255,255,255,.08); padding: 16px 20px 24px; overflow-y: auto; z-index: 9999; }
 .nav-mobile-section { margin-bottom: 4px; }
 .nav-mobile-group-trigger { color: rgba(255,255,255,.6); font-size: 14px; font-weight: 600; padding: 12px 0; cursor: pointer; display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,.07); }
@@ -90,7 +90,7 @@ html { scroll-behavior: smooth; }
   .navbar-cta { display: none !important; }
   .navbar-inner { padding: 0 20px; }
   .nav-hamburger { display: block; }
-  .nav-demo-mobile { display: inline-flex !important; }
+  .nav-demo-mobile { display: inline-flex; }
 }
 
 body { font-family: 'Segoe UI', Arial, sans-serif; color: var(--text); background: #fff; line-height: 1.6; }
@@ -430,7 +430,26 @@ section { padding: 96px 40px; }
 .hero-trust { flex-basis: 100%; text-align: center; color: rgba(255,255,255,.75); font-size: 14px; font-weight: 600; margin-top: 16px; letter-spacing: .2px; }
 .hero-trust b { color: var(--orange); font-weight: 800; }
 
-@media (max-width: 380px) {
-  .nav-demo-mobile { font-size: 12px; padding: 6px 10px; margin-right: 8px; }
-  .navbar-name { font-size: 16px; }
+
+/* Mobile header: brand | Live Demo | hamburger have to share one 375px row.
+   The brand is the only flexible piece, so it truncates instead of pushing
+   the hamburger off the edge. */
+@media (max-width: 1024px) {
+  .navbar-inner { gap: 10px; padding: 0 14px; }
+  .navbar-brand { flex: 1 1 auto; min-width: 0; overflow: hidden; }
+  .navbar-brand a { min-width: 0; flex-shrink: 1; overflow: hidden; }
+  .navbar-name { font-size: 16px; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .nav-demo-mobile { flex-shrink: 0; padding: 7px 12px; font-size: 12.5px; }
+  .nav-hamburger { flex-shrink: 0; padding: 4px 0 4px 2px; }
+}
+@media (max-width: 400px) {
+  .nav-demo-mobile { padding: 6px 10px; font-size: 12px; gap: 5px; }
+  .navbar-name { font-size: 15px; }
+  .navbar-icon { font-size: 22px; }
+}
+
+@media (max-width: 340px) {
+  .navbar-name { font-size: 13.5px; }
+  .navbar-icon { display: none; } /* the emoji is the first thing to go on a 320px screen */
+  .nav-demo-mobile { padding: 5px 9px; font-size: 11px; }
 }
