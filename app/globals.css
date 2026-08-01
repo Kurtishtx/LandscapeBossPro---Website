@@ -453,3 +453,27 @@ section { padding: 96px 40px; }
   .navbar-icon { display: none; } /* the emoji is the first thing to go on a 320px screen */
   .nav-demo-mobile { padding: 5px 9px; font-size: 11px; }
 }
+
+
+/* ── "View Live Demo" slide-in popup (DemoPopup.tsx) ───────────────────────── */
+.demopop-overlay { position: fixed; inset: 0; z-index: 3000; display: flex; align-items: center; justify-content: center; background: rgba(15, 5, 25, .55); animation: demopopFade .25s ease; }
+.demopop-overlay.closing { animation: demopopFadeOut .25s ease forwards; }
+.demopop-card { position: relative; width: min(92vw, 420px); background: #fff; border-radius: 16px; padding: 28px 24px 22px; box-shadow: 0 24px 70px rgba(0,0,0,.38); text-align: center; animation: demopopUp .32s cubic-bezier(.2,.8,.2,1); }
+.demopop-x { position: absolute; top: 10px; right: 13px; border: none; background: none; font-size: 26px; line-height: 1; color: #b3b3b3; cursor: pointer; padding: 2px 6px; }
+.demopop-x:hover { color: #444; }
+.demopop-eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .6px; text-transform: uppercase; color: #8a8a8a; margin-bottom: 9px; }
+.demopop-title { font-size: 24px; font-weight: 800; color: #17102a; margin: 0 0 9px; line-height: 1.2; }
+.demopop-sub { font-size: 14.5px; line-height: 1.55; color: #555; margin: 0 0 20px; }
+.demopop-btn { display: block; width: 100%; box-sizing: border-box; background: #141019; color: #fff; font-size: 16.5px; font-weight: 700; padding: 15px; border-radius: 11px; text-decoration: none; box-shadow: 0 8px 22px rgba(20,16,25,.32); transition: background .15s, transform .1s; }
+.demopop-btn:hover { background: #2a2140; }
+.demopop-btn:active { transform: translateY(1px); }
+.demopop-skip { margin-top: 13px; background: none; border: none; color: #8a8a8a; font-size: 13px; cursor: pointer; text-decoration: underline; }
+.demopop-skip:hover { color: #555; }
+@keyframes demopopFade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes demopopFadeOut { to { opacity: 0; } }
+@keyframes demopopUp { from { transform: translateY(18px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+@media (max-width: 640px) {
+  .demopop-overlay { background: transparent; align-items: flex-end; pointer-events: none; }
+  .demopop-card { pointer-events: auto; width: 100%; border-radius: 18px 18px 0 0; padding: 22px 20px 20px; box-shadow: 0 -10px 34px rgba(0,0,0,.28); animation: demopopSlideUp .32s ease; }
+}
+@keyframes demopopSlideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }

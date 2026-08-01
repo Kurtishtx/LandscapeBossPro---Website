@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import Footer from "./components/Footer";
+import DemoPopup from "./components/DemoPopup";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
         {children}
+        <DemoPopup />
         <Footer />
         <Script
           src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"
