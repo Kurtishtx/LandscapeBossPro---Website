@@ -295,6 +295,30 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ═══ CUSTOMER APP ═══ */}
+      <section style={{background:'linear-gradient(135deg,#1c0a33,#12061f)'}}>
+        <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
+          <span className="section-label">Your Customers Get an App, Too</span>
+          <h2 className="section-title" style={{color:'#fff'}}>Give Every Customer Their Own App —<br />And You Decide What They See.</h2>
+          <p className="section-sub" style={{color:'rgba(255,255,255,.7)'}}>Most software this powerful stops at you and your crew. LandscapeBossPro gives your customers their own branded app they install right on their phone — no app store, no password, just a secure text-link login. It&apos;s the kind of thing platforms charging 5× more don&apos;t even offer.</p>
+        </div>
+        <div style={{maxWidth:'1000px', margin:'0 auto', display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(300px, 1fr))', gap:'14px 40px'}}>
+          {[
+            'See upcoming visits and full history — what was done, tech notes, and before/after photos',
+            'View and pay invoices right from their phone — card on file, one-tap Pay Now',
+            'Sign up for new services with live pricing figured from their own property — and see what they already have',
+            'Update their card, reschedule or skip a visit, contact you, or refer a friend',
+            'Get alerts their way — text, email, or app pop-up — and pick which ones they receive',
+            'Leave a review — or a private “Rate Us” that sends only your happy customers to Google & Facebook',
+          ].map((t, i) => (
+            <div key={i} style={{display:'flex', gap:'10px', alignItems:'flex-start', color:'rgba(255,255,255,.82)', fontSize:'15px', lineHeight:1.6}}>
+              <span style={{color:'var(--orange)', fontWeight:800, flexShrink:0}}>✓</span><span>{t}</span>
+            </div>
+          ))}
+        </div>
+        <p style={{maxWidth:'900px', margin:'34px auto 0', textAlign:'center', color:'#fff', fontSize:'19px', fontWeight:700, lineHeight:1.5}}>You choose exactly what each customer can see — flip any feature on or off with a single switch.</p>
+      </section>
+
       {/* ═══ EASIER TO USE ═══ */}
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
